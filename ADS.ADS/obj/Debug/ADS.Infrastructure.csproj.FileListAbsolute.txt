@@ -1,0 +1,6 @@
+C:\Users\il\Documents\Visual Studio 2015\Projects\Advanced_Data_Structures\Advanced_Data_Structures\ADS.ADS\bin\Debug\ADS.ADS.exe.config
+C:\Users\il\Documents\Visual Studio 2015\Projects\Advanced_Data_Structures\Advanced_Data_Structures\ADS.ADS\bin\Debug\ADS.ADS.exe
+C:\Users\il\Documents\Visual Studio 2015\Projects\Advanced_Data_Structures\Advanced_Data_Structures\ADS.ADS\bin\Debug\ADS.ADS.pdb
+C:\Users\il\Documents\Visual Studio 2015\Projects\Advanced_Data_Structures\Advanced_Data_Structures\ADS.ADS\obj\Debug\ADS.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\il\Documents\Visual Studio 2015\Projects\Advanced_Data_Structures\Advanced_Data_Structures\ADS.ADS\obj\Debug\ADS.ADS.exe
+C:\Users\il\Documents\Visual Studio 2015\Projects\Advanced_Data_Structures\Advanced_Data_Structures\ADS.ADS\obj\Debug\ADS.ADS.pdb
