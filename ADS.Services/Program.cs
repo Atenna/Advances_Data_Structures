@@ -1,0 +1,9 @@
+﻿namespace ADS.Services
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+        }
+    }
+}

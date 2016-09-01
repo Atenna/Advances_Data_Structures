@@ -59,6 +59,10 @@
       <Project>{37be1c95-b3a5-4f81-b127-0b6651411c04}</Project>
       <Name>ADS.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Advanced_Data_Structures\ADS.UI.csproj">
+      <Project>{f5c554cf-b22b-4efc-852a-430722c9d5bc}</Project>
+      <Name>ADS.UI</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

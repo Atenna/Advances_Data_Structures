@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ADS.ADS
+﻿namespace ADS.ADS
 {
-    public interface IDataStructure
+    public interface IDataStructure<T>
     {
+        void Insert(T node);
+
+        bool Delete(T node);
     }
 }

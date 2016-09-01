@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\Objects\Time.cs" />
+    <Compile Include="Exceptions\NodeException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -50,9 +52,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Domain\Model\" />
-    <Folder Include="Domain\Objects\" />
-    <Folder Include="Exceptions\" />
+    <Folder Include="Domain\Model\People\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ADS.ADS\ADS.Infrastructure.csproj">

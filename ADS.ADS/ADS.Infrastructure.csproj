@@ -44,7 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataStructures\AVL.cs" />
+    <Compile Include="DataStructures\RBTree.cs" />
     <Compile Include="IDataStructure.cs" />
+    <Compile Include="INode.cs" />
+    <Compile Include="Node.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
