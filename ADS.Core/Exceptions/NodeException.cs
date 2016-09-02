@@ -15,7 +15,7 @@ namespace ADS.Core.Exceptions
 
         public static NodeException NodeValueAlreadyExistsException()
         {
-            return new NodeException("bla");
+            return new NodeException(Constants.Errors.NodeValueAlreadyExists);
         }
     } 
 }
