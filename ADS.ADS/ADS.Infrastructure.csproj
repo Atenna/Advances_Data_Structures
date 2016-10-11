@@ -43,14 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataStructures\AvlTree.cs" />
-    <Compile Include="DataStructures\AbstractBinaryTree.cs" />
+    <Compile Include="DataStructures\BSTree.cs" />
+    <Compile Include="Data\Car.cs" />
+    <Compile Include="Data\IData.cs" />
+    <Compile Include="DataStructures\AVLTree.cs" />
     <Compile Include="DataStructures\RBTree.cs" />
-    <Compile Include="IDataStructure.cs" />
-    <Compile Include="INode.cs" />
     <Compile Include="Node.cs" />
-    <Compile Include="Nodes\AvlTreeNode.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\DataProcessing\DataLoader.cs" />
   </ItemGroup>

@@ -46,5 +46,29 @@ namespace ADS.ADS
                 }
             }
         }
+
+        public bool Search(IData data)
+        {
+            if (data.Compare(Data) == 0)
+            {
+                return true;
+            }
+            else if (data.Compare(Data) == -1)
+            {
+                if (NodeLeft != null)
+                {
+                    return NodeLeft.Search(data);
+                }
+                return false;
+            }
+            else
+            {
+                if (NodeRight != null)
+                {
+                    return NodeRight.Search(data);
+                }
+                return false;
+            }
+        }
     }
 }
