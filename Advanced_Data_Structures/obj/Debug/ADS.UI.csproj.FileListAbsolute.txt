@@ -18,3 +18,6 @@ C:\Users\il\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\Advan
 C:\Users\il\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\Advanced_Data_Structures\obj\Debug\Advanced_Data_Structures.exe
 C:\Users\il\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\Advanced_Data_Structures\obj\Debug\Advanced_Data_Structures.pdb
 C:\Users\il\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\Advanced_Data_Structures\obj\Debug\Advanced_Data_Structures.AdsApplication.resources
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\Advanced_Data_Structures\bin\Debug\Advanced_Data_Structures.exe.config
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\Advanced_Data_Structures\obj\Debug\Advanced_Data_Structures.exe
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\Advanced_Data_Structures\obj\Debug\Advanced_Data_Structures.pdb
