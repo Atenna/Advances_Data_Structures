@@ -2,14 +2,14 @@
 
 namespace ADS.ADS.DataStructures
 {
-    class RBTree : IDataStructure<Node>
+    class RBTree : IDataStructure<BinarySearchTreeNode<>>
     {
-        public void Insert(Node newNode)
+        public void Insert(BinarySearchTreeNode<> newBinarySearchTreeNode)
         {
             throw new NotImplementedException();
         }
 
-        public bool Delete(Node newNode)
+        public bool Delete(BinarySearchTreeNode<> newBinarySearchTreeNode)
         {
             throw new NotImplementedException();
         }

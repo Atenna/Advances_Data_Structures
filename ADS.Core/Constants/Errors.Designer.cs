@@ -61,7 +61,7 @@ namespace ADS.Core.Constants {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Node value already exists in this structure..
+        ///   Looks up a localized string similar to BinarySearchTreeNode value already exists in this structure..
         /// </summary>
         internal static string NodeValueAlreadyExists {
             get {
