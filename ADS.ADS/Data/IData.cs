@@ -1,9 +1,9 @@
-﻿namespace ADS.ADS.Data
-{
-    public interface IData
-    {
-        int Compare(IData dataToCompare);
+﻿using System;
 
+namespace ADS.ADS.Data
+{
+    public interface IData<T> :IComparable<T>
+    {
         string ToString();
     }
 }

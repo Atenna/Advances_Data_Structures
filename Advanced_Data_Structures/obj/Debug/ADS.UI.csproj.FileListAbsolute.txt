@@ -21,3 +21,9 @@ C:\Users\il\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\Advan
 C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\Advanced_Data_Structures\bin\Debug\Advanced_Data_Structures.exe.config
 C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\Advanced_Data_Structures\obj\Debug\Advanced_Data_Structures.exe
 C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\Advanced_Data_Structures\obj\Debug\Advanced_Data_Structures.pdb
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\Advanced_Data_Structures\bin\Debug\Advanced_Data_Structures.exe
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\Advanced_Data_Structures\bin\Debug\Advanced_Data_Structures.pdb
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\Advanced_Data_Structures\obj\Debug\ADS.UI.csprojResolveAssemblyReference.cache
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\Advanced_Data_Structures\obj\Debug\Advanced_Data_Structures.AdsApplication.resources
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\Advanced_Data_Structures\obj\Debug\Advanced_Data_Structures.Properties.Resources.resources
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\Advanced_Data_Structures\obj\Debug\ADS.UI.csproj.GenerateResource.Cache

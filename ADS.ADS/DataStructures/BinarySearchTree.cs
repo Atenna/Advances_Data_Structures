@@ -1,59 +1,62 @@
 ﻿using System;
 using ADS.ADS.Data;
+using ADS.ADS.Nodes;
 
 namespace ADS.ADS.DataStructures
 {
-    public class BinarySearchTree
+    public class BinarySearchTree<T> where T: IComparable<T>
     {
-        public BinarySearchTreeNode Root;
+        public BinarySearchTreeNode<T> Root;
 
-        public bool Add(IData data)
+        public bool Add(T data)
         {
             if (Root == null)
             {
-                Root = new BinarySearchTreeNode(data);
+                Root = new BinarySearchTreeNode<T>(data);
                 return true;
             }
 
             return InsertNode(data, Root);
         }
 
-        private bool InsertNode(IData data, BinarySearchTreeNode current)
+        private bool InsertNode(T data, BinarySearchTreeNode<T> current)
         {
-
-            if (data.Compare(current.Data) == 0)
+            while (true)
             {
-                return false;
-            }
-            else if (data.Compare(current.Data) == -1)
-            {
-                if (current.Left == null)
+                if (data.CompareTo(current.Data) == 0)
                 {
-                    current.Left = new BinarySearchTreeNode(data);
-                    return true;
+                    return false;
+                }
+                else if (data.CompareTo(current.Data) == -1)
+                {
+                    if (current.Left == null)
+                    {
+                        current.Left = new BinarySearchTreeNode<T>(data);
+                        return true;
+                    }
+                    else
+                    {
+                        current = current.Left;
+                    }
                 }
                 else
                 {
-                    return InsertNode(data, current.Left);
+                    if (current.Right == null)
+                    {
+                        current.Right = new BinarySearchTreeNode<T>(data);
+                        return true;
+                    }
+                    else
+                    {
+                        current = current.Right;
+                    }
                 }
             }
-            else
-            {
-                if (current.Right == null)
-                {
-                    current.Right = new BinarySearchTreeNode(data);
-                    return true;
-                }
-                else
-                {
-                    return InsertNode(data, current.Right);
-                }
         }
-    }
 
-        public bool Remove(IData data)
+        public bool Remove(T data)
         {
-            if (Root.Data.Compare(data) == 0)
+            if (Root.Data.CompareTo(data) == 0)
             {
                 //
                 return true;
@@ -64,13 +67,13 @@ namespace ADS.ADS.DataStructures
             }
         }
 
-        public bool Search(IData data, BinarySearchTreeNode current)
+        public bool Search(T data, BinarySearchTreeNode<T> current)
         {
-            if (current.Data.Compare(data) == 0)
+            if (current.Data.CompareTo(data) == 0)
             {
                 return true;
             }
-            else if (current.Data.Compare(data) == -1)
+            else if (current.Data.CompareTo(data) == -1)
             {
                 return current.Left != null && Search(data, current.Left);
             }

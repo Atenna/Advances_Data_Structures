@@ -14,3 +14,15 @@ C:\Users\il\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.C
 C:\Users\il\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.Core\obj\Debug\ADS.Core.csprojResolveAssemblyReference.cache
 C:\Users\il\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.Core\obj\Debug\ADS.Core.exe
 C:\Users\il\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.Core\obj\Debug\ADS.Core.pdb
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.Core\bin\Debug\ADS.Core.exe.config
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.Core\bin\Debug\ADS.Core.exe
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.Core\bin\Debug\ADS.Core.pdb
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.Core\bin\Debug\ADS.ADS.exe
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.Core\bin\Debug\ADS.Services.exe
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.Core\bin\Debug\ADS.ADS.pdb
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.Core\bin\Debug\ADS.Services.pdb
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.Core\obj\Debug\ADS.Core.csprojResolveAssemblyReference.cache
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.Core\obj\Debug\ADS.Core.Constants.Errors.resources
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.Core\obj\Debug\ADS.Core.csproj.GenerateResource.Cache
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.Core\obj\Debug\ADS.Core.exe
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.Core\obj\Debug\ADS.Core.pdb

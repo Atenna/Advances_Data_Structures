@@ -1,4 +1,6 @@
-﻿namespace ADS.Main
+﻿using ADS.ADS.DataStructures;
+
+namespace ADS.Main
 {
     public class Program
     {

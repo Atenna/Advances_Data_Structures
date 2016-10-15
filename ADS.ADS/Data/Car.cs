@@ -1,8 +1,9 @@
-﻿using System;
+﻿using ADS.ADS.Data;
+using System;
 
 namespace ADS.ADS.Data
 {
-    class Car : IData
+    class Car : IData<Car>
     {
         private string _name;
 
@@ -11,12 +12,7 @@ namespace ADS.ADS.Data
             this._name = name;
         }
 
-        int IData.Compare(IData dataToCompare)
-        {
-            throw new NotImplementedException();
-        }
-
-        string IData.ToString()
+        public int CompareTo(Car other)
         {
             throw new NotImplementedException();
         }
