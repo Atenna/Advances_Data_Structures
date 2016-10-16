@@ -1,6 +1,8 @@
-﻿namespace ADS.ADS.Nodes
+﻿using System;
+
+namespace ADS.ADS.Nodes
 {
-    public class BinarySearchTreeNode<T>
+    public class BinarySearchTreeNode<T> : IComparable<T>
     {
         public T Data;
         public BinarySearchTreeNode<T> Left;
@@ -14,6 +16,11 @@
         public override string ToString()
         {
             return Data.ToString();
+        }
+
+        public int CompareTo(T other)
+        {
+            throw new NotImplementedException();
         }
 
         public BinarySearchTreeNode<T> BinarySearchTreeNodeLeft { get; private set; }
