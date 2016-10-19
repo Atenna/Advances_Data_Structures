@@ -48,6 +48,7 @@
     <Compile Include="Data\IData.cs" />
     <Compile Include="DataStructures\AVLTree.cs" />
     <Compile Include="DataStructures\RBTree.cs" />
+    <Compile Include="Nodes\AvlTreeNode.cs" />
     <Compile Include="Nodes\BinarySearchTreeNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

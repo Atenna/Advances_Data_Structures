@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using ADS.ADS.Data;
 using ADS.ADS.Nodes;
@@ -28,8 +29,7 @@ namespace ADS.ADS.DataStructures
         {
             if (Root == null)
             {
-                Root = new AvlTreeNode<T>(data);
-                Root.Ancestor = null;
+                Root = new AvlTreeNode<T>(data) {Ancestor = null};
             }
             else
             {
@@ -54,6 +54,8 @@ namespace ADS.ADS.DataStructures
                         current.Left = inserted;
                         inserted.Ancestor = current;
                         // upravit vysky
+                        AdjustHeights(inserted);
+                        // upravit balance factor
                         AdjustBalanceFactor(inserted);
                         return true;
                     }
@@ -70,6 +72,8 @@ namespace ADS.ADS.DataStructures
                         current.Right = inserted;
                         inserted.Ancestor = current;
                         // upravit vysky
+                        AdjustHeights(inserted);
+                        // upravit balance factor
                         AdjustBalanceFactor(inserted);
                         return true;
                     }
@@ -101,14 +105,14 @@ namespace ADS.ADS.DataStructures
                 }
                 if (current.BalanceFactor == 2 || current.BalanceFactor == -2)
                 {
-                    return Balance(current);
+                    return Rebalance(current);
                 }
 
                 current = current.Ancestor;
             }
         }
 
-        private bool Balance(AvlTreeNode<T> node)
+        private bool Rebalance(AvlTreeNode<T> node)
         {
             if (node.BalanceFactor == 2)
             {
@@ -143,6 +147,11 @@ namespace ADS.ADS.DataStructures
             AvlTreeNode<T> current = node;
             while (true)
             {
+                // root
+                if (current.Ancestor == null)
+                {
+                    return;
+                }
                 current.Height = Math.Max(current.Left.Height, current.Right.Height);
                 current = current.Ancestor;
             }
@@ -165,6 +174,36 @@ namespace ADS.ADS.DataStructures
 
         private bool RotateRight(AvlTreeNode<T> node)
         {
+            AvlTreeNode<T> y = node.Left;
+            AvlTreeNode<T> x = y.Left;
+            AvlTreeNode<T> z = node;
+            AvlTreeNode<T> p = y.Right;
+
+            /*
+                         z                                      y 
+                        / \                                   /   \
+                       y   T4      Right Rotate (z)          x      z
+                      / \          - - - - - - - - ->      /  \    /  \ 
+                     x   p                                T1  T2  p   T4
+                    / \
+                  T1   T2
+             */
+
+            y.Ancestor = z.Ancestor; // aj spatne nastavit ycku ci je lavy alebo pravy potomok
+            
+            z.Left = p;
+            y.Right = z;
+            z.Ancestor = y;
+
+            if (y.Ancestor?.Data.CompareTo(z.Data) == 1)
+            {
+                y.Ancestor.Right = y;
+            }
+            else if (y.Ancestor?.Data.CompareTo(z.Data) == -1)
+            {
+                y.Ancestor.Left = y;
+            }
+
             return true;
         }
 
