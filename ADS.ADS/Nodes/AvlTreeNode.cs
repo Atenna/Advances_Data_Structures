@@ -19,6 +19,7 @@ namespace ADS.ADS.Nodes
             HeightOfLeftSubTree = 0;
             HeightOfRightSubtree = 0;
         }
+
         public int BalanceFactor { get; set; }
         public int Height { get; set; }
         public int HeightOfLeftSubTree { get; private set; }
