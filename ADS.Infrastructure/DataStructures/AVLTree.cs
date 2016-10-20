@@ -40,17 +40,18 @@ namespace ADS.ADS.DataStructures
 
         private bool InsertNode(AvlTreeNode<T> current, T data)
         {
+            AvlTreeNode<T> inserted = new AvlTreeNode<T>(data);
+
             while (true)
             {
-                if (data.CompareTo(current.Data) == 0)
+                if (inserted.Data.CompareTo(current.Data) == 0)
                 {
                     return false;
                 }
-                else if (data.CompareTo(current.Data) == -1)
+                else if (inserted.Data.CompareTo(current.Data) == -1)
                 {
                     if (current.Left == null)
                     {
-                        AvlTreeNode<T> inserted = new AvlTreeNode<T>(data);
                         current.Left = inserted;
                         inserted.Ancestor = current;
                         // upravit vysky
@@ -68,7 +69,6 @@ namespace ADS.ADS.DataStructures
                 {
                     if (current.Right == null)
                     {
-                        AvlTreeNode<T> inserted = new AvlTreeNode<T>(data);
                         current.Right = inserted;
                         inserted.Ancestor = current;
                         // upravit vysky
@@ -147,12 +147,15 @@ namespace ADS.ADS.DataStructures
             AvlTreeNode<T> current = node;
             while (true)
             {
-                // root
+                int left = current.Left?.Height ?? 0;
+                int right = current.Right?.Height ?? 0;
+                current.Height = 1 + Math.Max(left, right);
+
                 if (current.Ancestor == null)
                 {
                     return;
                 }
-                current.Height = Math.Max(current.Left.Height, current.Right.Height);
+
                 current = current.Ancestor;
             }
         }
@@ -207,6 +210,21 @@ namespace ADS.ADS.DataStructures
 
         private bool RotateLeftRight(AvlTreeNode<T> node)
         {
+            /*
+                     z                               z                           x
+                    / \                            /   \                        /  \ 
+                   y   T4  Left Rotate (y)        x    T4  Right Rotate(z)    y      z
+                  / \      - - - - - - - - ->    /  \      - - - - - - - ->  / \    / \
+                T1   x                          y    T3                    T1  T2 T3  T4
+                    / \                        / \
+                  T2   T3                    T1   T2
+             */
+            AvlTreeNode<T> z = node;
+            AvlTreeNode<T> y = node.Left;
+
+            RotateLeft(y);
+            RotateRight(z);
+
             return true;
         }
 
@@ -241,7 +259,21 @@ namespace ADS.ADS.DataStructures
 
         private bool RotateRightLeft(AvlTreeNode<T> node)
         {
+            /*
+                       z                            z                            x
+                      / \                          / \                          /  \ 
+                    T1   y   Right Rotate (y)    T1   x      Left Rotate(z)   z      y
+                        / \  - - - - - - - - ->     /  \   - - - - - - - ->  / \    / \
+                       x   T4                      T2   y                  T1  T2  T3  T4
+                      / \                              /  \
+                    T2   T3                           T3   T4
+             */
 
+            AvlTreeNode<T> z = node;
+            AvlTreeNode<T> y = node.Right;
+
+            RotateRight(y);
+            RotateLeft(z);
 
             return true;
         }
