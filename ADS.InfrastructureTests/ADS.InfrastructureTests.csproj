@@ -56,7 +56,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ADS.ADS\ADS.Infrastructure.csproj">
+    <ProjectReference Include="..\ADS.Infrastructure\ADS.Infrastructure.csproj">
       <Project>{10CA2006-9570-427F-9D61-ACC5A967CC0B}</Project>
       <Name>ADS.Infrastructure</Name>
     </ProjectReference>

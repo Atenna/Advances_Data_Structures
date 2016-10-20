@@ -60,12 +60,6 @@
     <Folder Include="Domain\Model\People\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ADS.ADS\ADS.Infrastructure.csproj">
-      <Project>{10ca2006-9570-427f-9d61-acc5a967cc0b}</Project>
-      <Name>ADS.Infrastructure</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Constants\Errors.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Errors.Designer.cs</LastGenOutput>

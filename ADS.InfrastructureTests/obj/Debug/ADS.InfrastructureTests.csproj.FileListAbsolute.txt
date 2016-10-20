@@ -1,4 +1,3 @@
-C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.InfrastructureTests\obj\Debug\ADS.InfrastructureTests.csprojResolveAssemblyReference.cache
 C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.InfrastructureTests\bin\Debug\ADS.InfrastructureTests.dll
 C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.InfrastructureTests\bin\Debug\ADS.InfrastructureTests.pdb
 C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.InfrastructureTests\bin\Debug\ADS.ADS.exe
@@ -6,5 +5,6 @@ C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\A
 C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.InfrastructureTests\bin\Debug\ADS.Services.exe
 C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.InfrastructureTests\bin\Debug\ADS.ADS.pdb
 C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.InfrastructureTests\bin\Debug\ADS.Services.pdb
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.InfrastructureTests\obj\Debug\ADS.InfrastructureTests.csprojResolveAssemblyReference.cache
 C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.InfrastructureTests\obj\Debug\ADS.InfrastructureTests.dll
 C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.InfrastructureTests\obj\Debug\ADS.InfrastructureTests.pdb
