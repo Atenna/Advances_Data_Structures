@@ -162,9 +162,47 @@ namespace ADS.ADS.DataStructures
             return true;
         }
 
-        private bool RotateLeft(AvlTreeNode<T> node)
+        public bool RotateLeft(AvlTreeNode<T> node)
         {
+            /*
+                  z                                y
+                 /  \                            /   \ 
+                T1   y     Left Rotate(z)       z      x
+                    /  \   - - - - - - - ->    / \    / \
+                   p    x                     T1  p  T3  T4
+                       / \
+                     T3   T4
+             */
+            AvlTreeNode<T> z = node;
+            AvlTreeNode<T> y = node.Right;
+            AvlTreeNode<T> x = y.Right;
+            AvlTreeNode<T> p = y.Left;
+
+            y.Ancestor = z.Ancestor;
+            z.Ancestor = y;
+            z.Right = p;
+            p.Ancestor = z;
+            y.Left = z;
+
+            SetAncestor(y);
+
             return true;
+        }
+
+        public void SetAncestor(AvlTreeNode<T> y)
+        {
+            if (y.Ancestor?.Data.CompareTo(y.Data) == 1)
+            {
+                y.Ancestor.Left = y;
+            }
+            else if (y.Ancestor?.Data.CompareTo(y.Data) == -1)
+            {
+                y.Ancestor.Right = y;
+            }
+            else if(y.Ancestor == null)
+            {
+                this.Root = y;
+            }
         }
 
         private bool RotateLeftRight(AvlTreeNode<T> node)
@@ -172,7 +210,7 @@ namespace ADS.ADS.DataStructures
             return true;
         }
 
-        private bool RotateRight(AvlTreeNode<T> node)
+        public bool RotateRight(AvlTreeNode<T> node)
         {
             AvlTreeNode<T> y = node.Left;
             AvlTreeNode<T> x = y.Left;
@@ -192,23 +230,19 @@ namespace ADS.ADS.DataStructures
             y.Ancestor = z.Ancestor; // aj spatne nastavit ycku ci je lavy alebo pravy potomok
             
             z.Left = p;
+            p.Ancestor = z;
             y.Right = z;
             z.Ancestor = y;
 
-            if (y.Ancestor?.Data.CompareTo(z.Data) == 1)
-            {
-                y.Ancestor.Right = y;
-            }
-            else if (y.Ancestor?.Data.CompareTo(z.Data) == -1)
-            {
-                y.Ancestor.Left = y;
-            }
+            SetAncestor(y);
 
             return true;
         }
 
         private bool RotateRightLeft(AvlTreeNode<T> node)
         {
+
+
             return true;
         }
     }
