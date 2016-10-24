@@ -6,13 +6,13 @@ using ADS.ADS.Nodes;
 
 namespace ADS.ADS.DataStructures
 {
-    public class AvlTree<T> where T: IComparable<T>
+    public class AvlTree<T> : BinarySearchTree<T> where T: IComparable<T>
     {
-        public AvlTreeNode<T> Root;
+        public new AvlTreeNode<T> Root; // new lebo v bst je Root typu BSTnode.. TODO
 
-        public AvlTree()
+        public AvlTree(): base()
         {
-            
+
         }
 
         public int Height()
@@ -25,7 +25,7 @@ namespace ADS.ADS.DataStructures
             return node.BalanceFactor;
         }
 
-        public bool Add(T data)
+        public new bool Add(T data)
         {
             if (Root == null)
             {
@@ -90,18 +90,18 @@ namespace ADS.ADS.DataStructures
             AvlTreeNode<T> current = node;
             while (true)
             {
-                if (node.Ancestor == null)
+                if (current.Ancestor == null)
                 {
                     return true;
                 }
 
                 var left = current.Left?.Height ?? 0;
                 var right = current.Right?.Height ?? 0;
-                current.BalanceFactor = Math.Max(left, right);
+                current.BalanceFactor = left - right;
 
                 if (current.BalanceFactor == 0)
                 {
-                    return true;
+                    //return true;
                 }
                 if (current.BalanceFactor == 2 || current.BalanceFactor == -2)
                 {
@@ -162,6 +162,9 @@ namespace ADS.ADS.DataStructures
 
         public bool Remove(T data)
         {
+            // normal BST deletion
+            BstRemove(data);
+            // 
             return true;
         }
 

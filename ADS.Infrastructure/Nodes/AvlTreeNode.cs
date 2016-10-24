@@ -7,13 +7,11 @@ using System.Threading.Tasks;
 
 namespace ADS.ADS.Nodes
 {
-    public class AvlTreeNode<T> where T:IComparable<T>
+    public class AvlTreeNode<T>: BinarySearchTreeNode<T> where T:IComparable<T>
     {
-        public T Data { get; private set; }
-
-        public AvlTreeNode(T data)
+        public AvlTreeNode(T data) : base(data)
         {
-            this.Data = data;
+            Data = data;
             BalanceFactor = 0;
             Height = 0;
             HeightOfLeftSubTree = 0;

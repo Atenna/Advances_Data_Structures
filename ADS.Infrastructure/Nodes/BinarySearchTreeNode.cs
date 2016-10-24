@@ -5,8 +5,9 @@ namespace ADS.ADS.Nodes
     public class BinarySearchTreeNode<T> where T : IComparable<T>
     {
         public T Data;
-        public BinarySearchTreeNode<T> Left;
-        public BinarySearchTreeNode<T> Right;
+        public BinarySearchTreeNode<T> Left { get; set; }
+        public BinarySearchTreeNode<T> Right { get; set; }
+        public BinarySearchTreeNode<T> Ancestor { get; set; }
 
         public BinarySearchTreeNode(T data)
         {
@@ -22,9 +23,5 @@ namespace ADS.ADS.Nodes
         {
             throw new NotImplementedException();
         }
-
-        public BinarySearchTreeNode<T> BinarySearchTreeNodeLeft { get; private set; }
-        public BinarySearchTreeNode<T> BinarySearchTreeNodeRight { get; private set; }
-        public BinarySearchTreeNode<T> BinarySearchTreeNodeAncestor { get; private set; }
     }
 }
