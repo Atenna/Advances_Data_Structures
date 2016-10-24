@@ -21,7 +21,7 @@ namespace ADS.ADS.DataStructures.Tests
             BinarySearchTreeNode<int> node = bst.Root;
             Assert.IsNotNull(node);
 
-            bst.Remove(5);
+            bst.BstRemove(5);
         }
     }
 }
