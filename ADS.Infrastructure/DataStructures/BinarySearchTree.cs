@@ -54,16 +54,54 @@ namespace ADS.ADS.DataStructures
             }
         }
 
-        public bool Remove(T data)
+        public bool BstRemove(T data)
         {
-            if (Root.Data.CompareTo(data) == 0)
+            BinarySearchTreeNode<T> current = Root;
+            while (true)
             {
-                //
-                return true;
-            }
-            else
-            {
-                return true;
+
+                if (current.Data.CompareTo(data) == 0)
+                {
+                    // uzol nema potomkov
+                    if (current.Left == null && current.Right == null)
+                    {
+                        if (current.Ancestor?.CompareTo(data) == 1)
+                        {
+                            current.Ancestor.Left = null;
+                            return true;
+                        }
+                        else if (current.Ancestor?.CompareTo(data) == -1)
+                        {
+                            current.Ancestor.Right = null;
+                            return true;
+                        }
+                        else if (current.Ancestor == null)
+                        {
+                            Root = null;
+                            return true;
+                        }
+                        return false;
+                    }
+                    // uzol ma jedneho potomka
+                    else if (current.Left != null || current.Right != null)
+                    {
+                        
+                    }
+                    // uzol ma dvoch potomkov
+                    else if (current.Left != null && current.Right != null)
+                    {
+
+                    }
+                    return true;
+                }
+                else if (current.Data.CompareTo(data) == -1)
+                {
+                    current = current.Right;
+                }
+                else if (current.Data.CompareTo(data) == 1)
+                {
+                    current = current.Left;
+                }
             }
         }
 
