@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ADS.ADS.Nodes
 {
-    public class AvlTreeNode<T>: BinarySearchTreeNode<T> where T:IComparable<T>
+    public class AvlTreeNode<T>: AbstractNode<T> where T:IComparable<T>
     {
         public AvlTreeNode(T data) : base(data)
         {
@@ -23,8 +23,8 @@ namespace ADS.ADS.Nodes
         public int HeightOfLeftSubTree { get; private set; }
         public int HeightOfRightSubtree { get; private set; }
 
-        public AvlTreeNode<T> Ancestor { get; set; }
-        public AvlTreeNode<T> Left { get; set; }
-        public AvlTreeNode<T> Right { get; set; }
+        public new AvlTreeNode<T> Ancestor { get; set; }
+        public new AvlTreeNode<T> Left { get; set; }
+        public new AvlTreeNode<T> Right { get; set; }
     }
 }

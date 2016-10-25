@@ -163,7 +163,7 @@ namespace ADS.ADS.DataStructures
         public bool Remove(T data)
         {
             // normal BST deletion
-            BstRemove(data);
+            BstRemove(data, (AbstractNode<T>)Root);
             // 
             return true;
         }
