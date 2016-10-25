@@ -1,19 +1,11 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
-using System.Security.Cryptography.X509Certificates;
-using ADS.ADS.Data;
 using ADS.ADS.Nodes;
 
 namespace ADS.ADS.DataStructures
 {
     public class AvlTree<T> : BinarySearchTree<T> where T: IComparable<T>
     {
-        public new AvlTreeNode<T> Root; // new lebo v bst je Root typu BSTnode.. TODO
-
-        public AvlTree(): base()
-        {
-
-        }
+        public new AvlTreeNode<T> Root;
 
         public int Height()
         {
@@ -38,7 +30,7 @@ namespace ADS.ADS.DataStructures
             return true;
         }
 
-        private bool InsertNode(AvlTreeNode<T> current, T data)
+        private bool InsertNode(AbstractNode<T> current, T data)
         {
             AvlTreeNode<T> inserted = new AvlTreeNode<T>(data);
 
@@ -85,9 +77,9 @@ namespace ADS.ADS.DataStructures
             }
         }
 
-        private bool AdjustBalanceFactor(AvlTreeNode<T> node)
+        private bool AdjustBalanceFactor(AbstractNode<T> node)
         {
-            AvlTreeNode<T> current = node;
+            AvlTreeNode<T> current = (AvlTreeNode<T>) node;
             while (true)
             {
                 if (current.Ancestor == null)
@@ -95,8 +87,12 @@ namespace ADS.ADS.DataStructures
                     return true;
                 }
 
-                var left = current.Left?.Height ?? 0;
-                var right = current.Right?.Height ?? 0;
+                AvlTreeNode<T> leftNode = (AvlTreeNode<T>)current.Left;
+                AvlTreeNode<T> rightNode = (AvlTreeNode<T>)current.Right;
+
+                int left = leftNode?.Height ?? 0;
+                int right = rightNode?.Height ?? 0;
+
                 current.BalanceFactor = left - right;
 
                 if (current.BalanceFactor == 0)
@@ -108,19 +104,23 @@ namespace ADS.ADS.DataStructures
                     return Rebalance(current);
                 }
 
-                current = current.Ancestor;
+                current = (AvlTreeNode<T>) current.Ancestor;
             }
         }
 
-        private bool Rebalance(AvlTreeNode<T> node)
+        private bool Rebalance(AbstractNode<T> nodeToRebalance)
         {
+            AvlTreeNode<T> node = (AvlTreeNode<T>) nodeToRebalance;
+            AvlTreeNode<T> right = (AvlTreeNode<T>) node.Right;
+            AvlTreeNode<T> left = (AvlTreeNode<T>) node.Left;
+
             if (node.BalanceFactor == 2)
             {
-                if (node.Right.BalanceFactor == 1)
+                if (right.BalanceFactor == 1)
                 {
                     return RotateLeft(node);
                 }
-                if (node.Right.BalanceFactor == -1)
+                if (right.BalanceFactor == -1)
                 {
                     return RotateRightLeft(node);
                 }
@@ -128,11 +128,11 @@ namespace ADS.ADS.DataStructures
 
             if (node.BalanceFactor == -2)
             {
-                if (node.Left.BalanceFactor == -1)
+                if (left.BalanceFactor == -1)
                 {
                     return RotateRight(node);
                 }
-                if (node.Left.BalanceFactor == 1)
+                if (left.BalanceFactor == 1)
                 {
                     return RotateLeftRight(node);
                 }
@@ -142,13 +142,16 @@ namespace ADS.ADS.DataStructures
         }
 
         // TO-DO
-        private void AdjustHeights(AvlTreeNode<T> node)
+        private void AdjustHeights(AbstractNode<T> node)
         {
-            AvlTreeNode<T> current = node;
+            AvlTreeNode<T> current = (AvlTreeNode<T>) node;
             while (true)
             {
-                int left = current.Left?.Height ?? 0;
-                int right = current.Right?.Height ?? 0;
+                AvlTreeNode<T> leftNode = (AvlTreeNode<T>) current.Left;
+                AvlTreeNode<T> rightNode = (AvlTreeNode<T>)current.Right;
+
+                int left = leftNode?.Height ?? 0;
+                int right = rightNode?.Height ?? 0;
                 current.Height = 1 + Math.Max(left, right);
 
                 if (current.Ancestor == null)
@@ -156,19 +159,19 @@ namespace ADS.ADS.DataStructures
                     return;
                 }
 
-                current = current.Ancestor;
+                current = (AvlTreeNode<T>) current.Ancestor;
             }
         }
 
         public bool Remove(T data)
         {
             // normal BST deletion
-            BstRemove(data, (AbstractNode<T>)Root);
+            BstRemove(data, Root);
             // 
             return true;
         }
 
-        public bool RotateLeft(AvlTreeNode<T> node)
+        public bool RotateLeft(AbstractNode<T> node)
         {
             /*
                   z                                y
@@ -179,10 +182,9 @@ namespace ADS.ADS.DataStructures
                        / \
                      T3   T4
              */
-            AvlTreeNode<T> z = node;
-            AvlTreeNode<T> y = node.Right;
-            AvlTreeNode<T> x = y.Right;
-            AvlTreeNode<T> p = y.Left;
+            AbstractNode<T> z = node;
+            AbstractNode<T> y = node.Right;
+            AbstractNode<T> p = y.Left;
 
             y.Ancestor = z.Ancestor;
             z.Ancestor = y;
@@ -195,7 +197,7 @@ namespace ADS.ADS.DataStructures
             return true;
         }
 
-        public void SetAncestor(AvlTreeNode<T> y)
+        public void SetAncestor(AbstractNode<T> y)
         {
             if (y.Ancestor?.Data.CompareTo(y.Data) == 1)
             {
@@ -207,11 +209,11 @@ namespace ADS.ADS.DataStructures
             }
             else if(y.Ancestor == null)
             {
-                this.Root = y;
+                Root = (AvlTreeNode<T>) y;
             }
         }
 
-        private bool RotateLeftRight(AvlTreeNode<T> node)
+        private bool RotateLeftRight(AbstractNode<T> node)
         {
             /*
                      z                               z                           x
@@ -222,8 +224,8 @@ namespace ADS.ADS.DataStructures
                     / \                        / \
                   T2   T3                    T1   T2
              */
-            AvlTreeNode<T> z = node;
-            AvlTreeNode<T> y = node.Left;
+            AbstractNode<T> z = node;
+            AbstractNode<T> y = node.Left;
 
             RotateLeft(y);
             RotateRight(z);
@@ -231,12 +233,11 @@ namespace ADS.ADS.DataStructures
             return true;
         }
 
-        public bool RotateRight(AvlTreeNode<T> node)
+        public bool RotateRight(AbstractNode<T> node)
         {
-            AvlTreeNode<T> y = node.Left;
-            AvlTreeNode<T> x = y.Left;
-            AvlTreeNode<T> z = node;
-            AvlTreeNode<T> p = y.Right;
+            AbstractNode<T> y = node.Left;
+            AbstractNode<T> z = node;
+            AbstractNode<T> p = y.Right;
 
             /*
                          z                                      y 
@@ -260,7 +261,7 @@ namespace ADS.ADS.DataStructures
             return true;
         }
 
-        private bool RotateRightLeft(AvlTreeNode<T> node)
+        private bool RotateRightLeft(AbstractNode<T> node)
         {
             /*
                        z                            z                            x
@@ -272,8 +273,8 @@ namespace ADS.ADS.DataStructures
                     T2   T3                           T3   T4
              */
 
-            AvlTreeNode<T> z = node;
-            AvlTreeNode<T> y = node.Right;
+            AbstractNode<T> z = node;
+            AbstractNode<T> y = node.Right;
 
             RotateRight(y);
             RotateLeft(z);
