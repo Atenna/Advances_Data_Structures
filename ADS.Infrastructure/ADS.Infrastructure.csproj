@@ -50,6 +50,7 @@
     <Compile Include="DataStructures\RBTree.cs" />
     <Compile Include="Data\Product.cs" />
     <Compile Include="Data\Stock.cs" />
+    <Compile Include="Nodes\AbstractNode.cs" />
     <Compile Include="Nodes\AvlTreeNode.cs" />
     <Compile Include="Nodes\BinarySearchTreeNode.cs" />
     <Compile Include="Program.cs" />

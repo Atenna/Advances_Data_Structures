@@ -11,12 +11,7 @@ namespace ADS.ADS
     {
         public static void Main()
         {
-            BinarySearchTree<int> bst = new BinarySearchTree<int>();
-            bst.Add(5);
-            bst.Add(8);
-            bst.Add(4);
-            bst.Add(1);
-            bst.Add(3);
+
         }
     }
 }

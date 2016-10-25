@@ -9,19 +9,24 @@ namespace ADS.ADS.DataStructures.Tests
     public class BinarySearchTreeTests
     {
         [TestMethod()]
-        public void RemoveTest()
+        public void BstRemoveTest()
         {
             BinarySearchTree<int> bst = new BinarySearchTree<int>();
+
             bst.Add(5);
-            bst.Add(8);
-            bst.Add(4);
-            bst.Add(1);
+            bst.Add(2);
+            bst.Add(-4);
             bst.Add(3);
+            bst.Add(12);
+            bst.Add(19);
+            bst.Add(9);
+            bst.Add(21);
+            bst.Add(25);
 
-            BinarySearchTreeNode<int> node = bst.Root;
-            Assert.IsNotNull(node);
+            bst.BstRemove(12, bst.Root);
+            int data = bst.Root.Right.Data;
 
-            bst.BstRemove(5);
+            Assert.AreEqual(data, 19);
         }
     }
 }
@@ -41,7 +46,7 @@ namespace ADS.InfrastructureTests.DataStructures
             bst.Add(1);
             bst.Add(3);
 
-            BinarySearchTreeNode<int> node = bst.Root;
+            AbstractNode<int> node = bst.Root;
             Assert.IsNotNull(node);
 
             Assert.AreEqual(node.Left.Data, 4);
