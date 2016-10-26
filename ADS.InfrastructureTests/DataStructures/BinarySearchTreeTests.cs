@@ -1,5 +1,4 @@
-﻿using System;
-using ADS.ADS.DataStructures;
+﻿using ADS.ADS.DataStructures;
 using ADS.ADS.Nodes;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -9,7 +8,7 @@ namespace ADS.ADS.DataStructures.Tests
     public class BinarySearchTreeTests
     {
         [TestMethod()]
-        public void BstRemoveTest()
+        public void BstRemoveTwoChildrenTest()
         {
             BinarySearchTree<int> bst = new BinarySearchTree<int>();
 
@@ -27,6 +26,61 @@ namespace ADS.ADS.DataStructures.Tests
             int data = bst.Root.Right.Data;
 
             Assert.AreEqual(data, 19);
+        }
+        [TestMethod()]
+        public void BstRemoveOneChildTest()
+        {
+            BinarySearchTree<int> bst = new BinarySearchTree<int>();
+
+            bst.Add(5);
+            bst.Add(2);
+            bst.Add(-4);
+            bst.Add(3);
+            bst.Add(12);
+            bst.Add(19);
+            bst.Add(9);
+            bst.Add(21);
+
+            bst.BstRemove(21, bst.Root);
+            int data = bst.Root.Right.Right.Data;
+
+            Assert.AreEqual(data, 19);
+        }
+        [TestMethod()]
+        public void BstRemoveNoChildTest()
+        {
+            BinarySearchTree<int> bst = new BinarySearchTree<int>();
+
+            bst.Add(5);
+            bst.Add(2);
+            bst.Add(-4);
+            bst.Add(3);
+            bst.Add(12);
+            bst.Add(9);
+            bst.Add(21);
+            bst.Add(19);
+
+            bst.BstRemove(19, bst.Root);
+
+            Assert.IsNull(bst.Root.Right.Right.Left);
+        }
+        [TestMethod()]
+        public void BstRemoveRootTest()
+        {
+            BinarySearchTree<int> bst = new BinarySearchTree<int>();
+
+            bst.Add(5);
+            bst.Add(2);
+            bst.Add(-4);
+            bst.Add(3);
+            bst.Add(12);
+            bst.Add(9);
+            bst.Add(21);
+            bst.Add(19);
+
+            bst.BstRemove(5, bst.Root);
+
+            Assert.AreEqual(bst.Root.Data, 9);
         }
     }
 }

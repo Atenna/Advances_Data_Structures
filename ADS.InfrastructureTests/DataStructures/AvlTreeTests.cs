@@ -26,28 +26,7 @@ namespace ADS.ADS.DataStructures.Tests
             AvlTree<int> tree = new AvlTree<int>();
             tree.Root = z;
 
-            Console.WriteLine("===VYPIS CEZ ROOTA===");
-
-            Console.WriteLine("Koren: " + tree.Root.Data.ToString());
-            Console.WriteLine("Lavy syn: " + tree.Root.Left.Data.ToString());
-            Console.WriteLine("Lavy Lavy syn: " + tree.Root.Left.Left.Data.ToString());
-            Console.WriteLine("Lavy Pravy syn: " + tree.Root.Left.Right.Data.ToString());
-
-            Console.WriteLine("===VYPIS CEZ SMERNIKY===");
-
-            Console.WriteLine("Koren: " + z.Data.ToString());
-            Console.WriteLine("Lavy syn: " + y.Data.ToString());
-            Console.WriteLine("Lavy Lavy syn: " + x.Data.ToString());
-            Console.WriteLine("Lavy Pravy syn: " + p.Data.ToString());
-
             tree.RotateRight(z);
-
-            Console.WriteLine("===VYPIS PO ROTACII===");
-
-            Console.WriteLine("Koren: " + tree.Root.Data.ToString());
-            Console.WriteLine("Lavy syn: " + tree.Root.Left.Data.ToString());
-            Console.WriteLine("Pravy syn: " + tree.Root.Right.Data.ToString());
-            Console.WriteLine("Pravy Lavy syn: " + tree.Root.Right.Left.Data.ToString());
 
             Assert.IsNotNull(tree.Root.Right.Left);
             Assert.AreEqual(tree.Root.Right.Left.Data, p.Data);
@@ -70,32 +49,83 @@ namespace ADS.ADS.DataStructures.Tests
 
             AvlTree<int> tree = new AvlTree<int> {Root = z};
 
-            Console.WriteLine("===VYPIS CEZ ROOTA===");
-
-            Console.WriteLine("Koren: " + tree.Root.Data.ToString());
-            Console.WriteLine("Pravy syn: " + tree.Root.Right.Data.ToString());
-            Console.WriteLine("Pravy Lavy syn: " + tree.Root.Right.Left.Data.ToString());
-            Console.WriteLine("Pravy Pravy syn: " + tree.Root.Right.Right.Data.ToString());
-
-            Console.WriteLine("===VYPIS CEZ SMERNIKY===");
-
-            Console.WriteLine("Koren: " + z.Data.ToString());
-            Console.WriteLine("Pravy syn: " + y.Data.ToString());
-            Console.WriteLine("Pravy Lavy syn: " + p.Data.ToString());
-            Console.WriteLine("Pravy Pravy syn: " + x.Data.ToString());
-
             tree.RotateLeft(z);
-
-            Console.WriteLine("===VYPIS PO ROTACII===");
-
-            Console.WriteLine("Koren: " + tree.Root.Data.ToString());
-            Console.WriteLine("Lavy syn: " + tree.Root.Left.Data.ToString());
-            Console.WriteLine("Pravy syn: " + tree.Root.Right.Data.ToString());
-            Console.WriteLine("Lavy Pravy syn: " + tree.Root.Left.Right.Data.ToString());
 
             Assert.IsNotNull(tree.Root.Left);
             Assert.IsNotNull(tree.Root.Left.Right);
             Assert.AreEqual(p.Data, tree.Root.Left.Right.Data);
+        }
+        [TestMethod()]
+        public void RightRotationNoChildrenRootChangeTest()
+        {
+            AvlTree<int> avl = new AvlTree<int>();
+            avl.Add(30);
+            avl.Add(20);
+            avl.Add(10);
+
+            Assert.AreEqual(20, avl.Root.Data);
+            Assert.AreEqual(30, avl.Root.Right.Data);
+            Assert.AreEqual(10, avl.Root.Left.Data);
+        }
+        [TestMethod()]
+        public void LeftRotationNoChildrenRootChangeTest()
+        {
+            AvlTree<int> avl = new AvlTree<int>();
+            avl.Add(10);
+            avl.Add(20);
+            avl.Add(30);
+
+            Assert.AreEqual(20, avl.Root.Data);
+            Assert.AreEqual(30, avl.Root.Right.Data);
+            Assert.AreEqual(10, avl.Root.Left.Data);
+        }
+        [TestMethod()]
+        public void RightLeftRotationNoChildrenRootChangeTest()
+        {
+            AvlTree<int> avl = new AvlTree<int>();
+
+            avl.Add(10);
+            avl.Add(30);
+            avl.Add(20);
+
+            Assert.AreEqual(20, avl.Root.Data);
+            Assert.AreEqual(30, avl.Root.Right.Data);
+            Assert.AreEqual(10, avl.Root.Left.Data);
+        }
+        [TestMethod()]
+        public void LeftRightRotationNoChildrenRootChangeTest()
+        {
+
+        }
+        [TestMethod()]
+        public void LeftRotationNoChildrenNoRootChangeTest()
+        {
+
+        }
+        [TestMethod()]
+        public void RightRotationNoChildrenNoRootChangeTest()
+        {
+
+        }
+        [TestMethod()]
+        public void LeftRotationRightChildRootChangeTest()
+        {
+
+        }
+        [TestMethod()]
+        public void LeftRotationLeftChildRootChangeTest()
+        {
+
+        }
+        [TestMethod()]
+        public void RightRotationLeftChildRootChangeTest()
+        {
+
+        }
+        [TestMethod()]
+        public void RightRotationRightChildRootChangeTest()
+        {
+
         }
     }
 }
