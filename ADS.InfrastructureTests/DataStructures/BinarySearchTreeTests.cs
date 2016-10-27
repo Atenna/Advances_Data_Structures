@@ -2,7 +2,7 @@
 using ADS.ADS.Nodes;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace ADS.ADS.DataStructures.Tests
+namespace ADS.InfrastructureTests.DataStructures
 {
     [TestClass()]
     public class BinarySearchTreeTests
@@ -82,14 +82,7 @@ namespace ADS.ADS.DataStructures.Tests
 
             Assert.AreEqual(bst.Root.Data, 9);
         }
-    }
-}
 
-namespace ADS.InfrastructureTests.DataStructures
-{
-    [TestClass()]
-    public class BinarySearchTreeTests
-    {
         [TestMethod()]
         public void AddTest()
         {
