@@ -15,6 +15,7 @@ To be implemented:
 Tested:
 * Right rotation
 * Left rotation
+* Insertion (10 possible cases with child nodes + 4 simple)
 
 ## Binary Search Tree
 
@@ -24,6 +25,9 @@ Already implemented:
 
 To be implemented:
 * Tree traversals
+
+Tested:
+* Deletion (3 possible cases)
 
 
 
