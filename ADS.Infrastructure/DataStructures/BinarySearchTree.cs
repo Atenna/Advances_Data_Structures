@@ -58,10 +58,12 @@ namespace ADS.ADS.DataStructures
             }
         }
 
-        public bool BstRemove(T data, AbstractNode<T> root)
+        public AbstractNode<T> BstRemove(T data, AbstractNode<T> root)
         {
-            var current = root;
-            while (true)
+            AbstractNode<T> current = root;
+            AbstractNode<T> ancestor = root;
+            bool flag = true;
+            while (flag)
             {
                 // najdeny prvok
                 if (current.Data.CompareTo(data) == 0)
@@ -69,23 +71,26 @@ namespace ADS.ADS.DataStructures
                     // uzol nema potomkov
                     if (current.Left == null && current.Right == null)
                     {
-                        return SetPointersToNull(current, data);
+                        ancestor = SetPointersToNull(current, data);
+                        flag = false;
+                        break;
                     }
                     // uzol ma dvoch potomkov
                     else if (current.Left != null && current.Right != null)
                     {
                         current.Data = MinValue(current.Right);
                         BstRemove(current.Data, current.Right);
+                        flag = false;
                     }
                     // uzol ma jedneho potomka
                     else
                     {
                         var childData = current.Left != null ? current.Left.Data : current.Right.Data;
                         current.Data = childData;
-
-                        return SetPointersToNull(current, data);
+                        ancestor = SetPointersToNull(current, data);
+                        flag = false;
+                        break;
                     }
-                    return true;
                 }
                 else if (data.CompareTo(current.Data) == -1)
                 {
@@ -96,29 +101,27 @@ namespace ADS.ADS.DataStructures
                     current = current.Right;
                 }
             }
+            return ancestor;
         }
 
-        private bool SetPointersToNull(AbstractNode<T> current, T data)
+        private AbstractNode<T> SetPointersToNull(AbstractNode<T> current, T data)
         {
             // uzol je lavy syn
             if (current.Ancestor?.Data.CompareTo(data) == 1)
             {
                 current.Ancestor.Left = null;
-                return true;
             }
             // uzol je pravy syn
             else if (current.Ancestor?.CompareTo(data) == -1)
             {
                 current.Ancestor.Right = null;
-                return true;
             }
             // nema predchodcov
             else if (current.Ancestor == null)
             {
                 Root = null;
-                return true;
             }
-            return false;
+            return current.Ancestor;
         }
 
         public bool Search(T data, AbstractNode<T> current)
