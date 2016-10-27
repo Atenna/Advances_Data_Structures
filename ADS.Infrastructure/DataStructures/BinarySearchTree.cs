@@ -153,5 +153,47 @@ namespace ADS.ADS.DataStructures
                 }
             }
         }
+
+        public void PreorderTraversal(AbstractNode<T> node)
+        {
+            if (node == null)
+            {
+                return;
+            }
+
+            Console.Write("{0} ", node.Data);
+
+            PreorderTraversal(node.Left);
+
+            PreorderTraversal(node.Right);
+        }
+
+        public void InorderTraversal(AbstractNode<T> node)
+        {
+            if (node == null)
+            {
+                return;
+            }
+
+            InorderTraversal(node.Left);
+
+            Console.Write("{0} ", node.Data);
+
+            InorderTraversal(node.Right);
+        }
+
+        public void PostorderTraversal(AbstractNode<T> node)
+        {
+            if (node == null)
+            {
+                return;
+            }
+
+            PostorderTraversal(node.Left);
+
+            PostorderTraversal(node.Right);
+
+            Console.Write("{0} ", node.Data);
+        }
     }
 }
