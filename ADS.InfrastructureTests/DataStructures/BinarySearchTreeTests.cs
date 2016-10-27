@@ -17,9 +17,9 @@ namespace ADS.InfrastructureTests.DataStructures
             bst.Add(-4);
             bst.Add(3);
             bst.Add(12);
-            bst.Add(19);
-            bst.Add(9);
             bst.Add(21);
+            bst.Add(9);
+            bst.Add(19);
             bst.Add(25);
 
             bst.BstRemove(12, bst.Root);
