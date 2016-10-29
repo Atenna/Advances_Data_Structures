@@ -27,6 +27,8 @@ namespace ADS.ADS.DataStructures
             {
                 InsertNode(Root, data);
             }
+            AdjustHeightToNode(Root);
+            AdjustBalancefactorToNode(Root);
             return true;
         }
 
@@ -50,7 +52,7 @@ namespace ADS.ADS.DataStructures
                         AdjustHeights(inserted, false);
                         // upravit balance factor
                         //AdjustBalanceFactor(inserted);
-                        Rebalance((AvlTreeNode<T>) inserted.Ancestor, false);
+                        Rebalance((AvlTreeNode<T>) inserted.Ancestor);
                         return true;
                     }
                     else
@@ -68,7 +70,7 @@ namespace ADS.ADS.DataStructures
                         AdjustHeights(inserted, false);
                         // upravit balance factor
                         //AdjustBalanceFactor(inserted);
-                        Rebalance((AvlTreeNode<T>) inserted.Ancestor, false);
+                        Rebalance((AvlTreeNode<T>) inserted.Ancestor);
                         return true;
                     }
                     else
@@ -77,9 +79,10 @@ namespace ADS.ADS.DataStructures
                     }
                 }
             }
+            
         }
 
-        private bool Rebalance(AvlTreeNode<T> nodeToRebalance, bool deletion)
+        private bool Rebalance(AvlTreeNode<T> nodeToRebalance)
         {
             AvlTreeNode<T> node = (AvlTreeNode<T>) nodeToRebalance;
             AvlTreeNode<T> right = (AvlTreeNode<T>) node.Right;
@@ -92,12 +95,12 @@ namespace ADS.ADS.DataStructures
                 if (node.BalanceFactor == 2)
                 {
                     // left left case
-                    if (left.BalanceFactor == 1)
+                    if (left.BalanceFactor >= 0)
                     {
                         return RotateRight(node);
                     }
                     // left right case
-                    if (left.BalanceFactor == -1)
+                    if (left.BalanceFactor < 0)
                     {
                         return RotateLeftRight(node);
                     }
@@ -106,12 +109,12 @@ namespace ADS.ADS.DataStructures
                 if (node.BalanceFactor == -2)
                 {
                     // Right right case
-                    if (right.BalanceFactor == -1)
+                    if (right.BalanceFactor <= 0)
                     {
                         return RotateLeft(node);
                     }
                     // Right left case 
-                    if (right.BalanceFactor == 1)
+                    if (right.BalanceFactor > 0)
                     {
                         return RotateRightLeft(node);
                     }
@@ -146,7 +149,7 @@ namespace ADS.ADS.DataStructures
 
                 if (deletion  && (current.BalanceFactor > 1 || current.BalanceFactor < -1))
                 {
-                    Rebalance(current, true);
+                    Rebalance(current);
                 }
 
                 if (current.Ancestor == null)
@@ -160,22 +163,59 @@ namespace ADS.ADS.DataStructures
             }
         }
 
-        public bool Remove(T data)
+        public AvlTreeNode<T> RemoveNode(T item)
         {
-            // normal BST deletion
-            AbstractNode<T> ancestor = BstRemove(data, Root);
-            // take its ancestor, update height
-            AdjustHeights(ancestor, true);
-            // get the balance facotr
+            if (Root == null)
+            {
+                return null;
+            }
+            AvlTreeNode<T> ancestor = (AvlTreeNode<T>) BstRemove(item, Root);
+            // Checking for unbalance, if detected, balance (include also height update)
+            // otherwise only Adjust height
+            AdjustBalancefactorToNode(ancestor);
+            if ((ancestor.BalanceFactor == 2) || (ancestor.BalanceFactor == -2))
+            {
+                Rebalance(ancestor);
+            }
+            else
+            {
+                AdjustHeightToNode(ancestor);
+            }
 
-            // if it's balanced, I guess we're done
+            return ancestor;
+        }
 
-            // otherwise perform rebalacing operations
+        private void AdjustHeightToNode(AvlTreeNode<T> node)
+        {
+            AvlTreeNode<T> current = (AvlTreeNode<T>)node;
+            AvlTreeNode<T> leftNode = (AvlTreeNode<T>)current.Left;
+            AvlTreeNode<T> rightNode = (AvlTreeNode<T>)current.Right;
 
-            // go to step 2
+            int left = leftNode?.Height ?? 0;
+            int right = rightNode?.Height ?? 0;
+            current.Height = 1 + Math.Max(left, right);
+        }
 
-            // perform rebalancing operation while current node is not root
-            return true;
+        private void AdjustBalancefactorToNode(AvlTreeNode<T> node)
+        {
+            AvlTreeNode<T> current = (AvlTreeNode<T>)node;
+            AvlTreeNode<T> leftNode = (AvlTreeNode<T>)current.Left;
+            AvlTreeNode<T> rightNode = (AvlTreeNode<T>)current.Right;
+
+            int left = leftNode?.Height ?? 0;
+            int right = rightNode?.Height ?? 0;
+            current.BalanceFactor = left - right;
+        }
+
+        private int GetBalanceFactor(AvlTreeNode<T> node)
+        {
+            AvlTreeNode<T> current = (AvlTreeNode<T>)node;
+            AvlTreeNode<T> leftNode = (AvlTreeNode<T>)current.Left;
+            AvlTreeNode<T> rightNode = (AvlTreeNode<T>)current.Right;
+
+            int left = leftNode?.Height ?? 0;
+            int right = rightNode?.Height ?? 0;
+            return left - right;
         }
 
         public bool RotateLeft(AbstractNode<T> node)
@@ -189,8 +229,8 @@ namespace ADS.ADS.DataStructures
                        / \
                      T3   T4
              */
-            AbstractNode<T> z = node;
-            AbstractNode<T> y = node.Right;
+            AvlTreeNode<T> z = (AvlTreeNode<T>) node;
+            AvlTreeNode<T> y = (AvlTreeNode<T>) node.Right;
             AbstractNode<T> p = y.Left;
 
             y.Ancestor = z.Ancestor;
@@ -203,6 +243,11 @@ namespace ADS.ADS.DataStructures
             y.Left = z;
 
             SetAncestor(y);
+
+            AdjustHeightToNode(z);
+            AdjustBalancefactorToNode(z);
+            AdjustHeightToNode(y);
+            AdjustBalancefactorToNode(y);
 
             return true;
         }
@@ -235,8 +280,8 @@ namespace ADS.ADS.DataStructures
                     / \                        / \
                   T2   T3                    T1   T2
              */
-            AbstractNode<T> z = node;
-            AbstractNode<T> y = node.Left;
+            AvlTreeNode<T> z = (AvlTreeNode<T>) node;
+            AvlTreeNode<T> y = (AvlTreeNode<T>) node.Left;
 
             RotateLeft(y);
             RotateRight(z);
@@ -246,8 +291,8 @@ namespace ADS.ADS.DataStructures
 
         public bool RotateRight(AbstractNode<T> node)
         {
-            AbstractNode<T> y = node.Left;
-            AbstractNode<T> z = node;
+            AvlTreeNode<T> y = (AvlTreeNode<T>) node.Left;
+            AvlTreeNode<T> z = (AvlTreeNode<T>) node;
             AbstractNode<T> p = y.Right;
 
             /*
@@ -272,6 +317,11 @@ namespace ADS.ADS.DataStructures
             z.Ancestor = y;
 
             SetAncestor(y);
+
+            AdjustHeightToNode(z);
+            AdjustBalancefactorToNode(z);
+            AdjustHeightToNode(y);
+            AdjustBalancefactorToNode(y);
 
             return true;
         }
