@@ -65,6 +65,12 @@ namespace ADS.ADS.DataStructures
             bool flag = true;
             while (flag)
             {
+                if (current == null)
+                {
+                    // prvok sa nenasiel
+                    flag = false;
+                    return null;
+                }
                 // najdeny prvok
                 if (current.Data.CompareTo(data) == 0)
                 {

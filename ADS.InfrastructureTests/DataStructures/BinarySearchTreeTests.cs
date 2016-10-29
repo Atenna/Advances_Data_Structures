@@ -82,7 +82,29 @@ namespace ADS.InfrastructureTests.DataStructures
 
             Assert.AreEqual(bst.Root.Data, 9);
         }
+        [TestMethod()]
+        public void BstRemoveNonExistingNodeTest()
+        {
+            BinarySearchTree<int> bst = new BinarySearchTree<int>();
 
+            bst.Add(5);
+            bst.Add(2);
+
+            var nothing = bst.BstRemove(7, bst.Root);
+
+            Assert.IsNull(nothing);
+        }
+        [TestMethod()]
+        public void BstRemoveRootFromOneNodeTreeTest()
+        {
+            BinarySearchTree<int> bst = new BinarySearchTree<int>();
+
+            bst.Add(5);
+
+            var nothing = bst.BstRemove(5, bst.Root);
+
+            Assert.IsNull(nothing);
+        }
         [TestMethod()]
         public void AddTest()
         {

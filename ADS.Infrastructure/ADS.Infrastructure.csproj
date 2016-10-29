@@ -44,12 +44,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataStructures\BinarySearchTree.cs" />
-    <Compile Include="Data\Car.cs" />
+    <Compile Include="Data\Library\Book.cs" />
+    <Compile Include="Data\Library\Reader.cs" />
+    <Compile Include="Data\Stock\Car.cs" />
     <Compile Include="Data\IData.cs" />
     <Compile Include="DataStructures\AVLTree.cs" />
     <Compile Include="DataStructures\RBTree.cs" />
-    <Compile Include="Data\Product.cs" />
-    <Compile Include="Data\Stock.cs" />
+    <Compile Include="Data\Stock\Product.cs" />
+    <Compile Include="Data\Stock\Stock.cs" />
     <Compile Include="Nodes\AbstractNode.cs" />
     <Compile Include="Nodes\AvlTreeNode.cs" />
     <Compile Include="Nodes\BinarySearchTreeNode.cs" />
@@ -60,8 +62,11 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Data\EnumType\" />
     <Folder Include="Services\Statistics\" />
   </ItemGroup>
   <ItemGroup>

@@ -5,9 +5,156 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ADS.InfrastructureTests.DataStructures
 {
+
     [TestClass()]
     public class AvlTreeTests
     {
+        [TestMethod()]
+        public void RemoveWithoutRebalanceTest()
+        {
+            AvlTree<int> avl = new AvlTree<int>();
+
+            avl.Add(40);
+            avl.Add(50);
+            avl.Add(30);
+
+            avl.RemoveNode(50);
+            avl.RemoveNode(30);
+            Assert.AreEqual(40, avl.Root.Data);
+            Assert.IsNull(avl.Root.Left);
+            Assert.IsNull(avl.Root.Right);
+        }
+        [TestMethod()]
+        public void RemoveWithLeftRotationOneChildTest()
+        {
+            AvlTree<int> avl = new AvlTree<int>();
+
+            avl.Add(20);
+            avl.Add(10);
+            avl.Add(40);
+            avl.Add(50);
+
+            avl.RemoveNode(10);
+
+            Assert.AreEqual(40, avl.Root.Data);
+            Assert.AreEqual(50, avl.Root.Right.Data);
+            Assert.AreEqual(20, avl.Root.Left.Data);
+            Assert.AreEqual(2, avl.Root.Height);
+            Assert.AreEqual(0, avl.Root.BalanceFactor);
+        }
+        [TestMethod()]
+        public void RemoveWithLeftRotationTwoChildrenTest()
+        {
+            AvlTree<int> avl = new AvlTree<int>();
+
+            avl.Add(20);
+            avl.Add(10);
+            avl.Add(40);
+            avl.Add(30);
+            avl.Add(50);
+
+            avl.RemoveNode(10);
+
+            Assert.AreEqual(40, avl.Root.Data);
+            Assert.AreEqual(50, avl.Root.Right.Data);
+            Assert.AreEqual(20, avl.Root.Left.Data);
+            Assert.AreEqual(30, avl.Root.Left.Right.Data);
+            Assert.AreEqual(3, avl.Root.Height);
+            Assert.AreEqual(1, avl.Root.BalanceFactor);
+        }
+        [TestMethod()]
+        public void RemoveWithRotationWhileInsertTest()
+        {
+            AvlTree<int> avl = new AvlTree<int>();
+
+            avl.Add(20);
+            avl.Add(10);
+            avl.Add(40);
+            avl.Add(30);
+            avl.Add(50);
+            Console.WriteLine("Root: {0}", avl.Root.Data);
+            avl.RemoveNode(10);
+            Console.WriteLine("Root: {0}", avl.Root.Data);
+            //avl.InorderTraversal(avl.Root);
+            Assert.AreEqual(40, avl.Root.Data);
+            //Assert.AreEqual(50, avl.Root.Right.Data);
+            //Assert.AreEqual(20, avl.Root.Left.Data);
+            //Assert.AreEqual(30, avl.Root.Left.Right.Data);
+        }
+        [TestMethod()]
+        public void RemoveWithRightRotationOneChildTest()
+        {
+            AvlTree<int> avl = new AvlTree<int>();
+
+            avl.Add(40);
+            avl.Add(20);
+            avl.Add(50);
+            avl.Add(10);
+
+            avl.RemoveNode(50);
+
+            Assert.AreEqual(20, avl.Root.Data);
+            Assert.AreEqual(40, avl.Root.Right.Data);
+            Assert.AreEqual(10, avl.Root.Left.Data);
+            Assert.AreEqual(2, avl.Root.Height);
+            Assert.AreEqual(0, avl.Root.BalanceFactor);
+        }
+        [TestMethod()]
+        public void RemoveWithRightRotationTwoChildrenTest()
+        {
+            AvlTree<int> avl = new AvlTree<int>();
+
+            avl.Add(40);
+            avl.Add(20);
+            avl.Add(50);
+            avl.Add(30);
+            avl.Add(10);
+
+            avl.RemoveNode(50);
+
+            Assert.AreEqual(20, avl.Root.Data);
+            Assert.AreEqual(40, avl.Root.Right.Data);
+            Assert.AreEqual(10, avl.Root.Left.Data);
+            Assert.AreEqual(30, avl.Root.Right.Left.Data);
+            Assert.AreEqual(3, avl.Root.Height);
+            Assert.AreEqual(-1, avl.Root.BalanceFactor);
+        }
+        [TestMethod()]
+        public void RemoveWithRightLeftRotationTest()
+        {
+            AvlTree<int> avl = new AvlTree<int>();
+
+            avl.Add(20);
+            avl.Add(10);
+            avl.Add(40);
+            avl.Add(30);
+
+            avl.RemoveNode(10);
+
+            Assert.AreEqual(30, avl.Root.Data);
+            Assert.AreEqual(40, avl.Root.Right.Data);
+            Assert.AreEqual(20, avl.Root.Left.Data);
+            Assert.AreEqual(2, avl.Root.Height);
+            Assert.AreEqual(0, avl.Root.BalanceFactor);
+        }
+        [TestMethod()]
+        public void RemoveWithLeftRightRotationTest()
+        {
+            AvlTree<int> avl = new AvlTree<int>();
+
+            avl.Add(40);
+            avl.Add(20);
+            avl.Add(50);
+            avl.Add(30);
+
+            avl.RemoveNode(50);
+
+            Assert.AreEqual(30, avl.Root.Data);
+            Assert.AreEqual(40, avl.Root.Right.Data);
+            Assert.AreEqual(20, avl.Root.Left.Data);
+            Assert.AreEqual(2, avl.Root.Height);
+            Assert.AreEqual(0, avl.Root.BalanceFactor);
+        }
         [TestMethod()]
         public void RotateRightTest()
         {
@@ -120,7 +267,7 @@ namespace ADS.InfrastructureTests.DataStructures
             avl.Add(30);
             avl.Add(40);
             avl.Add(50);
-
+            // netusim ako toto mohlo zbehnut, treba dorobit po rebalance opat nastavenie vysok a balance faktoru...
             Assert.AreEqual(10, avl.Root.Left.Data);
             Assert.AreEqual(20, avl.Root.Data);
             Assert.AreEqual(40, avl.Root.Right.Data);
@@ -178,10 +325,10 @@ namespace ADS.InfrastructureTests.DataStructures
 
             Assert.AreEqual(40, avl.Root.Data);
             Assert.AreEqual(20, avl.Root.Left.Data);
-            Assert.AreEqual(50, avl.Root.Right.Data);
-            Assert.AreEqual(30, avl.Root.Left.Right.Data);
             Assert.AreEqual(10, avl.Root.Left.Left.Data);
             Assert.AreEqual(60, avl.Root.Right.Right.Data);
+            Assert.AreEqual(50, avl.Root.Right.Data);
+            Assert.AreEqual(30, avl.Root.Left.Right.Data);
         }
 
         [TestMethod()]

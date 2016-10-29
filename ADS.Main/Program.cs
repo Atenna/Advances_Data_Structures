@@ -8,19 +8,29 @@ namespace ADS.Main
     {
         public static void Main(string[] args)
         {
-            BinarySearchTree<int> bst = new BinarySearchTree<int>();
+            AvlTree<int> avl = new AvlTree<int>();
+            avl.Add(20);
+            avl.Add(10);
+            avl.Add(40);
+            avl.Add(30);
+            avl.Add(50);
 
-            bst.Add(5);
-            bst.Add(2);
-            bst.Add(-4);
-            bst.Add(3);
-            bst.Add(12);
-            bst.Add(9);
-            bst.Add(21);
-            bst.Add(19);
-            bst.Add(25);
+            AvlTree<int> avl2 = new AvlTree<int>();
 
-            bst.BstRemove(12, bst.Root);
+            avl2.Add(40);
+            avl2.Add(20);
+            avl2.Add(50);
+            avl2.Add(30);
+            avl2.Add(10);
+
+            avl2.RemoveNode(10);
+
+
+            Console.WriteLine("Root: {0}", avl.Root.Data);
+            avl.RemoveNode(10);
+            Console.WriteLine("Root: {0}", avl.Root.Data);
+
+            Console.ReadKey();
         }
     }
 }
