@@ -2,7 +2,7 @@
 
 namespace ADS.ADS.Nodes
 {
-    public class AvlTreeNode<T>: AbstractNode<T> where T:IComparable<T>
+    public class AvlTreeNode<T>: AbstractNode<T>
     {
         public AvlTreeNode(T data) : base(data)
         {

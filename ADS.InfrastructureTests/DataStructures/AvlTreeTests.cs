@@ -12,7 +12,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void RemoveWithoutRebalanceTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
 
             avl.Add(40);
             avl.Add(50);
@@ -27,7 +27,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void RemoveWithLeftRotationOneChildTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
 
             avl.Add(20);
             avl.Add(10);
@@ -45,7 +45,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void RemoveWithLeftRotationTwoChildrenTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
 
             avl.Add(20);
             avl.Add(10);
@@ -65,7 +65,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void RemoveWithRotationWhileInsertTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
 
             avl.Add(20);
             avl.Add(10);
@@ -84,7 +84,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void RemoveWithRightRotationOneChildTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
 
             avl.Add(40);
             avl.Add(20);
@@ -102,7 +102,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void RemoveWithRightRotationTwoChildrenTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
 
             avl.Add(40);
             avl.Add(20);
@@ -122,7 +122,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void RemoveWithRightLeftRotationTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
 
             avl.Add(20);
             avl.Add(10);
@@ -140,7 +140,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void RemoveWithLeftRightRotationTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
 
             avl.Add(40);
             avl.Add(20);
@@ -154,6 +154,55 @@ namespace ADS.InfrastructureTests.DataStructures
             Assert.AreEqual(20, avl.Root.Left.Data);
             Assert.AreEqual(2, avl.Root.Height);
             Assert.AreEqual(0, avl.Root.BalanceFactor);
+        }
+        [TestMethod()]
+        public void RemoveWithLeftRotationTwoChildrenNoRootChangeTest()
+        {
+            AvlTree<int> avl = new AvlTree<int>(null);
+
+            avl.Add(6);
+            avl.Add(2);
+            avl.Add(9);
+            avl.Add(1);
+            avl.Add(4);
+            avl.Add(8);
+            avl.Add(11); //B
+            avl.Add(3);
+            avl.Add(5);
+            avl.Add(7);
+            avl.Add(10); //A
+            avl.Add(12); //C
+            avl.Add(13); //D
+            avl.RemoveNode(1);
+
+            Assert.AreEqual(6, avl.Root.Data);
+            Assert.AreEqual(4, avl.Root.Left.Data);
+            Assert.AreEqual(9, avl.Root.Right.Data);
+            Assert.AreEqual(13, avl.Root.Right.Right.Right.Right.Data);
+            Assert.AreEqual(-1, avl.Root.BalanceFactor);
+            Assert.AreEqual(5, avl.Root.Height);
+        }
+        [TestMethod()]
+        public void RemoveWithDoubleRotationChangeTest()
+        {
+            AvlTree<int> avl = new AvlTree<int>(null);
+
+            avl.Add(5);
+            avl.Add(2);
+            avl.Add(8);
+            avl.Add(1);
+            avl.Add(3);
+            avl.Add(7);
+            avl.Add(10);
+            avl.Add(4);
+            avl.Add(6);
+            avl.Add(9);
+            avl.Add(11);
+            avl.Add(12);
+
+            avl.RemoveNode(1);
+
+            Assert.AreEqual(8, avl.Root.Data);
         }
         [TestMethod()]
         public void RotateRightTest()
@@ -170,7 +219,7 @@ namespace ADS.InfrastructureTests.DataStructures
             y.Left = x;
             x.Ancestor = y;
 
-            AvlTree<int> tree = new AvlTree<int>();
+            AvlTree<int> tree = new AvlTree<int>(null);
             tree.Root = z;
 
             tree.RotateRight(z);
@@ -194,7 +243,7 @@ namespace ADS.InfrastructureTests.DataStructures
             y.Left = p;
             p.Ancestor = y;
 
-            AvlTree<int> tree = new AvlTree<int> {Root = z};
+            AvlTree<int> tree = new AvlTree<int>(null);
 
             tree.RotateLeft(z);
 
@@ -206,7 +255,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void RightRotationNoChildrenRootChangeTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
             avl.Add(30);
             avl.Add(20);
             avl.Add(10);
@@ -219,7 +268,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void LeftRotationNoChildrenRootChangeTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
             avl.Add(10);
             avl.Add(20);
             avl.Add(30);
@@ -232,7 +281,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void RightLeftRotationNoChildrenRootChangeTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
 
             avl.Add(10);
             avl.Add(30);
@@ -246,7 +295,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void LeftRightRotationNoChildrenRootChangeTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
 
             avl.Add(30);
             avl.Add(10);
@@ -260,7 +309,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void LeftRotationNoChildrenNoRootChangeTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
 
             avl.Add(20);
             avl.Add(10);
@@ -278,7 +327,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void RightRotationNoChildrenNoRootChangeTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
 
             avl.Add(40);
             avl.Add(50);
@@ -296,7 +345,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void LeftRotationRightNoChildrenNoRootChangeTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
 
             avl.Add(20);
             avl.Add(10);
@@ -314,7 +363,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void LeftRotationRightChildRootChangeTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
 
             avl.Add(20);
             avl.Add(10);
@@ -334,7 +383,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void LeftRotationLeftChildRootChangeTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
 
             avl.Add(20);
             avl.Add(10);
@@ -354,7 +403,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void RightRotationLeftChildRootChangeTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
 
             avl.Add(50);
             avl.Add(60);
@@ -374,7 +423,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void RightRotationRightChildRootChangeTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
 
             avl.Add(50);
             avl.Add(60);
@@ -394,7 +443,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void RightLeftRotationRightChildRootChangeTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
 
             avl.Add(20);
             avl.Add(10);
@@ -414,7 +463,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void LeftRightRotationLeftChildRootChangeTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
 
             avl.Add(50);
             avl.Add(60);
@@ -434,7 +483,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void RightLeftRotationLeftChildRootChangeTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
 
             avl.Add(20);
             avl.Add(10);
@@ -454,7 +503,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void LeftRightRotationRightChildRootChangeTest()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
 
             avl.Add(50);
             avl.Add(60);
@@ -479,7 +528,7 @@ namespace ADS.InfrastructureTests.DataStructures
             AvlTreeNode<int> root = new AvlTreeNode<int>(8);
             node.Ancestor = root;
 
-            AvlTree<int> tree = new AvlTree<int>();
+            AvlTree<int> tree = new AvlTree<int>(null);
             tree.Root = root;
 
             node.Ancestor = root;

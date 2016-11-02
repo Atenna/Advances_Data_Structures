@@ -10,7 +10,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void BstRemoveTwoChildrenTest()
         {
-            BinarySearchTree<int> bst = new BinarySearchTree<int>();
+            BinarySearchTree<int> bst = new BinarySearchTree<int>(null);
 
             bst.Add(5);
             bst.Add(2);
@@ -30,7 +30,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void BstRemoveOneChildTest()
         {
-            BinarySearchTree<int> bst = new BinarySearchTree<int>();
+            BinarySearchTree<int> bst = new BinarySearchTree<int>(null);
 
             bst.Add(5);
             bst.Add(2);
@@ -49,7 +49,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void BstRemoveNoChildTest()
         {
-            BinarySearchTree<int> bst = new BinarySearchTree<int>();
+            BinarySearchTree<int> bst = new BinarySearchTree<int>(null);
 
             bst.Add(5);
             bst.Add(2);
@@ -67,7 +67,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void BstRemoveRootTest()
         {
-            BinarySearchTree<int> bst = new BinarySearchTree<int>();
+            BinarySearchTree<int> bst = new BinarySearchTree<int>(null);
 
             bst.Add(5);
             bst.Add(2);
@@ -85,7 +85,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void BstRemoveNonExistingNodeTest()
         {
-            BinarySearchTree<int> bst = new BinarySearchTree<int>();
+            BinarySearchTree<int> bst = new BinarySearchTree<int>(null);
 
             bst.Add(5);
             bst.Add(2);
@@ -97,7 +97,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void BstRemoveRootFromOneNodeTreeTest()
         {
-            BinarySearchTree<int> bst = new BinarySearchTree<int>();
+            BinarySearchTree<int> bst = new BinarySearchTree<int>(null);
 
             bst.Add(5);
 
@@ -108,7 +108,7 @@ namespace ADS.InfrastructureTests.DataStructures
         [TestMethod()]
         public void AddTest()
         {
-            BinarySearchTree<int> bst = new BinarySearchTree<int>();
+            BinarySearchTree<int> bst = new BinarySearchTree<int>(null);
             bst.Add(5);
             bst.Add(8);
             bst.Add(4);

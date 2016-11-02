@@ -1,11 +1,45 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using ADS.ADS.Data;
 using ADS.ADS.Nodes;
 
 namespace ADS.ADS.DataStructures
 {
-    public class BinarySearchTree<T> where T: IComparable<T>
+    public class BinarySearchTree<T>
     {
         public AbstractNode<T> Root;
+        public IComparer<T> Comparer;
+
+        public class IntegerComparator : IComparer<int>
+        {
+
+            public int Compare(int x, int y)
+            {
+                if (x > y)
+                {
+                    return 1;
+                }
+                if (x < y)
+                {
+                    return -1;
+                }
+                return 0;
+            }
+        }
+
+        public BinarySearchTree(IComparer<T> comparer)
+        {
+            if (comparer != null)
+            {
+                Comparer = comparer;
+            }
+            else
+            {
+                Comparer = (IComparer<T>) new IntegerComparator();
+                
+            }
+        }
 
         public bool Add(T data)
         {
@@ -22,11 +56,12 @@ namespace ADS.ADS.DataStructures
         {
             while (true)
             {
-                if (data.CompareTo(current.Data) == 0)
+                //if (data.CompareTo(current.Data) == 0)
+                if (Comparer.Compare(data, current.Data) == 0)
                 {
                     return false;
                 }
-                else if (data.CompareTo(current.Data) == -1)
+                else if (Comparer.Compare(data, current.Data) == -1)
                 {
                     if (current.Left == null)
                     {
@@ -72,7 +107,8 @@ namespace ADS.ADS.DataStructures
                     return null;
                 }
                 // najdeny prvok
-                if (current.Data.CompareTo(data) == 0)
+                //if (current.Data.CompareTo(data) == 0)
+                if(Comparer.Compare(data, current.Data) == 0)
                 {
                     // uzol nema potomkov
                     if (current.Left == null && current.Right == null)
@@ -98,11 +134,11 @@ namespace ADS.ADS.DataStructures
                         break;
                     }
                 }
-                else if (data.CompareTo(current.Data) == -1)
+                else if (Comparer.Compare(data, current.Data) == -1)
                 {
                     current = current.Left;
                 }
-                else if (data.CompareTo(current.Data) == 1)
+                else if (Comparer.Compare(data, current.Data) == 1)
                 {
                     current = current.Right;
                 }
@@ -113,12 +149,13 @@ namespace ADS.ADS.DataStructures
         private AbstractNode<T> SetPointersToNull(AbstractNode<T> current, T data)
         {
             // uzol je lavy syn
-            if (current.Ancestor?.Data.CompareTo(data) == 1)
+            //if (current.Ancestor?.Data.CompareTo(data) == 1)
+            if(current.Ancestor != null && Comparer.Compare(current.Ancestor.Data, data) == 1)
             {
                 current.Ancestor.Left = null;
             }
             // uzol je pravy syn
-            else if (current.Ancestor?.CompareTo(data) == -1)
+            else if (current.Ancestor != null && Comparer.Compare(current.Ancestor.Data, data) == - 1)
             {
                 current.Ancestor.Right = null;
             }
@@ -132,11 +169,11 @@ namespace ADS.ADS.DataStructures
 
         public bool Search(T data, AbstractNode<T> current)
         {
-            if (current.Data.CompareTo(data) == 0)
+            if (Comparer.Compare(current.Data, data) == 0)
             {
                 return true;
             }
-            else if (current.Data.CompareTo(data) == -1)
+            else if (Comparer.Compare(current.Data, data) == -1)
             {
                 return current.Left != null && Search(data, current.Left);
             }

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using ADS.Services;
 
 namespace ADS.ADS.Data.Library
@@ -13,8 +15,24 @@ namespace ADS.ADS.Data.Library
         Classic, Crime, Fable, Fairytale, Folklore, Historical, Humor, Legend, Mystery, Mythology, Biography, Autobiography, Essay, Journalism, Memoir, ReferenceBook, SelfHelpBook, Speech, Textbook, EroticNovel, Saga, Religious, 
     }
 
-    public class Book : IData<Book>
+    public class Book
     {
+        public class BookNameComparator : IComparer<Book>
+        {
+            public int Compare(Book x, Book y)
+            {
+                return string.Compare(x.Title, y.Title);
+            }
+        }
+
+        public class BookIsbnComparator : IComparer<Book>
+        {
+            public int Compare(Book x, Book y)
+            {
+                return string.Compare(x.CodeIsbn, y.CodeIsbn);
+            }
+        }
+
         public string Author { get; }
         public string Title { get; }
         public string CodeIsbn { get; }
@@ -49,11 +67,6 @@ namespace ADS.ADS.Data.Library
             Author = author;
             Title = title;
             Genre = genre;
-        }
-
-        public int CompareTo(Book other)
-        {
-            throw new NotImplementedException();
         }
     }
 }

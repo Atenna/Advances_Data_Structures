@@ -2,7 +2,7 @@
 
 namespace ADS.ADS.Nodes
 {
-    public class BinarySearchTreeNode<T> : AbstractNode<T> where T : IComparable<T>
+    public class BinarySearchTreeNode<T> : AbstractNode<T>
     {
 
         public BinarySearchTreeNode(T data): base(data)

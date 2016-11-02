@@ -15,5 +15,10 @@ namespace ADS.ADS.Data
         {
             throw new NotImplementedException();
         }
+
+        public int Compare(Car x, Car y)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

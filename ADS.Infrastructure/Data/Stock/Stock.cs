@@ -10,11 +10,16 @@ namespace ADS.ADS.Data
 
         public Stock()
         {
-            Products =  new BinarySearchTree<Product>();
+            Products =  new BinarySearchTree<Product>(null);
             StockId = "blabla";
         }
 
         public int CompareTo(Stock other)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int Compare(Stock x, Stock y)
         {
             throw new NotImplementedException();
         }

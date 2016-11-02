@@ -7,7 +7,7 @@ namespace ADS.ADS
     {
         public static void Main()
         {
-            AvlTree<int> avl = new AvlTree<int>();
+            AvlTree<int> avl = new AvlTree<int>(null);
             avl.Add(20);
             avl.Add(10);
             avl.Add(30);

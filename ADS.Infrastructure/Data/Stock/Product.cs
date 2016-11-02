@@ -2,7 +2,7 @@
 
 namespace ADS.ADS.Data
 {
-    public class Product : IData<Product>
+    public class Product : IData<Product>, IComparable<Product>
     {
         public string Name { get; set; }
         public string DateLatestUsage { get; set; }
@@ -14,6 +14,11 @@ namespace ADS.ADS.Data
         public string TargetStockId { get; set; }
 
         public int CompareTo(Product other)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int Compare(Product x, Product y)
         {
             throw new NotImplementedException();
         }

@@ -3,7 +3,7 @@ using ADS.ADS.DataStructures;
 
 namespace ADS.ADS.Data.Library
 {
-    public class Reader : IData<Reader>
+    public class Reader
     {
         public string Name;
         public String Surname;
@@ -17,9 +17,5 @@ namespace ADS.ADS.Data.Library
             
         }
 
-        public int CompareTo(Reader other)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

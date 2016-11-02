@@ -1,9 +1,12 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using ADS.ADS.Data.Library;
 using ADS.ADS.Nodes;
 
 namespace ADS.ADS.DataStructures
 {
-    public class AvlTree<T> : BinarySearchTree<T> where T: IComparable<T>
+    public class AvlTree<T> : BinarySearchTree<T>
     {
         public new AvlTreeNode<T> Root;
 
@@ -32,17 +35,84 @@ namespace ADS.ADS.DataStructures
             return true;
         }
 
+        public bool Add(AvlTreeNode<T> node)
+        {
+            if (Root == null)
+            {
+                Root = node;
+            }
+            else
+            {
+                InsertNode(Root, node.Data, node);
+            }
+            AdjustHeightToNode(Root);
+            AdjustBalancefactorToNode(Root);
+            return true;
+        }
+
+        private bool InsertNode(AbstractNode<T> current, T data, AvlTreeNode<T> node)
+        {
+            AvlTreeNode<T> inserted = node;
+
+            while (true)
+            {
+                //if (inserted.Data.CompareTo(current.Data) == 0)
+                if(Comparer.Compare(data, current.Data) == 0)
+                {
+                    return false;
+                }
+                else if (Comparer.Compare(inserted.Data, current.Data) == -1)
+                {
+                    if (current.Left == null)
+                    {
+                        current.Left = inserted;
+                        inserted.Ancestor = current;
+                        // upravit vysky
+                        AdjustHeights(inserted, false);
+                        // upravit balance factor
+                        //AdjustBalanceFactor(inserted);
+                        Rebalance((AvlTreeNode<T>)inserted.Ancestor);
+                        return true;
+                    }
+                    else
+                    {
+                        current = current.Left;
+                    }
+                }
+                else
+                {
+                    if (current.Right == null)
+                    {
+                        current.Right = inserted;
+                        inserted.Ancestor = current;
+                        // upravit vysky
+                        AdjustHeights(inserted, false);
+                        // upravit balance factor
+                        //AdjustBalanceFactor(inserted);
+                        Rebalance((AvlTreeNode<T>)inserted.Ancestor);
+                        return true;
+                    }
+                    else
+                    {
+                        current = current.Right;
+                    }
+                }
+            }
+
+        }
+
         private bool InsertNode(AbstractNode<T> current, T data)
         {
             AvlTreeNode<T> inserted = new AvlTreeNode<T>(data);
 
             while (true)
             {
-                if (inserted.Data.CompareTo(current.Data) == 0)
+                //if (inserted.Data.CompareTo(current.Data) == 0)
+                if(Comparer.Compare(inserted.Data, current.Data) == 0)
                 {
                     return false;
                 }
-                else if (inserted.Data.CompareTo(current.Data) == -1)
+                else if (Comparer.Compare(inserted.Data, current.Data) == -1)
                 {
                     if (current.Left == null)
                     {
@@ -264,11 +334,12 @@ namespace ADS.ADS.DataStructures
                 Root = (AvlTreeNode<T>)y;
                 return;
             }
-            else if (y.Ancestor.Data.CompareTo(y.Data) == 1)
+            //else if (y.Ancestor.Data.CompareTo(y.Data) == 1)
+            else if (Comparer.Compare(y.Ancestor.Data, y.Data) == 1)
             {
                 y.Ancestor.Left = y;
             }
-            else if (y.Ancestor.Data.CompareTo(y.Data) == -1)
+            else if (Comparer.Compare(y.Ancestor.Data, y.Data) == -1)
             {
                 y.Ancestor.Right = y;
             }
@@ -350,6 +421,10 @@ namespace ADS.ADS.DataStructures
             RotateLeft(z);
 
             return true;
+        }
+
+        public AvlTree(IComparer<T> comparer) : base(comparer)
+        {
         }
     }
 }
