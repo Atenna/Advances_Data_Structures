@@ -15,7 +15,6 @@ namespace ADS.ADS.Services.DataProcessing
         private static string _genreName;
         //public static List<Book> Books { get; private set; }
 
-        public static AvlTree<Book> Books;
         private static UniqueKeyGenerator gen = new UniqueKeyGenerator();
         private static Editor _editor1 = new Editor(gen.GenerateEditorCode(), gen.GenerateGroupCode(), "Thomson&Thomson");
         private static Editor _editor2 = new Editor(gen.GenerateEditorCode(), gen.GenerateGroupCode(), "Ziva's Books");
@@ -24,28 +23,35 @@ namespace ADS.ADS.Services.DataProcessing
         private static Editor _editor5 = new Editor(gen.GenerateEditorCode(), gen.GenerateGroupCode(), "SanNotino");
         private static Random _rnd=  new Random();
 
-        public static void ReadDataFromFile(string name, string genre)
+        public static AvlTree<Book> FillDataStructure(AvlTree<Book> tree)
         {
-            _genreName = genre;
-            //Books = new List<Book>();
-            Books = new AvlTree<Book>(new Book.BookNameComparator());
+            AvlTree<Book> books = tree;
 
-            StreamReader reader = new StreamReader(name);
+            _genreName = "Poetry";
+
+            StreamReader reader = new StreamReader("poetry.txt");
             string line;
             while ((line = reader.ReadLine()) != null)
             {
                 try
                 {
-                    ParseLine(line);
+                    books.Add(ParseLine(line, books));
                 }
                 catch (Exception e)
                 {
                     //Console.WriteLine("While reading data from file, this exception occured: {0}", e.StackTrace);
                 }
             }
+
+            return books;
         }
 
-        private static void ParseLine(string line)
+        public static void ReadDataFromFile(string name, string genre, AvlTree<Book> books)
+        {
+           
+        }
+
+        private static Book ParseLine(string line, AvlTree<Book> books)
         {
             string[] words = line.Split('-');
             string name = words[0];
@@ -55,8 +61,7 @@ namespace ADS.ADS.Services.DataProcessing
             string year = name.Substring(firstBracketOccurence);
             name = name.Substring(0, firstBracketOccurence);
 
-            Book book=  new Book(author.Trim(), name.Trim(), _genreName.Trim(), AssignIsbnCode());
-            Books.Add(book);
+            return  new Book(author.Trim(), name.Trim(), _genreName.Trim(), AssignIsbnCode());
         }
 
         private static string AssignIsbnCode()

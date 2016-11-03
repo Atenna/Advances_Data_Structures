@@ -10,12 +10,11 @@ namespace ADS.Main
     {
         public static void Main(string[] args)
         {
-            DataParser.ReadDataFromFile("poetry.txt", "Poetry");
+            AvlTree<Book> books = new AvlTree<Book>(new Book.BookIsbnComparator());
 
-            AvlTree<Book> books = DataParser.Books;
-            books.PreorderTraversal(books.Root);
+            //books.PreorderTraversal(books.Root);
 
-            Book b1 = new Book("", "Advent", "");
+            Book b1 = new Book("", "Advent", "", "978-94-738428-1765");
             AbstractNode<Book> result = books.SearchNode(b1, books.Root);
             Console.WriteLine(result?.Data.Title);
 

@@ -29,7 +29,18 @@ namespace ADS.ADS.Data.Library
         {
             public int Compare(Book x, Book y)
             {
-                return string.Compare(x.CodeIsbn, y.CodeIsbn);
+                //return string.Compare(x.CodeIsbn, y.CodeIsbn);
+                long xd= long.Parse(x.CodeIsbn.Replace("-", ""));
+                long yd = long.Parse(y.CodeIsbn.Replace("-", ""));
+                if ( xd > yd)
+                {
+                    return 1;
+                }
+                else if (xd < yd)
+                {
+                    return -1;
+                }
+                return 0;
             }
         }
 
@@ -67,6 +78,19 @@ namespace ADS.ADS.Data.Library
             Author = author;
             Title = title;
             Genre = genre;
+        }
+
+        public Book(string author, string title, string genre, string isbn)
+        {
+            Author = author;
+            Title = title;
+            Genre = genre;
+            CodeIsbn = isbn;
+        }
+
+        public override string ToString()
+        {
+            return Title + "\n";
         }
     }
 }

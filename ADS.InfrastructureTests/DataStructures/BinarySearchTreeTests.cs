@@ -1,5 +1,8 @@
-﻿using ADS.ADS.DataStructures;
+﻿using System;
+using ADS.ADS.Data.Library;
+using ADS.ADS.DataStructures;
 using ADS.ADS.Nodes;
+using ADS.ADS.Services.DataProcessing;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ADS.InfrastructureTests.DataStructures
@@ -123,6 +126,18 @@ namespace ADS.InfrastructureTests.DataStructures
 
             Assert.AreEqual(node.Left.Left.Data, 1);
             Assert.AreEqual(node.Left.Left.Right.Data, 3);
+        }
+        [TestMethod()]
+        public void SearchNodeTest()
+        {
+            AvlTree<Book> books = new AvlTree<Book>(new Book.BookNameComparator());
+            books = DataParser.FillDataStructure(books);
+
+            Book b1 = new Book("", "Advent", "", "978-94-738428-1765");
+
+            AbstractNode<Book> result = books.SearchNode(b1, books.Root);
+            Console.Write("Expected: {0}, Result: {1}", b1.Title, result.Data.Title);
+            Assert.AreEqual(b1.Title, result.Data.Title);
         }
     }
 }
