@@ -32,13 +32,13 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.panel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -87,34 +87,33 @@
             this.tabPage5.Text = "Data Structures";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
+            // richTextBox1
             // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(289, 833);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Options";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.Location = new System.Drawing.Point(26, 156);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(238, 651);
+            this.richTextBox1.TabIndex = 3;
+            this.richTextBox1.Text = "";
             // 
-            // tabPage3
+            // label2
             // 
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(289, 833);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Actions";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(23, 126);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(72, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Name of ADS";
             // 
-            // tabPage4
+            // label1
             // 
-            this.tabPage4.Controls.Add(this.linkLabel1);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(289, 833);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "About";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(23, 40);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(114, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Select a data structure";
             // 
             // comboBox1
             // 
@@ -145,33 +144,34 @@
             this.comboBox1.Size = new System.Drawing.Size(238, 21);
             this.comboBox1.TabIndex = 0;
             // 
-            // label1
+            // tabPage2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 40);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Select a data structure";
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(289, 833);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Options";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // tabPage3
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(23, 126);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Name of ADS";
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(289, 833);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Actions";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // richTextBox1
+            // tabPage4
             // 
-            this.richTextBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Location = new System.Drawing.Point(26, 156);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(238, 651);
-            this.richTextBox1.TabIndex = 3;
-            this.richTextBox1.Text = "";
+            this.tabPage4.Controls.Add(this.linkLabel1);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(289, 833);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "About";
+            this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // linkLabel1
             // 
@@ -191,7 +191,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "AdsApplication";
-            this.Text = "Advanced Data Structures";
+            this.Text = "Book Borrowing System";
             this.panel2.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage5.ResumeLayout(false);

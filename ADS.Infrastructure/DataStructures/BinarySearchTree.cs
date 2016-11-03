@@ -183,6 +183,40 @@ namespace ADS.ADS.DataStructures
             }
         }
 
+        public AbstractNode<T> SearchNode(T data, AbstractNode<T> root)
+        {
+            AbstractNode<T> current = root;
+            while (true)
+            {
+                if (Comparer.Compare(data, current.Data) == 0)
+                {
+                    return current;
+                }
+                else if (Comparer.Compare(data, current.Data) == -1)
+                {
+                    if (current.Left == null)
+                    {
+                        return null;
+                    }
+                    else
+                    {
+                        current = current.Left;
+                    }
+                }
+                else
+                {
+                    if (current.Right == null)
+                    {
+                        return null;
+                    }
+                    else
+                    {
+                        current = current.Right;
+                    }
+                }
+            }
+        }
+
         public T MinValue(AbstractNode<T> node)
         {
             var value = node.Data;
@@ -223,7 +257,7 @@ namespace ADS.ADS.DataStructures
 
             InorderTraversal(node.Left);
 
-            Console.Write("{0} ", node.Data);
+            Console.Write("{0} ", node.Data.ToString());
 
             InorderTraversal(node.Right);
         }

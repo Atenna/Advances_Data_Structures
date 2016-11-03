@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using ADS.ADS.Data.Library;
 using ADS.ADS.Nodes;
 
 namespace ADS.ADS.DataStructures

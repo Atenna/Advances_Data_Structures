@@ -12,8 +12,11 @@ namespace ADS.ADS.Data.Library
         public AvlTree<Book> BooksCurrentlyBorrowed;
         public AvlTree<Book> LateBookReturns;
 
-        public Reader()
+        public Reader(int id, string name, string surname)
         {
+            UniqueId = id;
+            Name = name;
+            Surname = surname;
             
         }
 
