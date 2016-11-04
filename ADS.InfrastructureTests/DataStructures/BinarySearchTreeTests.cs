@@ -133,11 +133,13 @@ namespace ADS.InfrastructureTests.DataStructures
             AvlTree<Book> books = new AvlTree<Book>(new Book.BookNameComparator());
             books = DataParser.FillDataStructure(books);
 
-            Book b1 = new Book("", "Advent", "", "978-94-738428-1765");
+            Book b1 = new Book("", "Vision in Spring", "", "978-76-15582-1921");
 
             AbstractNode<Book> result = books.SearchNode(b1, books.Root);
             Console.Write("Expected: {0}, Result: {1}", b1.Title, result.Data.Title);
+
             Assert.AreEqual(b1.Title, result.Data.Title);
+            //Assert.AreEqual(b1.CodeIsbn, result.Data.CodeIsbn);
         }
     }
 }

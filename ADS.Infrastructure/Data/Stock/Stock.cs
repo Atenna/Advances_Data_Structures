@@ -1,7 +1,7 @@
 ﻿using System;
 using ADS.ADS.DataStructures;
 
-namespace ADS.ADS.Data
+namespace ADS.ADS.Data.Stock
 {
     public class Stock : IData<Stock>
     {

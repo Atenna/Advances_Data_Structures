@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ADS.ADS.Data
+namespace ADS.ADS.Data.Stock
 {
     class Car : IData<Car>
     {

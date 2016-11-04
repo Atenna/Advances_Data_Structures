@@ -21,7 +21,7 @@ namespace ADS.ADS.Services.DataProcessing
         private static Editor _editor3 = new Editor(gen.GenerateEditorCode(), gen.GenerateGroupCode(), "B&W");
         private static Editor _editor4 = new Editor(gen.GenerateEditorCode(), gen.GenerateGroupCode(), "Alan Musk");
         private static Editor _editor5 = new Editor(gen.GenerateEditorCode(), gen.GenerateGroupCode(), "SanNotino");
-        private static Random _rnd=  new Random();
+        private static Random _rnd=  new Random(0);
 
         public static AvlTree<Book> FillDataStructure(AvlTree<Book> tree)
         {

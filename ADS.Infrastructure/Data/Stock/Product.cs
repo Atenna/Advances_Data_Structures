@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ADS.ADS.Data
+namespace ADS.ADS.Data.Stock
 {
     public class Product : IData<Product>, IComparable<Product>
     {

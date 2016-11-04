@@ -1,6 +1,7 @@
 ﻿namespace ADS.Services.DataGenerating
 {
-    class IDataGenerator
+    abstract class IDataGenerator
     {
+        public abstract string GenerateString();
     }
 }

@@ -56,9 +56,10 @@ namespace ADS.ADS.Data.Library
         public DateTime TimeOfReturn { get; }
         public int UniqueId { get; }
         public int FeePerDay { get; } // in cents
+        public bool IsArchived { get; }
 
         public Book(string author, string title, string isbn, string ean, Genres[] genre, Library currentLibrary, 
-            int sandardDaysForBorrow, DateTime borrowTime, DateTime returnTime, int uniqueId, int feePerDay)
+            int standardDaysForBorrow, DateTime borrowTime, DateTime returnTime, int uniqueId, int feePerDay)
         {
             Author = author;
             Title = title;
@@ -66,11 +67,12 @@ namespace ADS.ADS.Data.Library
             CodeEan = ean;
             GenreList = genre;
             CurrentLibrary = currentLibrary;
-            StandardDaysForBorrow = sandardDaysForBorrow;
+            StandardDaysForBorrow = standardDaysForBorrow;
             TimeOfBorrow = borrowTime;
             TimeOfReturn = returnTime;
             UniqueId = uniqueId;
             FeePerDay = feePerDay;
+            IsArchived = false;
         }
 
         public Book(string author, string title, string genre)
