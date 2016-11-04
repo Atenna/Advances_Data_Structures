@@ -183,6 +183,7 @@ namespace ADS.ADS.DataStructures
             }
         }
 
+        // to-do: zaobalit do metody, ak vrati null, vypis level order pre dany uzol?
         public AbstractNode<T> SearchNode(T data, AbstractNode<T> root)
         {
             AbstractNode<T> current = root;
@@ -196,6 +197,8 @@ namespace ADS.ADS.DataStructures
                 {
                     if (current.Left == null)
                     {
+                        // vratit zoznam potomkov 2 urovne nizsie
+                        // nejakod at vediet, ze sa to nenaslo
                         return null;
                     }
                     else
@@ -207,7 +210,44 @@ namespace ADS.ADS.DataStructures
                 {
                     if (current.Right == null)
                     {
+                        
                         return null;
+                    }
+                    else
+                    {
+                        current = current.Right;
+                    }
+                }
+            }
+        }
+
+        public List<AbstractNode<T>> SearchSimilar(T data, AbstractNode<T> root)
+        {
+            AbstractNode<T> current = root;
+            List<AbstractNode<T>> similar = new List<AbstractNode<T>>();
+
+            while (true)
+            {
+                if (Comparer.Compare(data, current.Data) == -1)
+                {
+                    if (current.Left == null)
+                    {
+                        similar.Add(current);
+                        similar.Add(current.Ancestor);
+                        return similar;
+                    }
+                    else
+                    {
+                        current = current.Left;
+                    }
+                }
+                else
+                {
+                    if (current.Right == null)
+                    {
+                        similar.Add(current);
+                        similar.Add(current.Ancestor);
+                        return similar;
                     }
                     else
                     {
