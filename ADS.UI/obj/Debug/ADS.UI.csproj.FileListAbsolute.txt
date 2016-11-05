@@ -36,3 +36,9 @@ C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\A
 C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.UI\obj\Debug\ADS.UI.csproj.GenerateResource.Cache
 C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.UI\obj\Debug\Advanced_Data_Structures.exe
 C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.UI\obj\Debug\Advanced_Data_Structures.pdb
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.UI\bin\Debug\ADS.Core.exe
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.UI\bin\Debug\ADS.ADS.exe
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.UI\bin\Debug\ADS.Services.exe
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.UI\bin\Debug\ADS.Core.pdb
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.UI\bin\Debug\ADS.ADS.pdb
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.UI\bin\Debug\ADS.Services.pdb
