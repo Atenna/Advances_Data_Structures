@@ -274,7 +274,89 @@ namespace ADS.ADS.DataStructures
             }
         }
 
-        public void PreorderTraversal(AbstractNode<T> node)
+        public string InorderTraversal(AbstractNode<T> root)
+        {
+            Stack<AbstractNode<T>> stack = new Stack<AbstractNode<T>>();
+
+            string result = "";
+
+            if (root == null)
+            {
+                return null;
+            }
+
+            AbstractNode<T> current = root;
+            stack.Push(current);
+
+            while (stack.Count > 0)
+            {
+                if (current.Left != null)
+                {
+                    stack.Push(current.Left);
+                }
+
+                current = stack.Pop();
+                //Console.WriteLine(current.Data.ToString());
+                result += current.Data.ToString();
+
+                if (current.Right != null)
+                {
+                    stack.Push(current.Right);
+                }
+            }
+
+            return result;
+        }
+
+        public void InorderTraversalRecursive(AbstractNode<T> node)
+        {
+            if (node == null)
+            {
+                return;
+            }
+
+            InorderTraversalRecursive(node.Left);
+
+            Console.Write("{0} ", node.Data.ToString());
+
+            InorderTraversalRecursive(node.Right);
+        }
+
+        public string PreorderTraversal(AbstractNode<T> root)
+        {
+            Stack<AbstractNode<T>> stack = new Stack<AbstractNode<T>>();
+
+            string result = "";
+
+            if (root == null)
+            {
+                return null;
+            }
+
+            AbstractNode<T> current = root;
+            stack.Push(current);
+
+            while (stack.Count > 0)
+            {
+                current = stack.Pop();
+                //Console.WriteLine(current.Data.ToString());
+                result += current.Data.ToString();
+
+                if (current.Left != null)
+                {
+                    stack.Push(current.Left);
+                }
+
+                if (current.Right != null)
+                {
+                    stack.Push(current.Right);
+                }
+            }
+
+            return result;
+        }
+
+        public void PreorderTraversalRecursive(AbstractNode<T> node)
         {
             if (node == null)
             {
@@ -283,35 +365,55 @@ namespace ADS.ADS.DataStructures
 
             Console.Write("{0} ", node.Data);
 
-            PreorderTraversal(node.Left);
+            PreorderTraversalRecursive(node.Left);
 
-            PreorderTraversal(node.Right);
+            PreorderTraversalRecursive(node.Right);
         }
 
-        public void InorderTraversal(AbstractNode<T> node)
+        public string PostorderTraversal(AbstractNode<T> root)
+        {
+            Stack<AbstractNode<T>> stack = new Stack<AbstractNode<T>>();
+
+            string result = "";
+
+            if (root == null)
+            {
+                return null;
+            }
+
+            AbstractNode<T> current = root;
+            stack.Push(current);
+
+            while (stack.Count > 0)
+            {
+                if (current.Left != null)
+                {
+                    stack.Push(current.Left);
+                }
+
+                if (current.Right != null)
+                {
+                    stack.Push(current.Right);
+                }
+
+                current = stack.Pop();
+                //Console.WriteLine(current.Data.ToString());
+                result += current.Data.ToString();
+            }
+
+            return result;
+        }
+
+        public void PostorderTraversalRecursive(AbstractNode<T> node)
         {
             if (node == null)
             {
                 return;
             }
 
-            InorderTraversal(node.Left);
+            PostorderTraversalRecursive(node.Left);
 
-            Console.Write("{0} ", node.Data.ToString());
-
-            InorderTraversal(node.Right);
-        }
-
-        public void PostorderTraversal(AbstractNode<T> node)
-        {
-            if (node == null)
-            {
-                return;
-            }
-
-            PostorderTraversal(node.Left);
-
-            PostorderTraversal(node.Right);
+            PostorderTraversalRecursive(node.Right);
 
             Console.Write("{0} ", node.Data);
         }
