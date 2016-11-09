@@ -224,7 +224,10 @@ namespace ADS.ADS.DataStructures
         public List<AbstractNode<T>> SearchSimilar(T data, AbstractNode<T> root)
         {
             AbstractNode<T> current = root;
-            List<AbstractNode<T>> similar = new List<AbstractNode<T>>();
+            if (root == null)
+            {
+                return new List<AbstractNode<T>>();
+            }
 
             while (true)
             {
@@ -232,9 +235,7 @@ namespace ADS.ADS.DataStructures
                 {
                     if (current.Left == null)
                     {
-                        similar.Add(current);
-                        similar.Add(current.Ancestor);
-                        return similar;
+                        return SearchNeighbourhood(current);
                     }
                     else
                     {
@@ -245,9 +246,7 @@ namespace ADS.ADS.DataStructures
                 {
                     if (current.Right == null)
                     {
-                        similar.Add(current);
-                        similar.Add(current.Ancestor);
-                        return similar;
+                        return SearchNeighbourhood(current);
                     }
                     else
                     {
@@ -255,6 +254,40 @@ namespace ADS.ADS.DataStructures
                     }
                 }
             }
+        }
+
+        private List<AbstractNode<T>> SearchNeighbourhood(AbstractNode<T> current)
+        {
+            List<AbstractNode<T>> similar = new List<AbstractNode<T>>();
+
+            if (current.Right != null)
+            {
+                similar.Add(current.Right);
+            }
+            if (current.Left != null)
+            {
+                similar.Add(current.Left);
+            }
+
+            while (similar.Count <= 5)
+            {
+                if (current.Ancestor == null)
+                {
+                    similar.Add(current);
+                    break;
+                }
+                current = current.Ancestor;
+                if (current.Right != null)
+                {
+                    similar.Add(current.Right);
+                }
+                if (current.Left != null)
+                {
+                    similar.Add(current.Left);
+                }
+            }
+
+            return similar;
         }
 
         public T MinValue(AbstractNode<T> node)
@@ -286,22 +319,27 @@ namespace ADS.ADS.DataStructures
             }
 
             AbstractNode<T> current = root;
-            stack.Push(current);
+
+            while (current != null)
+            {
+                stack.Push(current);
+                current = current.Left;
+            }
 
             while (stack.Count > 0)
             {
-                if (current.Left != null)
-                {
-                    stack.Push(current.Left);
-                }
-
                 current = stack.Pop();
-                //Console.WriteLine(current.Data.ToString());
                 result += current.Data.ToString();
 
                 if (current.Right != null)
                 {
-                    stack.Push(current.Right);
+                    current = current.Right;
+
+                    while (current != null)
+                    {
+                        stack.Push(current);
+                        current = current.Left;
+                    }
                 }
             }
 
@@ -317,7 +355,7 @@ namespace ADS.ADS.DataStructures
 
             InorderTraversalRecursive(node.Left);
 
-            Console.Write("{0} ", node.Data.ToString());
+            Console.WriteLine("{0} ", node.Data.ToString());
 
             InorderTraversalRecursive(node.Right);
         }
