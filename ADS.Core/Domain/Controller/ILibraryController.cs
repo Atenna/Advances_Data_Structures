@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using ADS.ADS.Data.Library;
+using ADS.ADS.Nodes;
 
 namespace ADS.Core.Domain.Controller
 {
@@ -13,6 +16,8 @@ namespace ADS.Core.Domain.Controller
         bool ReturnBook(string bookId, string readerId, string libraryId);
 
         string SearchReaderById(string readerId);
+
+        string[] SearchReaderByName(string readerId);
 
         string ShowBorrowedBooksCurrently(string readerId);
 
@@ -39,5 +44,7 @@ namespace ADS.Core.Domain.Controller
         bool RemoveLibrary(string libraryId, string moveToLibraryId);
 
         string ShowAllReaders();
+
+        string ShowAllBooks();
     }
 }
