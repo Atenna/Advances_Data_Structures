@@ -47,6 +47,9 @@ namespace ADS.ADS.Data.Library
             Name = name;
             Surname = surname;
             HasBlockedBorrowing = false;
+            BooksBorrowedInPast = new AvlTree<Book>(new Book.BookNameComparator());
+            BooksCurrentlyBorrowed = new AvlTree<Book>(new Book.BookNameComparator());
+            LateBookReturns = new AvlTree<Book>(new Book.BookNameComparator());
         }
 
 

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using ADS.ADS.Data;
+using ADS.ADS.Data.Library;
 using ADS.ADS.Nodes;
 
 namespace ADS.ADS.DataStructures
@@ -329,7 +330,8 @@ namespace ADS.ADS.DataStructures
             while (stack.Count > 0)
             {
                 current = stack.Pop();
-                result += current.Data.ToString();
+                var s = current.Data.ToString();
+                result += s + "\n";
 
                 if (current.Right != null)
                 {
@@ -344,6 +346,45 @@ namespace ADS.ADS.DataStructures
             }
 
             return result;
+        }
+
+        public string[] InorderTraversalToStringArray(AbstractNode<T> root)
+        {
+            Stack<AbstractNode<T>> stack = new Stack<AbstractNode<T>>();
+            List<string> list = new List<string>();
+
+            if (root == null)
+            {
+                return null;
+            }
+
+            AbstractNode<T> current = root;
+
+            while (current != null)
+            {
+                stack.Push(current);
+                current = current.Left;
+            }
+
+            while (stack.Count > 0)
+            {
+                current = stack.Pop();
+                var s = current.Data.ToString();
+                list.Add(s);
+
+                if (current.Right != null)
+                {
+                    current = current.Right;
+
+                    while (current != null)
+                    {
+                        stack.Push(current);
+                        current = current.Left;
+                    }
+                }
+            }
+
+            return list.ToArray();
         }
 
         public void InorderTraversalRecursive(AbstractNode<T> node)

@@ -21,10 +21,11 @@ namespace ADS.ADS.Services.DataProcessing
         private static Editor _editor3 = new Editor(gen.GenerateEditorCode(), gen.GenerateGroupCode(), "B&W");
         private static Editor _editor4 = new Editor(gen.GenerateEditorCode(), gen.GenerateGroupCode(), "Alan Musk");
         private static Editor _editor5 = new Editor(gen.GenerateEditorCode(), gen.GenerateGroupCode(), "SanNotino");
-        private static Random _rnd=  new Random(0);
+        private static Random _rnd = new Random(0);
 
         public static AvlTree<Book> FillDataStructure(AvlTree<Book> tree)
         {
+
             AvlTree<Book> books = tree;
 
             _genreName = "Poetry";
@@ -46,9 +47,52 @@ namespace ADS.ADS.Services.DataProcessing
             return books;
         }
 
-        public static void ReadDataFromFile(string name, string genre, AvlTree<Book> books)
+        public static AvlTree<Reader> FillReadersByName(AvlTree<Reader> tree)
         {
-           
+            AvlTree<Reader> readers = tree;
+
+            StreamReader reader = new StreamReader("readers.txt");
+            string[] readerData;
+            string line;
+            while ((line = reader.ReadLine()) != null)
+            {
+                try
+                {
+                    readerData = line.Split(',');
+                    var r = new Reader(int.Parse(readerData[2]), readerData[0], readerData[1]);
+                    readers.Add(r);
+                }
+                catch (Exception)
+                {
+                    
+                    throw;
+                }
+            }
+            return readers;
+        }
+
+        public static AvlTree<Reader> FillReadersById(AvlTree<Reader> tree)
+        {
+            AvlTree<Reader> readers = tree;
+
+            StreamReader reader = new StreamReader("readers.txt");
+            string[] readerData;
+            string line;
+            while ((line = reader.ReadLine()) != null)
+            {
+                try
+                {
+                    readerData = line.Split(',');
+                    var r = new Reader(int.Parse(readerData[2]), readerData[0], readerData[1]);
+                    readers.Add(r);
+                }
+                catch (Exception)
+                {
+
+                    throw;
+                }
+            }
+            return readers;
         }
 
         private static Book ParseLine(string line, AvlTree<Book> books)
@@ -89,5 +133,9 @@ namespace ADS.ADS.Services.DataProcessing
             }
         }
 
+        public static AvlTree<Reader> FillDataStructure(AvlTree<Reader> readersByName)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

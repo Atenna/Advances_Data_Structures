@@ -14,6 +14,7 @@ namespace Advanced_Data_Structures
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new AdsApplication());
+            
         }
     }
 }

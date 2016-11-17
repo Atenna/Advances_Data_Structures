@@ -52,11 +52,14 @@ namespace ADS.ADS.Data.Library
         public string Genre { get; }
         public Library CurrentLibrary { get; set; }
         public int StandardDaysForBorrow { get; }
-        public DateTime TimeOfBorrow { get; }
-        public DateTime TimeOfReturn { get; }
+        public DateTime TimeOfBorrow { get; set; }
+        public DateTime TimeOfReturn { get; set; }
         public int UniqueId { get; }
         public int FeePerDay { get; } // in cents
         public bool IsArchived { get; }
+        public bool IsBorrowed { get; set; }
+
+        public Reader CurrentReader { get; set; }
 
         public Book(string author, string title, string isbn, string ean, Genres[] genre, Library currentLibrary, 
             int standardDaysForBorrow, DateTime borrowTime, DateTime returnTime, int uniqueId, int feePerDay)
@@ -73,6 +76,7 @@ namespace ADS.ADS.Data.Library
             UniqueId = uniqueId;
             FeePerDay = feePerDay;
             IsArchived = false;
+            IsBorrowed = false;
         }
 
         public Book(string author, string title, string genre)
@@ -80,6 +84,7 @@ namespace ADS.ADS.Data.Library
             Author = author;
             Title = title;
             Genre = genre;
+            UniqueId = 0;
         }
 
         public Book(string author, string title, string genre, string isbn)
@@ -88,11 +93,33 @@ namespace ADS.ADS.Data.Library
             Title = title;
             Genre = genre;
             CodeIsbn = isbn;
+            UniqueId = 0;
+        }
+
+        public Book(string isbn, int bookId)
+        {
+            CodeIsbn = isbn;
+            UniqueId = 0;
         }
 
         public override string ToString()
         {
-            return Title + "\n";
+            return Title + " : " + Author + ", " + CodeIsbn + ", " + UniqueId;
+        }
+
+        public string FormatIsbn(string isbn)
+        {
+            // kazde tri znaky pomlcka
+            return isbn;
+        }
+
+        public void Borrow(Reader r)
+        {
+            IsBorrowed = true;
+            CurrentReader = r;
+            TimeOfBorrow = DateTime.Now;
+            TimeOfReturn = DateTime.Now.AddDays(30);
+            r.BooksCurrentlyBorrowed.Add(this);
         }
     }
 }

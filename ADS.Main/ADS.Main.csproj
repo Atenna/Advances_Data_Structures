@@ -58,6 +58,13 @@
       <Project>{10CA2006-9570-427F-9D61-ACC5A967CC0B}</Project>
       <Name>ADS.Infrastructure</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ADS.Services\ADS.Services.csproj">
+      <Project>{3fd6527e-5e8d-48f7-b1a4-cccefb15117e}</Project>
+      <Name>ADS.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="poetry.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

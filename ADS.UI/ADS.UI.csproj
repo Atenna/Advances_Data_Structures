@@ -84,6 +84,10 @@
       <Project>{37BE1C95-B3A5-4F81-B127-0B6651411C04}</Project>
       <Name>ADS.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ADS.Infrastructure\ADS.Infrastructure.csproj">
+      <Project>{10CA2006-9570-427F-9D61-ACC5A967CC0B}</Project>
+      <Name>ADS.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -75,7 +75,7 @@ namespace ADS.InfrastructureTests.DataStructures
             Console.WriteLine("Root: {0}", avl.Root.Data);
             avl.RemoveNode(10);
             Console.WriteLine("Root: {0}", avl.Root.Data);
-            //avl.InorderTraversal(avl.Root);
+            //avl.InorderTraversalRecursive(avl.Root);
             Assert.AreEqual(40, avl.Root.Data);
             //Assert.AreEqual(50, avl.Root.Right.Data);
             //Assert.AreEqual(20, avl.Root.Left.Data);

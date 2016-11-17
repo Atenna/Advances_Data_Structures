@@ -11,7 +11,17 @@ namespace ADS.Core.Domain.Controller
 
         string SearchBookByName(string name);
 
-        bool BorrowBook(string bookId, string readerId, string libraryId);
+        string SearchLibraryByName(string name);
+
+        string SearchLibraryById(string name);
+
+        string SearchBookByIsbn(string isbn, string libraryName);
+
+        string[] SearchBookByIsbnArray(string isbn, string libraryName);
+
+        string SearchBookByName(string name, string libraryName);
+
+        bool BorrowBook(int bookId, string bookIsbn, int readerId, string libraryName);
 
         bool ReturnBook(string bookId, string readerId, string libraryId);
 
@@ -19,9 +29,9 @@ namespace ADS.Core.Domain.Controller
 
         string[] SearchReaderByName(string readerId);
 
-        string ShowBorrowedBooksCurrently(string readerId);
+        string ShowBorrowedBooksCurrently(int readerId);
 
-        string ShowAllLibraries();
+        string[] ShowAllLibraries();
 
         string ShowBooksInLibrary(string libraryId);
 
@@ -31,13 +41,13 @@ namespace ADS.Core.Domain.Controller
 
         bool AddNewBook(string title, string author, string genre, string isbn, string ean, string libraryId);
 
-        string ShowBorrowedBooksAfterReturnDate(string libraryId);
+        string[] ShowBorrowedBooksAfterReturnDate(string libraryId);
 
         bool ArchiveBook(string isbn);
 
-        string ShowLateReturnedBooks(string readerId, DateTime fromTime, DateTime toTime);
+        string[] ShowLateReturnedBooks(string readerId, DateTime fromTime, DateTime toTime);
 
-        string ShowBorrowedBooksPast(string readerId);
+        string[] ShowBorrowedBooksPast(string readerId);
 
         bool AddLibrary(string name);
 
@@ -46,5 +56,9 @@ namespace ADS.Core.Domain.Controller
         string ShowAllReaders();
 
         string ShowAllBooks();
+
+        string ShowAllBooks(string libraryName);
+
+        string ShowAllBooks(int libraryId);
     }
 }

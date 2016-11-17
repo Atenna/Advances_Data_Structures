@@ -48,7 +48,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Errors.resx</DependentUpon>
     </Compile>
-    <Compile Include="Domain\Objects\Time.cs" />
+    <Compile Include="Domain\Controller\IreaderSession.cs" />
+    <Compile Include="Domain\Controller\LibraryController.cs" />
+    <Compile Include="Domain\Controller\ILibraryController.cs" />
+    <Compile Include="Domain\Controller\ReaderController.cs" />
+    <Compile Include="Domain\Controller\ReaderSession.cs" />
+    <Compile Include="Domain\Model\LibraryModel.cs" />
     <Compile Include="Exceptions\NodeException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -57,7 +62,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Domain\Model\People\" />
+    <ProjectReference Include="..\ADS.Infrastructure\ADS.Infrastructure.csproj">
+      <Project>{10CA2006-9570-427F-9D61-ACC5A967CC0B}</Project>
+      <Name>ADS.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Constants\Errors.resx">

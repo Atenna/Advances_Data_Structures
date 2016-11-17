@@ -44,7 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataStructures\BinarySearchTree.cs" />
+    <Compile Include="DataStructures\SinglyLinkedList.cs" />
     <Compile Include="Data\Library\Book.cs" />
+    <Compile Include="Data\Library\Editor.cs" />
+    <Compile Include="Data\Library\Library.cs" />
     <Compile Include="Data\Library\Reader.cs" />
     <Compile Include="Data\Stock\Car.cs" />
     <Compile Include="Data\IData.cs" />
@@ -57,7 +60,9 @@
     <Compile Include="Nodes\BinarySearchTreeNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\DataProcessing\DataGenerator.cs" />
     <Compile Include="Services\DataProcessing\DataLoader.cs" />
+    <Compile Include="Services\DataProcessing\DataParser.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -66,6 +71,7 @@
     <None Include="ClassDiagram3.cd" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Comparators\" />
     <Folder Include="Data\EnumType\" />
     <Folder Include="Services\Statistics\" />
   </ItemGroup>

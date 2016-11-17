@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="DataStructures\AvlTreeTests.cs" />
     <Compile Include="DataStructures\BinarySearchTreeTests.cs" />
+    <Compile Include="DataStructures\SinglyLinkedListTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
