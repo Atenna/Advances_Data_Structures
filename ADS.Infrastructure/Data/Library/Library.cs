@@ -34,6 +34,7 @@ namespace ADS.ADS.Data.Library
             NameOfLibrary = name;
             AllBooksByName = new AvlTree<Book>(new Book.BookNameComparator());
             AllBooksByIsbn = new AvlTree<Book>(new Book.BookIsbnComparator());
+            BorrowedBooks = new AvlTree<Book>(new Book.BookNameComparator());
         }
 
         public override string ToString()

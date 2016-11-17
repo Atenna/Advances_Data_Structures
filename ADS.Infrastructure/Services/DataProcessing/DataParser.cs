@@ -23,10 +23,11 @@ namespace ADS.ADS.Services.DataProcessing
         private static Editor _editor5 = new Editor(gen.GenerateEditorCode(), gen.GenerateGroupCode(), "SanNotino");
         private static Random _rnd = new Random(0);
 
-        public static AvlTree<Book> FillDataStructure(AvlTree<Book> tree)
+        public static void FillDataStructure(AvlTree<Book> tree, AvlTree<Book> tree2)
         {
 
             AvlTree<Book> books = tree;
+            AvlTree<Book> books2 = tree2;
 
             _genreName = "Poetry";
 
@@ -36,7 +37,9 @@ namespace ADS.ADS.Services.DataProcessing
             {
                 try
                 {
-                    books.Add(ParseLine(line, books));
+                    var b = ParseLine(line, books);
+                    books.Add(b);
+                    books2.Add(b);
                 }
                 catch (Exception e)
                 {
@@ -44,7 +47,7 @@ namespace ADS.ADS.Services.DataProcessing
                 }
             }
 
-            return books;
+            //return books;
         }
 
         public static AvlTree<Reader> FillReadersByName(AvlTree<Reader> tree)

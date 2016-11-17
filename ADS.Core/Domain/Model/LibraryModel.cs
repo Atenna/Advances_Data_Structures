@@ -12,11 +12,14 @@ namespace ADS.Core.Domain.Model
         {
             _maxReaderId = 6000;
             BooksByName = new AvlTree<Book>(new Book.BookNameComparator());
-            BooksByName = DataParser.FillDataStructure(BooksByName);
+            //BooksByName = DataParser.FillDataStructure(BooksByName);
 
             //Libraries = libraries;
             BooksByIsbn = new AvlTree<Book>(new Book.BookIsbnComparator());
-            BooksByIsbn = DataParser.FillDataStructure(BooksByIsbn);
+            //BooksByIsbn = DataParser.FillDataStructure(BooksByIsbn);
+
+            DataParser.FillDataStructure(BooksByName, BooksByIsbn);
+
             ReadersByName = new AvlTree<Reader>(new Reader.ReaderNameComparator());
 
             ReadersByName = DataParser.FillReadersByName(ReadersByName);
@@ -24,7 +27,7 @@ namespace ADS.Core.Domain.Model
             ReadersByName.Add(new Reader(157787, "michal", "mruskovic"));
             ReadersByName.Add(new Reader(8557035, "martina", "bolibruchova"));
             ReadersByName.Add(new Reader(6778551, "andreas", "benz"));
-            Reader strasiak = new Reader(342256, "peter", "gasiak");
+            Reader strasiak = new Reader(342256, "Peter", "Gasiak");
             
             ReadersByName.Add(new Reader(44370989, "andreas", "benz"));
             ReadersByName.Add(new Reader(345522, "marian", "mojzis"));
@@ -33,7 +36,7 @@ namespace ADS.Core.Domain.Model
             ReadersByName.Add(new Reader(127787, "martin", "mruskovic"));
             ReadersByName.Add(new Reader(8257035, "andrea", "bolibruchova"));
             ReadersByName.Add(new Reader(6278551, "andreas", "benz"));
-            ReadersByName.Add(new Reader(322256, "alex", "gasiak"));
+            //ReadersByName.Add(new Reader(322256, "alex", "gasiak"));
             ReadersByName.Add(new Reader(42370989, "rene", "benz"));
             ReadersByName.Add(new Reader(325522, "michal", "mojzis"));
             ReadersByName.Add(new Reader(325522, "sebastian", "hiesgen"));
@@ -60,7 +63,7 @@ namespace ADS.Core.Domain.Model
             ReadersById.Add(new Reader(127787, "martin", "mruskovic"));
             ReadersById.Add(new Reader(8257035, "andrea", "bolibruchova"));
             ReadersById.Add(new Reader(6278551, "andreas", "benz"));
-            ReadersById.Add(new Reader(322256, "alex", "gasiak"));
+            //ReadersById.Add(new Reader(322256, "alex", "gasiak"));
             ReadersById.Add(new Reader(42370989, "rene", "benz"));
             ReadersById.Add(new Reader(325522, "michal", "mojzis"));
             ReadersById.Add(new Reader(325522, "sebastian", "hiesgen"));
@@ -91,12 +94,39 @@ namespace ADS.Core.Domain.Model
             Book b11 = new Book("marliese Aroldova", "Lahka ako vtak", "drama, autobiografia", "9988866676");
             Book b12 = new Book("Paula Hawkins", "Dievca vo vlaku", "drama", "34458776");
 
+            Book b13 = new Book("Paolo Coelho", "12 minút", "6545542339", "6545542339", "beletria", lib3, 0);
+            Book b14 = new Book("Paolo Coelho", "12 minút", "6545542339", "6545542339", "beletria", lib3, 1);
+            Book b15 = new Book("Paolo Coelho", "12 minút", "6545542339", "6545542339", "beletria", lib3, 2);
+            Book b16 = new Book("Paolo Coelho", "12 minút", "6545542339", "6545542339", "beletria", lib3, 3);
+            Book b17 = new Book("Paolo Coelho", "12 minút", "6545542339", "6545542339", "beletria", lib3, 4);
+
+            lib3.AllBooksByIsbn.Add(b13);
+            lib3.AllBooksByName.Add(b13);
+            lib3.AllBooksByIsbn.Add(b14);
+            lib3.AllBooksByName.Add(b14);
+            lib3.AllBooksByIsbn.Add(b15);
+            lib3.AllBooksByName.Add(b15);
+            lib3.AllBooksByIsbn.Add(b16);
+            lib3.AllBooksByName.Add(b16);
+            lib3.AllBooksByIsbn.Add(b17);
+            lib3.AllBooksByName.Add(b17);
 
             strasiak.BooksCurrentlyBorrowed.Add(b1);
             strasiak.BooksCurrentlyBorrowed.Add(b2);
             strasiak.BooksCurrentlyBorrowed.Add(b3);
             strasiak.BooksCurrentlyBorrowed.Add(b6);
             strasiak.BooksCurrentlyBorrowed.Add(b8);
+
+            BooksByIsbn.Add(b1);
+            BooksByIsbn.Add(b2);
+            BooksByIsbn.Add(b3);
+            BooksByIsbn.Add(b6);
+            BooksByIsbn.Add(b8);
+            BooksByName.Add(b1);
+            BooksByName.Add(b2);
+            BooksByName.Add(b3);
+            BooksByName.Add(b6);
+            BooksByName.Add(b8);
 
             strasiak.BooksBorrowedInPast.Add(b11);
             strasiak.BooksBorrowedInPast.Add(b2);
@@ -152,7 +182,14 @@ namespace ADS.Core.Domain.Model
             lib3.AllBooksByIsbn.Add(b9);
             lib3.AllBooksByIsbn.Add(b6);
             lib3.AllBooksByIsbn.Add(b2);
+
+            lib3.BorrowedBooks.Add(b7);
+
             Libraries.Add(lib3);
+
+            Library lib10 = new Library("Library 10");
+            lib10.AllBooksByIsbn = BooksByIsbn;
+            lib10.AllBooksByName = BooksByName;
 
             Libraries.Add(new Library("Library 6"));
             Libraries.Add(new Library("Library 8"));
@@ -162,7 +199,7 @@ namespace ADS.Core.Domain.Model
             Libraries.Add(new Library("Library 4"));
             Libraries.Add(new Library("Library 12"));
             Libraries.Add(new Library("Library 11"));
-            Libraries.Add(new Library("Library 10"));
+            Libraries.Add(lib10);
         }
 
         public AvlTree<Library> Libraries { get; }

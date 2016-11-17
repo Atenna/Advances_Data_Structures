@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices.WindowsRuntime;
 using ADS.Services;
 
 namespace ADS.ADS.Data.Library
@@ -21,7 +22,33 @@ namespace ADS.ADS.Data.Library
         {
             public int Compare(Book x, Book y)
             {
-                return string.Compare(x.Title, y.Title);
+                //return string.Compare(x.Title, y.Title);
+                if (x.Title == y.Title)
+                {
+                    if (x.CodeIsbn == y.CodeIsbn)
+                    {
+                        if (x.UniqueId == y.UniqueId)
+                        {
+                            return 0;
+                        }
+                        else if (x.UniqueId > y.UniqueId)
+                        {
+                            return 1;
+                        }
+                        else
+                        {
+                            return -1;
+                        }
+                    }
+                    else
+                    {
+                        return string.Compare(x.CodeIsbn, y.CodeIsbn);
+                    }
+                }
+                else
+                {
+                    return string.Compare(x.Title, y.Title);
+                }
             }
         }
 
@@ -40,6 +67,17 @@ namespace ADS.ADS.Data.Library
                 {
                     return -1;
                 }
+                else if (xd == yd)
+                {
+                    if (x.UniqueId > y.UniqueId)
+                    {
+                        return 1;
+                    } 
+                    else if (x.UniqueId < y.UniqueId)
+                    {
+                        return -1;
+                    }
+                }
                 return 0;
             }
         }
@@ -48,21 +86,21 @@ namespace ADS.ADS.Data.Library
         public string Title { get; }
         public string CodeIsbn { get; }
         public string CodeEan { get; }
-        public Genres[] GenreList { get; }
+        public string GenreList { get; }
         public string Genre { get; }
         public Library CurrentLibrary { get; set; }
         public int StandardDaysForBorrow { get; }
-        public DateTime TimeOfBorrow { get; set; }
-        public DateTime TimeOfReturn { get; set; }
+        public DateTime? TimeOfBorrow { get; set; }
+        public DateTime? TimeOfReturn { get; set; }
         public int UniqueId { get; }
         public int FeePerDay { get; } // in cents
-        public bool IsArchived { get; }
+        public bool IsArchived { get; set; }
         public bool IsBorrowed { get; set; }
+
 
         public Reader CurrentReader { get; set; }
 
-        public Book(string author, string title, string isbn, string ean, Genres[] genre, Library currentLibrary, 
-            int standardDaysForBorrow, DateTime borrowTime, DateTime returnTime, int uniqueId, int feePerDay)
+        public Book(string author, string title, string isbn, string ean, string genre, Library currentLibrary, int uniqueId)
         {
             Author = author;
             Title = title;
@@ -70,13 +108,14 @@ namespace ADS.ADS.Data.Library
             CodeEan = ean;
             GenreList = genre;
             CurrentLibrary = currentLibrary;
-            StandardDaysForBorrow = standardDaysForBorrow;
-            TimeOfBorrow = borrowTime;
-            TimeOfReturn = returnTime;
+            StandardDaysForBorrow = 30;
             UniqueId = uniqueId;
-            FeePerDay = feePerDay;
+            FeePerDay = 100;
             IsArchived = false;
             IsBorrowed = false;
+
+            CurrentLibrary.AllBooksByIsbn.Add(this);
+            CurrentLibrary.AllBooksByName.Add(this);
         }
 
         public Book(string author, string title, string genre)
@@ -107,19 +146,43 @@ namespace ADS.ADS.Data.Library
             return Title + " : " + Author + ", " + CodeIsbn + ", " + UniqueId;
         }
 
+        public string ToStringDetailed()
+        {
+            string borrowed = IsBorrowed ? "Borrowed [ " + CurrentReader.Name +" "+ CurrentReader.Surname+" ]" : "Available";
+            string archived = IsArchived ? "Archived" : "In use";
+            return Title + " : " + Author + ", \n" + CodeIsbn + ", " + UniqueId + ", \n" + borrowed + ", " + archived;
+        }
+
         public string FormatIsbn(string isbn)
         {
             // kazde tri znaky pomlcka
             return isbn;
         }
 
-        public void Borrow(Reader r)
+        public bool Borrow(Reader r)
         {
+            if (IsBorrowed || r.HasBlockedBorrowing || IsArchived)
+            {
+                return false;
+            }
             IsBorrowed = true;
             CurrentReader = r;
             TimeOfBorrow = DateTime.Now;
             TimeOfReturn = DateTime.Now.AddDays(30);
             r.BooksCurrentlyBorrowed.Add(this);
+
+            return true;
+        }
+
+        public void Return(Library l)
+        {
+            IsBorrowed = false;
+            TimeOfBorrow = null;
+            TimeOfReturn = DateTime.Now;
+            CurrentReader.BooksBorrowedInPast.Add(this);
+            CurrentReader.BooksCurrentlyBorrowed.RemoveNode(this);
+            CurrentReader = null;
+            CurrentLibrary = l;
         }
     }
 }

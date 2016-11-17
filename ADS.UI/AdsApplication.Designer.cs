@@ -33,10 +33,10 @@ namespace Advanced_Data_Structures
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdsApplication));
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabControlOuter = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabControl6 = new System.Windows.Forms.TabControl();
-            this.tabPage19 = new System.Windows.Forms.TabPage();
+            this.tabControlCheckout = new System.Windows.Forms.TabControl();
+            this.tabPageCheckoutReader = new System.Windows.Forms.TabPage();
             this.buttonSelectFromFoundReaders = new System.Windows.Forms.Button();
             this.buttonSearchByReaderName = new System.Windows.Forms.Button();
             this.buttonSearchByLibraryCardId = new System.Windows.Forms.Button();
@@ -46,16 +46,25 @@ namespace Advanced_Data_Structures
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.textBoxSearchByLibraryCardId = new System.Windows.Forms.TextBox();
-            this.tabPage20 = new System.Windows.Forms.TabPage();
+            this.tabPageCheckoutCurrent = new System.Windows.Forms.TabPage();
             this.checkedListBoxCheckoutCurrent = new System.Windows.Forms.CheckedListBox();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
-            this.tabPage21 = new System.Windows.Forms.TabPage();
+            this.tabPageCheckoutPrevious = new System.Windows.Forms.TabPage();
             this.checkedListBoxCheckoutPrevious = new System.Windows.Forms.CheckedListBox();
-            this.tabPage22 = new System.Windows.Forms.TabPage();
+            this.tabPageCheckoutLateReturns = new System.Windows.Forms.TabPage();
+            this.checkedListBoxCheckoutLate = new System.Windows.Forms.CheckedListBox();
+            this.tabPageCheckoutBorrow = new System.Windows.Forms.TabPage();
+            this.labelBorrowSelectLibrary = new System.Windows.Forms.Label();
+            this.comboBoxCheckoutSelectLibrary = new System.Windows.Forms.ComboBox();
+            this.buttonCheckoutSelectBooksToBorrow = new System.Windows.Forms.Button();
+            this.buttonCheckoutSearchBook = new System.Windows.Forms.Button();
+            this.checkedListBoxCheckoutBorrowBooks = new System.Windows.Forms.CheckedListBox();
+            this.labelBorrowBookId = new System.Windows.Forms.Label();
+            this.textBoxCheckoutSearchBook = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabControl2 = new System.Windows.Forms.TabControl();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.tabControlCheckin = new System.Windows.Forms.TabControl();
+            this.tabPageCheckinReader = new System.Windows.Forms.TabPage();
             this.label4 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
@@ -70,17 +79,17 @@ namespace Advanced_Data_Structures
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.textBoxReaderId = new System.Windows.Forms.TextBox();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.tabPageCheckinCurrent = new System.Windows.Forms.TabPage();
             this.checkedListBoxCurrentlyBorrowed = new System.Windows.Forms.CheckedListBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.tabPageCheckinPrevious = new System.Windows.Forms.TabPage();
             this.checkedListBoxPastBorrowed = new System.Windows.Forms.CheckedListBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.tabPageCheckinReservations = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabControl3 = new System.Windows.Forms.TabControl();
-            this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.tabControlRegister = new System.Windows.Forms.TabControl();
+            this.tabPageRegisterReader = new System.Windows.Forms.TabPage();
             this.button8 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
@@ -94,9 +103,9 @@ namespace Advanced_Data_Structures
             this.textBoxNewReaderSurname = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.textBoxNewReaderName = new System.Windows.Forms.TextBox();
-            this.button7 = new System.Windows.Forms.Button();
-            this.tabPage13 = new System.Windows.Forms.TabPage();
-            this.button9 = new System.Windows.Forms.Button();
+            this.buttonRegisterNewUser = new System.Windows.Forms.Button();
+            this.tabPageRegisterBook = new System.Windows.Forms.TabPage();
+            this.buttonRegisterNewBook = new System.Windows.Forms.Button();
             this.comboBoxRegisterLibrary = new System.Windows.Forms.ComboBox();
             this.textBoxRegisterBookId = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
@@ -113,86 +122,118 @@ namespace Advanced_Data_Structures
             this.textBoxRegisterAuthors = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.textBoxRegisterTitle = new System.Windows.Forms.TextBox();
-            this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.tabPageRegisterLibrary = new System.Windows.Forms.TabPage();
+            this.buttonRegisterNewLibrary = new System.Windows.Forms.Button();
+            this.label28 = new System.Windows.Forms.Label();
+            this.textBoxNewLibraryName = new System.Windows.Forms.TextBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabControl4 = new System.Windows.Forms.TabControl();
-            this.tabPage12 = new System.Windows.Forms.TabPage();
-            this.tabPage14 = new System.Windows.Forms.TabPage();
-            this.tabPage15 = new System.Windows.Forms.TabPage();
+            this.tabControlArchive = new System.Windows.Forms.TabControl();
+            this.tabPageArchiveBook = new System.Windows.Forms.TabPage();
+            this.buttonArchiveBook = new System.Windows.Forms.Button();
+            this.labelArchiveBookLibrary = new System.Windows.Forms.Label();
+            this.labelArchiveBookId = new System.Windows.Forms.Label();
+            this.textBoxArchiveBookId = new System.Windows.Forms.TextBox();
+            this.labelArchiveBookName = new System.Windows.Forms.Label();
+            this.comboBoxArchiveBookLibrary = new System.Windows.Forms.ComboBox();
+            this.textBoxArchiveBookName = new System.Windows.Forms.TextBox();
+            this.buttonArchiveBookSearch = new System.Windows.Forms.Button();
+            this.tabPageArchiveReader = new System.Windows.Forms.TabPage();
+            this.buttonArchiveReader = new System.Windows.Forms.Button();
+            this.textBoxArchiveReaderSearch = new System.Windows.Forms.TextBox();
+            this.buttonArchiveReaderSearch = new System.Windows.Forms.Button();
+            this.richTextBoxArchiveReader = new System.Windows.Forms.RichTextBox();
+            this.tabPageArchiveLibrary = new System.Windows.Forms.TabPage();
+            this.buttonArchiveSelectedLibrary = new System.Windows.Forms.Button();
+            this.textBoxArchiveLibraryName = new System.Windows.Forms.TextBox();
+            this.buttonArchiveLibrarySearch = new System.Windows.Forms.Button();
+            this.richTextBoxArchiveLibrary = new System.Windows.Forms.RichTextBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabControl5 = new System.Windows.Forms.TabControl();
-            this.tabPage16 = new System.Windows.Forms.TabPage();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.tabControlSearch = new System.Windows.Forms.TabControl();
+            this.tabPageSearchBook = new System.Windows.Forms.TabPage();
+            this.labelSearchBookSelectLibrary = new System.Windows.Forms.Label();
+            this.labelSearchBookId = new System.Windows.Forms.Label();
+            this.textBoxSearchBookId = new System.Windows.Forms.TextBox();
+            this.labelSearchBookName = new System.Windows.Forms.Label();
+            this.comboBoxSearchBookSelectLibrary = new System.Windows.Forms.ComboBox();
+            this.textBoxSearchBookName = new System.Windows.Forms.TextBox();
+            this.buttonSearchBook = new System.Windows.Forms.Button();
+            this.richTextBoxSearchedBooks = new System.Windows.Forms.RichTextBox();
+            this.tabPageSearchReader = new System.Windows.Forms.TabPage();
+            this.textBoxSearchReadername = new System.Windows.Forms.TextBox();
+            this.buttonSearchReader = new System.Windows.Forms.Button();
+            this.richTextBoxSearchedReaders = new System.Windows.Forms.RichTextBox();
+            this.tabPageSearchLibrary = new System.Windows.Forms.TabPage();
+            this.textBoxSearchLibraryName = new System.Windows.Forms.TextBox();
+            this.buttonSearchLibrary = new System.Windows.Forms.Button();
+            this.richTextBoxSearchedLibraries = new System.Windows.Forms.RichTextBox();
+            this.checkedListBoxArchiveBook = new System.Windows.Forms.CheckedListBox();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
             this.label23 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.comboBoxShowBorrowedBooks = new System.Windows.Forms.ComboBox();
             this.button6 = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.tabPage17 = new System.Windows.Forms.TabPage();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.button12 = new System.Windows.Forms.Button();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.tabPage18 = new System.Windows.Forms.TabPage();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.button13 = new System.Windows.Forms.Button();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
-            this.checkedListBoxCheckoutLate = new System.Windows.Forms.CheckedListBox();
-            this.tabPage23 = new System.Windows.Forms.TabPage();
-            this.buttonCheckoutSelectBooksToBorrow = new System.Windows.Forms.Button();
-            this.buttonCheckoutSearchBook = new System.Windows.Forms.Button();
-            this.checkedListBoxCheckoutBorrowBooks = new System.Windows.Forms.CheckedListBox();
+            this.richTextBoxShowBorrowedBooks = new System.Windows.Forms.RichTextBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.comboBoxReturnBook = new System.Windows.Forms.ComboBox();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.label25 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.label26 = new System.Windows.Forms.Label();
-            this.textBoxCheckoutSearchBook = new System.Windows.Forms.TextBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.comboBoxCheckoutSelectLibrary = new System.Windows.Forms.ComboBox();
-            this.tabControl1.SuspendLayout();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tabControlOuter.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabControl6.SuspendLayout();
-            this.tabPage19.SuspendLayout();
-            this.tabPage20.SuspendLayout();
-            this.tabPage21.SuspendLayout();
-            this.tabPage22.SuspendLayout();
+            this.tabControlCheckout.SuspendLayout();
+            this.tabPageCheckoutReader.SuspendLayout();
+            this.tabPageCheckoutCurrent.SuspendLayout();
+            this.tabPageCheckoutPrevious.SuspendLayout();
+            this.tabPageCheckoutLateReturns.SuspendLayout();
+            this.tabPageCheckoutBorrow.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            this.tabControl2.SuspendLayout();
-            this.tabPage9.SuspendLayout();
+            this.tabControlCheckin.SuspendLayout();
+            this.tabPageCheckinReader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tabPageCheckinCurrent.SuspendLayout();
+            this.tabPageCheckinPrevious.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.tabControlRegister.SuspendLayout();
+            this.tabPageRegisterReader.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.tabPageRegisterBook.SuspendLayout();
+            this.tabPageRegisterLibrary.SuspendLayout();
+            this.tabPage4.SuspendLayout();
+            this.tabControlArchive.SuspendLayout();
+            this.tabPageArchiveBook.SuspendLayout();
+            this.tabPageArchiveReader.SuspendLayout();
+            this.tabPageArchiveLibrary.SuspendLayout();
+            this.tabPage5.SuspendLayout();
+            this.tabControlSearch.SuspendLayout();
+            this.tabPageSearchBook.SuspendLayout();
+            this.tabPageSearchReader.SuspendLayout();
+            this.tabPageSearchLibrary.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.tabPage7.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.tabControl3.SuspendLayout();
-            this.tabPage11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.tabPage13.SuspendLayout();
-            this.tabPage4.SuspendLayout();
-            this.tabControl4.SuspendLayout();
-            this.tabPage5.SuspendLayout();
-            this.tabControl5.SuspendLayout();
-            this.tabPage16.SuspendLayout();
-            this.tabPage17.SuspendLayout();
-            this.tabPage18.SuspendLayout();
-            this.tabPage23.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tabControl1
+            // tabControlOuter
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Controls.Add(this.tabPage5);
-            this.tabControl1.Font = new System.Drawing.Font("Calibri Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.tabControl1.Location = new System.Drawing.Point(12, 12);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.Padding = new System.Drawing.Point(50, 10);
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(767, 742);
-            this.tabControl1.TabIndex = 0;
+            this.tabControlOuter.Controls.Add(this.tabPage1);
+            this.tabControlOuter.Controls.Add(this.tabPage2);
+            this.tabControlOuter.Controls.Add(this.tabPage3);
+            this.tabControlOuter.Controls.Add(this.tabPage4);
+            this.tabControlOuter.Controls.Add(this.tabPage5);
+            this.tabControlOuter.Font = new System.Drawing.Font("Calibri Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.tabControlOuter.Location = new System.Drawing.Point(12, 12);
+            this.tabControlOuter.Name = "tabControlOuter";
+            this.tabControlOuter.Padding = new System.Drawing.Point(50, 10);
+            this.tabControlOuter.SelectedIndex = 0;
+            this.tabControlOuter.Size = new System.Drawing.Size(767, 742);
+            this.tabControlOuter.TabIndex = 0;
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.tabControl6);
+            this.tabPage1.Controls.Add(this.tabControlCheckout);
             this.tabPage1.Location = new System.Drawing.Point(4, 41);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -201,37 +242,37 @@ namespace Advanced_Data_Structures
             this.tabPage1.Text = "Check-out";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabControl6
+            // tabControlCheckout
             // 
-            this.tabControl6.Controls.Add(this.tabPage19);
-            this.tabControl6.Controls.Add(this.tabPage20);
-            this.tabControl6.Controls.Add(this.tabPage21);
-            this.tabControl6.Controls.Add(this.tabPage22);
-            this.tabControl6.Controls.Add(this.tabPage23);
-            this.tabControl6.Location = new System.Drawing.Point(6, 6);
-            this.tabControl6.Name = "tabControl6";
-            this.tabControl6.Padding = new System.Drawing.Point(30, 10);
-            this.tabControl6.SelectedIndex = 0;
-            this.tabControl6.Size = new System.Drawing.Size(746, 685);
-            this.tabControl6.TabIndex = 1;
+            this.tabControlCheckout.Controls.Add(this.tabPageCheckoutReader);
+            this.tabControlCheckout.Controls.Add(this.tabPageCheckoutCurrent);
+            this.tabControlCheckout.Controls.Add(this.tabPageCheckoutPrevious);
+            this.tabControlCheckout.Controls.Add(this.tabPageCheckoutLateReturns);
+            this.tabControlCheckout.Controls.Add(this.tabPageCheckoutBorrow);
+            this.tabControlCheckout.Location = new System.Drawing.Point(6, 6);
+            this.tabControlCheckout.Name = "tabControlCheckout";
+            this.tabControlCheckout.Padding = new System.Drawing.Point(30, 10);
+            this.tabControlCheckout.SelectedIndex = 0;
+            this.tabControlCheckout.Size = new System.Drawing.Size(746, 685);
+            this.tabControlCheckout.TabIndex = 1;
             // 
-            // tabPage19
+            // tabPageCheckoutReader
             // 
-            this.tabPage19.Controls.Add(this.buttonSelectFromFoundReaders);
-            this.tabPage19.Controls.Add(this.buttonSearchByReaderName);
-            this.tabPage19.Controls.Add(this.buttonSearchByLibraryCardId);
-            this.tabPage19.Controls.Add(this.checkedListBoxFoundReaders);
-            this.tabPage19.Controls.Add(this.label8);
-            this.tabPage19.Controls.Add(this.textBoxSearchByReaderName);
-            this.tabPage19.Controls.Add(this.label9);
-            this.tabPage19.Controls.Add(this.label10);
-            this.tabPage19.Controls.Add(this.textBoxSearchByLibraryCardId);
-            this.tabPage19.Location = new System.Drawing.Point(4, 41);
-            this.tabPage19.Name = "tabPage19";
-            this.tabPage19.Size = new System.Drawing.Size(738, 640);
-            this.tabPage19.TabIndex = 3;
-            this.tabPage19.Text = "Reader";
-            this.tabPage19.UseVisualStyleBackColor = true;
+            this.tabPageCheckoutReader.Controls.Add(this.buttonSelectFromFoundReaders);
+            this.tabPageCheckoutReader.Controls.Add(this.buttonSearchByReaderName);
+            this.tabPageCheckoutReader.Controls.Add(this.buttonSearchByLibraryCardId);
+            this.tabPageCheckoutReader.Controls.Add(this.checkedListBoxFoundReaders);
+            this.tabPageCheckoutReader.Controls.Add(this.label8);
+            this.tabPageCheckoutReader.Controls.Add(this.textBoxSearchByReaderName);
+            this.tabPageCheckoutReader.Controls.Add(this.label9);
+            this.tabPageCheckoutReader.Controls.Add(this.label10);
+            this.tabPageCheckoutReader.Controls.Add(this.textBoxSearchByLibraryCardId);
+            this.tabPageCheckoutReader.Location = new System.Drawing.Point(4, 41);
+            this.tabPageCheckoutReader.Name = "tabPageCheckoutReader";
+            this.tabPageCheckoutReader.Size = new System.Drawing.Size(738, 640);
+            this.tabPageCheckoutReader.TabIndex = 3;
+            this.tabPageCheckoutReader.Text = "Reader";
+            this.tabPageCheckoutReader.UseVisualStyleBackColor = true;
             // 
             // buttonSelectFromFoundReaders
             // 
@@ -266,10 +307,6 @@ namespace Advanced_Data_Structures
             // checkedListBoxFoundReaders
             // 
             this.checkedListBoxFoundReaders.FormattingEnabled = true;
-            this.checkedListBoxFoundReaders.Items.AddRange(new object[] {
-            "User number 1, 09837483, Paris",
-            "Name Surname, 982743622, Osaka",
-            "Name2 Surname4, 2273733, Provence"});
             this.checkedListBoxFoundReaders.Location = new System.Drawing.Point(36, 266);
             this.checkedListBoxFoundReaders.Name = "checkedListBoxFoundReaders";
             this.checkedListBoxFoundReaders.Size = new System.Drawing.Size(353, 164);
@@ -322,29 +359,25 @@ namespace Advanced_Data_Structures
             this.textBoxSearchByLibraryCardId.Size = new System.Drawing.Size(222, 27);
             this.textBoxSearchByLibraryCardId.TabIndex = 0;
             // 
-            // tabPage20
+            // tabPageCheckoutCurrent
             // 
-            this.tabPage20.Controls.Add(this.checkedListBoxCheckoutCurrent);
-            this.tabPage20.Controls.Add(this.button10);
-            this.tabPage20.Controls.Add(this.button11);
-            this.tabPage20.Location = new System.Drawing.Point(4, 41);
-            this.tabPage20.Name = "tabPage20";
-            this.tabPage20.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage20.Size = new System.Drawing.Size(738, 640);
-            this.tabPage20.TabIndex = 0;
-            this.tabPage20.Text = "Current";
-            this.tabPage20.UseVisualStyleBackColor = true;
+            this.tabPageCheckoutCurrent.Controls.Add(this.label24);
+            this.tabPageCheckoutCurrent.Controls.Add(this.comboBoxReturnBook);
+            this.tabPageCheckoutCurrent.Controls.Add(this.checkedListBoxCheckoutCurrent);
+            this.tabPageCheckoutCurrent.Controls.Add(this.button10);
+            this.tabPageCheckoutCurrent.Controls.Add(this.button11);
+            this.tabPageCheckoutCurrent.Location = new System.Drawing.Point(4, 41);
+            this.tabPageCheckoutCurrent.Name = "tabPageCheckoutCurrent";
+            this.tabPageCheckoutCurrent.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageCheckoutCurrent.Size = new System.Drawing.Size(738, 640);
+            this.tabPageCheckoutCurrent.TabIndex = 0;
+            this.tabPageCheckoutCurrent.Text = "Current";
+            this.tabPageCheckoutCurrent.UseVisualStyleBackColor = true;
             // 
             // checkedListBoxCheckoutCurrent
             // 
             this.checkedListBoxCheckoutCurrent.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.checkedListBoxCheckoutCurrent.FormattingEnabled = true;
-            this.checkedListBoxCheckoutCurrent.Items.AddRange(new object[] {
-            "Borrowed Book n.1",
-            "Another Borrowed Book",
-            "Super interesting Story",
-            "Boring Novel",
-            "Just Another Nerdy Book"});
             this.checkedListBoxCheckoutCurrent.Location = new System.Drawing.Point(59, 42);
             this.checkedListBoxCheckoutCurrent.Name = "checkedListBoxCheckoutCurrent";
             this.checkedListBoxCheckoutCurrent.Size = new System.Drawing.Size(399, 554);
@@ -352,7 +385,7 @@ namespace Advanced_Data_Structures
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(492, 42);
+            this.button10.Location = new System.Drawing.Point(491, 148);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(217, 37);
             this.button10.TabIndex = 5;
@@ -361,52 +394,137 @@ namespace Advanced_Data_Structures
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(492, 95);
+            this.button11.Location = new System.Drawing.Point(491, 201);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(217, 37);
             this.button11.TabIndex = 4;
             this.button11.Text = "Return";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
-            // tabPage21
+            // tabPageCheckoutPrevious
             // 
-            this.tabPage21.Controls.Add(this.checkedListBoxCheckoutPrevious);
-            this.tabPage21.Location = new System.Drawing.Point(4, 41);
-            this.tabPage21.Name = "tabPage21";
-            this.tabPage21.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage21.Size = new System.Drawing.Size(738, 640);
-            this.tabPage21.TabIndex = 1;
-            this.tabPage21.Text = "Previous";
-            this.tabPage21.UseVisualStyleBackColor = true;
+            this.tabPageCheckoutPrevious.Controls.Add(this.checkedListBoxCheckoutPrevious);
+            this.tabPageCheckoutPrevious.Location = new System.Drawing.Point(4, 41);
+            this.tabPageCheckoutPrevious.Name = "tabPageCheckoutPrevious";
+            this.tabPageCheckoutPrevious.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageCheckoutPrevious.Size = new System.Drawing.Size(738, 640);
+            this.tabPageCheckoutPrevious.TabIndex = 1;
+            this.tabPageCheckoutPrevious.Text = "Previous";
+            this.tabPageCheckoutPrevious.UseVisualStyleBackColor = true;
             // 
             // checkedListBoxCheckoutPrevious
             // 
             this.checkedListBoxCheckoutPrevious.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.checkedListBoxCheckoutPrevious.FormattingEnabled = true;
-            this.checkedListBoxCheckoutPrevious.Items.AddRange(new object[] {
-            "Borrowed Book n.1",
-            "Another Borrowed Book",
-            "Super interesting Story",
-            "Boring Novel",
-            "Just Another Nerdy Book"});
             this.checkedListBoxCheckoutPrevious.Location = new System.Drawing.Point(59, 42);
             this.checkedListBoxCheckoutPrevious.Name = "checkedListBoxCheckoutPrevious";
             this.checkedListBoxCheckoutPrevious.Size = new System.Drawing.Size(399, 554);
             this.checkedListBoxCheckoutPrevious.TabIndex = 7;
             // 
-            // tabPage22
+            // tabPageCheckoutLateReturns
             // 
-            this.tabPage22.Controls.Add(this.checkedListBoxCheckoutLate);
-            this.tabPage22.Location = new System.Drawing.Point(4, 41);
-            this.tabPage22.Name = "tabPage22";
-            this.tabPage22.Size = new System.Drawing.Size(738, 640);
-            this.tabPage22.TabIndex = 2;
-            this.tabPage22.Text = "Late returns";
-            this.tabPage22.UseVisualStyleBackColor = true;
+            this.tabPageCheckoutLateReturns.Controls.Add(this.checkedListBoxCheckoutLate);
+            this.tabPageCheckoutLateReturns.Location = new System.Drawing.Point(4, 41);
+            this.tabPageCheckoutLateReturns.Name = "tabPageCheckoutLateReturns";
+            this.tabPageCheckoutLateReturns.Size = new System.Drawing.Size(738, 640);
+            this.tabPageCheckoutLateReturns.TabIndex = 2;
+            this.tabPageCheckoutLateReturns.Text = "Late returns";
+            this.tabPageCheckoutLateReturns.UseVisualStyleBackColor = true;
+            // 
+            // checkedListBoxCheckoutLate
+            // 
+            this.checkedListBoxCheckoutLate.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.checkedListBoxCheckoutLate.FormattingEnabled = true;
+            this.checkedListBoxCheckoutLate.Location = new System.Drawing.Point(59, 42);
+            this.checkedListBoxCheckoutLate.Name = "checkedListBoxCheckoutLate";
+            this.checkedListBoxCheckoutLate.Size = new System.Drawing.Size(399, 554);
+            this.checkedListBoxCheckoutLate.TabIndex = 7;
+            // 
+            // tabPageCheckoutBorrow
+            // 
+            this.tabPageCheckoutBorrow.Controls.Add(this.labelBorrowSelectLibrary);
+            this.tabPageCheckoutBorrow.Controls.Add(this.comboBoxCheckoutSelectLibrary);
+            this.tabPageCheckoutBorrow.Controls.Add(this.buttonCheckoutSelectBooksToBorrow);
+            this.tabPageCheckoutBorrow.Controls.Add(this.buttonCheckoutSearchBook);
+            this.tabPageCheckoutBorrow.Controls.Add(this.checkedListBoxCheckoutBorrowBooks);
+            this.tabPageCheckoutBorrow.Controls.Add(this.labelBorrowBookId);
+            this.tabPageCheckoutBorrow.Controls.Add(this.textBoxCheckoutSearchBook);
+            this.tabPageCheckoutBorrow.Location = new System.Drawing.Point(4, 41);
+            this.tabPageCheckoutBorrow.Name = "tabPageCheckoutBorrow";
+            this.tabPageCheckoutBorrow.Size = new System.Drawing.Size(738, 640);
+            this.tabPageCheckoutBorrow.TabIndex = 4;
+            this.tabPageCheckoutBorrow.Text = "Borrow";
+            this.tabPageCheckoutBorrow.UseVisualStyleBackColor = true;
+            // 
+            // labelBorrowSelectLibrary
+            // 
+            this.labelBorrowSelectLibrary.AutoSize = true;
+            this.labelBorrowSelectLibrary.Location = new System.Drawing.Point(49, 68);
+            this.labelBorrowSelectLibrary.Name = "labelBorrowSelectLibrary";
+            this.labelBorrowSelectLibrary.Size = new System.Drawing.Size(84, 18);
+            this.labelBorrowSelectLibrary.TabIndex = 15;
+            this.labelBorrowSelectLibrary.Text = "Select library";
+            // 
+            // comboBoxCheckoutSelectLibrary
+            // 
+            this.comboBoxCheckoutSelectLibrary.FormattingEnabled = true;
+            this.comboBoxCheckoutSelectLibrary.Location = new System.Drawing.Point(52, 100);
+            this.comboBoxCheckoutSelectLibrary.Name = "comboBoxCheckoutSelectLibrary";
+            this.comboBoxCheckoutSelectLibrary.Size = new System.Drawing.Size(217, 26);
+            this.comboBoxCheckoutSelectLibrary.TabIndex = 14;
+            // 
+            // buttonCheckoutSelectBooksToBorrow
+            // 
+            this.buttonCheckoutSelectBooksToBorrow.Location = new System.Drawing.Point(471, 385);
+            this.buttonCheckoutSelectBooksToBorrow.Name = "buttonCheckoutSelectBooksToBorrow";
+            this.buttonCheckoutSelectBooksToBorrow.Size = new System.Drawing.Size(217, 37);
+            this.buttonCheckoutSelectBooksToBorrow.TabIndex = 13;
+            this.buttonCheckoutSelectBooksToBorrow.Text = "Borrow";
+            this.buttonCheckoutSelectBooksToBorrow.UseVisualStyleBackColor = true;
+            this.buttonCheckoutSelectBooksToBorrow.Click += new System.EventHandler(this.buttonCheckoutSelectBooksToBorrow_Click);
+            // 
+            // buttonCheckoutSearchBook
+            // 
+            this.buttonCheckoutSearchBook.Location = new System.Drawing.Point(271, 180);
+            this.buttonCheckoutSearchBook.Name = "buttonCheckoutSearchBook";
+            this.buttonCheckoutSearchBook.Size = new System.Drawing.Size(134, 27);
+            this.buttonCheckoutSearchBook.TabIndex = 12;
+            this.buttonCheckoutSearchBook.Text = "Search";
+            this.buttonCheckoutSearchBook.UseVisualStyleBackColor = true;
+            this.buttonCheckoutSearchBook.Click += new System.EventHandler(this.buttonCheckinSearchBook_Click);
+            // 
+            // checkedListBoxCheckoutBorrowBooks
+            // 
+            this.checkedListBoxCheckoutBorrowBooks.CheckOnClick = true;
+            this.checkedListBoxCheckoutBorrowBooks.FormattingEnabled = true;
+            this.checkedListBoxCheckoutBorrowBooks.Location = new System.Drawing.Point(52, 258);
+            this.checkedListBoxCheckoutBorrowBooks.Name = "checkedListBoxCheckoutBorrowBooks";
+            this.checkedListBoxCheckoutBorrowBooks.Size = new System.Drawing.Size(353, 164);
+            this.checkedListBoxCheckoutBorrowBooks.TabIndex = 11;
+            this.checkedListBoxCheckoutBorrowBooks.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.checkedListBoxCheckoutBorrowBooks_ItemCheck);
+            // 
+            // labelBorrowBookId
+            // 
+            this.labelBorrowBookId.AutoSize = true;
+            this.labelBorrowBookId.Location = new System.Drawing.Point(49, 159);
+            this.labelBorrowBookId.Name = "labelBorrowBookId";
+            this.labelBorrowBookId.Size = new System.Drawing.Size(53, 18);
+            this.labelBorrowBookId.TabIndex = 10;
+            this.labelBorrowBookId.Text = "Book id";
+            // 
+            // textBoxCheckoutSearchBook
+            // 
+            this.textBoxCheckoutSearchBook.Font = new System.Drawing.Font("Calibri Light", 12F);
+            this.textBoxCheckoutSearchBook.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.textBoxCheckoutSearchBook.Location = new System.Drawing.Point(52, 180);
+            this.textBoxCheckoutSearchBook.Name = "textBoxCheckoutSearchBook";
+            this.textBoxCheckoutSearchBook.Size = new System.Drawing.Size(222, 27);
+            this.textBoxCheckoutSearchBook.TabIndex = 9;
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.tabControl2);
+            this.tabPage2.Controls.Add(this.tabControlCheckin);
             this.tabPage2.Location = new System.Drawing.Point(4, 41);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -415,41 +533,42 @@ namespace Advanced_Data_Structures
             this.tabPage2.Text = "Check-in";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // tabControl2
+            // tabControlCheckin
             // 
-            this.tabControl2.Controls.Add(this.tabPage9);
-            this.tabControl2.Controls.Add(this.tabPage6);
-            this.tabControl2.Controls.Add(this.tabPage7);
-            this.tabControl2.Controls.Add(this.tabPage8);
-            this.tabControl2.Location = new System.Drawing.Point(6, 6);
-            this.tabControl2.Name = "tabControl2";
-            this.tabControl2.Padding = new System.Drawing.Point(30, 10);
-            this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(746, 685);
-            this.tabControl2.TabIndex = 0;
+            this.tabControlCheckin.Controls.Add(this.tabPageCheckinReader);
+            this.tabControlCheckin.Controls.Add(this.tabPageCheckinCurrent);
+            this.tabControlCheckin.Controls.Add(this.tabPageCheckinPrevious);
+            this.tabControlCheckin.Controls.Add(this.tabPageCheckinReservations);
+            this.tabControlCheckin.Controls.Add(this.tabPage7);
+            this.tabControlCheckin.Location = new System.Drawing.Point(6, 6);
+            this.tabControlCheckin.Name = "tabControlCheckin";
+            this.tabControlCheckin.Padding = new System.Drawing.Point(30, 10);
+            this.tabControlCheckin.SelectedIndex = 0;
+            this.tabControlCheckin.Size = new System.Drawing.Size(746, 685);
+            this.tabControlCheckin.TabIndex = 0;
             // 
-            // tabPage9
+            // tabPageCheckinReader
             // 
-            this.tabPage9.Controls.Add(this.label4);
-            this.tabPage9.Controls.Add(this.button5);
-            this.tabPage9.Controls.Add(this.label3);
-            this.tabPage9.Controls.Add(this.button4);
-            this.tabPage9.Controls.Add(this.label2);
-            this.tabPage9.Controls.Add(this.button1);
-            this.tabPage9.Controls.Add(this.label1);
-            this.tabPage9.Controls.Add(this.checkedListBox2);
-            this.tabPage9.Controls.Add(this.pictureBox1);
-            this.tabPage9.Controls.Add(this.label7);
-            this.tabPage9.Controls.Add(this.textBox2);
-            this.tabPage9.Controls.Add(this.label6);
-            this.tabPage9.Controls.Add(this.label5);
-            this.tabPage9.Controls.Add(this.textBoxReaderId);
-            this.tabPage9.Location = new System.Drawing.Point(4, 41);
-            this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Size = new System.Drawing.Size(738, 640);
-            this.tabPage9.TabIndex = 3;
-            this.tabPage9.Text = "Reader";
-            this.tabPage9.UseVisualStyleBackColor = true;
+            this.tabPageCheckinReader.Controls.Add(this.label4);
+            this.tabPageCheckinReader.Controls.Add(this.button5);
+            this.tabPageCheckinReader.Controls.Add(this.label3);
+            this.tabPageCheckinReader.Controls.Add(this.button4);
+            this.tabPageCheckinReader.Controls.Add(this.label2);
+            this.tabPageCheckinReader.Controls.Add(this.button1);
+            this.tabPageCheckinReader.Controls.Add(this.label1);
+            this.tabPageCheckinReader.Controls.Add(this.checkedListBox2);
+            this.tabPageCheckinReader.Controls.Add(this.pictureBox1);
+            this.tabPageCheckinReader.Controls.Add(this.label7);
+            this.tabPageCheckinReader.Controls.Add(this.textBox2);
+            this.tabPageCheckinReader.Controls.Add(this.label6);
+            this.tabPageCheckinReader.Controls.Add(this.label5);
+            this.tabPageCheckinReader.Controls.Add(this.textBoxReaderId);
+            this.tabPageCheckinReader.Location = new System.Drawing.Point(4, 41);
+            this.tabPageCheckinReader.Name = "tabPageCheckinReader";
+            this.tabPageCheckinReader.Size = new System.Drawing.Size(738, 640);
+            this.tabPageCheckinReader.TabIndex = 3;
+            this.tabPageCheckinReader.Text = "Reader";
+            this.tabPageCheckinReader.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -524,10 +643,6 @@ namespace Advanced_Data_Structures
             // checkedListBox2
             // 
             this.checkedListBox2.FormattingEnabled = true;
-            this.checkedListBox2.Items.AddRange(new object[] {
-            "User number 1, 09837483, Paris",
-            "Name Surname, 982743622, Osaka",
-            "Name2 Surname4, 2273733, Provence"});
             this.checkedListBox2.Location = new System.Drawing.Point(36, 266);
             this.checkedListBox2.Name = "checkedListBox2";
             this.checkedListBox2.Size = new System.Drawing.Size(353, 344);
@@ -589,29 +704,23 @@ namespace Advanced_Data_Structures
             this.textBoxReaderId.Size = new System.Drawing.Size(222, 27);
             this.textBoxReaderId.TabIndex = 0;
             // 
-            // tabPage6
+            // tabPageCheckinCurrent
             // 
-            this.tabPage6.Controls.Add(this.checkedListBoxCurrentlyBorrowed);
-            this.tabPage6.Controls.Add(this.button3);
-            this.tabPage6.Controls.Add(this.button2);
-            this.tabPage6.Location = new System.Drawing.Point(4, 41);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(738, 640);
-            this.tabPage6.TabIndex = 0;
-            this.tabPage6.Text = "Current";
-            this.tabPage6.UseVisualStyleBackColor = true;
+            this.tabPageCheckinCurrent.Controls.Add(this.checkedListBoxCurrentlyBorrowed);
+            this.tabPageCheckinCurrent.Controls.Add(this.button3);
+            this.tabPageCheckinCurrent.Controls.Add(this.button2);
+            this.tabPageCheckinCurrent.Location = new System.Drawing.Point(4, 41);
+            this.tabPageCheckinCurrent.Name = "tabPageCheckinCurrent";
+            this.tabPageCheckinCurrent.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageCheckinCurrent.Size = new System.Drawing.Size(738, 640);
+            this.tabPageCheckinCurrent.TabIndex = 0;
+            this.tabPageCheckinCurrent.Text = "Current";
+            this.tabPageCheckinCurrent.UseVisualStyleBackColor = true;
             // 
             // checkedListBoxCurrentlyBorrowed
             // 
             this.checkedListBoxCurrentlyBorrowed.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.checkedListBoxCurrentlyBorrowed.FormattingEnabled = true;
-            this.checkedListBoxCurrentlyBorrowed.Items.AddRange(new object[] {
-            "Borrowed Book n.1",
-            "Another Borrowed Book",
-            "Super interesting Story",
-            "Boring Novel",
-            "Just Another Nerdy Book"});
             this.checkedListBoxCurrentlyBorrowed.Location = new System.Drawing.Point(59, 42);
             this.checkedListBoxCurrentlyBorrowed.Name = "checkedListBoxCurrentlyBorrowed";
             this.checkedListBoxCurrentlyBorrowed.Size = new System.Drawing.Size(399, 554);
@@ -635,28 +744,22 @@ namespace Advanced_Data_Structures
             this.button2.Text = "Return";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // tabPage7
+            // tabPageCheckinPrevious
             // 
-            this.tabPage7.Controls.Add(this.checkedListBoxPastBorrowed);
-            this.tabPage7.Controls.Add(this.dateTimePicker1);
-            this.tabPage7.Location = new System.Drawing.Point(4, 41);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(738, 640);
-            this.tabPage7.TabIndex = 1;
-            this.tabPage7.Text = "Previous";
-            this.tabPage7.UseVisualStyleBackColor = true;
+            this.tabPageCheckinPrevious.Controls.Add(this.checkedListBoxPastBorrowed);
+            this.tabPageCheckinPrevious.Controls.Add(this.dateTimePicker1);
+            this.tabPageCheckinPrevious.Location = new System.Drawing.Point(4, 41);
+            this.tabPageCheckinPrevious.Name = "tabPageCheckinPrevious";
+            this.tabPageCheckinPrevious.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageCheckinPrevious.Size = new System.Drawing.Size(738, 640);
+            this.tabPageCheckinPrevious.TabIndex = 1;
+            this.tabPageCheckinPrevious.Text = "Previous";
+            this.tabPageCheckinPrevious.UseVisualStyleBackColor = true;
             // 
             // checkedListBoxPastBorrowed
             // 
             this.checkedListBoxPastBorrowed.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.checkedListBoxPastBorrowed.FormattingEnabled = true;
-            this.checkedListBoxPastBorrowed.Items.AddRange(new object[] {
-            "Borrowed Book n.1",
-            "Another Borrowed Book",
-            "Super interesting Story",
-            "Boring Novel",
-            "Just Another Nerdy Book"});
             this.checkedListBoxPastBorrowed.Location = new System.Drawing.Point(59, 118);
             this.checkedListBoxPastBorrowed.Name = "checkedListBoxPastBorrowed";
             this.checkedListBoxPastBorrowed.Size = new System.Drawing.Size(399, 488);
@@ -669,18 +772,18 @@ namespace Advanced_Data_Structures
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 25);
             this.dateTimePicker1.TabIndex = 0;
             // 
-            // tabPage8
+            // tabPageCheckinReservations
             // 
-            this.tabPage8.Location = new System.Drawing.Point(4, 41);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(738, 640);
-            this.tabPage8.TabIndex = 2;
-            this.tabPage8.Text = "Reservations";
-            this.tabPage8.UseVisualStyleBackColor = true;
+            this.tabPageCheckinReservations.Location = new System.Drawing.Point(4, 41);
+            this.tabPageCheckinReservations.Name = "tabPageCheckinReservations";
+            this.tabPageCheckinReservations.Size = new System.Drawing.Size(738, 640);
+            this.tabPageCheckinReservations.TabIndex = 2;
+            this.tabPageCheckinReservations.Text = "Reservations";
+            this.tabPageCheckinReservations.UseVisualStyleBackColor = true;
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.tabControl3);
+            this.tabPage3.Controls.Add(this.tabControlRegister);
             this.tabPage3.Location = new System.Drawing.Point(4, 41);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(759, 697);
@@ -688,41 +791,41 @@ namespace Advanced_Data_Structures
             this.tabPage3.Text = "Register";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // tabControl3
+            // tabControlRegister
             // 
-            this.tabControl3.Controls.Add(this.tabPage11);
-            this.tabControl3.Controls.Add(this.tabPage13);
-            this.tabControl3.Controls.Add(this.tabPage10);
-            this.tabControl3.Location = new System.Drawing.Point(6, 6);
-            this.tabControl3.Name = "tabControl3";
-            this.tabControl3.Padding = new System.Drawing.Point(30, 10);
-            this.tabControl3.SelectedIndex = 0;
-            this.tabControl3.Size = new System.Drawing.Size(746, 685);
-            this.tabControl3.TabIndex = 1;
+            this.tabControlRegister.Controls.Add(this.tabPageRegisterReader);
+            this.tabControlRegister.Controls.Add(this.tabPageRegisterBook);
+            this.tabControlRegister.Controls.Add(this.tabPageRegisterLibrary);
+            this.tabControlRegister.Location = new System.Drawing.Point(6, 6);
+            this.tabControlRegister.Name = "tabControlRegister";
+            this.tabControlRegister.Padding = new System.Drawing.Point(30, 10);
+            this.tabControlRegister.SelectedIndex = 0;
+            this.tabControlRegister.Size = new System.Drawing.Size(746, 685);
+            this.tabControlRegister.TabIndex = 1;
             // 
-            // tabPage11
+            // tabPageRegisterReader
             // 
-            this.tabPage11.Controls.Add(this.button8);
-            this.tabPage11.Controls.Add(this.pictureBox2);
-            this.tabPage11.Controls.Add(this.checkBox3);
-            this.tabPage11.Controls.Add(this.checkBox2);
-            this.tabPage11.Controls.Add(this.checkBox1);
-            this.tabPage11.Controls.Add(this.dateTimePickerNewReaderDateOfBirth);
-            this.tabPage11.Controls.Add(this.label13);
-            this.tabPage11.Controls.Add(this.textBoxNewReaderAddress);
-            this.tabPage11.Controls.Add(this.label14);
-            this.tabPage11.Controls.Add(this.label11);
-            this.tabPage11.Controls.Add(this.textBoxNewReaderSurname);
-            this.tabPage11.Controls.Add(this.label12);
-            this.tabPage11.Controls.Add(this.textBoxNewReaderName);
-            this.tabPage11.Controls.Add(this.button7);
-            this.tabPage11.Location = new System.Drawing.Point(4, 41);
-            this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage11.Size = new System.Drawing.Size(738, 640);
-            this.tabPage11.TabIndex = 0;
-            this.tabPage11.Text = "Reader";
-            this.tabPage11.UseVisualStyleBackColor = true;
+            this.tabPageRegisterReader.Controls.Add(this.button8);
+            this.tabPageRegisterReader.Controls.Add(this.pictureBox2);
+            this.tabPageRegisterReader.Controls.Add(this.checkBox3);
+            this.tabPageRegisterReader.Controls.Add(this.checkBox2);
+            this.tabPageRegisterReader.Controls.Add(this.checkBox1);
+            this.tabPageRegisterReader.Controls.Add(this.dateTimePickerNewReaderDateOfBirth);
+            this.tabPageRegisterReader.Controls.Add(this.label13);
+            this.tabPageRegisterReader.Controls.Add(this.textBoxNewReaderAddress);
+            this.tabPageRegisterReader.Controls.Add(this.label14);
+            this.tabPageRegisterReader.Controls.Add(this.label11);
+            this.tabPageRegisterReader.Controls.Add(this.textBoxNewReaderSurname);
+            this.tabPageRegisterReader.Controls.Add(this.label12);
+            this.tabPageRegisterReader.Controls.Add(this.textBoxNewReaderName);
+            this.tabPageRegisterReader.Controls.Add(this.buttonRegisterNewUser);
+            this.tabPageRegisterReader.Location = new System.Drawing.Point(4, 41);
+            this.tabPageRegisterReader.Name = "tabPageRegisterReader";
+            this.tabPageRegisterReader.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageRegisterReader.Size = new System.Drawing.Size(738, 640);
+            this.tabPageRegisterReader.TabIndex = 0;
+            this.tabPageRegisterReader.Text = "Reader";
+            this.tabPageRegisterReader.UseVisualStyleBackColor = true;
             // 
             // button8
             // 
@@ -843,51 +946,51 @@ namespace Advanced_Data_Structures
             this.textBoxNewReaderName.Size = new System.Drawing.Size(245, 27);
             this.textBoxNewReaderName.TabIndex = 8;
             // 
-            // button7
+            // buttonRegisterNewUser
             // 
-            this.button7.Location = new System.Drawing.Point(424, 536);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(200, 37);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "Register";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.buttonRegisterNewUser.Location = new System.Drawing.Point(424, 536);
+            this.buttonRegisterNewUser.Name = "buttonRegisterNewUser";
+            this.buttonRegisterNewUser.Size = new System.Drawing.Size(200, 37);
+            this.buttonRegisterNewUser.TabIndex = 7;
+            this.buttonRegisterNewUser.Text = "Register";
+            this.buttonRegisterNewUser.UseVisualStyleBackColor = true;
+            this.buttonRegisterNewUser.Click += new System.EventHandler(this.button7_Click);
             // 
-            // tabPage13
+            // tabPageRegisterBook
             // 
-            this.tabPage13.Controls.Add(this.button9);
-            this.tabPage13.Controls.Add(this.comboBoxRegisterLibrary);
-            this.tabPage13.Controls.Add(this.textBoxRegisterBookId);
-            this.tabPage13.Controls.Add(this.label19);
-            this.tabPage13.Controls.Add(this.label20);
-            this.tabPage13.Controls.Add(this.label21);
-            this.tabPage13.Controls.Add(this.textBoxRegisterFee);
-            this.tabPage13.Controls.Add(this.label22);
-            this.tabPage13.Controls.Add(this.textBoxRegisterBorrowLength);
-            this.tabPage13.Controls.Add(this.textBoxRegisterIsbn);
-            this.tabPage13.Controls.Add(this.label15);
-            this.tabPage13.Controls.Add(this.textBoxRegisterGenre);
-            this.tabPage13.Controls.Add(this.label16);
-            this.tabPage13.Controls.Add(this.label17);
-            this.tabPage13.Controls.Add(this.textBoxRegisterAuthors);
-            this.tabPage13.Controls.Add(this.label18);
-            this.tabPage13.Controls.Add(this.textBoxRegisterTitle);
-            this.tabPage13.Location = new System.Drawing.Point(4, 41);
-            this.tabPage13.Name = "tabPage13";
-            this.tabPage13.Size = new System.Drawing.Size(738, 640);
-            this.tabPage13.TabIndex = 2;
-            this.tabPage13.Text = "Book";
-            this.tabPage13.UseVisualStyleBackColor = true;
+            this.tabPageRegisterBook.Controls.Add(this.buttonRegisterNewBook);
+            this.tabPageRegisterBook.Controls.Add(this.comboBoxRegisterLibrary);
+            this.tabPageRegisterBook.Controls.Add(this.textBoxRegisterBookId);
+            this.tabPageRegisterBook.Controls.Add(this.label19);
+            this.tabPageRegisterBook.Controls.Add(this.label20);
+            this.tabPageRegisterBook.Controls.Add(this.label21);
+            this.tabPageRegisterBook.Controls.Add(this.textBoxRegisterFee);
+            this.tabPageRegisterBook.Controls.Add(this.label22);
+            this.tabPageRegisterBook.Controls.Add(this.textBoxRegisterBorrowLength);
+            this.tabPageRegisterBook.Controls.Add(this.textBoxRegisterIsbn);
+            this.tabPageRegisterBook.Controls.Add(this.label15);
+            this.tabPageRegisterBook.Controls.Add(this.textBoxRegisterGenre);
+            this.tabPageRegisterBook.Controls.Add(this.label16);
+            this.tabPageRegisterBook.Controls.Add(this.label17);
+            this.tabPageRegisterBook.Controls.Add(this.textBoxRegisterAuthors);
+            this.tabPageRegisterBook.Controls.Add(this.label18);
+            this.tabPageRegisterBook.Controls.Add(this.textBoxRegisterTitle);
+            this.tabPageRegisterBook.Location = new System.Drawing.Point(4, 41);
+            this.tabPageRegisterBook.Name = "tabPageRegisterBook";
+            this.tabPageRegisterBook.Size = new System.Drawing.Size(738, 640);
+            this.tabPageRegisterBook.TabIndex = 2;
+            this.tabPageRegisterBook.Text = "Book";
+            this.tabPageRegisterBook.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // buttonRegisterNewBook
             // 
-            this.button9.Location = new System.Drawing.Point(391, 375);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(200, 37);
-            this.button9.TabIndex = 41;
-            this.button9.Text = "Register";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.buttonRegisterNewBook.Location = new System.Drawing.Point(391, 375);
+            this.buttonRegisterNewBook.Name = "buttonRegisterNewBook";
+            this.buttonRegisterNewBook.Size = new System.Drawing.Size(200, 37);
+            this.buttonRegisterNewBook.TabIndex = 41;
+            this.buttonRegisterNewBook.Text = "Register";
+            this.buttonRegisterNewBook.UseVisualStyleBackColor = true;
+            this.buttonRegisterNewBook.Click += new System.EventHandler(this.button9_Click);
             // 
             // comboBoxRegisterLibrary
             // 
@@ -1039,18 +1142,48 @@ namespace Advanced_Data_Structures
             this.textBoxRegisterTitle.Size = new System.Drawing.Size(245, 27);
             this.textBoxRegisterTitle.TabIndex = 20;
             // 
-            // tabPage10
+            // tabPageRegisterLibrary
             // 
-            this.tabPage10.Location = new System.Drawing.Point(4, 41);
-            this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Size = new System.Drawing.Size(738, 640);
-            this.tabPage10.TabIndex = 3;
-            this.tabPage10.Text = "Library";
-            this.tabPage10.UseVisualStyleBackColor = true;
+            this.tabPageRegisterLibrary.Controls.Add(this.buttonRegisterNewLibrary);
+            this.tabPageRegisterLibrary.Controls.Add(this.label28);
+            this.tabPageRegisterLibrary.Controls.Add(this.textBoxNewLibraryName);
+            this.tabPageRegisterLibrary.Location = new System.Drawing.Point(4, 41);
+            this.tabPageRegisterLibrary.Name = "tabPageRegisterLibrary";
+            this.tabPageRegisterLibrary.Size = new System.Drawing.Size(738, 640);
+            this.tabPageRegisterLibrary.TabIndex = 3;
+            this.tabPageRegisterLibrary.Text = "Library";
+            this.tabPageRegisterLibrary.UseVisualStyleBackColor = true;
+            // 
+            // buttonRegisterNewLibrary
+            // 
+            this.buttonRegisterNewLibrary.Location = new System.Drawing.Point(411, 72);
+            this.buttonRegisterNewLibrary.Name = "buttonRegisterNewLibrary";
+            this.buttonRegisterNewLibrary.Size = new System.Drawing.Size(200, 37);
+            this.buttonRegisterNewLibrary.TabIndex = 42;
+            this.buttonRegisterNewLibrary.Text = "Register";
+            this.buttonRegisterNewLibrary.UseVisualStyleBackColor = true;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(58, 61);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(100, 18);
+            this.label28.TabIndex = 23;
+            this.label28.Text = "Name of library";
+            // 
+            // textBoxNewLibraryName
+            // 
+            this.textBoxNewLibraryName.Font = new System.Drawing.Font("Calibri Light", 12F);
+            this.textBoxNewLibraryName.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.textBoxNewLibraryName.Location = new System.Drawing.Point(61, 82);
+            this.textBoxNewLibraryName.Name = "textBoxNewLibraryName";
+            this.textBoxNewLibraryName.Size = new System.Drawing.Size(245, 27);
+            this.textBoxNewLibraryName.TabIndex = 22;
             // 
             // tabPage4
             // 
-            this.tabPage4.Controls.Add(this.tabControl4);
+            this.tabPage4.Controls.Add(this.tabControlArchive);
             this.tabPage4.Location = new System.Drawing.Point(4, 41);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(759, 697);
@@ -1058,49 +1191,209 @@ namespace Advanced_Data_Structures
             this.tabPage4.Text = "Archive";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // tabControl4
+            // tabControlArchive
             // 
-            this.tabControl4.Controls.Add(this.tabPage12);
-            this.tabControl4.Controls.Add(this.tabPage14);
-            this.tabControl4.Controls.Add(this.tabPage15);
-            this.tabControl4.Location = new System.Drawing.Point(6, 6);
-            this.tabControl4.Name = "tabControl4";
-            this.tabControl4.Padding = new System.Drawing.Point(30, 10);
-            this.tabControl4.SelectedIndex = 0;
-            this.tabControl4.Size = new System.Drawing.Size(746, 685);
-            this.tabControl4.TabIndex = 2;
+            this.tabControlArchive.Controls.Add(this.tabPageArchiveBook);
+            this.tabControlArchive.Controls.Add(this.tabPageArchiveReader);
+            this.tabControlArchive.Controls.Add(this.tabPageArchiveLibrary);
+            this.tabControlArchive.Location = new System.Drawing.Point(6, 6);
+            this.tabControlArchive.Name = "tabControlArchive";
+            this.tabControlArchive.Padding = new System.Drawing.Point(30, 10);
+            this.tabControlArchive.SelectedIndex = 0;
+            this.tabControlArchive.Size = new System.Drawing.Size(746, 685);
+            this.tabControlArchive.TabIndex = 2;
             // 
-            // tabPage12
+            // tabPageArchiveBook
             // 
-            this.tabPage12.Location = new System.Drawing.Point(4, 41);
-            this.tabPage12.Name = "tabPage12";
-            this.tabPage12.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage12.Size = new System.Drawing.Size(738, 640);
-            this.tabPage12.TabIndex = 0;
-            this.tabPage12.Text = "Book";
-            this.tabPage12.UseVisualStyleBackColor = true;
+            this.tabPageArchiveBook.Controls.Add(this.checkedListBoxArchiveBook);
+            this.tabPageArchiveBook.Controls.Add(this.buttonArchiveBook);
+            this.tabPageArchiveBook.Controls.Add(this.labelArchiveBookLibrary);
+            this.tabPageArchiveBook.Controls.Add(this.labelArchiveBookId);
+            this.tabPageArchiveBook.Controls.Add(this.textBoxArchiveBookId);
+            this.tabPageArchiveBook.Controls.Add(this.labelArchiveBookName);
+            this.tabPageArchiveBook.Controls.Add(this.comboBoxArchiveBookLibrary);
+            this.tabPageArchiveBook.Controls.Add(this.textBoxArchiveBookName);
+            this.tabPageArchiveBook.Controls.Add(this.buttonArchiveBookSearch);
+            this.tabPageArchiveBook.Location = new System.Drawing.Point(4, 41);
+            this.tabPageArchiveBook.Name = "tabPageArchiveBook";
+            this.tabPageArchiveBook.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageArchiveBook.Size = new System.Drawing.Size(738, 640);
+            this.tabPageArchiveBook.TabIndex = 0;
+            this.tabPageArchiveBook.Text = "Book";
+            this.tabPageArchiveBook.UseVisualStyleBackColor = true;
             // 
-            // tabPage14
+            // buttonArchiveBook
             // 
-            this.tabPage14.Location = new System.Drawing.Point(4, 41);
-            this.tabPage14.Name = "tabPage14";
-            this.tabPage14.Size = new System.Drawing.Size(738, 640);
-            this.tabPage14.TabIndex = 2;
-            this.tabPage14.Text = "Reader";
-            this.tabPage14.UseVisualStyleBackColor = true;
+            this.buttonArchiveBook.Location = new System.Drawing.Point(473, 400);
+            this.buttonArchiveBook.Name = "buttonArchiveBook";
+            this.buttonArchiveBook.Size = new System.Drawing.Size(217, 37);
+            this.buttonArchiveBook.TabIndex = 22;
+            this.buttonArchiveBook.Text = "Archive Selected";
+            this.buttonArchiveBook.UseVisualStyleBackColor = true;
+            this.buttonArchiveBook.Click += new System.EventHandler(this.buttonArchiveBook_Click);
             // 
-            // tabPage15
+            // labelArchiveBookLibrary
             // 
-            this.tabPage15.Location = new System.Drawing.Point(4, 41);
-            this.tabPage15.Name = "tabPage15";
-            this.tabPage15.Size = new System.Drawing.Size(738, 640);
-            this.tabPage15.TabIndex = 3;
-            this.tabPage15.Text = "Library";
-            this.tabPage15.UseVisualStyleBackColor = true;
+            this.labelArchiveBookLibrary.AutoSize = true;
+            this.labelArchiveBookLibrary.Location = new System.Drawing.Point(470, 237);
+            this.labelArchiveBookLibrary.Name = "labelArchiveBookLibrary";
+            this.labelArchiveBookLibrary.Size = new System.Drawing.Size(84, 18);
+            this.labelArchiveBookLibrary.TabIndex = 21;
+            this.labelArchiveBookLibrary.Text = "Select library";
+            // 
+            // labelArchiveBookId
+            // 
+            this.labelArchiveBookId.AutoSize = true;
+            this.labelArchiveBookId.Location = new System.Drawing.Point(470, 140);
+            this.labelArchiveBookId.Name = "labelArchiveBookId";
+            this.labelArchiveBookId.Size = new System.Drawing.Size(114, 18);
+            this.labelArchiveBookId.TabIndex = 20;
+            this.labelArchiveBookId.Text = "Search by book id";
+            // 
+            // textBoxArchiveBookId
+            // 
+            this.textBoxArchiveBookId.Font = new System.Drawing.Font("Calibri Light", 12F);
+            this.textBoxArchiveBookId.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.textBoxArchiveBookId.Location = new System.Drawing.Point(473, 168);
+            this.textBoxArchiveBookId.Name = "textBoxArchiveBookId";
+            this.textBoxArchiveBookId.Size = new System.Drawing.Size(217, 27);
+            this.textBoxArchiveBookId.TabIndex = 19;
+            // 
+            // labelArchiveBookName
+            // 
+            this.labelArchiveBookName.AutoSize = true;
+            this.labelArchiveBookName.Location = new System.Drawing.Point(470, 53);
+            this.labelArchiveBookName.Name = "labelArchiveBookName";
+            this.labelArchiveBookName.Size = new System.Drawing.Size(103, 18);
+            this.labelArchiveBookName.TabIndex = 18;
+            this.labelArchiveBookName.Text = "Search by name";
+            // 
+            // comboBoxArchiveBookLibrary
+            // 
+            this.comboBoxArchiveBookLibrary.FormattingEnabled = true;
+            this.comboBoxArchiveBookLibrary.Location = new System.Drawing.Point(473, 269);
+            this.comboBoxArchiveBookLibrary.Name = "comboBoxArchiveBookLibrary";
+            this.comboBoxArchiveBookLibrary.Size = new System.Drawing.Size(217, 26);
+            this.comboBoxArchiveBookLibrary.TabIndex = 17;
+            // 
+            // textBoxArchiveBookName
+            // 
+            this.textBoxArchiveBookName.Font = new System.Drawing.Font("Calibri Light", 12F);
+            this.textBoxArchiveBookName.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.textBoxArchiveBookName.Location = new System.Drawing.Point(473, 81);
+            this.textBoxArchiveBookName.Name = "textBoxArchiveBookName";
+            this.textBoxArchiveBookName.Size = new System.Drawing.Size(217, 27);
+            this.textBoxArchiveBookName.TabIndex = 16;
+            // 
+            // buttonArchiveBookSearch
+            // 
+            this.buttonArchiveBookSearch.Location = new System.Drawing.Point(473, 334);
+            this.buttonArchiveBookSearch.Name = "buttonArchiveBookSearch";
+            this.buttonArchiveBookSearch.Size = new System.Drawing.Size(217, 37);
+            this.buttonArchiveBookSearch.TabIndex = 15;
+            this.buttonArchiveBookSearch.Text = "Search in Books";
+            this.buttonArchiveBookSearch.UseVisualStyleBackColor = true;
+            this.buttonArchiveBookSearch.Click += new System.EventHandler(this.buttonArchiveBookSearch_Click);
+            // 
+            // tabPageArchiveReader
+            // 
+            this.tabPageArchiveReader.Controls.Add(this.buttonArchiveReader);
+            this.tabPageArchiveReader.Controls.Add(this.textBoxArchiveReaderSearch);
+            this.tabPageArchiveReader.Controls.Add(this.buttonArchiveReaderSearch);
+            this.tabPageArchiveReader.Controls.Add(this.richTextBoxArchiveReader);
+            this.tabPageArchiveReader.Location = new System.Drawing.Point(4, 41);
+            this.tabPageArchiveReader.Name = "tabPageArchiveReader";
+            this.tabPageArchiveReader.Size = new System.Drawing.Size(738, 640);
+            this.tabPageArchiveReader.TabIndex = 2;
+            this.tabPageArchiveReader.Text = "Reader";
+            this.tabPageArchiveReader.UseVisualStyleBackColor = true;
+            // 
+            // buttonArchiveReader
+            // 
+            this.buttonArchiveReader.Location = new System.Drawing.Point(473, 160);
+            this.buttonArchiveReader.Name = "buttonArchiveReader";
+            this.buttonArchiveReader.Size = new System.Drawing.Size(217, 37);
+            this.buttonArchiveReader.TabIndex = 14;
+            this.buttonArchiveReader.Text = "Archive Selected";
+            this.buttonArchiveReader.UseVisualStyleBackColor = true;
+            // 
+            // textBoxArchiveReaderSearch
+            // 
+            this.textBoxArchiveReaderSearch.Font = new System.Drawing.Font("Calibri Light", 12F);
+            this.textBoxArchiveReaderSearch.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.textBoxArchiveReaderSearch.Location = new System.Drawing.Point(473, 53);
+            this.textBoxArchiveReaderSearch.Name = "textBoxArchiveReaderSearch";
+            this.textBoxArchiveReaderSearch.Size = new System.Drawing.Size(217, 27);
+            this.textBoxArchiveReaderSearch.TabIndex = 13;
+            // 
+            // buttonArchiveReaderSearch
+            // 
+            this.buttonArchiveReaderSearch.Location = new System.Drawing.Point(473, 98);
+            this.buttonArchiveReaderSearch.Name = "buttonArchiveReaderSearch";
+            this.buttonArchiveReaderSearch.Size = new System.Drawing.Size(217, 37);
+            this.buttonArchiveReaderSearch.TabIndex = 12;
+            this.buttonArchiveReaderSearch.Text = "Search in Readers";
+            this.buttonArchiveReaderSearch.UseVisualStyleBackColor = true;
+            // 
+            // richTextBoxArchiveReader
+            // 
+            this.richTextBoxArchiveReader.Location = new System.Drawing.Point(35, 53);
+            this.richTextBoxArchiveReader.Name = "richTextBoxArchiveReader";
+            this.richTextBoxArchiveReader.Size = new System.Drawing.Size(404, 564);
+            this.richTextBoxArchiveReader.TabIndex = 11;
+            this.richTextBoxArchiveReader.Text = "";
+            // 
+            // tabPageArchiveLibrary
+            // 
+            this.tabPageArchiveLibrary.Controls.Add(this.buttonArchiveSelectedLibrary);
+            this.tabPageArchiveLibrary.Controls.Add(this.textBoxArchiveLibraryName);
+            this.tabPageArchiveLibrary.Controls.Add(this.buttonArchiveLibrarySearch);
+            this.tabPageArchiveLibrary.Controls.Add(this.richTextBoxArchiveLibrary);
+            this.tabPageArchiveLibrary.Location = new System.Drawing.Point(4, 41);
+            this.tabPageArchiveLibrary.Name = "tabPageArchiveLibrary";
+            this.tabPageArchiveLibrary.Size = new System.Drawing.Size(738, 640);
+            this.tabPageArchiveLibrary.TabIndex = 3;
+            this.tabPageArchiveLibrary.Text = "Library";
+            this.tabPageArchiveLibrary.UseVisualStyleBackColor = true;
+            // 
+            // buttonArchiveSelectedLibrary
+            // 
+            this.buttonArchiveSelectedLibrary.Location = new System.Drawing.Point(473, 161);
+            this.buttonArchiveSelectedLibrary.Name = "buttonArchiveSelectedLibrary";
+            this.buttonArchiveSelectedLibrary.Size = new System.Drawing.Size(217, 37);
+            this.buttonArchiveSelectedLibrary.TabIndex = 17;
+            this.buttonArchiveSelectedLibrary.Text = "Search in Libraries";
+            this.buttonArchiveSelectedLibrary.UseVisualStyleBackColor = true;
+            // 
+            // textBoxArchiveLibraryName
+            // 
+            this.textBoxArchiveLibraryName.Font = new System.Drawing.Font("Calibri Light", 12F);
+            this.textBoxArchiveLibraryName.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.textBoxArchiveLibraryName.Location = new System.Drawing.Point(473, 53);
+            this.textBoxArchiveLibraryName.Name = "textBoxArchiveLibraryName";
+            this.textBoxArchiveLibraryName.Size = new System.Drawing.Size(217, 27);
+            this.textBoxArchiveLibraryName.TabIndex = 16;
+            // 
+            // buttonArchiveLibrarySearch
+            // 
+            this.buttonArchiveLibrarySearch.Location = new System.Drawing.Point(473, 98);
+            this.buttonArchiveLibrarySearch.Name = "buttonArchiveLibrarySearch";
+            this.buttonArchiveLibrarySearch.Size = new System.Drawing.Size(217, 37);
+            this.buttonArchiveLibrarySearch.TabIndex = 15;
+            this.buttonArchiveLibrarySearch.Text = "Search in Libraries";
+            this.buttonArchiveLibrarySearch.UseVisualStyleBackColor = true;
+            // 
+            // richTextBoxArchiveLibrary
+            // 
+            this.richTextBoxArchiveLibrary.Location = new System.Drawing.Point(35, 53);
+            this.richTextBoxArchiveLibrary.Name = "richTextBoxArchiveLibrary";
+            this.richTextBoxArchiveLibrary.Size = new System.Drawing.Size(404, 564);
+            this.richTextBoxArchiveLibrary.TabIndex = 14;
+            this.richTextBoxArchiveLibrary.Text = "";
             // 
             // tabPage5
             // 
-            this.tabPage5.Controls.Add(this.tabControl5);
+            this.tabPage5.Controls.Add(this.tabControlSearch);
             this.tabPage5.Location = new System.Drawing.Point(4, 41);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Size = new System.Drawing.Size(759, 697);
@@ -1108,245 +1401,318 @@ namespace Advanced_Data_Structures
             this.tabPage5.Text = "Search";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // tabControl5
+            // tabControlSearch
             // 
-            this.tabControl5.Controls.Add(this.tabPage16);
-            this.tabControl5.Controls.Add(this.tabPage17);
-            this.tabControl5.Controls.Add(this.tabPage18);
-            this.tabControl5.Location = new System.Drawing.Point(6, 6);
-            this.tabControl5.Name = "tabControl5";
-            this.tabControl5.Padding = new System.Drawing.Point(30, 10);
-            this.tabControl5.SelectedIndex = 0;
-            this.tabControl5.Size = new System.Drawing.Size(746, 685);
-            this.tabControl5.TabIndex = 2;
+            this.tabControlSearch.Controls.Add(this.tabPageSearchBook);
+            this.tabControlSearch.Controls.Add(this.tabPageSearchReader);
+            this.tabControlSearch.Controls.Add(this.tabPageSearchLibrary);
+            this.tabControlSearch.Controls.Add(this.tabPage6);
+            this.tabControlSearch.Location = new System.Drawing.Point(6, 6);
+            this.tabControlSearch.Name = "tabControlSearch";
+            this.tabControlSearch.Padding = new System.Drawing.Point(30, 10);
+            this.tabControlSearch.SelectedIndex = 0;
+            this.tabControlSearch.Size = new System.Drawing.Size(746, 685);
+            this.tabControlSearch.TabIndex = 2;
             // 
-            // tabPage16
+            // tabPageSearchBook
             // 
-            this.tabPage16.Controls.Add(this.label25);
-            this.tabPage16.Controls.Add(this.label24);
-            this.tabPage16.Controls.Add(this.textBox12);
-            this.tabPage16.Controls.Add(this.label23);
-            this.tabPage16.Controls.Add(this.comboBox2);
-            this.tabPage16.Controls.Add(this.textBox8);
-            this.tabPage16.Controls.Add(this.button6);
-            this.tabPage16.Controls.Add(this.richTextBox1);
-            this.tabPage16.Location = new System.Drawing.Point(4, 41);
-            this.tabPage16.Name = "tabPage16";
-            this.tabPage16.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage16.Size = new System.Drawing.Size(738, 640);
-            this.tabPage16.TabIndex = 0;
-            this.tabPage16.Text = "Book";
-            this.tabPage16.UseVisualStyleBackColor = true;
+            this.tabPageSearchBook.Controls.Add(this.labelSearchBookSelectLibrary);
+            this.tabPageSearchBook.Controls.Add(this.labelSearchBookId);
+            this.tabPageSearchBook.Controls.Add(this.textBoxSearchBookId);
+            this.tabPageSearchBook.Controls.Add(this.labelSearchBookName);
+            this.tabPageSearchBook.Controls.Add(this.comboBoxSearchBookSelectLibrary);
+            this.tabPageSearchBook.Controls.Add(this.textBoxSearchBookName);
+            this.tabPageSearchBook.Controls.Add(this.buttonSearchBook);
+            this.tabPageSearchBook.Controls.Add(this.richTextBoxSearchedBooks);
+            this.tabPageSearchBook.Location = new System.Drawing.Point(4, 41);
+            this.tabPageSearchBook.Name = "tabPageSearchBook";
+            this.tabPageSearchBook.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageSearchBook.Size = new System.Drawing.Size(738, 640);
+            this.tabPageSearchBook.TabIndex = 0;
+            this.tabPageSearchBook.Text = "Book";
+            this.tabPageSearchBook.UseVisualStyleBackColor = true;
             // 
-            // label25
+            // labelSearchBookSelectLibrary
             // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(470, 237);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(84, 18);
-            this.label25.TabIndex = 13;
-            this.label25.Text = "Select library";
+            this.labelSearchBookSelectLibrary.AutoSize = true;
+            this.labelSearchBookSelectLibrary.Location = new System.Drawing.Point(470, 237);
+            this.labelSearchBookSelectLibrary.Name = "labelSearchBookSelectLibrary";
+            this.labelSearchBookSelectLibrary.Size = new System.Drawing.Size(84, 18);
+            this.labelSearchBookSelectLibrary.TabIndex = 13;
+            this.labelSearchBookSelectLibrary.Text = "Select library";
             // 
-            // label24
+            // labelSearchBookId
             // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(470, 140);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(114, 18);
-            this.label24.TabIndex = 12;
-            this.label24.Text = "Search by book id";
+            this.labelSearchBookId.AutoSize = true;
+            this.labelSearchBookId.Location = new System.Drawing.Point(470, 140);
+            this.labelSearchBookId.Name = "labelSearchBookId";
+            this.labelSearchBookId.Size = new System.Drawing.Size(114, 18);
+            this.labelSearchBookId.TabIndex = 12;
+            this.labelSearchBookId.Text = "Search by book id";
             // 
-            // textBox12
+            // textBoxSearchBookId
             // 
-            this.textBox12.Font = new System.Drawing.Font("Calibri Light", 12F);
-            this.textBox12.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBox12.Location = new System.Drawing.Point(473, 168);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(217, 27);
-            this.textBox12.TabIndex = 11;
+            this.textBoxSearchBookId.Font = new System.Drawing.Font("Calibri Light", 12F);
+            this.textBoxSearchBookId.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.textBoxSearchBookId.Location = new System.Drawing.Point(473, 168);
+            this.textBoxSearchBookId.Name = "textBoxSearchBookId";
+            this.textBoxSearchBookId.Size = new System.Drawing.Size(217, 27);
+            this.textBoxSearchBookId.TabIndex = 11;
+            // 
+            // labelSearchBookName
+            // 
+            this.labelSearchBookName.AutoSize = true;
+            this.labelSearchBookName.Location = new System.Drawing.Point(470, 53);
+            this.labelSearchBookName.Name = "labelSearchBookName";
+            this.labelSearchBookName.Size = new System.Drawing.Size(103, 18);
+            this.labelSearchBookName.TabIndex = 10;
+            this.labelSearchBookName.Text = "Search by name";
+            // 
+            // comboBoxSearchBookSelectLibrary
+            // 
+            this.comboBoxSearchBookSelectLibrary.FormattingEnabled = true;
+            this.comboBoxSearchBookSelectLibrary.Location = new System.Drawing.Point(473, 269);
+            this.comboBoxSearchBookSelectLibrary.Name = "comboBoxSearchBookSelectLibrary";
+            this.comboBoxSearchBookSelectLibrary.Size = new System.Drawing.Size(217, 26);
+            this.comboBoxSearchBookSelectLibrary.TabIndex = 9;
+            // 
+            // textBoxSearchBookName
+            // 
+            this.textBoxSearchBookName.Font = new System.Drawing.Font("Calibri Light", 12F);
+            this.textBoxSearchBookName.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.textBoxSearchBookName.Location = new System.Drawing.Point(473, 81);
+            this.textBoxSearchBookName.Name = "textBoxSearchBookName";
+            this.textBoxSearchBookName.Size = new System.Drawing.Size(217, 27);
+            this.textBoxSearchBookName.TabIndex = 8;
+            // 
+            // buttonSearchBook
+            // 
+            this.buttonSearchBook.Location = new System.Drawing.Point(473, 334);
+            this.buttonSearchBook.Name = "buttonSearchBook";
+            this.buttonSearchBook.Size = new System.Drawing.Size(217, 37);
+            this.buttonSearchBook.TabIndex = 7;
+            this.buttonSearchBook.Text = "Search in Books";
+            this.buttonSearchBook.UseVisualStyleBackColor = true;
+            this.buttonSearchBook.Click += new System.EventHandler(this.buttonSearchBook_Click);
+            // 
+            // richTextBoxSearchedBooks
+            // 
+            this.richTextBoxSearchedBooks.Location = new System.Drawing.Point(35, 53);
+            this.richTextBoxSearchedBooks.Name = "richTextBoxSearchedBooks";
+            this.richTextBoxSearchedBooks.Size = new System.Drawing.Size(404, 564);
+            this.richTextBoxSearchedBooks.TabIndex = 0;
+            this.richTextBoxSearchedBooks.Text = "";
+            // 
+            // tabPageSearchReader
+            // 
+            this.tabPageSearchReader.Controls.Add(this.textBoxSearchReadername);
+            this.tabPageSearchReader.Controls.Add(this.buttonSearchReader);
+            this.tabPageSearchReader.Controls.Add(this.richTextBoxSearchedReaders);
+            this.tabPageSearchReader.Location = new System.Drawing.Point(4, 41);
+            this.tabPageSearchReader.Name = "tabPageSearchReader";
+            this.tabPageSearchReader.Size = new System.Drawing.Size(738, 640);
+            this.tabPageSearchReader.TabIndex = 2;
+            this.tabPageSearchReader.Text = "Reader";
+            this.tabPageSearchReader.UseVisualStyleBackColor = true;
+            // 
+            // textBoxSearchReadername
+            // 
+            this.textBoxSearchReadername.Font = new System.Drawing.Font("Calibri Light", 12F);
+            this.textBoxSearchReadername.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.textBoxSearchReadername.Location = new System.Drawing.Point(473, 53);
+            this.textBoxSearchReadername.Name = "textBoxSearchReadername";
+            this.textBoxSearchReadername.Size = new System.Drawing.Size(217, 27);
+            this.textBoxSearchReadername.TabIndex = 10;
+            // 
+            // buttonSearchReader
+            // 
+            this.buttonSearchReader.Location = new System.Drawing.Point(473, 98);
+            this.buttonSearchReader.Name = "buttonSearchReader";
+            this.buttonSearchReader.Size = new System.Drawing.Size(217, 37);
+            this.buttonSearchReader.TabIndex = 9;
+            this.buttonSearchReader.Text = "Search in Readers";
+            this.buttonSearchReader.UseVisualStyleBackColor = true;
+            this.buttonSearchReader.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // richTextBoxSearchedReaders
+            // 
+            this.richTextBoxSearchedReaders.Location = new System.Drawing.Point(35, 53);
+            this.richTextBoxSearchedReaders.Name = "richTextBoxSearchedReaders";
+            this.richTextBoxSearchedReaders.Size = new System.Drawing.Size(404, 564);
+            this.richTextBoxSearchedReaders.TabIndex = 8;
+            this.richTextBoxSearchedReaders.Text = "";
+            // 
+            // tabPageSearchLibrary
+            // 
+            this.tabPageSearchLibrary.Controls.Add(this.textBoxSearchLibraryName);
+            this.tabPageSearchLibrary.Controls.Add(this.buttonSearchLibrary);
+            this.tabPageSearchLibrary.Controls.Add(this.richTextBoxSearchedLibraries);
+            this.tabPageSearchLibrary.Location = new System.Drawing.Point(4, 41);
+            this.tabPageSearchLibrary.Name = "tabPageSearchLibrary";
+            this.tabPageSearchLibrary.Size = new System.Drawing.Size(738, 640);
+            this.tabPageSearchLibrary.TabIndex = 3;
+            this.tabPageSearchLibrary.Text = "Library";
+            this.tabPageSearchLibrary.UseVisualStyleBackColor = true;
+            // 
+            // textBoxSearchLibraryName
+            // 
+            this.textBoxSearchLibraryName.Font = new System.Drawing.Font("Calibri Light", 12F);
+            this.textBoxSearchLibraryName.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.textBoxSearchLibraryName.Location = new System.Drawing.Point(473, 53);
+            this.textBoxSearchLibraryName.Name = "textBoxSearchLibraryName";
+            this.textBoxSearchLibraryName.Size = new System.Drawing.Size(217, 27);
+            this.textBoxSearchLibraryName.TabIndex = 13;
+            // 
+            // buttonSearchLibrary
+            // 
+            this.buttonSearchLibrary.Location = new System.Drawing.Point(473, 98);
+            this.buttonSearchLibrary.Name = "buttonSearchLibrary";
+            this.buttonSearchLibrary.Size = new System.Drawing.Size(217, 37);
+            this.buttonSearchLibrary.TabIndex = 12;
+            this.buttonSearchLibrary.Text = "Search in Libraries";
+            this.buttonSearchLibrary.UseVisualStyleBackColor = true;
+            this.buttonSearchLibrary.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // richTextBoxSearchedLibraries
+            // 
+            this.richTextBoxSearchedLibraries.Location = new System.Drawing.Point(35, 53);
+            this.richTextBoxSearchedLibraries.Name = "richTextBoxSearchedLibraries";
+            this.richTextBoxSearchedLibraries.Size = new System.Drawing.Size(404, 564);
+            this.richTextBoxSearchedLibraries.TabIndex = 11;
+            this.richTextBoxSearchedLibraries.Text = "";
+            // 
+            // checkedListBoxArchiveBook
+            // 
+            this.checkedListBoxArchiveBook.FormattingEnabled = true;
+            this.checkedListBoxArchiveBook.Location = new System.Drawing.Point(51, 56);
+            this.checkedListBoxArchiveBook.Name = "checkedListBoxArchiveBook";
+            this.checkedListBoxArchiveBook.Size = new System.Drawing.Size(377, 484);
+            this.checkedListBoxArchiveBook.TabIndex = 23;
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.Controls.Add(this.richTextBoxShowBorrowedBooks);
+            this.tabPage6.Controls.Add(this.label23);
+            this.tabPage6.Controls.Add(this.comboBoxShowBorrowedBooks);
+            this.tabPage6.Controls.Add(this.button6);
+            this.tabPage6.Location = new System.Drawing.Point(4, 41);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Size = new System.Drawing.Size(738, 640);
+            this.tabPage6.TabIndex = 4;
+            this.tabPage6.Text = "Borrowed";
+            this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(470, 53);
+            this.label23.Location = new System.Drawing.Point(476, 54);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(103, 18);
-            this.label23.TabIndex = 10;
-            this.label23.Text = "Search by name";
+            this.label23.Size = new System.Drawing.Size(84, 18);
+            this.label23.TabIndex = 16;
+            this.label23.Text = "Select library";
             // 
-            // comboBox2
+            // comboBoxShowBorrowedBooks
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(473, 269);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(217, 26);
-            this.comboBox2.TabIndex = 9;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Font = new System.Drawing.Font("Calibri Light", 12F);
-            this.textBox8.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBox8.Location = new System.Drawing.Point(473, 81);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(217, 27);
-            this.textBox8.TabIndex = 8;
+            this.comboBoxShowBorrowedBooks.FormattingEnabled = true;
+            this.comboBoxShowBorrowedBooks.Location = new System.Drawing.Point(479, 86);
+            this.comboBoxShowBorrowedBooks.Name = "comboBoxShowBorrowedBooks";
+            this.comboBoxShowBorrowedBooks.Size = new System.Drawing.Size(217, 26);
+            this.comboBoxShowBorrowedBooks.TabIndex = 15;
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(473, 334);
+            this.button6.Location = new System.Drawing.Point(479, 151);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(217, 37);
-            this.button6.TabIndex = 7;
-            this.button6.Text = "Search in Books";
+            this.button6.TabIndex = 14;
+            this.button6.Text = "Show borrowed books";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // richTextBox1
+            // richTextBoxShowBorrowedBooks
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(35, 53);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(404, 564);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "";
+            this.richTextBoxShowBorrowedBooks.Location = new System.Drawing.Point(35, 53);
+            this.richTextBoxShowBorrowedBooks.Name = "richTextBoxShowBorrowedBooks";
+            this.richTextBoxShowBorrowedBooks.Size = new System.Drawing.Size(404, 564);
+            this.richTextBoxShowBorrowedBooks.TabIndex = 17;
+            this.richTextBoxShowBorrowedBooks.Text = "";
             // 
-            // tabPage17
+            // label24
             // 
-            this.tabPage17.Controls.Add(this.textBox11);
-            this.tabPage17.Controls.Add(this.button12);
-            this.tabPage17.Controls.Add(this.richTextBox2);
-            this.tabPage17.Location = new System.Drawing.Point(4, 41);
-            this.tabPage17.Name = "tabPage17";
-            this.tabPage17.Size = new System.Drawing.Size(738, 640);
-            this.tabPage17.TabIndex = 2;
-            this.tabPage17.Text = "Reader";
-            this.tabPage17.UseVisualStyleBackColor = true;
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(488, 48);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(84, 18);
+            this.label24.TabIndex = 17;
+            this.label24.Text = "Select library";
             // 
-            // textBox11
+            // comboBoxReturnBook
             // 
-            this.textBox11.Font = new System.Drawing.Font("Calibri Light", 12F);
-            this.textBox11.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBox11.Location = new System.Drawing.Point(473, 53);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(217, 27);
-            this.textBox11.TabIndex = 10;
+            this.comboBoxReturnBook.FormattingEnabled = true;
+            this.comboBoxReturnBook.Location = new System.Drawing.Point(491, 80);
+            this.comboBoxReturnBook.Name = "comboBoxReturnBook";
+            this.comboBoxReturnBook.Size = new System.Drawing.Size(217, 26);
+            this.comboBoxReturnBook.TabIndex = 16;
             // 
-            // button12
+            // tabPage7
             // 
-            this.button12.Location = new System.Drawing.Point(473, 98);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(217, 37);
-            this.button12.TabIndex = 9;
-            this.button12.Text = "Search in Readers";
-            this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
+            this.tabPage7.Controls.Add(this.label25);
+            this.tabPage7.Controls.Add(this.comboBox1);
+            this.tabPage7.Controls.Add(this.button7);
+            this.tabPage7.Controls.Add(this.button9);
+            this.tabPage7.Controls.Add(this.checkedListBox1);
+            this.tabPage7.Controls.Add(this.label26);
+            this.tabPage7.Controls.Add(this.textBox1);
+            this.tabPage7.Location = new System.Drawing.Point(4, 41);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Size = new System.Drawing.Size(738, 640);
+            this.tabPage7.TabIndex = 4;
+            this.tabPage7.Text = "Return";
+            this.tabPage7.UseVisualStyleBackColor = true;
             // 
-            // richTextBox2
+            // label25
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(35, 53);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(404, 564);
-            this.richTextBox2.TabIndex = 8;
-            this.richTextBox2.Text = "";
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(49, 68);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(84, 18);
+            this.label25.TabIndex = 22;
+            this.label25.Text = "Select library";
             // 
-            // tabPage18
+            // comboBox1
             // 
-            this.tabPage18.Controls.Add(this.textBox13);
-            this.tabPage18.Controls.Add(this.button13);
-            this.tabPage18.Controls.Add(this.richTextBox3);
-            this.tabPage18.Location = new System.Drawing.Point(4, 41);
-            this.tabPage18.Name = "tabPage18";
-            this.tabPage18.Size = new System.Drawing.Size(738, 640);
-            this.tabPage18.TabIndex = 3;
-            this.tabPage18.Text = "Library";
-            this.tabPage18.UseVisualStyleBackColor = true;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(52, 100);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(217, 26);
+            this.comboBox1.TabIndex = 21;
             // 
-            // textBox13
+            // button7
             // 
-            this.textBox13.Font = new System.Drawing.Font("Calibri Light", 12F);
-            this.textBox13.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBox13.Location = new System.Drawing.Point(473, 53);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(217, 27);
-            this.textBox13.TabIndex = 13;
+            this.button7.Location = new System.Drawing.Point(471, 385);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(217, 37);
+            this.button7.TabIndex = 20;
+            this.button7.Text = "Borrow";
+            this.button7.UseVisualStyleBackColor = true;
             // 
-            // button13
+            // button9
             // 
-            this.button13.Location = new System.Drawing.Point(473, 98);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(217, 37);
-            this.button13.TabIndex = 12;
-            this.button13.Text = "Search in Libraries";
-            this.button13.UseVisualStyleBackColor = true;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
+            this.button9.Location = new System.Drawing.Point(271, 180);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(134, 27);
+            this.button9.TabIndex = 19;
+            this.button9.Text = "Search";
+            this.button9.UseVisualStyleBackColor = true;
             // 
-            // richTextBox3
+            // checkedListBox1
             // 
-            this.richTextBox3.Location = new System.Drawing.Point(35, 53);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(404, 564);
-            this.richTextBox3.TabIndex = 11;
-            this.richTextBox3.Text = "";
-            // 
-            // checkedListBoxCheckoutLate
-            // 
-            this.checkedListBoxCheckoutLate.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.checkedListBoxCheckoutLate.FormattingEnabled = true;
-            this.checkedListBoxCheckoutLate.Items.AddRange(new object[] {
-            "Borrowed Book n.1",
-            "Another Borrowed Book",
-            "Super interesting Story",
-            "Boring Novel",
-            "Just Another Nerdy Book"});
-            this.checkedListBoxCheckoutLate.Location = new System.Drawing.Point(59, 42);
-            this.checkedListBoxCheckoutLate.Name = "checkedListBoxCheckoutLate";
-            this.checkedListBoxCheckoutLate.Size = new System.Drawing.Size(399, 554);
-            this.checkedListBoxCheckoutLate.TabIndex = 7;
-            // 
-            // tabPage23
-            // 
-            this.tabPage23.Controls.Add(this.label27);
-            this.tabPage23.Controls.Add(this.comboBoxCheckoutSelectLibrary);
-            this.tabPage23.Controls.Add(this.buttonCheckoutSelectBooksToBorrow);
-            this.tabPage23.Controls.Add(this.buttonCheckoutSearchBook);
-            this.tabPage23.Controls.Add(this.checkedListBoxCheckoutBorrowBooks);
-            this.tabPage23.Controls.Add(this.label26);
-            this.tabPage23.Controls.Add(this.textBoxCheckoutSearchBook);
-            this.tabPage23.Location = new System.Drawing.Point(4, 41);
-            this.tabPage23.Name = "tabPage23";
-            this.tabPage23.Size = new System.Drawing.Size(738, 640);
-            this.tabPage23.TabIndex = 4;
-            this.tabPage23.Text = "Borrow";
-            this.tabPage23.UseVisualStyleBackColor = true;
-            // 
-            // buttonCheckoutSelectBooksToBorrow
-            // 
-            this.buttonCheckoutSelectBooksToBorrow.Location = new System.Drawing.Point(471, 385);
-            this.buttonCheckoutSelectBooksToBorrow.Name = "buttonCheckoutSelectBooksToBorrow";
-            this.buttonCheckoutSelectBooksToBorrow.Size = new System.Drawing.Size(217, 37);
-            this.buttonCheckoutSelectBooksToBorrow.TabIndex = 13;
-            this.buttonCheckoutSelectBooksToBorrow.Text = "Borrow";
-            this.buttonCheckoutSelectBooksToBorrow.UseVisualStyleBackColor = true;
-            this.buttonCheckoutSelectBooksToBorrow.Click += new System.EventHandler(this.buttonCheckoutSelectBooksToBorrow_Click);
-            // 
-            // buttonCheckoutSearchBook
-            // 
-            this.buttonCheckoutSearchBook.Location = new System.Drawing.Point(271, 180);
-            this.buttonCheckoutSearchBook.Name = "buttonCheckoutSearchBook";
-            this.buttonCheckoutSearchBook.Size = new System.Drawing.Size(134, 27);
-            this.buttonCheckoutSearchBook.TabIndex = 12;
-            this.buttonCheckoutSearchBook.Text = "Search";
-            this.buttonCheckoutSearchBook.UseVisualStyleBackColor = true;
-            this.buttonCheckoutSearchBook.Click += new System.EventHandler(this.buttonCheckinSearchBook_Click);
-            // 
-            // checkedListBoxCheckoutBorrowBooks
-            // 
-            this.checkedListBoxCheckoutBorrowBooks.CheckOnClick = true;
-            this.checkedListBoxCheckoutBorrowBooks.FormattingEnabled = true;
-            this.checkedListBoxCheckoutBorrowBooks.Location = new System.Drawing.Point(52, 258);
-            this.checkedListBoxCheckoutBorrowBooks.Name = "checkedListBoxCheckoutBorrowBooks";
-            this.checkedListBoxCheckoutBorrowBooks.Size = new System.Drawing.Size(353, 164);
-            this.checkedListBoxCheckoutBorrowBooks.TabIndex = 11;
-            this.checkedListBoxCheckoutBorrowBooks.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.checkedListBoxCheckoutBorrowBooks_ItemCheck);
+            this.checkedListBox1.CheckOnClick = true;
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Location = new System.Drawing.Point(52, 258);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(353, 164);
+            this.checkedListBox1.TabIndex = 18;
             // 
             // label26
             // 
@@ -1354,94 +1720,90 @@ namespace Advanced_Data_Structures
             this.label26.Location = new System.Drawing.Point(49, 159);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(53, 18);
-            this.label26.TabIndex = 10;
+            this.label26.TabIndex = 17;
             this.label26.Text = "Book id";
             // 
-            // textBoxCheckoutSearchBook
+            // textBox1
             // 
-            this.textBoxCheckoutSearchBook.Font = new System.Drawing.Font("Calibri Light", 12F);
-            this.textBoxCheckoutSearchBook.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBoxCheckoutSearchBook.Location = new System.Drawing.Point(52, 180);
-            this.textBoxCheckoutSearchBook.Name = "textBoxCheckoutSearchBook";
-            this.textBoxCheckoutSearchBook.Size = new System.Drawing.Size(222, 27);
-            this.textBoxCheckoutSearchBook.TabIndex = 9;
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(49, 68);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(84, 18);
-            this.label27.TabIndex = 15;
-            this.label27.Text = "Select library";
-            // 
-            // comboBoxCheckoutSelectLibrary
-            // 
-            this.comboBoxCheckoutSelectLibrary.FormattingEnabled = true;
-            this.comboBoxCheckoutSelectLibrary.Location = new System.Drawing.Point(52, 100);
-            this.comboBoxCheckoutSelectLibrary.Name = "comboBoxCheckoutSelectLibrary";
-            this.comboBoxCheckoutSelectLibrary.Size = new System.Drawing.Size(217, 26);
-            this.comboBoxCheckoutSelectLibrary.TabIndex = 14;
+            this.textBox1.Font = new System.Drawing.Font("Calibri Light", 12F);
+            this.textBox1.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.textBox1.Location = new System.Drawing.Point(52, 180);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(222, 27);
+            this.textBox1.TabIndex = 16;
             // 
             // AdsApplication
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 750);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.tabControlOuter);
             this.Name = "AdsApplication";
             this.Text = "Book Borrowing System";
-            this.tabControl1.ResumeLayout(false);
+            this.tabControlOuter.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabControl6.ResumeLayout(false);
-            this.tabPage19.ResumeLayout(false);
-            this.tabPage19.PerformLayout();
-            this.tabPage20.ResumeLayout(false);
-            this.tabPage21.ResumeLayout(false);
-            this.tabPage22.ResumeLayout(false);
+            this.tabControlCheckout.ResumeLayout(false);
+            this.tabPageCheckoutReader.ResumeLayout(false);
+            this.tabPageCheckoutReader.PerformLayout();
+            this.tabPageCheckoutCurrent.ResumeLayout(false);
+            this.tabPageCheckoutCurrent.PerformLayout();
+            this.tabPageCheckoutPrevious.ResumeLayout(false);
+            this.tabPageCheckoutLateReturns.ResumeLayout(false);
+            this.tabPageCheckoutBorrow.ResumeLayout(false);
+            this.tabPageCheckoutBorrow.PerformLayout();
             this.tabPage2.ResumeLayout(false);
-            this.tabControl2.ResumeLayout(false);
-            this.tabPage9.ResumeLayout(false);
-            this.tabPage9.PerformLayout();
+            this.tabControlCheckin.ResumeLayout(false);
+            this.tabPageCheckinReader.ResumeLayout(false);
+            this.tabPageCheckinReader.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.tabPage6.ResumeLayout(false);
-            this.tabPage7.ResumeLayout(false);
+            this.tabPageCheckinCurrent.ResumeLayout(false);
+            this.tabPageCheckinPrevious.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
-            this.tabControl3.ResumeLayout(false);
-            this.tabPage11.ResumeLayout(false);
-            this.tabPage11.PerformLayout();
+            this.tabControlRegister.ResumeLayout(false);
+            this.tabPageRegisterReader.ResumeLayout(false);
+            this.tabPageRegisterReader.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.tabPage13.ResumeLayout(false);
-            this.tabPage13.PerformLayout();
+            this.tabPageRegisterBook.ResumeLayout(false);
+            this.tabPageRegisterBook.PerformLayout();
+            this.tabPageRegisterLibrary.ResumeLayout(false);
+            this.tabPageRegisterLibrary.PerformLayout();
             this.tabPage4.ResumeLayout(false);
-            this.tabControl4.ResumeLayout(false);
+            this.tabControlArchive.ResumeLayout(false);
+            this.tabPageArchiveBook.ResumeLayout(false);
+            this.tabPageArchiveBook.PerformLayout();
+            this.tabPageArchiveReader.ResumeLayout(false);
+            this.tabPageArchiveReader.PerformLayout();
+            this.tabPageArchiveLibrary.ResumeLayout(false);
+            this.tabPageArchiveLibrary.PerformLayout();
             this.tabPage5.ResumeLayout(false);
-            this.tabControl5.ResumeLayout(false);
-            this.tabPage16.ResumeLayout(false);
-            this.tabPage16.PerformLayout();
-            this.tabPage17.ResumeLayout(false);
-            this.tabPage17.PerformLayout();
-            this.tabPage18.ResumeLayout(false);
-            this.tabPage18.PerformLayout();
-            this.tabPage23.ResumeLayout(false);
-            this.tabPage23.PerformLayout();
+            this.tabControlSearch.ResumeLayout(false);
+            this.tabPageSearchBook.ResumeLayout(false);
+            this.tabPageSearchBook.PerformLayout();
+            this.tabPageSearchReader.ResumeLayout(false);
+            this.tabPageSearchReader.PerformLayout();
+            this.tabPageSearchLibrary.ResumeLayout(false);
+            this.tabPageSearchLibrary.PerformLayout();
+            this.tabPage6.ResumeLayout(false);
+            this.tabPage6.PerformLayout();
+            this.tabPage7.ResumeLayout(false);
+            this.tabPage7.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl tabControlOuter;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TabControl tabControl2;
-        private System.Windows.Forms.TabPage tabPage6;
-        private System.Windows.Forms.TabPage tabPage7;
-        private System.Windows.Forms.TabPage tabPage8;
+        private System.Windows.Forms.TabControl tabControlCheckin;
+        private System.Windows.Forms.TabPage tabPageCheckinCurrent;
+        private System.Windows.Forms.TabPage tabPageCheckinPrevious;
+        private System.Windows.Forms.TabPage tabPageCheckinReservations;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
@@ -1449,7 +1811,7 @@ namespace Advanced_Data_Structures
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TabPage tabPage9;
+        private System.Windows.Forms.TabPage tabPageCheckinReader;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button1;
@@ -1461,22 +1823,22 @@ namespace Advanced_Data_Structures
         private System.Windows.Forms.TextBox textBoxReaderId;
         private System.Windows.Forms.CheckedListBox checkedListBoxPastBorrowed;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TabControl tabControl3;
-        private System.Windows.Forms.TabPage tabPage11;
-        private System.Windows.Forms.TabPage tabPage13;
-        private System.Windows.Forms.TabPage tabPage10;
-        private System.Windows.Forms.TabControl tabControl4;
-        private System.Windows.Forms.TabPage tabPage12;
-        private System.Windows.Forms.TabPage tabPage14;
-        private System.Windows.Forms.TabPage tabPage15;
-        private System.Windows.Forms.TabControl tabControl5;
-        private System.Windows.Forms.TabPage tabPage16;
-        private System.Windows.Forms.TabPage tabPage17;
-        private System.Windows.Forms.TabPage tabPage18;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.TabControl tabControl6;
-        private System.Windows.Forms.TabPage tabPage19;
+        private System.Windows.Forms.TabControl tabControlRegister;
+        private System.Windows.Forms.TabPage tabPageRegisterReader;
+        private System.Windows.Forms.TabPage tabPageRegisterBook;
+        private System.Windows.Forms.TabPage tabPageRegisterLibrary;
+        private System.Windows.Forms.TabControl tabControlArchive;
+        private System.Windows.Forms.TabPage tabPageArchiveBook;
+        private System.Windows.Forms.TabPage tabPageArchiveReader;
+        private System.Windows.Forms.TabPage tabPageArchiveLibrary;
+        private System.Windows.Forms.TabControl tabControlSearch;
+        private System.Windows.Forms.TabPage tabPageSearchBook;
+        private System.Windows.Forms.TabPage tabPageSearchReader;
+        private System.Windows.Forms.TabPage tabPageSearchLibrary;
+        private System.Windows.Forms.RichTextBox richTextBoxSearchedBooks;
+        private System.Windows.Forms.Button buttonSearchBook;
+        private System.Windows.Forms.TabControl tabControlCheckout;
+        private System.Windows.Forms.TabPage tabPageCheckoutReader;
         private System.Windows.Forms.Button buttonSelectFromFoundReaders;
         private System.Windows.Forms.Button buttonSearchByReaderName;
         private System.Windows.Forms.Button buttonSearchByLibraryCardId;
@@ -1486,13 +1848,13 @@ namespace Advanced_Data_Structures
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox textBoxSearchByLibraryCardId;
-        private System.Windows.Forms.TabPage tabPage20;
+        private System.Windows.Forms.TabPage tabPageCheckoutCurrent;
         private System.Windows.Forms.CheckedListBox checkedListBoxCheckoutCurrent;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.TabPage tabPage21;
+        private System.Windows.Forms.TabPage tabPageCheckoutPrevious;
         private System.Windows.Forms.CheckedListBox checkedListBoxCheckoutPrevious;
-        private System.Windows.Forms.TabPage tabPage22;
+        private System.Windows.Forms.TabPage tabPageCheckoutLateReturns;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.CheckBox checkBox3;
@@ -1506,7 +1868,7 @@ namespace Advanced_Data_Structures
         private System.Windows.Forms.TextBox textBoxNewReaderSurname;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox textBoxNewReaderName;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button buttonRegisterNewUser;
         private System.Windows.Forms.TextBox textBoxRegisterIsbn;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.TextBox textBoxRegisterGenre;
@@ -1515,7 +1877,7 @@ namespace Advanced_Data_Structures
         private System.Windows.Forms.TextBox textBoxRegisterAuthors;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox textBoxRegisterTitle;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button buttonRegisterNewBook;
         private System.Windows.Forms.ComboBox comboBoxRegisterLibrary;
         private System.Windows.Forms.TextBox textBoxRegisterBookId;
         private System.Windows.Forms.Label label19;
@@ -1524,27 +1886,62 @@ namespace Advanced_Data_Structures
         private System.Windows.Forms.TextBox textBoxRegisterFee;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.TextBox textBoxRegisterBorrowLength;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.RichTextBox richTextBox3;
+        private System.Windows.Forms.Button buttonSearchReader;
+        private System.Windows.Forms.RichTextBox richTextBoxSearchedReaders;
+        private System.Windows.Forms.TextBox textBoxSearchReadername;
+        private System.Windows.Forms.Label labelSearchBookSelectLibrary;
+        private System.Windows.Forms.Label labelSearchBookId;
+        private System.Windows.Forms.TextBox textBoxSearchBookId;
+        private System.Windows.Forms.Label labelSearchBookName;
+        private System.Windows.Forms.ComboBox comboBoxSearchBookSelectLibrary;
+        private System.Windows.Forms.TextBox textBoxSearchBookName;
+        private System.Windows.Forms.TextBox textBoxSearchLibraryName;
+        private System.Windows.Forms.Button buttonSearchLibrary;
+        private System.Windows.Forms.RichTextBox richTextBoxSearchedLibraries;
         private System.Windows.Forms.CheckedListBox checkedListBoxCheckoutLate;
-        private System.Windows.Forms.TabPage tabPage23;
+        private System.Windows.Forms.TabPage tabPageCheckoutBorrow;
         private System.Windows.Forms.Button buttonCheckoutSelectBooksToBorrow;
         private System.Windows.Forms.Button buttonCheckoutSearchBook;
         private System.Windows.Forms.CheckedListBox checkedListBoxCheckoutBorrowBooks;
-        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label labelBorrowBookId;
         private System.Windows.Forms.TextBox textBoxCheckoutSearchBook;
-        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label labelBorrowSelectLibrary;
         private System.Windows.Forms.ComboBox comboBoxCheckoutSelectLibrary;
+        private System.Windows.Forms.Button buttonRegisterNewLibrary;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.TextBox textBoxNewLibraryName;
+        private System.Windows.Forms.Label labelArchiveBookLibrary;
+        private System.Windows.Forms.Label labelArchiveBookId;
+        private System.Windows.Forms.TextBox textBoxArchiveBookId;
+        private System.Windows.Forms.Label labelArchiveBookName;
+        private System.Windows.Forms.ComboBox comboBoxArchiveBookLibrary;
+        private System.Windows.Forms.TextBox textBoxArchiveBookName;
+        private System.Windows.Forms.Button buttonArchiveBookSearch;
+        private System.Windows.Forms.TextBox textBoxArchiveReaderSearch;
+        private System.Windows.Forms.Button buttonArchiveReaderSearch;
+        private System.Windows.Forms.RichTextBox richTextBoxArchiveReader;
+        private System.Windows.Forms.TextBox textBoxArchiveLibraryName;
+        private System.Windows.Forms.Button buttonArchiveLibrarySearch;
+        private System.Windows.Forms.RichTextBox richTextBoxArchiveLibrary;
+        private System.Windows.Forms.Button buttonArchiveBook;
+        private System.Windows.Forms.Button buttonArchiveReader;
+        private System.Windows.Forms.Button buttonArchiveSelectedLibrary;
+        private System.Windows.Forms.CheckedListBox checkedListBoxArchiveBook;
+        private System.Windows.Forms.TabPage tabPage6;
+        private System.Windows.Forms.RichTextBox richTextBoxShowBorrowedBooks;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.ComboBox comboBoxShowBorrowedBooks;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.ComboBox comboBoxReturnBook;
+        private System.Windows.Forms.TabPage tabPage7;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

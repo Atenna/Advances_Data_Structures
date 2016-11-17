@@ -64,7 +64,7 @@ namespace ADS.Core.Domain.Controller
             AbstractNode<Library> l = _model.Libraries.SearchNode(new Library(libraryName), _model.Libraries.Root);
             AbstractNode<Book> b = l.Data.AllBooksByIsbn.SearchNode(new Book("", "", "", isbn),
                 l.Data.AllBooksByIsbn.Root);
-            return b?.Data.ToString();
+            return b?.Data.ToStringDetailed();
         }
 
         public string[] SearchBookByIsbnArray(string isbn, string libraryName)
@@ -99,7 +99,7 @@ namespace ADS.Core.Domain.Controller
             AbstractNode<Book> b = l.Data.AllBooksByName.SearchNode(new Book("", name, ""), l.Data.AllBooksByName.Root);
             if (b != null)
             {
-                return b.Data.ToString();
+                return b.Data.ToStringDetailed();
             }
             List<AbstractNode<Book>> books = l.Data.AllBooksByName.SearchSimilar(new Book("", name, ""),
                 l.Data.AllBooksByName.Root);
@@ -109,6 +109,35 @@ namespace ADS.Core.Domain.Controller
                 listOfSimilarBooks += book.Data.ToString() + "\n";
             }
             return listOfSimilarBooks;
+        }
+
+        public string[] SearchBookByNameArray(string name, string libraryName)
+        {
+            List<AbstractNode<Book>> books = new List<AbstractNode<Book>>();
+            AbstractNode<Library> l = _model.Libraries.SearchNode(new Library(libraryName), _model.Libraries.Root);
+            if (libraryName == "")
+            {
+                return new string[] {};
+            }
+            AbstractNode<Book> b = l.Data.AllBooksByName.SearchNode(new Book("", name, ""), l.Data.AllBooksByName.Root);
+            if (b != null)
+            {
+                books.Add(b);
+                string[] toRet = new string[books.Count];
+                for (int i = 0; i < books.Count; i++)
+                {
+                    toRet[i] = books[i].Data.ToString();
+                }
+                return toRet;
+            }
+            books = l.Data.AllBooksByName.SearchSimilar(new Book("", name, ""),
+                l.Data.AllBooksByName.Root);
+            string[] toRet2 = new string[books.Count];
+            for (int i = 0; i < books.Count; i++)
+            {
+                toRet2[i] = books[i].Data.ToString();
+            }
+            return toRet2;
         }
 
         public bool BorrowBook(int bookId, string bookIsbn, int readerId, string libraryName)
@@ -124,14 +153,26 @@ namespace ADS.Core.Domain.Controller
             // check if can be borrowed
 
             // then borrow
-            foundB.Data.Borrow(foundR.Data);
-
-            return true;
+            return foundB.Data.Borrow(foundR.Data);
         }
 
-        public bool ReturnBook(string bookId, string readerId, string libraryId)
+        public bool ReturnBook(string isbn, int bookId, int readerId, string libraryId)
         {
-            throw new NotImplementedException();
+            Book b = new Book(isbn, bookId);
+            AbstractNode<Library> l = _model.Libraries.SearchNode(new Library(libraryId), _model.Libraries.Root);
+
+            Reader r = new Reader(readerId, "", "");
+            var foundR = _model.ReadersById.SearchNode(r, _model.ReadersById.Root);
+
+            AbstractNode<Book> foundB = l.Data.AllBooksByIsbn.SearchNode(b, l.Data.AllBooksByIsbn.Root);
+            if (foundB!= null)
+            {
+                foundB.Data.Return(l.Data);
+                return true;
+            }
+            
+
+            return false;
         }
 
         public string[] SearchReaderById(string readerId)
@@ -216,7 +257,8 @@ namespace ADS.Core.Domain.Controller
 
         public string ShowBorrowedBooksInLibrary(string libraryId)
         {
-            throw new NotImplementedException();
+            AbstractNode<Library> lib = _model.Libraries.SearchNode(new Library(libraryId), _model.Libraries.Root);
+            return lib.Data.BorrowedBooks?.InorderTraversal(lib.Data.BorrowedBooks.Root);
         }
 
         public bool AddNewReader(string name, string surname, string address, string dateOfBirth)
@@ -253,6 +295,19 @@ namespace ADS.Core.Domain.Controller
         public bool ArchiveBook(string isbn)
         {
             throw new NotImplementedException();
+        }
+
+        public bool ArchiveBook(string isbn, int bookId)
+        {
+            Book b = new Book(isbn, bookId);
+            AbstractNode<Book> foundB = _model.BooksByIsbn.SearchNode(b, _model.BooksByIsbn.Root);
+
+            if (foundB != null)
+            {
+                foundB.Data.IsArchived = true;
+                return foundB.Data.IsArchived;
+            }
+            return false;
         }
 
         public string[] ShowLateReturnedBooks(string readerId, DateTime fromTime, DateTime toTime)
@@ -305,6 +360,11 @@ namespace ADS.Core.Domain.Controller
             return _model.BooksByName.InorderTraversal(_model.BooksByName.Root);
         }
 
+        public string[] ShowAllBooksArray()
+        {
+            return _model.BooksByName.InorderTraversalToStringArray(_model.BooksByName.Root);
+        }
+
         public string ShowAllBooks(string libraryName)
         {
             Library l = new Library(libraryName);
@@ -314,6 +374,17 @@ namespace ADS.Core.Domain.Controller
                 return lib.Data.AllBooksByName.InorderTraversal(lib.Data.AllBooksByName.Root);
             }
             return "";
+        }
+
+        public string[] ShowAllBooksArray(string libraryName)
+        {
+            Library l = new Library(libraryName);
+            AvlTreeNode<Library> lib = (AvlTreeNode<Library>)_model.Libraries.SearchNode(l, _model.Libraries.Root);
+            if (lib != null && lib.Data.AllBooksByName != null)
+            {
+                return lib.Data.AllBooksByName.InorderTraversalToStringArray(lib.Data.AllBooksByName.Root);
+            }
+            return new string[]{};
         }
 
         public string ShowAllBooks(int libraryId)
