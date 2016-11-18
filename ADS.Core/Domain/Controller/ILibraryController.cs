@@ -62,5 +62,7 @@ namespace ADS.Core.Domain.Controller
         string ShowAllBooks(string libraryName);
 
         string ShowAllBooks(int libraryId);
+
+        string SearchBookByNameWithUniqueId(string bookname, int uniqueid, string libraryName);
     }
 }

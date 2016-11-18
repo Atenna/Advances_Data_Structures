@@ -25,25 +25,29 @@ namespace ADS.ADS.Data.Library
                 //return string.Compare(x.Title, y.Title);
                 if (x.Title == y.Title)
                 {
-                    if (x.CodeIsbn == y.CodeIsbn)
+                    if (x.CodeIsbn != null && y.CodeIsbn != null)
                     {
-                        if (x.UniqueId == y.UniqueId)
+                        if (x.CodeIsbn == y.CodeIsbn)
                         {
-                            return 0;
-                        }
-                        else if (x.UniqueId > y.UniqueId)
-                        {
-                            return 1;
+                            if (x.UniqueId == y.UniqueId)
+                            {
+                                return 0;
+                            }
+                            else if (x.UniqueId > y.UniqueId)
+                            {
+                                return 1;
+                            }
+                            else
+                            {
+                                return -1;
+                            }
                         }
                         else
                         {
-                            return -1;
+                            return string.Compare(x.CodeIsbn, y.CodeIsbn);
                         }
                     }
-                    else
-                    {
-                        return string.Compare(x.CodeIsbn, y.CodeIsbn);
-                    }
+                    return 0;
                 }
                 else
                 {
@@ -84,7 +88,7 @@ namespace ADS.ADS.Data.Library
 
         public string Author { get; }
         public string Title { get; }
-        public string CodeIsbn { get; }
+        public string CodeIsbn { get; set; }
         public string CodeEan { get; }
         public string GenreList { get; }
         public string Genre { get; }
@@ -114,8 +118,8 @@ namespace ADS.ADS.Data.Library
             IsArchived = false;
             IsBorrowed = false;
 
-            CurrentLibrary.AllBooksByIsbn.Add(this);
-            CurrentLibrary.AllBooksByName.Add(this);
+            CurrentLibrary?.AllBooksByIsbn.Add(this);
+            CurrentLibrary?.AllBooksByName.Add(this);
         }
 
         public Book(string author, string title, string genre)
@@ -138,7 +142,7 @@ namespace ADS.ADS.Data.Library
         public Book(string isbn, int bookId)
         {
             CodeIsbn = isbn;
-            UniqueId = 0;
+            UniqueId = bookId;
         }
 
         public override string ToString()
@@ -149,7 +153,7 @@ namespace ADS.ADS.Data.Library
         public string ToStringDetailed()
         {
             string borrowed = IsBorrowed ? "Borrowed [ " + CurrentReader.Name +" "+ CurrentReader.Surname+" ]" : "Available";
-            string archived = IsArchived ? "Archived" : "In use";
+            string archived = IsArchived ? "Archived" : "Not archived";
             return Title + " : " + Author + ", \n" + CodeIsbn + ", " + UniqueId + ", \n" + borrowed + ", " + archived;
         }
 

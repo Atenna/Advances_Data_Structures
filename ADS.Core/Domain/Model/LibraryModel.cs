@@ -113,7 +113,7 @@ namespace ADS.Core.Domain.Model
 
             strasiak.BooksCurrentlyBorrowed.Add(b1);
             strasiak.BooksCurrentlyBorrowed.Add(b2);
-            strasiak.BooksCurrentlyBorrowed.Add(b3);
+            strasiak.BooksCurrentlyBorrowed.Add(b10);
             strasiak.BooksCurrentlyBorrowed.Add(b6);
             strasiak.BooksCurrentlyBorrowed.Add(b8);
 
@@ -168,22 +168,22 @@ namespace ADS.Core.Domain.Model
             lib2.AllBooksByIsbn.Add(b11);
             Libraries.Add(lib2);
 
-            lib3.AllBooksByName.Add(b4);
-            lib3.AllBooksByName.Add(b1);
-            lib3.AllBooksByName.Add(b7);
-            lib3.AllBooksByName.Add(b8);
-            lib3.AllBooksByName.Add(b9);
-            lib3.AllBooksByName.Add(b6);
-            lib3.AllBooksByName.Add(b2);
-            lib3.AllBooksByIsbn.Add(b4);
-            lib3.AllBooksByIsbn.Add(b1);
-            lib3.AllBooksByIsbn.Add(b7);
-            lib3.AllBooksByIsbn.Add(b8);
-            lib3.AllBooksByIsbn.Add(b9);
-            lib3.AllBooksByIsbn.Add(b6);
-            lib3.AllBooksByIsbn.Add(b2);
+            //lib3.AllBooksByName.Add(b4);
+            //lib3.AllBooksByName.Add(b1);
+            //lib3.AllBooksByName.Add(b7);
+            //lib3.AllBooksByName.Add(b8);
+            //lib3.AllBooksByName.Add(b9);
+            //lib3.AllBooksByName.Add(b6);
+            //lib3.AllBooksByName.Add(b2);
+            //lib3.AllBooksByIsbn.Add(b4);
+            //lib3.AllBooksByIsbn.Add(b1);
+            //lib3.AllBooksByIsbn.Add(b7);
+            //lib3.AllBooksByIsbn.Add(b8);
+            //lib3.AllBooksByIsbn.Add(b9);
+            //lib3.AllBooksByIsbn.Add(b6);
+            //lib3.AllBooksByIsbn.Add(b2);
 
-            lib3.BorrowedBooks.Add(b7);
+            //lib3.BorrowedBooks.Add(b7);
 
             Libraries.Add(lib3);
 

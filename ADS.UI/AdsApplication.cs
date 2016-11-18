@@ -31,40 +31,41 @@ namespace Advanced_Data_Structures
 
         private void buttonSearchBook_Click(object sender, System.EventArgs e)
         {
-            string keyword1 = textBoxSearchBookName.Text;
-            string keyword2 = textBoxSearchBookId.Text;
-            string library = comboBoxSearchBookSelectLibrary.SelectedItem?.ToString();
+            string bookTitle = textBoxSearchBookName.Text;
+            string bookIsbn = textBoxSearchBookId.Text;
 
-            if (keyword1 == "" && keyword2 == "")
+            string libraryName = comboBoxSearchBookSelectLibrary.SelectedItem?.ToString();
+
+            if (bookTitle == "" && bookIsbn == "")
             {
-                if (string.IsNullOrEmpty(library))
+                if (string.IsNullOrEmpty(libraryName))
                 {
                     richTextBoxSearchedBooks.Text = _ctrl.ShowAllBooks();
                 }
                 else
                 {
-                    richTextBoxSearchedBooks.Text = _ctrl.ShowAllBooks(library);
+                    richTextBoxSearchedBooks.Text = _ctrl.ShowAllBooks(libraryName);
                 }
             }
             else
             {
-                if (keyword1 != "")
+                if (bookTitle != "" && bookIsbn == "")
                 {
-                    if (string.IsNullOrEmpty(library))
+                    if (string.IsNullOrEmpty(libraryName))
                     {
                         MessageBox.Show("Select a library", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         return;
                     }
-                    richTextBoxSearchedBooks.Text = _ctrl.SearchBookByName(keyword1, library);
+                    richTextBoxSearchedBooks.Text = _ctrl.SearchBookByName(bookTitle, libraryName);
                 }
-                else
+                else if(bookTitle != "" && bookIsbn != "")
                 {
-                    if (string.IsNullOrEmpty(library))
+                    if (string.IsNullOrEmpty(libraryName))
                     {
                         MessageBox.Show("Select a library", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         return;
                     }
-                    richTextBoxSearchedBooks.Text = _ctrl.SearchBookByIsbn(keyword2, library);
+                    richTextBoxSearchedBooks.Text = _ctrl.SearchBookByIsbn(bookIsbn, libraryName);
                 }
 
             }
@@ -78,17 +79,6 @@ namespace Advanced_Data_Structures
             foreach (var reader in readers)
             {
                 checkedListBoxFoundReaders.Items.Add(reader);
-            }
-        }
-
-        private void buttonSearchByLibraryCardIdCheckout_Click(object sender, System.EventArgs e)
-        {
-            string readerId = textBoxSearchByLibraryCardId.Text;
-            string[] readers = _ctrl.SearchReaderById(readerId);
-            checkedListBox2.Items.Clear();
-            foreach (var reader in readers)
-            {
-                checkedListBox2.Items.Add(reader);
             }
         }
 
@@ -106,19 +96,6 @@ namespace Advanced_Data_Structures
             }
         }
 
-        private void buttonSearchByReaderNameCheckout_Click(object sender, System.EventArgs e)
-        {
-            string readerId = textBoxSearchByReaderName.Text;
-            string[] readers = _ctrl.SearchReaderByName(readerId);
-            checkedListBox2.Items.Clear();
-            foreach (var reader in readers)
-            {
-                if (reader != null)
-                {
-                    checkedListBox2.Items.Add(reader);
-                }
-            }
-        }
 
         private void checkedListBoxFoundReaders_ItemCheck(object sender, ItemCheckEventArgs e)
         {
@@ -207,84 +184,11 @@ namespace Advanced_Data_Structures
             _ctrl.AddNewBook(title, author, genre, isbn, isbn, libraryName);
         }
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-            checkedListBoxCurrentlyBorrowed.Items.Clear();
-            string[] s = _ctrl.ShowBorrowedBooksCurrently(textBoxReaderId.Text);
-
-            foreach (var book in s)
-            {
-                if (book != null)
-                {
-                    checkedListBoxCurrentlyBorrowed.Items.Add(book);
-                }
-            }
-        }
-
         private void buttonSelectFromFoundReaders_Click(object sender, EventArgs e)
         {
             // nastavi sa konkretny user do session
 
-            if (checkedListBoxFoundReaders.SelectedItem == null)
-            {
-                if (checkedListBoxFoundReaders.Items.Count < 2)
-                {
-                    MessageBox.Show("Type in a keyword to show readers' data", "Information missing",
-                        MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    return;
-                }
-                MessageBox.Show("Please, select a reader", "Information missing", MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning);
-                return;
-            }
-
-            var selectedReader = checkedListBoxFoundReaders.SelectedItem.ToString().Split(',');
-
-            var readerId = selectedReader[1].Trim();
-
-            checkedListBoxCheckoutCurrent.Items.Clear();
-            checkedListBoxCheckoutPrevious.Items.Clear();
-            checkedListBoxCheckoutLate.Items.Clear();
-
-            if (readerId != "")
-            {
-                string[] s = _ctrl.ShowBorrowedBooksCurrently(readerId);
-                string[] previous = _ctrl.ShowBorrowedBooksPast(readerId);
-                string[] late = _ctrl.ShowLateReturnedBooks(readerId, new DateTime(), new DateTime());
-
-                if (s != null)
-                {
-                    foreach (var book in s)
-                    {
-                        if (book != null)
-                        {
-                            checkedListBoxCheckoutCurrent.Items.Add(book);
-                        }
-                    }
-                }
-
-                if (previous != null)
-                {
-                    foreach (var book in previous)
-                    {
-                        if (book != null)
-                        {
-                            checkedListBoxCheckoutPrevious.Items.Add(book);
-                        }
-                    }
-                }
-
-                if (late != null)
-                {
-                    foreach (var book in late)
-                    {
-                        if (book != null)
-                        {
-                            checkedListBoxCheckoutLate.Items.Add(book);
-                        }
-                    }
-                }
-            }
+            RefreshReader();
             // session poskytne interface na zobrazenie userovych
             // a- v minulosti pozicanych knih
             // b- aktualne pozicanych knih
@@ -295,39 +199,7 @@ namespace Advanced_Data_Structures
 
         private void buttonCheckinSearchBook_Click(object sender, EventArgs e)
         {
-            try
-            {
-                string bookId = textBoxCheckoutSearchBook.Text;
-                string library = comboBoxCheckoutSelectLibrary.SelectedItem?.ToString();
-                if (bookId != "")
-                {
-                    if (string.IsNullOrEmpty(library))
-                    {
-                        MessageBox.Show("Select a library", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        return;
-                    }
-                    var books = _ctrl.SearchBookByIsbnArray(bookId, library);
-                    checkedListBoxCheckoutBorrowBooks.Items.Clear();
-                    foreach (var book in books)
-                    {
-                        checkedListBoxCheckoutBorrowBooks.Items.Add(book);
-                    }
-                }
-                else
-                {
-                    var books = _ctrl.ShowAllBooksArray(library);
-                    checkedListBoxCheckoutBorrowBooks.Items.Clear();
-                    foreach (var book in books)
-                    {
-                        checkedListBoxCheckoutBorrowBooks.Items.Add(book);
-                    }
-                }
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Write a valid book id", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-
+            RefreshLibrary();
         }
 
         private void buttonCheckoutSelectBooksToBorrow_Click(object sender, EventArgs e)
@@ -347,6 +219,12 @@ namespace Advanced_Data_Structures
             if (!flag)
             {
                 MessageBox.Show("Book can't be borrowed", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Book was successfully borrowed", "Borrowed", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                RefreshReader();
+                RefreshLibrary();
             }
             // dorobit kontrolu
             // a a ci si moze reader poziciavat knihy
@@ -478,6 +356,107 @@ namespace Advanced_Data_Structures
             catch (Exception)
             {
                 MessageBox.Show("No book or reader was selected", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            RefreshReader();
+        }
+
+        private void RefreshReader()
+        {
+            if (checkedListBoxFoundReaders.SelectedItem == null)
+            {
+                if (checkedListBoxFoundReaders.Items.Count < 2)
+                {
+                    MessageBox.Show("Type in a keyword to show readers' data", "Information missing",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                }
+                MessageBox.Show("Please, select a reader", "Information missing", MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+                return;
+            }
+
+            var selectedReader = checkedListBoxFoundReaders.SelectedItem.ToString().Split(',');
+
+            var readerId = selectedReader[1].Trim();
+
+            checkedListBoxCheckoutCurrent.Items.Clear();
+            checkedListBoxCheckoutPrevious.Items.Clear();
+            checkedListBoxCheckoutLate.Items.Clear();
+
+            if (readerId != "")
+            {
+                string[] s = _ctrl.ShowBorrowedBooksCurrently(readerId);
+                string[] previous = _ctrl.ShowBorrowedBooksPast(readerId);
+                string[] late = _ctrl.ShowLateReturnedBooks(readerId, new DateTime(), new DateTime());
+
+                if (s != null)
+                {
+                    foreach (var book in s)
+                    {
+                        if (book != null)
+                        {
+                            checkedListBoxCheckoutCurrent.Items.Add(book);
+                        }
+                    }
+                }
+
+                if (previous != null)
+                {
+                    foreach (var book in previous)
+                    {
+                        if (book != null)
+                        {
+                            checkedListBoxCheckoutPrevious.Items.Add(book);
+                        }
+                    }
+                }
+
+                if (late != null)
+                {
+                    foreach (var book in late)
+                    {
+                        if (book != null)
+                        {
+                            checkedListBoxCheckoutLate.Items.Add(book);
+                        }
+                    }
+                }
+            }
+        }
+
+        public void RefreshLibrary()
+        {
+            try
+            {
+                string bookId = textBoxCheckoutSearchBook.Text;
+                string library = comboBoxCheckoutSelectLibrary.SelectedItem?.ToString();
+                if (bookId != "")
+                {
+                    if (string.IsNullOrEmpty(library))
+                    {
+                        MessageBox.Show("Select a library", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        return;
+                    }
+                    var books = _ctrl.SearchBookByIsbnArray(bookId, library);
+                    checkedListBoxCheckoutBorrowBooks.Items.Clear();
+                    foreach (var book in books)
+                    {
+                        checkedListBoxCheckoutBorrowBooks.Items.Add(book);
+                    }
+                }
+                else
+                {
+                    var books = _ctrl.ShowAllBooksArray(library);
+                    checkedListBoxCheckoutBorrowBooks.Items.Clear();
+                    foreach (var book in books)
+                    {
+                        checkedListBoxCheckoutBorrowBooks.Items.Add(book);
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Write a valid book id", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
     }

@@ -149,11 +149,20 @@ namespace ADS.Core.Domain.Controller
             var foundR = _model.ReadersById.SearchNode(r, _model.ReadersById.Root);
 
             AbstractNode<Book> foundB = l.Data.AllBooksByIsbn.SearchNode(b, l.Data.AllBooksByIsbn.Root);
-            
+
             // check if can be borrowed
 
             // then borrow
-            return foundB.Data.Borrow(foundR.Data);
+            bool flag = foundB.Data.Borrow(foundR.Data);
+
+            if (flag)
+            {
+                l.Data.BorrowedBooks.Add(foundB.Data);
+                l.Data.AllBooksByIsbn.RemoveNode(foundB.Data);
+                l.Data.AllBooksByName.RemoveNode(foundB.Data);
+            }
+
+            return flag;
         }
 
         public bool ReturnBook(string isbn, int bookId, int readerId, string libraryId)
@@ -390,6 +399,30 @@ namespace ADS.Core.Domain.Controller
         public string ShowAllBooks(int libraryId)
         {
             throw new NotImplementedException();
+        }
+
+        public string SearchBookByNameWithUniqueId(string bookname, int uniqueid, string libraryName)
+        {
+            Book b = new Book("", bookname, "", "", "", null, uniqueid);
+            Library l = new Library(libraryName);
+
+            var library = _model.Libraries.SearchNode(l, _model.Libraries.Root);
+
+            var foundA = library?.Data.AllBooksByName.SearchNode(b, library?.Data.AllBooksByName.Root);
+
+            if (foundA != null)
+            {
+                string isbn = foundA.Data.CodeIsbn;
+                b.CodeIsbn = isbn;
+                var foundB = _model.BooksByIsbn.SearchNode(b, _model.BooksByIsbn.Root);
+
+                if (foundB != null)
+                {
+                    return foundB.Data.ToString();
+                }
+            }
+
+            return "";
         }
 
         public string[] SearchReaderByName(string readerName)
