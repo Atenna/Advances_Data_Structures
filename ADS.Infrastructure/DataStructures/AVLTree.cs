@@ -240,6 +240,14 @@ namespace ADS.ADS.DataStructures
             AvlTreeNode<T> ancestor = (AvlTreeNode<T>) BstRemove(item, Root);
             // Checking for unbalance, if detected, balance (include also height update)
             // otherwise only Adjust height
+
+            if (ancestor == null)
+            {
+                // zmazali sme koren
+                Root = null;
+                return null;
+            }
+
             while (ancestor!= null)
             {
                 AdjustBalancefactorToNode(ancestor);
