@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using ADS.ADS.Data.Library;
 using ADS.ADS.DataStructures;
 using ADS.ADS.Services.DataProcessing;
@@ -18,7 +19,7 @@ namespace ADS.Core.Domain.Model
             BooksByIsbn = new AvlTree<Book>(new Book.BookIsbnComparator());
             //BooksByIsbn = DataParser.FillDataStructure(BooksByIsbn);
 
-            DataParser.FillDataStructure(BooksByName, BooksByIsbn);
+            var maxBookId = DataParser.FillDataStructure(BooksByName, BooksByIsbn);
 
             ReadersByName = new AvlTree<Reader>(new Reader.ReaderNameComparator());
 
@@ -94,11 +95,15 @@ namespace ADS.Core.Domain.Model
             Book b11 = new Book("marliese Aroldova", "Lahka ako vtak", "drama, autobiografia", "9988866676");
             Book b12 = new Book("Paula Hawkins", "Dievca vo vlaku", "drama", "34458776");
 
+            maxBookId += 12;
+
             Book b13 = new Book("Paolo Coelho", "12 minút", "6545542339", "6545542339", "beletria", lib3, 0);
             Book b14 = new Book("Paolo Coelho", "12 minút", "6545542339", "6545542339", "beletria", lib3, 1);
             Book b15 = new Book("Paolo Coelho", "12 minút", "6545542339", "6545542339", "beletria", lib3, 2);
             Book b16 = new Book("Paolo Coelho", "12 minút", "6545542339", "6545542339", "beletria", lib3, 3);
             Book b17 = new Book("Paolo Coelho", "12 minút", "6545542339", "6545542339", "beletria", lib3, 4);
+
+            maxBookId += 5;
 
             lib3.AllBooksByIsbn.Add(b13);
             lib3.AllBooksByName.Add(b13);
@@ -111,62 +116,62 @@ namespace ADS.Core.Domain.Model
             lib3.AllBooksByIsbn.Add(b17);
             lib3.AllBooksByName.Add(b17);
 
-            strasiak.BooksCurrentlyBorrowed.Add(b1);
-            strasiak.BooksCurrentlyBorrowed.Add(b2);
-            strasiak.BooksCurrentlyBorrowed.Add(b10);
-            strasiak.BooksCurrentlyBorrowed.Add(b6);
-            strasiak.BooksCurrentlyBorrowed.Add(b8);
+            //strasiak.BooksCurrentlyBorrowed.Add(b1);
+            //strasiak.BooksCurrentlyBorrowed.Add(b2);
+            //strasiak.BooksCurrentlyBorrowed.Add(b10);
+            //strasiak.BooksCurrentlyBorrowed.Add(b6);
+            //strasiak.BooksCurrentlyBorrowed.Add(b8);
 
-            BooksByIsbn.Add(b1);
-            BooksByIsbn.Add(b2);
-            BooksByIsbn.Add(b3);
-            BooksByIsbn.Add(b6);
-            BooksByIsbn.Add(b8);
-            BooksByName.Add(b1);
-            BooksByName.Add(b2);
-            BooksByName.Add(b3);
-            BooksByName.Add(b6);
-            BooksByName.Add(b8);
+            //BooksByIsbn.Add(b1);
+            //BooksByIsbn.Add(b2);
+            //BooksByIsbn.Add(b3);
+            //BooksByIsbn.Add(b6);
+            //BooksByIsbn.Add(b8);
+            //BooksByName.Add(b1);
+            //BooksByName.Add(b2);
+            //BooksByName.Add(b3);
+            //BooksByName.Add(b6);
+            //BooksByName.Add(b8);
 
-            strasiak.BooksBorrowedInPast.Add(b11);
-            strasiak.BooksBorrowedInPast.Add(b2);
-            strasiak.BooksBorrowedInPast.Add(b12);
-            strasiak.BooksBorrowedInPast.Add(b9);
-            strasiak.BooksBorrowedInPast.Add(b4);
+            //strasiak.BooksBorrowedInPast.Add(b11);
+            //strasiak.BooksBorrowedInPast.Add(b2);
+            //strasiak.BooksBorrowedInPast.Add(b12);
+            //strasiak.BooksBorrowedInPast.Add(b9);
+            //strasiak.BooksBorrowedInPast.Add(b4);
 
             ReadersByName.Add(strasiak);
             ReadersById.Add(strasiak);
 
-            lib1.AllBooksByName.Add(b1);
-            lib1.AllBooksByName.Add(b3);
-            lib1.AllBooksByName.Add(b5);
-            lib1.AllBooksByName.Add(b7);
-            lib1.AllBooksByName.Add(b12);
-            lib1.AllBooksByIsbn.Add(b1);
-            lib1.AllBooksByIsbn.Add(b3);
-            lib1.AllBooksByIsbn.Add(b5);
-            lib1.AllBooksByIsbn.Add(b7);
-            lib1.AllBooksByIsbn.Add(b12);
-            //lib1.AllBooksByName = BooksByName;
-            Libraries.Add(lib1);
+            //lib1.AllBooksByName.Add(b1);
+            //lib1.AllBooksByName.Add(b3);
+            //lib1.AllBooksByName.Add(b5);
+            //lib1.AllBooksByName.Add(b7);
+            //lib1.AllBooksByName.Add(b12);
+            //lib1.AllBooksByIsbn.Add(b1);
+            //lib1.AllBooksByIsbn.Add(b3);
+            //lib1.AllBooksByIsbn.Add(b5);
+            //lib1.AllBooksByIsbn.Add(b7);
+            //lib1.AllBooksByIsbn.Add(b12);
+            ////lib1.AllBooksByName = BooksByName;
+            //Libraries.Add(lib1);
 
-            lib2.AllBooksByName.Add(b2);
-            lib2.AllBooksByName.Add(b8);
-            lib2.AllBooksByName.Add(b3);
-            lib2.AllBooksByName.Add(b4);
-            lib2.AllBooksByName.Add(b5);
-            lib2.AllBooksByName.Add(b12);
-            lib2.AllBooksByName.Add(b9);
-            lib2.AllBooksByName.Add(b11);
-            lib2.AllBooksByIsbn.Add(b2);
-            lib2.AllBooksByIsbn.Add(b8);
-            lib2.AllBooksByIsbn.Add(b3);
-            lib2.AllBooksByIsbn.Add(b4);
-            lib2.AllBooksByIsbn.Add(b5);
-            lib2.AllBooksByIsbn.Add(b12);
-            lib2.AllBooksByIsbn.Add(b9);
-            lib2.AllBooksByIsbn.Add(b11);
-            Libraries.Add(lib2);
+            //lib2.AllBooksByName.Add(b2);
+            //lib2.AllBooksByName.Add(b8);
+            //lib2.AllBooksByName.Add(b3);
+            //lib2.AllBooksByName.Add(b4);
+            //lib2.AllBooksByName.Add(b5);
+            //lib2.AllBooksByName.Add(b12);
+            //lib2.AllBooksByName.Add(b9);
+            //lib2.AllBooksByName.Add(b11);
+            //lib2.AllBooksByIsbn.Add(b2);
+            //lib2.AllBooksByIsbn.Add(b8);
+            //lib2.AllBooksByIsbn.Add(b3);
+            //lib2.AllBooksByIsbn.Add(b4);
+            //lib2.AllBooksByIsbn.Add(b5);
+            //lib2.AllBooksByIsbn.Add(b12);
+            //lib2.AllBooksByIsbn.Add(b9);
+            //lib2.AllBooksByIsbn.Add(b11);
+            //Libraries.Add(lib2);
 
             //lib3.AllBooksByName.Add(b4);
             //lib3.AllBooksByName.Add(b1);
@@ -206,7 +211,7 @@ namespace ADS.Core.Domain.Model
         public AvlTree<Book> BooksByName { get; }
         public AvlTree<Book> BooksByIsbn { get; }
         public AvlTree<Reader> ReadersById { get; }
-
+        private int MaxBookId;
         public ReaderSession ReaderSession { get; set; }
         public AvlTree<Reader> ReadersByName { get; }
         private int _maxReaderId;
@@ -214,6 +219,11 @@ namespace ADS.Core.Domain.Model
         public int NewReaderId()
         {
             return _maxReaderId++;
+        }
+
+        public int NextBookId()
+        {
+            return MaxBookId++;
         }
     }
 }
