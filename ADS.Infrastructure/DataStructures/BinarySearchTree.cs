@@ -114,6 +114,11 @@ namespace ADS.ADS.DataStructures
                     // uzol nema potomkov
                     if (current.Left == null && current.Right == null)
                     {
+                        if (current.Ancestor == null)
+                        {
+                            Root = null;
+                            return null;
+                        }
                         ancestor = SetPointersToNull(current, data);
                         flag = false;
                         break;
@@ -330,7 +335,18 @@ namespace ADS.ADS.DataStructures
             while (stack.Count > 0)
             {
                 current = stack.Pop();
-                var s = current.Data.ToString();
+                var s = "";
+                if (current.Data is Book)
+                {
+                    T newt = (T)(object)current.Data;
+                    Book b = (Book) (object) newt;
+                    s = b.ToStringDetailed();
+                }
+                else
+                {
+                    s = current.Data.ToString();
+                }
+                
                 result += s + "\n";
 
                 if (current.Right != null)
