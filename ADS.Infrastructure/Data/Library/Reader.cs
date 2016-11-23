@@ -37,6 +37,7 @@ namespace ADS.ADS.Data.Library
         public string Name;
         public String Surname;
         public int UniqueId;
+        public bool IsActive;
         public AvlTree<Book> BooksBorrowedInPast;
         public AvlTree<Book> BooksCurrentlyBorrowed;
         public AvlTree<Book> LateBookReturns;
@@ -50,12 +51,14 @@ namespace ADS.ADS.Data.Library
             BooksBorrowedInPast = new AvlTree<Book>(new Book.BookNameComparator());
             BooksCurrentlyBorrowed = new AvlTree<Book>(new Book.BookNameComparator());
             LateBookReturns = new AvlTree<Book>(new Book.BookNameComparator());
+            IsActive = true;
         }
 
 
         public override string ToString()
         {
-            return Name + " " + Surname + ", " + UniqueId;
+            var archived = IsActive ? "" : ", (inactive)";
+            return Name + " " + Surname + ", " + UniqueId + archived;
         }
     }
 }

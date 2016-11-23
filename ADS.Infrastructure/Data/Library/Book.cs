@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Runtime.InteropServices.WindowsRuntime;
+using ADS.ADS.Nodes;
 using ADS.Services;
 
 namespace ADS.ADS.Data.Library
@@ -18,6 +20,7 @@ namespace ADS.ADS.Data.Library
 
     public class Book
     {
+
         public class BookNameComparator : IComparer<Book>
         {
             public int Compare(Book x, Book y)
@@ -128,6 +131,7 @@ namespace ADS.ADS.Data.Library
             Title = title;
             Genre = genre;
             UniqueId = 0;
+            TimeOfBorrow = new DateTime(2015, 05, 26);
         }
 
         public Book(string author, string title, string genre, string isbn)
@@ -137,12 +141,34 @@ namespace ADS.ADS.Data.Library
             Genre = genre;
             CodeIsbn = isbn;
             UniqueId = 0;
+            TimeOfBorrow = new DateTime(2015, 05, 26);
         }
 
-        public Book(string isbn, int bookId)
+        public Book(string isbn, int bookId, string bookName)
         {
             CodeIsbn = isbn;
             UniqueId = bookId;
+            Title = bookName;
+            TimeOfBorrow = new DateTime(2015, 05, 26);
+        }
+
+        public Book(string author, string title, string isbn, string ean, string genre, Library lib, int bookId, int fee, int borrowLength)
+        {
+            Author = author;
+            Title = title;
+            CodeIsbn = isbn;
+            CodeEan = ean;
+            Genre = genre;
+            CurrentLibrary = lib;
+            UniqueId = bookId;
+            FeePerDay = fee;
+            StandardDaysForBorrow = borrowLength;
+
+            IsArchived = false;
+            IsBorrowed = false;
+
+            CurrentLibrary?.AllBooksByIsbn.Add(this);
+            CurrentLibrary?.AllBooksByName.Add(this);
         }
 
         public override string ToString()
@@ -152,9 +178,11 @@ namespace ADS.ADS.Data.Library
 
         public string ToStringDetailed()
         {
-            string borrowed = IsBorrowed ? "Borrowed [ " + CurrentReader.Name +" "+ CurrentReader.Surname+" ]" : "Available";
+            string borrowed = IsBorrowed ? "Borrowed to " + CurrentReader.Name +" "+ CurrentReader.Surname
+                + ", \n\t" + TimeOfBorrow.Value.Date.ToString("dd.MM.yyyy") + " - " + TimeOfReturn.Value.Date.ToString("dd.MM.yyyy") : "Available";
             string archived = IsArchived ? "Archived" : "Not archived";
-            return Title + " : " + Author + ", \n" + CodeIsbn + ", " + UniqueId + ", \n" + borrowed + ", " + archived;
+            return Title + " : " + Author + ", \n\t" + CodeIsbn + ", " + UniqueId + ", \n\t" 
+                + CodeEan + ", \n\t" + borrowed + ", \n\t" + archived;
         }
 
         public string FormatIsbn(string isbn)
@@ -187,6 +215,7 @@ namespace ADS.ADS.Data.Library
             CurrentReader.BooksCurrentlyBorrowed.RemoveNode(this);
             CurrentReader = null;
             CurrentLibrary = l;
+
         }
     }
 }
