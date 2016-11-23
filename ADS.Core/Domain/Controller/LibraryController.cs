@@ -142,7 +142,7 @@ namespace ADS.Core.Domain.Controller
 
         public bool BorrowBook(int bookId, string bookIsbn, int readerId, string libraryName)
         {
-            Book b = new Book(bookIsbn, bookId);
+            Book b = new Book(bookIsbn, bookId, "");
             AbstractNode<Library> l = _model.Libraries.SearchNode(new Library(libraryName), _model.Libraries.Root);
 
             Reader r = new Reader(readerId, "", "");
@@ -165,22 +165,23 @@ namespace ADS.Core.Domain.Controller
             return flag;
         }
 
-        public bool ReturnBook(string isbn, int bookId, int readerId, string libraryId)
+        public bool ReturnBook(string isbn, int bookId, string bookName, int readerId, string libraryId)
         {
-            Book b = new Book(isbn, bookId);
+            Book b = new Book(isbn, bookId, bookName);
             AbstractNode<Library> l = _model.Libraries.SearchNode(new Library(libraryId), _model.Libraries.Root);
 
             Reader r = new Reader(readerId, "", "");
             var foundR = _model.ReadersById.SearchNode(r, _model.ReadersById.Root);
 
-            AbstractNode<Book> foundB = l.Data.AllBooksByIsbn.SearchNode(b, l.Data.AllBooksByIsbn.Root);
+            AbstractNode<Book> foundB = l.Data.BorrowedBooks.SearchNode(b, l.Data.BorrowedBooks.Root);
             if (foundB!= null)
             {
+                l.Data.AllBooksByIsbn.Add(foundB.Data);
+                l.Data.AllBooksByName.Add(foundB.Data);
+                l.Data.BorrowedBooks.RemoveNode(foundB.Data);
                 foundB.Data.Return(l.Data);
                 return true;
             }
-            
-
             return false;
         }
 
@@ -306,10 +307,11 @@ namespace ADS.Core.Domain.Controller
             throw new NotImplementedException();
         }
 
-        public bool ArchiveBook(string isbn, int bookId)
+        public bool ArchiveBook(string isbn, int bookId, string libraryName)
         {
-            Book b = new Book(isbn, bookId);
-            AbstractNode<Book> foundB = _model.BooksByIsbn.SearchNode(b, _model.BooksByIsbn.Root);
+            Book b = new Book(isbn, bookId, "");
+            AvlTreeNode<Library> lib = (AvlTreeNode<Library>)_model.Libraries.SearchNode(new Library(libraryName), _model.Libraries.Root);
+            AbstractNode<Book> foundB = lib.Data.AllBooksByIsbn.SearchNode(b, lib.Data.AllBooksByIsbn.Root);
 
             if (foundB != null)
             {
@@ -351,12 +353,35 @@ namespace ADS.Core.Domain.Controller
 
         public bool AddLibrary(string name)
         {
-            throw new NotImplementedException();
+            return _model.Libraries.Add(new Library(name));
         }
 
         public bool RemoveLibrary(string libraryId, string moveToLibraryId)
         {
             throw new NotImplementedException();
+        }
+
+        public bool RemoveReader(string readerId)
+        {
+            int id;
+            try
+            {
+                id = Int32.Parse(readerId);
+            }
+            catch (Exception)
+            {
+                
+                throw;
+            }
+
+            var r = _model.ReadersById.SearchNode(new Reader(id, "", ""), _model.ReadersById.Root);
+            if (r != null)
+            {
+                r.Data.IsActive = false;
+                return true;
+            }
+
+            return false;
         }
 
         public string ShowAllReaders()
@@ -468,6 +493,20 @@ namespace ADS.Core.Domain.Controller
         string ILibraryController.SearchReaderById(string readerId)
         {
             throw new NotImplementedException();
+        }
+
+        public void AddNewBook(string title, string author, string genre, string isbn, string ean, string libraryName, int fee, int borrowLength)
+        {
+            AbstractNode<Library> lib = _model.Libraries.SearchNode(new Library(libraryName), _model.Libraries.Root);
+            var bookId = 0; // 
+            Book knizka = new Book(author, title, isbn, ean, genre, lib.Data, bookId, fee, borrowLength);
+            lib.Data.AllBooksByIsbn.Add(knizka);
+            lib.Data.AllBooksByName.Add(knizka);
+        }
+
+        public int NextBookId()
+        {
+            return _model.NextBookId();
         }
     }
 }
