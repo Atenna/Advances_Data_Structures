@@ -4,6 +4,7 @@ using ADS.ADS.Data.Library;
 using ADS.ADS.DataStructures;
 using ADS.ADS.Services.DataProcessing;
 using ADS.Core.Domain.Controller;
+using ADS.ADS.Services.DataGenerating;
 
 namespace ADS.Core.Domain.Model
 {
@@ -15,69 +16,74 @@ namespace ADS.Core.Domain.Model
             BooksByName = new AvlTree<Book>(new Book.BookNameComparator());
             //BooksByName = DataParser.FillDataStructure(BooksByName);
 
-            //Libraries = libraries;
+            Libraries = new AvlTree<Library>(new Library.LibraryNameComparator());
             BooksByIsbn = new AvlTree<Book>(new Book.BookIsbnComparator());
             //BooksByIsbn = DataParser.FillDataStructure(BooksByIsbn);
 
             var maxBookId = DataParser.FillDataStructure(BooksByName, BooksByIsbn);
 
-            ReadersByName = new AvlTree<Reader>(new Reader.ReaderNameComparator());
+            LibraryDataGenerator generator = new LibraryDataGenerator();
+            ReadersByName = generator.ReadersByName;
+            ReadersById = generator.ReadersById;
+            Libraries = generator.Libraries;
 
-            ReadersByName = DataParser.FillReadersByName(ReadersByName);
-            ReadersByName.Add(new Reader(157785, "barbora", "kasmanova"));
-            ReadersByName.Add(new Reader(157787, "michal", "mruskovic"));
-            ReadersByName.Add(new Reader(8557035, "martina", "bolibruchova"));
-            ReadersByName.Add(new Reader(6778551, "andreas", "benz"));
-            Reader strasiak = new Reader(342256, "Peter", "Gasiak");
+            //ReadersByName = new AvlTree<Reader>(new Reader.ReaderNameComparator());
+
+            //ReadersByName = DataParser.FillReadersByName(ReadersByName);
+            //ReadersByName.Add(new Reader(157785, "barbora", "kasmanova"));
+            //ReadersByName.Add(new Reader(157787, "michal", "mruskovic"));
+            //ReadersByName.Add(new Reader(8557035, "martina", "bolibruchova"));
+            //ReadersByName.Add(new Reader(6778551, "andreas", "benz"));
+            //Reader strasiak = new Reader(342256, "Peter", "Gasiak");
             
-            ReadersByName.Add(new Reader(44370989, "andreas", "benz"));
-            ReadersByName.Add(new Reader(345522, "marian", "mojzis"));
-            ReadersByName.Add(new Reader(345522, "raphael", "hiesgen"));
-            ReadersByName.Add(new Reader(127785, "andrea", "kasmanova"));
-            ReadersByName.Add(new Reader(127787, "martin", "mruskovic"));
-            ReadersByName.Add(new Reader(8257035, "andrea", "bolibruchova"));
-            ReadersByName.Add(new Reader(6278551, "andreas", "benz"));
-            //ReadersByName.Add(new Reader(322256, "alex", "gasiak"));
-            ReadersByName.Add(new Reader(42370989, "rene", "benz"));
-            ReadersByName.Add(new Reader(325522, "michal", "mojzis"));
-            ReadersByName.Add(new Reader(325522, "sebastian", "hiesgen"));
-            ReadersByName.Add(new Reader(167785, "michala", "kassova"));
-            ReadersByName.Add(new Reader(167787, "michal", "mruskovic"));
-            ReadersByName.Add(new Reader(8657035, "martina", "bobokova"));
-            ReadersByName.Add(new Reader(6678551, "andreas", "berkeley"));
-            ReadersByName.Add(new Reader(362256, "peter", "gallo"));
-            ReadersByName.Add(new Reader(46370989, "francois", "borat"));
-            ReadersByName.Add(new Reader(365522, "milan", "mojzis"));
-            ReadersByName.Add(new Reader(365522, "raphael", "hiesgen"));
+            //ReadersByName.Add(new Reader(44370989, "andreas", "benz"));
+            //ReadersByName.Add(new Reader(345522, "marian", "mojzis"));
+            //ReadersByName.Add(new Reader(345522, "raphael", "hiesgen"));
+            //ReadersByName.Add(new Reader(127785, "andrea", "kasmanova"));
+            //ReadersByName.Add(new Reader(127787, "martin", "mruskovic"));
+            //ReadersByName.Add(new Reader(8257035, "andrea", "bolibruchova"));
+            //ReadersByName.Add(new Reader(6278551, "andreas", "benz"));
+            ////ReadersByName.Add(new Reader(322256, "alex", "gasiak"));
+            //ReadersByName.Add(new Reader(42370989, "rene", "benz"));
+            //ReadersByName.Add(new Reader(325522, "michal", "mojzis"));
+            //ReadersByName.Add(new Reader(325522, "sebastian", "hiesgen"));
+            //ReadersByName.Add(new Reader(167785, "michala", "kassova"));
+            //ReadersByName.Add(new Reader(167787, "michal", "mruskovic"));
+            //ReadersByName.Add(new Reader(8657035, "martina", "bobokova"));
+            //ReadersByName.Add(new Reader(6678551, "andreas", "berkeley"));
+            //ReadersByName.Add(new Reader(362256, "peter", "gallo"));
+            //ReadersByName.Add(new Reader(46370989, "francois", "borat"));
+            //ReadersByName.Add(new Reader(365522, "milan", "mojzis"));
+            //ReadersByName.Add(new Reader(365522, "raphael", "hiesgen"));
 
-            ReadersById = new AvlTree<Reader>(new Reader.ReaderIdComparator());
-            ReadersById = DataParser.FillReadersByName(ReadersById);
-            ReadersById.Add(new Reader(157785, "barbora", "kasmanova"));
-            ReadersById.Add(new Reader(157787, "michal", "mruskovic"));
-            ReadersById.Add(new Reader(8557035, "martina", "bolibruchova"));
-            ReadersById.Add(new Reader(6778551, "andreas", "benz"));
-            //ReadersById.Add(new Reader(342256, "peter", "gasiak"));
-            ReadersById.Add(new Reader(44370989, "andreas", "benz"));
-            ReadersById.Add(new Reader(345522, "marian", "mojzis"));
-            ReadersById.Add(new Reader(345522, "raphael", "hiesgen"));
-            ReadersById.Add(new Reader(127785, "andrea", "kasmanova"));
-            ReadersById.Add(new Reader(127787, "martin", "mruskovic"));
-            ReadersById.Add(new Reader(8257035, "andrea", "bolibruchova"));
-            ReadersById.Add(new Reader(6278551, "andreas", "benz"));
-            //ReadersById.Add(new Reader(322256, "alex", "gasiak"));
-            ReadersById.Add(new Reader(42370989, "rene", "benz"));
-            ReadersById.Add(new Reader(325522, "michal", "mojzis"));
-            ReadersById.Add(new Reader(325522, "sebastian", "hiesgen"));
-            ReadersById.Add(new Reader(167785, "michala", "kassova"));
-            ReadersById.Add(new Reader(167787, "michal", "mruskovic"));
-            ReadersById.Add(new Reader(8657035, "martina", "bobokova"));
-            ReadersById.Add(new Reader(6678551, "andreas", "berkeley"));
-            ReadersById.Add(new Reader(362256, "peter", "gallo"));
-            ReadersById.Add(new Reader(46370989, "francois", "borat"));
-            ReadersById.Add(new Reader(365522, "milan", "mojzis"));
-            ReadersById.Add(new Reader(365522, "raphael", "hiesgen"));
+            //ReadersById = new AvlTree<Reader>(new Reader.ReaderIdComparator());
+            //ReadersById = DataParser.FillReadersByName(ReadersById);
+            //ReadersById.Add(new Reader(157785, "barbora", "kasmanova"));
+            //ReadersById.Add(new Reader(157787, "michal", "mruskovic"));
+            //ReadersById.Add(new Reader(8557035, "martina", "bolibruchova"));
+            //ReadersById.Add(new Reader(6778551, "andreas", "benz"));
+            ////ReadersById.Add(new Reader(342256, "peter", "gasiak"));
+            //ReadersById.Add(new Reader(44370989, "andreas", "benz"));
+            //ReadersById.Add(new Reader(345522, "marian", "mojzis"));
+            //ReadersById.Add(new Reader(345522, "raphael", "hiesgen"));
+            //ReadersById.Add(new Reader(127785, "andrea", "kasmanova"));
+            //ReadersById.Add(new Reader(127787, "martin", "mruskovic"));
+            //ReadersById.Add(new Reader(8257035, "andrea", "bolibruchova"));
+            //ReadersById.Add(new Reader(6278551, "andreas", "benz"));
+            ////ReadersById.Add(new Reader(322256, "alex", "gasiak"));
+            //ReadersById.Add(new Reader(42370989, "rene", "benz"));
+            //ReadersById.Add(new Reader(325522, "michal", "mojzis"));
+            //ReadersById.Add(new Reader(325522, "sebastian", "hiesgen"));
+            //ReadersById.Add(new Reader(167785, "michala", "kassova"));
+            //ReadersById.Add(new Reader(167787, "michal", "mruskovic"));
+            //ReadersById.Add(new Reader(8657035, "martina", "bobokova"));
+            //ReadersById.Add(new Reader(6678551, "andreas", "berkeley"));
+            //ReadersById.Add(new Reader(362256, "peter", "gallo"));
+            //ReadersById.Add(new Reader(46370989, "francois", "borat"));
+            //ReadersById.Add(new Reader(365522, "milan", "mojzis"));
+            //ReadersById.Add(new Reader(365522, "raphael", "hiesgen"));
 
-            Libraries= new AvlTree<Library>(new Library.LibraryNameComparator());
+            //Libraries= new AvlTree<Library>(new Library.LibraryNameComparator());
             Library lib1 = new Library("Library 1");
             Library lib2 = new Library("Library 2");
             Library lib3 = new Library("Library 3");
@@ -139,8 +145,8 @@ namespace ADS.Core.Domain.Model
             //strasiak.BooksBorrowedInPast.Add(b9);
             //strasiak.BooksBorrowedInPast.Add(b4);
 
-            ReadersByName.Add(strasiak);
-            ReadersById.Add(strasiak);
+            //ReadersByName.Add(strasiak);
+            //ReadersById.Add(strasiak);
 
             //lib1.AllBooksByName.Add(b1);
             //lib1.AllBooksByName.Add(b3);
@@ -190,21 +196,23 @@ namespace ADS.Core.Domain.Model
 
             //lib3.BorrowedBooks.Add(b7);
 
-            Libraries.Add(lib3);
+            //Libraries.Add(lib3);
 
             Library lib10 = new Library("Library 10");
             lib10.AllBooksByIsbn = BooksByIsbn;
             lib10.AllBooksByName = BooksByName;
 
-            Libraries.Add(new Library("Library 6"));
-            Libraries.Add(new Library("Library 8"));
-            Libraries.Add(new Library("Library 7"));
-            Libraries.Add(new Library("Library 9"));
-            Libraries.Add(new Library("Library 5"));
-            Libraries.Add(new Library("Library 4"));
-            Libraries.Add(new Library("Library 12"));
-            Libraries.Add(new Library("Library 11"));
+            //Libraries.Add(new Library("Library 6"));
+            //Libraries.Add(new Library("Library 8"));
+            //Libraries.Add(new Library("Library 7"));
+            //Libraries.Add(new Library("Library 9"));
+            //Libraries.Add(new Library("Library 5"));
+            //Libraries.Add(new Library("Library 4"));
+            //Libraries.Add(new Library("Library 12"));
+            //Libraries.Add(new Library("Library 11"));
             Libraries.Add(lib10);
+
+            Save();
         }
 
         public AvlTree<Library> Libraries { get; }
@@ -224,6 +232,11 @@ namespace ADS.Core.Domain.Model
         public int NextBookId()
         {
             return MaxBookId++;
+        }
+
+        public void Save()
+        {
+            SaveData.WriteBookToFile("books", BooksByName);
         }
     }
 }
