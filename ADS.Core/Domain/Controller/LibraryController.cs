@@ -171,16 +171,56 @@ namespace ADS.Core.Domain.Controller
             AbstractNode<Library> l = _model.Libraries.SearchNode(new Library(libraryId), _model.Libraries.Root);
 
             Reader r = new Reader(readerId, "", "");
+
             var foundR = _model.ReadersById.SearchNode(r, _model.ReadersById.Root);
 
-            AbstractNode<Book> foundB = l.Data.BorrowedBooks.SearchNode(b, l.Data.BorrowedBooks.Root);
-            if (foundB!= null)
+            if (l.Data.BorrowedBooks.Root != null)
             {
+                AbstractNode<Book> foundB = l.Data.BorrowedBooks.SearchNode(b, l.Data.BorrowedBooks.Root);
+
+                // do historie readera sa zapise nova vypozicka
+                var toPastBorrowings = foundB.Data;
+                foundR.Data.BooksBorrowedInPast.Add(new Borrowing(toPastBorrowings, foundR.Data));
+
+                // ak tato kniha bola povodne na danej pobocke
+                if (foundB != null)
+                {
+                    //l.Data.AllBooksByIsbn.Add(foundB.Data);
+                    //l.Data.AllBooksByName.Add(foundB.Data);
+                    l.Data.BorrowedBooks.RemoveNode(foundB.Data);
+                    foundB.Data.Return(l.Data);
+                    return true;
+                }
+                // kniha je na inej pobocke
+                else
+                {
+                    foundB = _model.BooksByName.SearchNode(b, _model.BooksByName.Root);
+                    Library lib = foundB.Data.CurrentLibrary;
+                    lib.AllBooksByName.RemoveNode(foundB.Data);
+                    lib.AllBooksByIsbn.RemoveNode(foundB.Data);
+                    foundB.Data.CurrentLibrary = l.Data;
+                    l.Data.AllBooksByIsbn.Add(foundB.Data);
+                    l.Data.AllBooksByName.Add(foundB.Data);
+
+                }
+            }
+            // kniha je na inej pobocke
+            else
+            {
+                // najde sa v modeli so vsetkymi knihami
+                AbstractNode<Book> foundB = _model.BooksByName.SearchNode(b, _model.BooksByName.Root);
+                
+                // najde sa jej povodna kniznica, kam mala byt vratena
+                Library lib = foundB.Data.CurrentLibrary;
+                // zmaze sa z nej
+                lib.AllBooksByName.RemoveNode(foundB.Data);
+                lib.AllBooksByIsbn.RemoveNode(foundB.Data);
+                // a prida sa do novej kniznice
+                foundB.Data.Return(l.Data);
+
                 l.Data.AllBooksByIsbn.Add(foundB.Data);
                 l.Data.AllBooksByName.Add(foundB.Data);
-                l.Data.BorrowedBooks.RemoveNode(foundB.Data);
-                foundB.Data.Return(l.Data);
-                return true;
+
             }
             return false;
         }
