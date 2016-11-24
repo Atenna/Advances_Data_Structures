@@ -1,0 +1,6287 @@
+﻿Aalen
+Bad Mergentheim
+Baden-Baden
+Bruchsal
+Esslingen
+Freiburg im Breisgau
+Freudenstadt
+Friedrichshafen
+Göppingen
+Hechingen
+Heidelberg
+Heilbronn
+Karlsruhe
+Konstanz
+Ludwigsburg
+Mannheim
+Offenburg
+Pforzheim
+Ravensburg
+Reutlingen
+Schwäbisch Gmünd
+Schwäbisch Hall
+Stuttgart
+Tübingen
+Ulm
+Amberg
+Ansbach
+Aschaffenburg
+Augsburg
+Bad Reichenhall
+Bamberg
+Bayreuth
+Berchtesgaden
+Coburg
+Dachau
+Deggendorf
+Dinkelsbühl
+Donauwörth
+Erlangen
+Freising
+Fürth
+Füssen
+Garmisch-Partenkirchen
+Ingolstadt
+Kempten
+Landshut
+Lindau
+Memmingen
+Mittenwald
+Munich
+Nördlingen
+Nürnberg
+Passau
+Regensburg
+Rothenburg ob der Tauber
+Würzburg
+Berlin
+Charlottenburg
+Spandau
+Tempelhof
+Tiergarten
+Brandenburg
+Cottbus
+Eberswalde
+Frankfurt an der Oder
+Potsdam
+Schwedt
+Bremen
+Bremerhaven
+Hamburg
+Bad Homburg
+Darmstadt
+Frankfurt am Main
+Fulda
+Giessen
+Hanau
+Kassel
+Nanzdietschweiler
+Narsdorf
+Nasingen
+Nassau
+Nassenfels
+Nastätten
+Natendorf
+Nattenheim
+Nattheim
+Nauen
+Nauendorf
+Nauheim
+Naumburg (Hesse)
+Naumburg (Saale)
+Naundorf (Altenburg)
+Naundorf (Oschatz)
+Naunheim
+Naunhof
+Nauort
+Naurath (Eifel)
+Naurath (Wald)
+Nauroth
+Nausitz
+Nausnitz
+Nauwalde
+Nazza
+Nebel
+Nebelschütz
+Nebra (Unstrut)
+Neckarbischofsheim
+Neckargemünd
+Neckargerach
+Neckarsteinach
+Neckarsulm
+Neckartailfingen
+Neckartenzlingen
+Neckarwestheim
+Neckarzimmern
+Neddemin
+Neef
+Neenstetten
+Neetze
+Neetzka
+Neetzow
+Negenborn
+Negenharrie
+Negernbötel
+Nehms
+Nehmten
+Nehren (Mosel)
+Nehren (Württemb.)
+Neichen
+Neidenbach
+Neidenfels
+Neidenstein
+Neidhartshausen
+Neidlingen
+Neißeaue
+Neiße-Malxetal
+Neißemünde
+Neitersen
+Nellingen
+Nemsdorf-Göhrendorf
+Nenndorf
+Nennhausen
+Nennslingen
+Nentershausen (Hes.)
+Nentershausen (Wes.)
+Nerdlen
+Nerenstetten
+Neresheim
+Neritz
+Neroth
+Nersingen
+Nerzweiler
+Neschwitz
+Nesow
+Nesse-Apfelstädt
+Nesselwang
+Netphen
+Nettelsee
+Nettersheim
+Nettetal
+Netzbach
+Netzschkau
+Neu-Anspach
+Neu-Bamberg
+Neu Bartelshagen
+Neu Boltenhagen
+Neu Darchau
+Neu Duvenstedt
+Neu Gaarz
+Neu Gülze
+Neu Kaliß
+Neu Kosenow
+Neu Poserin
+Neu Wulmstorf
+Neu Zauche
+Neualbenreuth
+Neuberend
+Neuberg
+Neubeuern
+Neubiberg
+Neubörger
+Neubrandenburg
+Neubrunn (Meiningen)
+Neubrunn (Würzburg)
+Neubukow
+Neubulach
+Neuburg am Inn
+Neuburg am Rhein
+Neuburg an der Donau
+Neuburg a.d. Kammel
+Neuburg-Steinhausen
+Neuching
+Neudenau
+Neudorf-Bornstein
+Neudrossenfeld
+Neu-Eichenberg
+Neuenbrook
+Neuenbürg
+Neuenburg am Rhein
+Neuendeich
+Neuendettelsau
+Neuendorf (Elmshorn)
+Neuendorf (Eifel)
+Neuendorf (Main)
+Neuendorf A
+Neuendorf B
+Neuendorf-Sachsenb.
+Neuengönna
+Neuengörs
+Neuenhagen
+Neuenhaus
+Neuenkirchen (Osn.)
+Neuenkirchen (Cuxh.)
+Neuenkirchen (Dieph.)
+Neuenkirchen (Dithm.)
+Neuenkirchen (Greifsw.)
+Neuenkirchen (Stade)
+Neuenkirchen (Ostv.)
+Neuenkirchen (Lüneb. H.)
+Neuenkirchen (Neubr.)
+Neuenkirchen (Rügen)
+Neuenkirchen (Westph.)
+Neuenkirchen-Vörden
+Neuenmarkt
+Neuenrade
+Neuensalz
+Neuenstadt am Kocher
+Neuenstein (Hesse)
+Neuenstein (Hohenlohe)
+Neuental
+Neuenweg
+Neuerburg
+Neuerkirch
+Neufahrn bei Freising
+Neufahrn (Low. Bavar.)
+Neufeld
+Neufelderkoog
+Neuffen
+Neufra
+Neufraunhofen
+
+Neugernsdorf
+Neuhardenberg
+Neuharlingersiel
+Neuhaus am Inn
+Neuhaus am Rennweg
+Neuhaus an der Pegnitz
+Neuhäusel
+Neuhausen auf d. Fildern
+Neuhausen ob Eck
+Neuhausen (Enzkreis)
+Neuhausen (Erzgebirge)
+Neuhausen (Spree)
+Neuhaus (Oste)
+Neuhaus-Schierschnitz
+Neuheilenbach
+Neuhemsbach
+Neuhof (Fulda)
+Neuhof (Hildesheim)
+Neuhof an der Zenn
+Neuhofen
+Neuhütten (Hunsrü.)
+Neuhütten (Unterfr.)
+Neu-Isenburg
+Neukalen
+Neukamperfehn
+Neukieritzsch
+Neukirch (Königsbrück)
+Neukirch (Lausitz)
+Neukirch (Tettnang)
+Neukirchen (Bogen)
+Neukirchen (Erzgebirge)
+Neukirchen (Heilig.)
+Neukirchen im Knüllgebirge
+Neukirchen (Niebüll)
+Neukirchen (Oldenburg)
+Neukirchen (Pleiße)
+Neukirchen (Sulzbach)
+Neukirchen vorm Wald
+Neukirchen-Balbini
+Neukirchen-Vluyn
+Neukloster
+Neukyhna
+Neulehe
+Neuleiningen
+Neuler
+Neulewin
+Neulingen
+Neulußheim
+Neumagen-Dhron
+Neumark (Saxony)
+Neumark (Weimar)
+Neumarkt (Oberpfalz)
+Neumarkt-Sankt Veit
+Neumühle (Elster)
+Neumünster
+Neunburg vorm Wald
+Neundorf (Lobenst.)
+Neundorf (Schleiz)
+Neunheilingen
+Neunkhausen
+Neunkirchen (Mosb.)
+Neunkirchen (Hunsr.)
+Neunkirchen (Saar)
+Neunkirchen (Siegerl.)
+Neunkirchen (Unter.)
+Neunkirchen (West.)
+Neunkirchen am Brand
+Neunkirchen a. Sand
+Neunkirchen a. Potzb.
+Neunkirchen-Seelsch.
+Neuötting
+Neupetershain
+Neupotz
+Neureichenau
+Neuried (Baden)
+Neuried (Munich)
+Neuruppin
+Neusalza-Spremberg
+Neusäß
+Neuschönau
+Neuschoo
+Neu-Seeland
+Neusiß
+Neusitz
+Neusorg
+Neuss
+Neustadt (Dosse)
+Neustadt (Harz)
+Neustadt (Hesse)
+Neustadt (Holstein)
+Neustadt (Leinefelde)
+Neustadt (Vogtland)
+Neustadt (Weinstraße)
+Neustadt (Westerw.)
+Neustadt (Wied)
+Neustadt am Main
+Neustadt an der Aisch
+Neustadt an der Donau
+Neustadt an der Orla
+Neustadt an der Waldnaab
+Neustadt am Kulm
+Neustadt am Rennsteig
+Neustadt a. Rübenb.
+Neustadt bei Coburg
+Neustadt in Sachsen
+Neustadt-Glewe
+Neustetten
+Neustrelitz
+Neutraubling
+Neutrebbin
+Neu-Ulm
+Neuweiler
+Neuwied
+Neuwittenbek
+Neuzelle
+Neverin
+Neversdorf
+Newel
+Ney
+Nickenich
+Nidda
+Niddatal
+Nidderau
+Nideggen
+Nieblum
+Niebüll
+Nieby
+Nieden
+Niedenstein
+Nieder Kostenz
+Niederahr
+Niederaichbach
+Niederalben
+Niederalteich
+Niederau
+Niederaula
+Niederbachheim
+Niederbergkirchen
+Niederbösa
+Niederbreitbach
+Niederbrombach
+Niederburg
+Niederdorf
+Niederdorfelden
+Niederdreisbach
+Niederdürenbach
+Niedere Börde
+Niederelbert
+Niederer Fläming
+Niedererbach
+Niedereschach
+Niederfell
+Niederfinow
+Niederfischbach
+Niederfrohna
+Niederfüllbach
+Niedergebra
+Niedergeckler
+Niedergörsdorf
+Niederhambach
+Niederhausen (Nahe)
+Niederhausen a.d.Ap.
+Niederheimbach
+Nieder-Hilbersheim
+Niederhofen
+Niederhorbach
+Niederhosenbach
+Niederirsen
+Niederkassel
+Niederkirchen (Deid.)
+Niederkirchen (Kais.)
+Niederkrüchten
+Niederkumbd
+Niederlangen
+Niederlauch
+Niederlauer
+Niedermohr
+Niedermoschel
+Niedermurach
+Niedernberg
+Niederneisen
+Niedernhall
+Niedernhausen
+Niedernwöhren
+Niederöfflingen
+Nieder-Olm
+Niederorschel
+Niederotterbach
+Niederpierscheid
+Niederraden
+Niederreißen
+Niederrieden
+Niederroßbach
+Niederroßla
+Niedersayn
+Niederscheidweiler
+Niederschlettenbach
+Niederschönenfeld
+Niedersohren
+Niederstadtfeld
+Niederstaufenbach
+Niederstedem
+Niedersteinebach
+Niederstetten
+Niederstotzingen
+Niederstriegis
+Niedert
+Aland
+Albaching
+Albbruck
+Albersdorf (Stadtroda)
+Albersdorf (Holstein)
+Albershausen
+Albersweiler
+Albertshofen
+Albessen
+Albig
+Albisheim (Pfrimm)
+Albsfelde
+Albstadt
+Aldenhoven
+Aldersbach
+Aldingen
+Alerheim
+Alesheim
+Aletshausen
+Alf
+Alfdorf
+Alfeld (Leine)
+Alfeld (Mittelfr.)
+Alfhausen
+Alflen
+Alfstedt
+Alfter
+Algermissen
+Alheim
+Alken
+Alkersleben
+Alkersum
+Allenbach
+Allendorf (Eder)
+Allendorf (Lumda)
+Allendorf (Rhein-Lahn)
+Allendorf (Rudolstadt)
+Allenfeld
+Allensbach
+Allersberg
+Allershausen
+Alleshausen
+Alling
+Allmannshofen
+Allmannsweiler
+Allmendingen
+
+Allmersbach im Tal
+Allstedt
+Almdorf
+Almersbach
+Almstedt
+Alpen
+Alpenrod
+Alperstedt
+Alpirsbach
+Alsbach
+Alsbach-Hähnlein
+Alsdorf
+Alsdorf (Eifel)
+Alsdorf (Sieg)
+Alsenz
+Alsfeld
+Alsheim
+Alsleben (Saale)
+Alt Bennebek
+Alt Bukow
+Alt Duvenstedt
+Alt Krenzlin
+Alt Meteln
+Alt Mölln
+Alt Rehse
+Alt Schwerin
+Alt Tellin
+Alt Tucheband
+Alt Zachun
+Alt Zauche-Wußwerk
+Altbach
+Altdöbern
+Altdorf bei Nürnberg
+Altdorf (Böblingen)
+Altdorf (Esslingen)
+Altdorf (Lower Bavaria)
+Altdorf (Pfalz)
+Altefähr
+Alteglofsheim
+Altena
+Altenahr
+Altenau/Harz
+Altenbamberg
+Altenbeken
+Altenberg
+Altenberga
+Altenberge
+Altenbeuthen
+Altenbuch
+Altenburg
+Altendiez
+Altendorf (Nabburg)
+Altendorf (Bamberg)
+Altenfeld
+Altenglan
+Altengottern
+Altenhagen (Altentr.)
+Altenhausen
+Altenhof (Eckernf.)
+Altenhof (Röbel)
+Altenholz
+Altenkirchen (Pfalz)
+Altenkirchen (Rügen)
+Altenkirchen (Westerwald)
+Altenkrempe
+Altenkunstadt
+Altenmarkt a.d. Alz
+Altenmedingen
+Altenmoor
+Altenmünster
+Altenpleen
+Altenriet
+Altenstadt a.d. Waldn.
+Altenstadt (Hesse)
+Altenstadt (Iller)
+Altenstadt (Lech)
+Altensteig
+Altenthann
+Altentreptow
+Alterkülz
+Altersbach
+Altertheim
+Altfraunhofen
+Althegnenberg
+Altheim (Alb)
+Altheim (Ehingen)
+Altheim (Riedlingen)
+Althengstett
+Althornbach
+Althütte
+Althüttendorf
+Altkalen
+Altkirchen
+Altlandsberg
+Altlay
+Altleiningen
+Altlußheim
+Altmannstein
+Altmärkische Höhe
+Altmärkische Wische
+Altmittweida
+Altomünster
+Altötting
+Altrich
+Altrip
+Altscheid
+Altshausen
+Altstrimmig
+Alt-Sührkow
+Altusried
+Altwarp
+Altweidelbach
+Altwigshagen
+Alveslohe
+Alzenau
+Alzey
+Am Großen Bruch
+Am Mellensee
+Am Salzhaff
+Amberg
+Amberg (Buchloe)
+Amelinghausen
+Amerang
+Amerdingen
+Ammeldingen a.d. Our
+Ammeldingen (Neuerb.)
+Ammerbuch
+Ammerndorf
+Ammersbek
+Ammerthal
+Amöneburg
+Amorbach
+Ampfing
+Amstetten
+Amt Neuhaus
+Amt Wachsenburg
+Amtsberg
+Amtzell
+An der Poststraße
+Andechs
+Andenhausen
+Anderlingen
+Andernach
+Andervenne
+Andisleben
+Angelbachtal
+Angelburg
+Angelroda
+
+Anger
+Angermünde
+Angern
+Anhalt Süd
+Anhausen
+Ankershagen
+Anklam
+Ankum
+Annaberg-Buchholz
+Annaburg
+Annweiler am Trifels
+Anröchte
+Anrode
+Ansbach
+Anschau
+Antdorf
+Antrifttal
+Antweiler
+Anzing
+Apelern
+Apen
+Apenburg Flecken
+Apensen
+Apfeldorf
+Apfeltrach
+Apolda
+Appel
+Appeln
+Appen
+Appenheim
+Appenweier
+Arbach
+Arberg
+Aremberg
+Arendsee (Altmark)
+Arenrath
+Arenshausen
+Aresing
+Arft
+Argenbühl
+Argenschwang
+Argenthal
+Arholzen
+Arkebek
+Arlewatt
+Armsheim
+Armstedt
+Armstorf
+Arnbruck
+Arneburg
+Arnis
+Arnsberg
+Arnschwang
+Arnsdorf (Dresden)
+Arnshöfen
+Arnstadt
+Arnstein (Harz)
+Arnstein (Lower Franconia)
+Arnstorf
+Arpsdorf
+Arrach
+Artern (Unstrut)
+Artlenburg
+Arzbach
+Arzberg (Bavaria)
+Arzberg (Saxony)
+Arzfeld
+Asbach (Hunsrück)
+Asbach (Westerwald)
+Asbach-Bäumenheim
+Asbach-Sickenberg
+Ascha
+Aschaffenburg
+Aschau am Inn
+Aschau im Chiemgau
+Aschbach
+Ascheberg (Holstein)
+Ascheberg (Westphalia)
+Ascheffel
+Aschenhausen
+Aschersleben
+Aschheim
+Asendorf (Bruchh-V.)
+Asendorf (Nordheide)
+Aßlar
+Aßling
+Aspach (Backnang)
+Asperg
+Aspisheim
+Assamstadt
+Asselfingen
+Astert
+Attendorn
+Attenhausen
+Attenhofen
+Attenkirchen
+Attenweiler
+Atting
+Atzelgift
+Au am Rhein
+Au (Breisgau)
+Au in der Hallertau
+Aub
+Aubstadt
+Auderath
+Aue
+Auel
+Auen
+Tannhausen
+Tannheim
+Tann (Niederbayern)
+Tann (Rhön)
+Tantow
+Tapfheim
+Tappenbeck
+Tappendorf
+Tarbek
+Tarmstedt
+Tarnow
+Tarp
+Tasdorf
+Tastrup
+Tastungen
+Tating
+Tauberbischofsheim
+Tauberrettersheim
+Taucha
+Tauche
+Tauer
+Taufkirchen (Inn)
+Taufkirchen (Munich)
+Taufkirchen (Vils)
+Taunusstein
+Taura
+Tauscha (Großenhain)
+Tautenburg
+Tautendorf
+Tautenhain
+Tawern
+Techelsdorf
+Techentin
+Tecklenburg
+Tegau
+Tegernau
+Tegernheim
+Tegernsee
+Tegkwitz
+Teichland
+Teichwitz
+Teichwolframsdorf
+Teisendorf
+Teising
+Teisnach
+Teistungen
+Teldau
+Telgte
+Tellig
+Tellingstedt
+Teltow
+Temmels
+Temmen-Ringenwalde
+Temnitzquell
+Temnitztal
+Templin
+Tengen
+Teningen
+Tensbüttel-Röst
+Tensfeld
+Teschenmoschel
+Tespe
+Tessenow
+Tessin (Boizenburg)
+Tessin (Rostock)
+Testorf-Steinfort
+Tetenbüll
+Tetenhusen
+Teterow
+Tettau (Oberfranken)
+Tettau (Ruhland)
+Tettenweis
+Tettnang
+Teublitz
+Teuchern
+Teugn
+Teunz
+Teupitz
+Teuschnitz
+Teutschenthal
+Thaden
+Thaining
+Thale
+Thaleischweiler-Fröschen
+Thalfang
+Thalhausen
+Thalheim (Erzgebirge)
+Thallichtenberg
+Thallwitz
+Thalmassing
+Thalmässing
+Thalwenden
+Thandorf
+Thannhausen
+Thanstein
+Tharandt
+Thedinghausen
+Theeßen
+Theilenhofen
+Theilheim
+Theisbergstegen
+Theisseil
+Thelkow
+Themar
+Theres
+Thermalbad Wiesenbad
+Theuma
+Thiendorf
+Thierhaupten
+Thierschneck
+Thiersheim
+Thierstein
+Thiessow
+Tholey
+Thomasburg
+Thomm
+Thonhausen
+Thörlingen
+Thörnich
+Thuine
+Thulendorf
+Thum
+Thumby
+Thundorf i. Unterfranken
+Thüngen
+Thüngersheim
+Thür
+Thüringenhausen
+Thürkow
+Thurmansbang
+Thurnau
+Thyrnau
+Tiddische
+Tiefenbach (Federsee)
+Tiefenbach (Hunsrück)
+Tiefenbach (Landshut)
+Tiefenbach (Oberpfalz)
+Tiefenbach (Passau)
+Tiefenbach (Saxony)
+Tiefenbronn
+Tiefenort
+Tiefenthal (Palatinate)
+Tiefenthal (Rheinh.)
+Tielen
+Tielenhemme
+Timmaspe
+Timmendorfer Strand
+Tinningstedt
+Tirpersdorf
+Tirschenreuth
+Tissa
+Tiste
+Titisee-Neustadt
+Titting
+Tittling
+Tittmoning
+Titz
+Toddin
+Todenbüttel
+Todendorf
+Todenroth
+Todesfelde
+Todtenweis
+Todtmoos
+Todtnau
+Töging am Inn
+Tolk
+Tömmelsdorf
+Tönisvorst
+Tonna
+Tonndorf
+Tönning
+Töpen
+Topfstedt
+Toppenstedt
+Torgau
+Torgelow (Vorpomm.)
+Torgelow (Waren)
+Torgelow-Holländerei
+Tornesch
+Tostedt
+Tosterglope
+Tottleben
+Traben-Trarbach
+Trabitz
+Train
+Traisen
+Traitsching
+Tramm (Lauenburg)
+Tramm (Schwerin)
+Trappenkamp
+Trappstadt
+Trassem
+Trassenheide
+Traunreut
+Traunstein
+Trausnitz
+Trautskirchen
+Travenbrück
+Travenhorst
+Traventhal
+Trebbin
+Trebel
+Treben
+Trebendorf
+Trebgast
+Trebra (Kyffhäuser)
+Trebsen (Mulde)
+Trebur
+Trechtingshausen
+Treffelstein
+Treffurt
+Treia
+Seelingstädt
+Seelitz
+Seelow
+Seelze
+Seeon-Seebruck
+Seesbach
+Seesen
+Seeshaupt
+Seester
+Seestermühe
+Seeth-Ekholt
+Seeth (Nordfriesland)
+Seevetal
+Seewald
+Seffern
+Sefferweich
+Seggebruch
+Segnitz
+Sehestedt
+Sehlde
+Sehlem (Lower Saxony)
+Sehlem (Eifel)
+Sehlen
+Sehmatal
+Sehnde
+Seibersbach
+Seifen
+Seiffen
+Seifhennersdorf
+Seinsfeld
+Seinsheim
+Seisla
+Seitenroda
+Seitingen-Oberflacht
+Seiwerath
+Selb
+Selbach (Sieg)
+Selbitz (Oberfranken)
+Selchenbach
+Selent
+Selfkant
+Seligenstadt
+Selk
+Selke-Aue
+Sellerich
+Sellin
+Selm
+Selmsdorf
+Selpin
+Selsingen
+Selters (Taunus)
+Selters (Westerwald)
+Selzen
+Sembach
+Semlow
+Semmenstedt
+Sendenhorst
+Senden (Bavaria)
+Senden (Westphalia)
+Senftenberg
+Sengenthal
+Sengerich
+Senheim
+Sennfeld
+Sensbachtal
+Senscheid
+Sensweiler
+Serba
+Serrig
+Sersheim
+Seßlach
+Sessenbach
+Sessenhausen
+Seth
+Setzin
+Setzingen
+Seubersdorf i.d. Oberpf.
+Seukendorf
+Seulingen
+Sevenig (Neuerburg)
+Sevenig (Our)
+Severin
+Sexau
+Seybothenreuth
+Sibbesse
+Sickerode
+Sickte
+Siebeldingen
+Siebenbach
+Siebenbäumen
+Siebeneichen
+Siedenbollentin
+Siedenbrünzow
+Siedenburg
+Siefersheim
+Siegbach
+Siegburg
+Siegelsbach
+Siegen
+Siegenburg
+Siegsdorf
+Siehdichum
+Siek
+Sielenbach
+Sien
+Sienhachenbach
+Sierksdorf
+Sierksrade
+Sierscheid
+Siershahn
+Siesbach
+Sietow
+Sieversdorf-Hohenofen
+Sievershütten
+Sieverstedt
+Siezbüttel
+Siggelkow
+Sigmaringen
+Sigmaringendorf
+Sigmarszell
+Silberfeld
+Silberhausen
+Silberstedt
+Silbitz
+Silkerode
+Silz (Mecklenburg)
+Silz (Palatinate)
+Silzen
+Simbach (Landau)
+Simbach am Inn
+Simmelsdorf
+Simmerath
+Simmern (Hunsrück)
+Simmern (Westerwald)
+Simmersfeld
+Simmershofen
+Simmertal
+Simmozheim
+Simonsberg
+Simonswald
+Sindelfingen
+Sindelsdorf
+Singen (Hohentwiel)
+Singhofen
+Sinn
+Sinntal
+Sinsheim
+Sinspelt
+Sinzheim
+Sinzig
+Sinzing
+Sippersfeld
+Sipplingen
+Sirksfelde
+Sittensen
+Sitters
+Sitzendorf
+Söchtenau
+Soderstorf
+Soest
+Sögel
+Sohland an der Spree
+Söhlde
+Sohren
+Söhrewald
+Sohrschied
+Sölden
+Solingen
+Solkwitz
+Sollerup
+Söllingen
+Sollstedt (Wipper)
+Sollwitt
+Solms
+Solnhofen
+Soltau
+Soltendieck
+Sommerach
+Sommerau
+Sömmerda
+Sommerhausen
+Sommerkahl
+Sommerland
+Sommerloch
+Sommersdorf (Börde)
+Sommersdorf (Demmin)
+Sonderhofen
+Sondershausen
+Sondheim vor der Rhön
+Sonneberg
+Sonneborn
+Sönnebüll
+Sonnefeld
+Sonnen
+Sonnenberg (Brandenb.)
+Sonnenberg-Winnenberg
+Sonnenbühl
+Sonnewalde
+Sonnschied
+Sonsbeck
+Sontheim an der Brenz
+Sontheim (Schwaben)
+Sonthofen
+Sontra
+Sophienhamm
+Sören
+Sörgenloch
+Sörth
+Sörup
+Sosberg
+Sottrum
+Soyen
+Spabrücken
+Spahnharrenstätte
+Spaichingen
+Spall
+Spalt
+Spangdahlem
+Spangenberg
+Spantekow
+Spardorf
+Sparneck
+Spatzenhausen
+Spay
+Spechbach
+Speicher
+Speichersdorf
+Speinshart
+Spelle
+Spenge
+Spesenroth
+Spessart
+Speyer
+Spiegelau
+Spiegelberg
+Spiekeroog
+Spiesen-Elversberg
+Spiesheim
+Spirkelbach
+Splietsdorf
+Sponheim
+Sponholz
+Spornitz
+Spraitbach
+Sprakebüll
+Sprakensehl
+Spreenhagen
+Spreetal
+Spreewaldheide
+Spremberg
+Sprendlingen
+Springe
+Springstille
+Sprockhövel
+Sprötau
+Stäbelow
+Stade
+Stadecken-Elsheim
+Stadelhofen
+Stadland
+Stadlern
+Stadtallendorf
+Stadtbergen
+Stadthagen
+Stadtilm
+Stadtkyll
+Stadtlauringen
+Stadtlengsfeld
+Stadtlohn
+Stadtoldendorf
+Stadtprozelten
+Stadtroda
+Stadtsteinach
+Stadum
+Staffhorst
+Stafstedt
+Stahlberg
+Stahlhofen a. Wiesensee
+Stahlhofen (Westerwald)
+Stahnsdorf
+Staig
+Staitz
+Stakendorf
+Stallwang
+Stammbach
+Stammham (Ingolstadt)
+Stammham am Inn
+Stamsried
+Stanau
+Standenbühl
+Stangheck
+Stapelfeld
+Starkenberg
+Starkenburg
+Starnberg
+Starzach
+Staßfurt
+Stauchitz
+Staudach-Egerndach
+Staudernheim
+Staudt
+Staufen im Breisgau
+Staufenberg (Hesse)
+Staufenberg (L. Saxony)
+Staven
+Stavenhagen
+Stavern
+Stebach
+Stechlin
+Stechow-Ferchesar
+Stedesand
+Stedesdorf
+Steenfeld
+Steesow
+Steffeln
+Steffenberg
+Steffenshagen
+Stegaurach
+Stegen
+Steigra
+Steimbke
+Steimel
+Stein (Laboe)
+Stein (Mittelfanken)
+Steina
+Steinach (Straubing)
+Steinach (Baden)
+Steinach (Thuringia)
+Steinalben
+Steinau (Niederelbe)
+Steinau an der Straße
+Steinbach (Eichsfeld)
+Steinbach (Hunsrück)
+Steinbach (Taunus)
+Steinbach am Wald
+Steinbach a. Donnersb.
+Steinbach am Glan
+Steinbach-Hallenberg
+Steinberg (Flensburg)
+Steinberg (Saxony)
+Steinberg am See
+Steinbergkirche
+Stein-Bockenheim
+Steinborn
+Steinburg (Stormarn)
+Steindorf
+Steinebach (Sieg)
+Steinebach an der Wied
+Steineberg
+Steinefrenz
+Steinen (Baden)
+Steinen (Westerwald)
+Steinenbronn
+Steineroth
+Steinfeld (Lohr am Main)
+Steinfeld (Oldenburg)
+Steinfeld (Palatinate)
+Steinfeld (Rostock)
+Steinfeld (Schleswig)
+Steinfurt
+Steingaden
+Steinhagen (Bützow)
+Steinhagen (Stralsund)
+Steinhagen (Westphalia)
+Steinhausen a.d. Rottum
+Steinheim (Westphalia)
+Steinheim am Albuch
+Steinheim an der Murr
+Steinheuterode
+Steinhöfel
+Steinhöring
+Steinhorst (Lauenburg)
+Steinhorst (Low. Saxony)
+Steinigtwolmsdorf
+Steiningen
+Steinkirchen (Altes Land)
+Steinkirchen (Up. Bavar.)
+Steinmauern
+Stein-Neukirch
+Steinreich
+Steinrode
+Steinsberg
+Steinsdorf (Gera)
+Steinsfeld
+Steinthaleben
+Steinweiler
+Steinwenden
+Steinwiesen
+Stein-Wingert
+Treis-Karden
+Auengrund
+Auenwald
+Auerbach (Erzgebirge)
+Auerbach (Niederb.)
+Auerbach (Oberpfalz)
+Auerbach (Vogtland)
+Auerstedt
+Auetal
+Aufhausen
+Aufseß
+Auggen
+Niedertaufkirchen
+Niedertiefenbach
+Niedertrebra
+Niederviehbach
+Niederwallmenach
+Niederwambach
+Niederweiler (Eifel)
+Lorsch
+Marburg
+Offenbach
+Rüdesheim
+Wiesbaden
+Bad Gandersheim
+Bad Harzburg
+Braunschweig
+Celle
+Cuxhaven
+Delmenhorst
+Emden
+Goslar
+Göttingen
+Hameln
+Hannover
+Helmstedt
+Hildesheim
+Lüneburg
+Oldenburg
+Osnabrück
+Salzgitter
+Stade
+Wilhelmshaven
+Wolfsburg
+Greifswald
+Güstrow
+Neubrandenburg
+Peenemünde
+Rostock
+Schwerin
+Stralsund
+Wismar
+Aachen
+Arnsberg
+Bad Godesberg
+Bergisch Gladbach
+Bielefeld
+Bocholt
+Bochum
+Bonn
+Bottrop
+Brühl
+Castrop-Rauxel
+Cologne
+Detmold
+Dorsten
+Dortmund
+Duisburg
+Düren
+Düsseldorf
+Essen
+Gelsenkirchen
+Gladbeck
+Gütersloh
+Hagen
+Hamm
+Herne
+Hürth
+Iserlohn
+Jülich
+Kleve
+Königswinter
+Krefeld
+Leverkusen
+Lüdenscheid
+Lünen
+Marl
+Minden
+Bad Feilnbach
+Bad Frankenhausen
+Bad Freienwalde (Oder)
+Bad Friedrichshall
+Bad Füssing
+Bad Gandersheim
+Bad Gottleuba-Berggießh.
+Bad Griesbach im Rottal
+Bad Grönenbach
+Bad Grund/Harz
+Bad Harzburg
+Bad Heilbrunn
+Bad Herrenalb
+Bad Hersfeld
+Bad Hindelang Markt
+Bad Homburg v.d.H.
+Bad Honnef
+Bad Hönningen
+Bad Iburg
+Bad Karlshafen
+Bad Kissingen
+Bad Kleinen
+Bad Klosterlausnitz
+Bad Kohlgrub
+Bad König
+Bad Königshofen i. Grabf.
+Bad Köstritz
+Bad Kötzting
+Bad Kreuznach
+Bad Krozingen
+Bad Laasphe
+Bad Laer
+Bad Langensalza
+Bad Lauchstädt
+Bad Lausick
+Bad Lauterberg
+Bad Liebenstein
+Bad Liebenwerda
+Bad Liebenzell
+Bad Lippspringe
+Bad Lobenstein
+Bad Marienberg
+Bad Mergentheim
+Bad Münder am Deister
+Bad Münster am Stein
+Bad Münstereifel
+Bad Muskau
+Bad Nauheim
+Bad Nenndorf
+Bad Neuenahr-Ahrw.
+Bad Neustadt (Saale)
+Bad Oeynhausen
+Bad Oldesloe
+Bad Orb
+Bad Peterstal-Griesbach
+Bad Pyrmont
+Bad Rappenau
+Bad Reichenhall
+Bad Rippoldsau-Sch.
+Bad Rodach
+Bad Rothenfelde
+Bad Saarow
+Bad Sachsa
+Bad Säckingen
+Bad Salzdetfurth
+Bad Salzschlirf
+Bad Salzuflen
+Bad Salzungen
+Bad Sassendorf
+Bad Saulgau
+Bad Schandau
+Bad Schlema
+Bad Schmiedeberg
+Bad Schönborn
+Bad Schussenried
+Bad Schwalbach
+Bad Schwartau
+Bad Segeberg
+Bad Sobernheim
+Bad Soden am Taunus
+Bad Soden-Salmünster
+Bad Sooden-Allendorf
+Bad Staffelstein
+Bad Steben
+Bad Sulza
+Bad Sülze
+Bad Teinach-Zavelstein
+Bad Tennstedt
+Bad Tölz
+Bad Überkingen
+Bad Urach
+Bad Vilbel
+Bad Waldsee
+Bad Wiessee
+Bad Wildbad
+Bad Wildungen
+Bad Wilsnack
+Bad Wimpfen
+Bad Windsheim
+Bad Wörishofen
+Bad Wünnenberg
+Bad Wurzach
+Bad Zwesten
+Bad Zwischenahn
+Badbergen
+Baddeckenstedt
+Badem
+Baden-Baden
+Badendorf
+Badenhard
+Badenhausen
+Badenheim
+Badenweiler
+Badra
+Baesweiler
+Bahlingen
+Bahrdorf
+Bahrenborstel
+Bahrenfleth
+Bahrenhof
+Bahretal
+Baienfurt
+Baierbach
+Baierbrunn
+Baiern
+Baiersbronn
+Baiersdorf
+Baindt
+Baisweil
+Bäk
+Bakum
+Bälau
+Balderschwang
+Baldringen
+Balduinstein
+Balesfeld
+Balge
+Balgheim
+Balgstädt
+Balingen
+Balje
+Ballendorf
+Ballenstedt
+Ballhausen
+Ballrechten-Dottingen
+Ballstädt
+Ballstedt
+Balow
+Baltmannsweiler
+Baltrum
+Balve
+Balzhausen
+Balzheim
+Bamberg
+Bammental
+Bandelin
+Bandenitz
+Bann
+Bannewitz
+Banteln
+Banzkow
+Barbelroth
+Barbing
+Barby
+Barchfeld
+Bardowick
+Bärenbach (Idar-Ob.)
+Bärenbach (Simmern)
+Barenburg
+Barendorf
+Bärenstein (Ann.-B.)
+Bärenthal
+Bargenstedt
+Bargfeld-Stegen
+Bargischow
+Bargstall
+Bargstedt (Stade)
+Bargstedt (Holstein)
+Bargteheide
+Bargum
+Bark
+Barkelsby
+Barkenholm
+Barkhagen
+Barleben
+Barlt
+Barmissen
+Barmstedt
+Bärnau
+Barnekow
+Barnin
+Barnitz
+Barnstädt
+Barnstedt
+Barnstorf
+Barntrup
+Barsbek
+Barsbüttel
+Barßel
+Barsinghausen
+Bartelshagen (Barth)
+Bartenshagen-Parkentin
+Barth
+Bartholomä
+Bartow
+Barum (Bad Bevens.)
+Barum (Lüneburg)
+Baruth (Mark)
+Barver
+Barwedel
+Barweiler
+Bärweiler
+Basberg
+Basdahl
+Basedow (Teterow)
+Basedow (Lauenburg)
+Bassenheim
+Bassum
+Bastheim
+Basthorst
+Bastorf
+Battenberg (Eder)
+Battenberg (Pfalz)
+Battweiler
+Baudenbach
+Bauler (Barweiler)
+Bauler (Neuerburg)
+Baumgarten
+Baumholder
+Baunach
+Baunatal
+Bausendorf
+Baustert
+Bautzen
+Bawinkel
+Bayerbach (Ergoldsb.)
+Bayerbach (Rott)
+Bayerfeld-Steckweiler
+Bayerisch Eisenstein
+Bayerisch Gmain
+Bayersoien
+Bayreuth
+Bayrischzell
+Bebensee
+Bebra
+Becheln
+Bechenheim
+Becherbach (Kirn)
+Becherbach (Palatin.)
+Bechhofen (Franconia)
+Bechhofen (Palatinate)
+Bechstedt
+Bechstedtstraß
+Bechtheim
+Bechtolsheim
+Bechtsrieth
+Beckdorf
+Beckedorf
+Beckeln
+Beckingen
+Beckum
+Bedburg
+Bedburg-Hau
+Bedesbach
+Beedenbostel
+Beelen
+Beelitz
+Beendorf
+Beerfelden
+Beeskow
+Beesten
+Beetzendorf
+Beetzsee
+Beetzseeheide
+Beggerow
+Behlendorf
+Behrendorf
+Behrenhoff
+Behren-Lübchin
+Behrensdorf (Eastsea)
+Behringen
+Beichlingen
+Beidenfleth
+Beiersdorf (Löbau)
+Beiersdorf-Freudenb.
+Beierstedt
+Beilingen
+Beilngries
+Beilrode
+Beilstein (Mosel)
+Beilstein (Württemberg)
+Beimerstetten
+Beindersheim
+Beinerstadt
+Beinhausen
+Bekdorf
+Bekmünde
+Bekond
+Belau
+Beldorf
+Belg
+Belgern-Schildau
+Belgershain
+Belgweiler
+Bell
+Bell (Hunsrück)
+Bellenberg
+Bellheim
+Bellingen
+Bellstedt
+Belm
+Belrieth
+Belsch
+Beltheim
+Belum
+Bempflingen
+Bendeleben
+Bendestorf
+Bendfeld
+Bendorf (Holstein)
+Bendorf (Rhine)
+Benediktbeuern
+Bengel
+Bengerstorf
+Benitz
+Benndorf (Sax.-Anh.)
+Bennewitz
+Bennhausen
+Benningen am Neckar
+Benningen (Allgäu)
+Bensdorf
+Benshausen
+Bensheim
+Bentwisch
+Bentzin
+Benz (Wismar)
+Benz (Usedom)
+Benzweiler
+Beratzhausen
+Berching
+Berchtesgaden
+Bereborn
+Berenbach
+Berg im Gau
+Berg (Ahrweiler)
+Berg (Neumarkt)
+Berg (Ravensburg)
+Berg (Starnberg)
+Berga (Roßla)
+Berga (Elster)
+Bergatreute
+Berge (Perleberg)
+Berge (Quakenbrück)
+Bergen an der Dumme
+Bergen auf Rügen
+Bergen (Auerbach)
+Bergen (Celle)
+Bergen (Chiemgau)
+Bergen (Kirn/Nahe)
+Bergen (Mittelfr.)
+Bergenhausen
+Bergenhusen
+Bergewöhrden
+Bergfeld
+Berghaupten
+Berghausen
+Bergheim (Donau)
+Bergheim (Erft)
+Bergholz (Pasewalk)
+Berghülen
+Bergisch Gladbach
+Bergkamen
+Bergkirchen
+Berglangenbach
+Berglen
+Berglern
+Berglicht
+Bergneustadt
+Berg (Obfr.)
+Berg (Pfalz)
+Berg (Taunus)
+Bergrheinfeld
+Bergtheim
+Bergweiler
+Beringstedt
+Berka v.d. Hainich
+Berkatal
+Berka (Werra)
+Berkenbrück
+Berkenthin
+Berkheim
+Berkholz-Meyenburg
+Berkoth
+Berlin
+Berlingen
+Berlingerode
+Berlstedt
+Bermatingen
+Bermbach
+Bermel
+Bermersheim (Worms)
+Bermersheim v.d. Höhe
+Bernau am Chiemsee
+Bernau bei Berlin
+Bernau im Schwarzwald
+Bernbeuren
+Bernburg (Saale)
+Berndorf
+Berndroth
+Berne
+Berngau
+Bernhardswald
+Bernitt
+Bernkastel-Kues
+Bernried (Niederb.)
+Bernried (Starnb. S.)
+Bernsdorf (Ore Mountains)
+Bernsdorf (Upper Lusatia)
+Bernstadt a.d. Eigen
+Bernstadt (Württ.)
+Bernstorf
+Bernterode (Heilig.)
+Bernterode (Worbis)
+Berod (Hachenburg)
+Berod (Wallmerod)
+Berscheid
+Berschweiler (Baumh.)
+Berschweiler (Kirn)
+Bersenbrück
+Bersteland
+Bertsdorf-Hörnitz
+Berumbur
+Berzhahn
+Berzhausen
+Bescheid
+Beschendorf
+Besdorf
+Beselich
+Besenthal
+Beseritz
+Besigheim
+Besitz
+Bessenbach
+Bestensee
+Bestwig
+Betheln
+Bethenhausen
+Betteldorf
+Bettendorf
+Bettenfeld
+Bettingen
+Betzdorf
+Betzendorf
+Betzenstein
+Betzenweiler
+Betzigau
+Beulich
+Beuren (Nürtingen)
+Beuren (Eifel)
+Beuren (Hochwald)
+Beuron
+Beutelsbach
+Bevern (Holzminden)
+Bevern (Holstein)
+Beverstedt
+Beverungen
+Bexbach
+Biberach an der Riß
+Biberach (Baden)
+Biberbach
+Bibertal
+Biblis
+Bibow
+Bibra (Jena)
+Biburg
+Bichl
+Bickenbach (Bergstrasse)
+Bickenbach (Hunsrück)
+Bickendorf
+Bidingen
+Biebelnheim
+Biebelried
+Biebelsheim
+Bieberehren
+Biebergemünd
+Biebern
+Biebertal
+Biebesheim am Rhein
+Biebrich
+Biedenkopf
+Biederbach
+Biederitz
+Biedershausen
+Biedesheim
+Bielefeld
+Biendorf
+Bienenbüttel
+Bienstädt
+Biersdorf am See
+Biesdorf
+Biesenthal
+Biessenhofen
+Bietigheim
+Bietigheim-Bissingen
+Bilkheim
+Billerbeck
+Billigheim
+Billigheim-Ingenheim
+Bilsen
+Bilshausen
+Bilzingsleben
+Bimöhlen
+Binau
+Bindlach
+Bingen am Rhein
+Bingen (Sigmaringen)
+Binnen
+Binningen
+Binsfeld
+Binswangen
+Binz
+Binzen
+Bippen
+Birenbach
+Birgel
+Birgland
+Birkenau
+Birkenbeul
+Birkenfeld b. Marktheidenfeld
+Birkenfeld (Enzkreis)
+Birkenfeld (Nahe)
+Birkenfelde
+Birkenheide
+Birken-Honigsessen
+Birkenhördt
+Birkenhügel
+Birkenwerder
+Birkheim
+Birkweiler
+Birlenbach
+Birnbach
+Birresborn
+Birstein
+Birtlingen
+Birx
+Bischberg
+Bischbrunn
+Bischheim
+Bischoffen
+Bischofferode
+Bischofrod
+Bischofroda
+Bischofsgrün
+Bischofsheim (Rhön)
+Bischofsheim (Main)
+Bischofsmais
+Bischofswerda
+Bischofswiesen
+Bischweier
+Bisingen
+Bismark (Altmark)
+Bispingen
+Bissee
+Bissendorf
+Bissersheim
+Bissingen an der Teck
+Bissingen (Schwab)
+Bisterschied
+Bitburg
+Bitterfeld-Wolfen
+Bitz
+Bitzen
+Blaibach
+Blaichach
+Blankenbach
+Blankenberg (Meckl.)
+Blankenberg (Thur.)
+Blankenburg (Harz)
+Blankenburg (Thur.)
+Blankenfelde-Mahlow
+Blankenhagen
+Blankenhain
+Blankenheim (Ahr)
+Blankenheim (Mansfeld)
+Blankenhof
+Blankenrath
+Blankensee (Neustr.)
+Blankensee (Vorp.)
+Blankenstein
+Blaubach
+Blaubeuren
+Blaufelden
+Blaustein
+Bleckede
+Bleckhausen
+Bleialf
+Bleicherode
+Blekendorf
+Blender
+Blesewitz
+Bleyen-Genschmar
+Bliedersdorf
+Bliesdorf
+Blieskastel
+Bliestorf
+Blievenstorf
+Blindheim
+Blomberg (Lippe)
+Blomberg (East Frisia)
+Blomesche Wildnis
+Blowatz
+Blumberg
+Blumenhagen
+Blumenholz
+Blumenthal (Holstein)
+Blunk
+Bobeck
+Bobenheim am Berg
+Bobenheim-Roxheim
+Bobenthal
+Böbing
+Bobingen
+Böbingen a.d. Rems
+Böbingen (Palatinate)
+Bobitz
+Böblingen
+Böbrach
+Bobritzsch-Hilbersdorf
+Bobzin
+Böchingen
+Bocholt
+Bochum
+Bocka
+Bockau
+Bockelnhagen
+Bockelwitz
+Bockenau
+Bockenem
+Bockenheim (Weinstr.)
+Bockhorn (Frisia)
+Bockhorn (Upper Bavaria)
+Bockhorst
+Boddin
+Bodelshausen
+Bodelwitz
+Boden
+Bodenbach
+Bodenfelde
+Bodenheim
+Bodenkirchen
+Bodenmais
+Bodenrode-Westh.
+Bodensee (Municipal.)
+Bodenwerder
+Bodenwöhr
+Bodman-Ludwigshafen
+Bodnegg
+Bodolz
+Böel
+Boffzen
+Bogel
+Bogen
+Böhen
+Böhlen (Saxony)
+Böhlen (Thuringia)
+Böhl-Iggelheim
+Böhme
+Böhmenkirch
+Böhmfeld
+Bohmstedt
+Bohmte
+Böhnhusen
+Boiensdorf
+Boitze
+Boitzenburger Land
+Boizenburg (Elbe)
+Bokel (Bremerhaven)
+Bokel (Elmshorn)
+Bokel (Rendsburg)
+Bokelrehm
+Bokensdorf
+Bokholt-Hanredder
+Bokhorst
+Böklund
+Boksee
+Bolanden
+Boldekow
+Bollberg
+Böllen
+Bollenbach
+Böllenborn
+Bollendorf
+Bollewick
+Bollingstedt
+Bollschweil
+Bölsberg
+Bolsterlang
+Boltenhagen
+Bomlitz
+Boms
+Bondelum
+Bondorf
+Bönebüttel
+Bonefeld
+Bönen
+Bonerath
+Bongard
+Bonn
+Bonndorf im Schwarzwald
+Bönnigheim
+Bönningstedt
+Bonstetten
+Boock
+Boos (Memmingen)
+Boos (Eifel)
+Boos (Nahe)
+Boostedt
+Bopfingen
+Boppard
+Borchen
+Bördeaue
+Börde-Hakel
+Bördeland
+Bordelum
+Bordesholm
+Boren
+Börfink
+Borgdorf-Seedorf
+Borgentreich
+Börger
+Börgerende-Rethwisch
+Borgholzhausen
+Borgstedt
+Borgsum
+Borgwedel
+Borken (Hesse)
+Borken (Westphalia)
+Borkheide
+Borkow
+Borkum
+Borkwalde
+Borler
+Börm
+Born a. Darß
+Borna
+Borne (Staßfurt)
+Bornhagen
+Bornheim
+Bornheim (Palatinate)
+Bornheim (Rhenish Hesse)
+Bornholt
+Bornhöved
+Bornich
+Börnichen (Erzgebirge)
+Börnsen
+Bornstedt
+Borod
+Borrentin
+Börrstadt
+Börsborn
+Borsdorf
+Borsfleth
+Börslingen
+Borstel (Neumünster)
+Borstel (Sulingen)
+Borstel-Hohenraden
+Borstendorf
+Borstorf
+Börßum
+Börtlingen
+Borxleben
+Börzow
+Bosau
+Bosbüll
+Bösdorf (Plön)
+Bösel
+Bosenbach
+Bösenbrunn
+Bösingen
+Bösleben-Wüllersleben
+Bötersen
+Bothel
+Bothenheilingen
+Bothkamp
+Bottenbach
+Böttingen
+Bottrop
+Bötzingen
+Bous
+Bovenau
+Bovenden
+Boxberg (Baden)
+Boxberg (Eifel)
+Boxberg (Oberlausitz)
+Böxlund
+Braak
+Brachbach
+Brachtendorf
+Brachttal
+Brackel
+Brackenheim
+Braderup
+Brahlstorf
+Brahmenau
+Brake (Unterweser)
+Brakel
+Brammer
+Bramsche
+Bramstedt
+Bramstedtlund
+Brand
+Brande-Hörnerkirchen
+Brandenburg (Havel)
+Brand-Erbisdorf
+Brandis
+Brandscheid (Eifel)
+Brandscheid (West.)
+Brannenburg
+Braubach
+Brauneberg
+Braunfels
+Braunichswalde
+Braunlage
+Bräunlingen
+Braunsbach
+Braunsbedra
+Braunschweig
+Braunshorn
+Braunweiler
+Brauweiler
+Brebel
+Brechen
+Brecht
+Breckerfeld
+Mahlberg
+Mahlstetten
+Mähren
+Mähring
+Maierhöfen
+Maihingen
+Maikammer
+Mainaschaff
+Mainbernheim
+Mainburg
+Mainhardt
+Mainhausen
+Mainleus
+Mainstockheim
+Maintal
+Mainz
+Maisach
+Maisborn
+Maitenbeth
+Maitzborn
+Malberg (Eifel)
+Malberg (Westerwald)
+Malbergweich
+Malborn
+Malchin
+Malching
+Malchow
+Malente
+Malgersdorf
+Malk Göhren
+Mallentin
+Mallersdorf-Pfaffenberg
+Mallin
+Malliß
+Malsburg-Marzell
+Malsch (Karlsruhe)
+Malsch (Wiesloch)
+Malschwitz
+Malsfeld
+Malterdingen
+Mammelzen
+Mammendorf
+Mamming
+Manching
+Mandel
+Mandelbachtal
+Mandelshagen
+Mandern
+Manderscheid (Eifel)
+Manderscheid (Waxw.)
+Manhagen
+Mannebach (Eifel)
+Mannebach (Saarburg)
+Mannheim
+Mannstedt
+Mannweiler-Cölln
+Mansfeld
+Mantel
+Manubach
+Marbach am Neckar
+Marburg
+March
+Margetshöchheim
+Mariaposching
+Marienberg
+Marienfels
+Marienfließ
+Marienhafe
+Marienhagen
+Marienhausen
+Marienheide
+Marienmünster
+Marienrachdorf
+Mariental
+Marienwerder
+Maring-Noviand
+Marisfeld
+Mark Landin
+Markdorf
+Markersdorf
+Markgröningen
+Märkisch Linden
+Märkisch Luch
+Märkisch (Buchholz)
+Märkische Heide
+Märkische Höhe
+Markkleeberg
+Marklkofen
+Marklohe
+Markneukirchen
+Markranstädt
+Marksuhl
+Markt Absberg
+Markt Berolzheim
+Markt Bibart
+Markt Einersheim
+Markt Erlbach
+Markt Indersdorf
+Markt Nordheim
+Markt Rettenbach
+Markt Schwaben
+Markt Taschendorf
+Markt Wald
+Marktbergel
+Marktbreit
+Marktgraitz
+Marktheidenfeld
+Marktl
+Marktleugast
+Marktleuthen
+Marktoberdorf
+Marktoffingen
+Marktredwitz
+Marktrodach
+Marktschellenberg
+Marktschorgast
+Marktsteft
+Marktzeuln
+Markvippach
+Marl (Dümmer)
+Marl (Westphalia)
+Marloffstein
+Marlow
+Marne
+Marnerdeich
+Marnheim
+Marnitz
+Maroldsweisach
+Marolterode
+Maroth
+Marpingen
+Marquartstein
+Marsberg
+Marschacht
+Martensrade
+Martfeld
+Marth
+Martinroda (Ilmenau)
+Martinsheim
+Martinshöhe
+Martinstein
+Marxen
+Marxheim
+Marxzell
+Marzhausen
+Marzling
+Maßbach
+Masburg
+Maselheim
+Massenbachhausen
+Massen-Niederlausitz
+Masserberg
+Massing
+Massow
+Mastershausen
+Masthorn
+Maßweiler
+Mattstedt
+Matzenbach
+Matzerath
+Mauchenheim
+Mauden
+Mauel
+Mauer
+Mauern
+Mauerstetten
+Maulbronn
+Maulburg
+Mauschbach
+Mauth
+Maxdorf
+Maxhütte-Haidhof
+Maxsain
+Mayen
+Mayschoß
+Mechelroda
+Mechernich
+Mechow
+Mechtersen
+Meckel
+Meckenbach (Birkenf.)
+Meckenbach (Kirn)
+Meckenbeuren
+Meckenheim (Palatinate)
+Meckenheim (Rhineland)
+Meckesheim
+Medard
+Meddersheim
+Meddewade
+Medebach
+Medelby
+Medlingen
+Medow
+Meeder
+Meerane
+Meerbeck
+Meerbusch
+Meerfeld
+Meersburg
+Meesiger
+Meezen
+Megesheim
+Meggerdorf
+Mehlbach
+Mehlbek
+Mehlingen
+Mehlmeisel
+Mehmels
+Mehna
+Mehren (Daun)
+Mehren (Westerwald)
+Mehring (Altötting)
+Mehring (Moselle)
+Mehringen
+Mehrstetten
+Meiersberg
+Meinborn
+Meine
+Meinersen
+Meinerzhagen
+Meinhard
+Meinheim
+Meiningen
+Meisburg
+Meißen
+Meisenheim
+Meißenheim
+Meißner
+Meitingen
+Melbeck
+Melchow
+Meldorf
+Melle
+Mellenbach-Glasbach
+Mellenthin
+Mellingen
+Mellinghausen
+Mellrichstadt
+Melpers
+Melsbach
+Melsdorf
+Melsungen
+Melz
+Memmelsdorf
+Memmingen
+Memmingerberg
+Menden
+Mendig
+Mengen
+Mengerschied
+Mengerskirchen
+Mengkofen
+Menningen
+Menslage
+Menteroda
+Menzendorf
+Meppen
+Merching
+Merchweiler
+Merdingen
+Merenberg
+Mering
+Merkelbach
+Merkendorf (Mittelfr.)
+Merkendorf (Thuringia)
+Merklingen
+Merlscheid
+Mermuth
+Merschbach
+Merseburg
+Mertendorf (Eisenberg)
+Mertendorf (Naumburg)
+Mertesdorf
+Mertesheim
+Mertingen
+Mertloch
+Merxheim
+Merzalben
+Merzdorf (Elsterwerda)
+Merzen
+Merzenich
+Merzhausen
+Merzig
+Merzkirchen
+Merzweiler
+Meschede
+Mescherin
+Mesekenhagen
+Mesenich
+Meßkirch
+Mespelbrunn
+Messel
+Messenkamp
+Messerich
+Messingen
+Meßstetten
+Mestlin
+Metelen
+Metelsdorf
+Metten
+Mettendorf
+Mettenheim (Mühldorf)
+Mettenheim (Rheinh.)
+Metterich
+Mettingen
+Mettlach
+Mettmann
+Mettweiler
+Metzels
+Metzenhausen
+Metzingen
+Meudt
+Meura
+Meusebach
+Meuselbach-Schwarz.
+Meuselwitz
+Meuspath
+Meyenburg
+Meyn
+Michelau in Oberfranken
+Michelau im Steigerwald
+Michelbach (Hunsrück)
+Michelbach (Wester.)
+Michelbach an der Bilz
+Michelfeld
+Michelsneukirchen
+Michelstadt
+Michendorf
+Mickhausen
+Middelhagen
+Midlum (Bremerhaven)
+Midlum (Föhr)
+Miehlen
+Mielkendorf
+Miellen
+Miesbach
+Miesitz
+Mietingen
+Mihla
+Milda
+Mildenau
+Mildenitz
+Mildstedt
+Millienhagen-Oebelitz
+Milmersdorf
+Milow (Ludwigslust)
+Milower Land
+Miltach
+Miltenberg
+Mindelheim
+Mindelstetten
+Minden (Bitburg)
+Minden (Westphalia)
+Minderlittgen
+Minfeld
+Minheim
+Mintraching
+Mirow
+Misselberg
+Misselwarden
+Missen-Wilhams
+Mistelbach
+Mistelgau
+Mistorf
+Mittelangeln
+Mittelbiberach
+Mittelbrunn
+Mitteleschenbach
+Mittelfischbach
+Mittelherwigsdorf
+Mittelhof
+Mittelneufnach
+Mittelnkirchen
+Mittelpöllnitz
+Mittelreidenbach
+Mittelsinn
+Mittelsömmern
+Mittelstenahe
+Mittelstetten
+Mittelstrimmig
+Mittenaar
+Mittenwald
+Mittenwalde
+Mittenwalde (Templin)
+Mitterfels
+Mitterskirchen
+Mitterteich
+Mittweida
+Mitwitz
+Mixdorf
+Mochau
+Möckern (Sax.-Anh.)
+Möckern (Thuringia)
+Möckmühl
+Mockrehna
+Modautal
+Mödingen
+Moers
+Mogendorf
+Mögglingen
+Möglingen
+Mohlsdorf-Teichwolframsdorf 
+Möhnesee
+Möhnsen
+Möhrendorf
+Mohrkirch
+Moisburg
+Molauer Land
+Molbergen
+Molfsee
+Möllenbeck (Ludwigsl.)
+Möllenbeck (Neustrel.)
+Möllenhagen
+Mölln (Altentreptow)
+Mölln (Lauenburg)
+Molsberg
+Molschleben
+Mölschow
+Mölsheim
+Drelsdorf
+Drensteinfurt
+Drentwede
+Dreschvitz
+Dresden
+Drestedt
+Driedorf
+Driftsethe
+Dröbischau
+Drochtersen
+Drogen
+Drognitz
+Drohndorf
+Drolshagen
+Droyßig
+Düchelsdorf
+Ducherow
+Duchroth
+Moltzow
+Molzhain
+Mömbris
+Mömlingen
+Mommenheim
+Moers
+Mönchengladbach
+Mülheim an der Ruhr
+Münster
+Neuss
+Paderborn
+Recklinghausen
+Remscheid
+Rheine
+Siegen
+Soest
+Solingen
+Wesel
+Witten
+Wuppertal
+Bad Kreuznach
+Bingen
+Boppard
+Frankenthal
+Kaiserslautern
+Koblenz
+Landau
+Ludwigshafen
+Mainz
+Neustadt an der Weinstrasse
+Speyer
+Trier
+Worms
+Homburg
+Reinheim
+Saarbrücken
+Saarlouis
+Altenburg
+Annaberg-Buchholz
+Bautzen
+Chemnitz
+Dresden
+Freiberg
+Görlitz
+Hoyerswerda
+Leipzig
+Meissen
+Torgau
+Zittau
+Zwickau
+Bernburg
+Dessau
+Eisleben
+Halberstadt
+Halle
+Köthen
+Merseburg
+Naumburg
+Quedlinburg
+Stendal
+Wernigerode
+Wittenberg
+Büsum
+Eutin
+Flensburg
+Glückstadt
+Kiel
+Lübeck
+Rendsburg
+Schleswig
+Arnstadt
+Eisenach
+Erfurt
+Gera
+Gotha
+Jena
+Meiningen
+Mühlhausen
+Nordhausen
+Suhl
+Weimar
+Aachen
+Augsburg
+Bergisch Gladbach
+Berlin
+Bielefeld
+Bochum
+Bonn
+Bottrop
+Braunschweig
+Bremen
+Bremerhaven
+Chemnitz
+Cottbus
+Darmstadt
+Dessau
+Dortmund
+Dresden
+Duisburg
+Düren
+Düsseldorf
+Erfurt
+Erlangen
+Essen
+Esslingen
+Flensburg
+Frankfurt
+Freiburg
+Fürth
+Gelsenkirchen
+Gera
+Göttingen
+Gütersloh
+Hagen
+Halle
+Hamburg
+Hamm
+Hanau
+Hannover
+Heidelberg
+Heilbronn
+Herne
+Hildesheim
+Ingolstadt
+Iserlohn
+Jena
+Kaiserslautern
+Karlsruhe
+Kassel
+Kiel
+Koblenz
+Köln
+Krefeld
+Leipzig
+Leverkusen
+Lübeck
+Ludwigsburg
+Ludwigshafen
+Lünen
+Magdeburg
+Mainz
+Mannheim
+Marl
+Minden
+Moers
+Mönchengladbach
+Mülheim
+München
+Münster
+Neuss
+Nürnberg
+Oberhausen
+Offenbach
+Oldenburg
+Osnabrück
+Paderborn
+Pforzheim
+Potsdam
+Ratingen
+Recklinghausen
+Regensburg
+Remscheid
+Reutlingen
+Rostock
+Saarbrücken
+Salzgitter
+Schwerin
+Siegen
+Solingen
+Stuttgart
+Trier
+Ulm
+Velbert
+Villingen-Schwenningen
+Wiesbaden
+Wilhelmshaven
+Witten
+Wolfsburg
+Wuppertal
+Würzburg
+Zwickau
+Raa-Besenbek
+Rabel
+Raben Steinfeld
+Rabenau (Hesse)
+Rabenau (Saxony)
+Rabenholz
+Rabenkirchen-Faulück
+Rabenstein (Fläming)
+Räbke
+Räckelwitz
+Racksen
+Rackwitz
+Radbruch
+Raddestorf
+Rade (Fitzbek)
+Rade (Hohenwestedt)
+Rade (Rendsburg)
+Radeberg
+Radebeul
+Radeburg
+Radevormwald
+Radibor
+Radolfzell am Bodensee
+Raesfeld
+Ragow-Merz
+Raguhn-Jeßnitz
+Rahden
+Raich
+Rainau
+Rain (Lech)
+Rain (Lower Bavaria)
+Raisdorf
+Raisting
+Raitenbuch
+Ralbitz-Rosenthal
+Ralingen
+Ralswiek
+Ramberg
+Rambin
+Ramerberg
+Ramhusen
+Ramin
+Rammelsbach
+Rammenau
+Rammingen (Swabia)
+Rammingen (Württemb.)
+Ramsau (Berchtesgaden)
+Ramsen
+Ramsla
+Ramstedt
+Ramstein-Miesenbach
+Ramsthal
+Randersacker
+Randowtal
+Rangendingen
+Rangsdorf
+Ranis
+Rankwitz
+Rannstedt
+Rannungen
+Ransbach-Baumbach
+Ranschbach
+Ranstadt
+Ransweiler
+Rantrum
+Rantzau
+Rappin
+Raschau-Markersbach
+Rascheid
+Rasdorf
+Rastatt
+Rastdorf
+Rastede
+Rastenberg
+Rastorf
+Rastow
+Ratekau
+Rathen Kurort
+Rathenow
+Rathjensdorf
+Rathmannsdorf (Pirna)
+Rathskirchen
+Rathsweiler
+Ratingen
+Ratshausen
+Rattelsdorf (Oberfrank.)
+Rattelsdorf (Stadtroda)
+Rattenberg
+Rattenkirchen
+Rattiszell
+Ratzeburg
+Ratzert
+Rätzlingen (Uelzen)
+Raubach
+Raubling
+Rauda
+Rauen
+Rauenberg
+Rauhenebrach
+Raumbach
+Raunheim
+Rauschenberg
+Rauschwitz
+Rausdorf (Stadtroda)
+Rausdorf (Stormarn)
+Ravengiersburg
+Ravensburg
+Ravenstein
+Raversbeuren
+Rayerschied
+Rech
+Rechberghausen
+Rechenberg-Bienenmühle
+Rechlin
+Rechtenbach
+Rechtenstein
+Rechtmehring
+Rechtsupweg
+Recke
+Reckendorf
+Reckenroth
+Reckershausen
+Recklinghausen
+Reddelich
+Redefin
+Rednitzhembach
+Redwitz an der Rodach
+Rees
+Reesdorf (Kiel)
+Reeßum
+Regen
+Regensburg
+Regenstauf
+Regesbostel
+Regis-Breitingen
+Regnitzlosau
+Rehau
+Rehbach
+Rehborn
+Rehburg-Loccum
+Rehden
+Rehe
+Reher
+Rehfelde
+Rehhorst
+Rehling
+Rehlingen (Lüneburg)
+Rehlingen-Siersburg
+Rehm-Flehde-Bargen
+Rehna
+Rehungen
+Rehweiler
+Reich
+Reichartshausen
+Reichelsheim (Odenwald)
+Reichelsheim (Wetterau)
+Reichenau
+Reichenbach (Birkenf.)
+Reichenbach (Hermsd.)
+Reichenbach (Kronach)
+Reichenbach (Oberlausitz)
+Reichenbach (Oberpfalz)
+Reichenbach a. Heuberg
+Reichenbach an der Fils
+Reichenbach im Vogtland
+Reichenbach-Steegen
+Reichenberg (Rh.-L.-K.)
+Reichenberg (Unterfr.)
+Reichenow-Möglin
+Reichenschwand
+Reichenwalde
+Reichersbeuern
+Reichertshausen
+Reichertsheim
+Reichertshofen
+Reichling
+Reichmannsdorf
+Reichshof
+Reichstädt
+Reichsthal
+Reichweiler
+Reidenhausen
+Reifenberg
+Reiferscheid
+Reiff
+Reiffelbach
+Reifferscheid
+Reil
+Reilingen
+Reimerath
+Reimershagen
+Reimlingen
+Reinbek
+Reinfeld (Holstein)
+Reinhardsdorf-Schöna
+Reinhardshagen
+Reinhardtsgrimma
+Reinheim
+Reinholterode
+Reinsberg
+Reinsbüttel
+Reinsdorf
+Reinsfeld
+
+Reinstädt
+Reinstorf
+Reipeldingen
+Reipoltskirchen
+Reisbach
+Reischach
+Reisdorf
+Reiskirchen
+Reit im Winkl
+Reitwein
+Reitzenhain
+Reken
+Rellingen
+Relsberg
+Remagen
+Remchingen
+Remda-Teichel
+Remlingen (Unterfr.)
+Remlingen (Wolfenb.)
+Remmels
+Remptendorf
+Remscheid
+Remse
+Remseck am Neckar
+Remshalden
+Remstädt
+Renchen
+Rendsburg
+Rendswühren
+Rengsdorf
+Renkenberge
+Rennau
+Rennerod
+Rennertshofen
+Renningen
+Renquishausen
+Renthendorf
+Rentweinsdorf
+Reppenstedt
+Rerik
+Rethem (Aller)
+Rethwisch (Lägerdorf)
+Rethwisch (Stormarn)
+Retschow
+Rettenbach a. Auerberg
+Rettenbach (Günzburg)
+Rettenbach (Oberpfalz)
+Rettenberg
+Retterath
+Rettersen
+Rettershain
+Rettert
+Retzow (Nauen)
+Retzstadt
+Reudelsterz
+Reurieth
+Reußenköge
+Reut
+Reute
+Reuth (Eifel)
+Reuth (Erbendorf)
+Reuth (Plauen)
+Reutlingen
+Rhade
+Rhauderfehn
+Rhaunen
+Rheda-Wiedenbrück
+Rhede (Ems)
+Rhede (Westphalia)
+Rheden
+Rheinau
+Rheinbach
+Rheinberg
+Rheinböllen
+Rheinbreitbach
+Rheinbrohl
+Rheine
+Rheinfelden (Baden)
+Rheinhausen
+Rheinmünster
+Rheinsberg
+Rheinstetten
+Rheinzabern
+Rhens
+Rheurdt
+Rhinow
+Rhodt unter Rietburg
+Rhönblick
+Rhumspringe
+Ribbesbüttel
+Ribnitz-Damgarten
+Richtenberg
+Rickenbach
+Rickert
+Rickling
+Ried
+Riedbach
+Riede
+Riedelberg
+Rieden (Eifel)
+Rieden (Kaufbeuren)
+Rieden (Oberpfalz)
+Rieden am Forggensee
+Riedenberg
+Riedenburg
+Riedenheim
+Riederich
+Riedering
+Riedhausen
+Riedlingen
+Riedstadt
+Riegel
+Riegelsberg
+Riegenroth
+Riegsee
+Riekofen
+Rielasingen-Worblingen
+Rieneck
+Rieps
+Riepsdorf
+Riesa
+Riesbürg
+Rieschweiler-Mühlbach
+Rieseby
+Rieste
+Riesweiler
+Rietberg
+Rietheim-Weilheim
+Riethgen
+Riethnordhausen
+Rietschen
+Rietz-Neuendorf
+Rietzneuendorf-Staak.
+Rimbach (Eggenfelden)
+Rimbach (Oberpfalz)
+Rimbach (Odenwald)
+Rimpar
+Rimsberg
+Rimsting
+Rinchnach
+Ringe
+Ringelai
+Ringgau
+Ringleben (Artern)
+Ringleben (Gebesee)
+Ringsberg
+Ringsheim
+Ringstedt
+Rinnthal
+Rinteln
+Rinzenberg
+Riol
+Rippershausen
+Risum-Lindholm
+Ritschenhausen
+Ritterhude
+Rittersdorf (Eifel)
+Rittersdorf (Weimar)
+Rittersheim
+Ritzerau
+Ritzerow
+Rivenich
+Riveris
+Röbel (Müritz)
+Rochau
+Rochlitz
+Rockenberg
+Rockenhausen
+Rockenstuhl
+Rockeskyll
+Rockhausen
+Röckingen
+Rockstedt
+Röckwitz
+Rodalben
+Rodder
+Rödelhausen
+Rödelmaier
+Rödelsee
+Roden
+Rodenäs
+Rodenbach bei Puderbach
+Rodenbach (Hesse)
+Rodenbach (Palatinate)
+Rodenbek
+Rodenberg
+Rödental
+Röderaue
+Röderland
+Rödermark
+Rödern
+Rodershausen
+Rödersheim-Gronau
+Rodewald
+Rodewisch
+Rodgau
+Roding
+Rödinghausen
+Rodishain
+Roduchelstorf
+Roes
+Roetgen
+Röfingen
+Rogätz
+Roggenburg
+Roggendorf
+Roggenstorf
+Roggentin (Neustrelitz)
+Roggentin (Rostock)
+Rögling
+Rögnitz
+Röhl
+Rohlstorf
+Rohr (Mittelfranken)
+Rohr (Niederbayern)
+Rohr (Thuringia)
+Rohrbach (Hunsrück)
+Rohrbach (Ilm)
+Rohrbach (Nahe)
+Rohrbach (Palatinate)
+Rohrbach (Schwarztal)
+Rohrbach (Weimar)
+Rohrberg (Altmark)
+Rohrberg (Heilberg)
+Rohrdorf am Inn
+Rohrdorf (Nagold)
+Rohrenfels
+Röhrig
+Röhrmoos
+Röhrnbach
+Rohrsen
+Roigheim
+Roklum
+Röllbach
+Rollshausen
+Rollwitz
+Rom
+Römerberg
+Römerstein
+Römhild
+Rommersheim
+Rommerskirchen
+Römnitz
+Romrod
+Römstedt
+Rondeshagen
+Ronneburg (Hesse)
+Ronneburg (Thuringia)
+Ronnenberg
+Ronsberg
+Ronshausen
+Rorodt
+Rosa
+Rosbach vor der Höhe
+Roschbach
+Rosche
+Roscheid
+Rosdorf (Holstein)
+Rosdorf (Göttingen)
+Roseburg
+Rosenau
+Rosenbach (Upper Lusatia)
+Rosenbach (Vogtland)
+Rosenberg (Baden)
+Rosenberg (Württemb.)
+Rosendahl
+Rosendorf
+Rosenfeld
+Rosengarten (Harburg)
+Rosengarten (Swabia)
+Rosenheim
+Rosenheim (Westerwald)
+Rosenkopf
+Rosenow
+Rosenthal (Hessen)
+Rosenthal-Bielatal
+Rositz
+Roskow
+Röslau
+Rösrath
+Rossau (Mittweida)
+Roßbach (Niederbayern)
+Roßbach (Westerwald)
+Roßbach (Wied)
+Roßdorf (Darmstadt)
+Roßdorf (Rhön)
+Roßhaupten
+Rossin
+Roßleben
+Rossow (Pasewalk)
+Roßtal
+Roßwein
+Rostock
+Rot am See
+Rot an der Rot
+Rotenburg an der Fulda
+Rotenburg (Wümme)
+Rotenhain
+Rötgesbüttel
+Roth (Franconia)
+Roth (Hamm)
+Roth (Prüm)
+Roth (Rhein-Hunsrück)
+Roth (Rhein-Lahn)
+Roth (Stromberg)
+Roth an der Our
+Rötha
+Rothemühl
+Rothenbach
+Röthenbach (Allgäu)
+Röthenbach a.d. Pegnitz
+Rothenberg
+Rothenbuch
+Rothenburg (Oberlausitz)
+Rothenburg o.d. Tauber
+Rothenfels
+Rothenklempenow
+Rothenstein
+Röthlein
+Rothselberg
+Rötsweiler-Nockenthal
+Rott (Lech)
+Rott (Westerwald)
+Rott am Inn
+Rottach-Egern
+Rottenacker
+Röttenbach (Erlangen)
+Röttenbach (Swabia)
+Rottenbuch
+Rottenburg am Neckar
+Rottenburg an der Laaber
+Rottendorf
+Rotterode
+Rotthalmünster
+Röttingen
+Rottleben
+Rottweil
+Rötz
+Rövershagen
+Roxheim
+Rubenow
+Rüber
+Rubkow
+Rückeroth
+Rückersdorf (Dob.-Kir.)
+Rückersdorf (Gera)
+Rückersdorf (Mittelfr.)
+Rückholz
+Rückweiler
+Rudelzhausen
+Rüdenau
+Rüdenhausen
+Ruderatshofen
+Rudersberg
+Rudersdorf
+Rüdersdorf bei Berlin
+Rüdershausen
+Ruderting
+Rüdesheim am Rhein
+Rüdesheim (Nahe)
+Rüdnitz
+Rudolstadt
+Rugendorf
+Rügge
+Rügland
+Rühen
+Baabe
+Baar
+Baar-Ebenhausen
+Baar (Schwaben)
+Babenhausen (Hesse)
+Babenhausen (Swabia)
+Babensham
+Bach a.d. Donau
+Bacharach
+Bachenberg
+Bachfeld
+Bachhagel
+Bächingen a.d. Brenz
+Backnang
+Bad Abbach
+Bad Aibling
+Bad Alexandersbad
+Bad Arolsen
+Bad Bederkesa
+Bad Bellingen
+Bad Belzig
+Bad Bentheim
+Bad Bergzabern
+Bad Berka
+Bad Berleburg
+Bad Berneck
+Bad Bertrich
+Bad Bevensen
+Bad Bibra
+Bad Birnbach
+Bad Blankenburg
+Bad Bocklet
+Bad Bodenteich
+Bad Boll
+Bad Brambach
+Bad Bramstedt
+Bad Breisig
+Bad Brückenau
+Bad Buchau
+Bad Camberg
+Bad Colberg-Heldburg
+Bad Ditzenbach
+Bad Doberan
+Bad Driburg
+Bad Düben
+Bad Dürkheim
+Bad Dürrenberg
+Bad Dürrheim
+Bad Eilsen
+Bad Elster
+Bad Ems
+Bad Emstal
+Bad Endbach
+Bad Endorf
+Bad Essen
+Bad Fallingbostel
+Bad Feilnbach
+Bad Frankenhausen
+Bad Freienwalde (Oder)
+Bad Friedrichshall
+Bad Füssing
+Bad Gandersheim
+Bad Gottleuba-Berggießh.
+Bad Griesbach im Rottal
+Bad Grönenbach
+Bad Grund/Harz
+Bad Harzburg
+Bad Heilbrunn
+Bad Herrenalb
+Bad Hersfeld
+Bad Hindelang Markt
+Bad Homburg v.d.H.
+Bad Honnef
+Bad Hönningen
+Bad Iburg
+Bad Karlshafen
+Bad Kissingen
+Bad Kleinen
+Bad Klosterlausnitz
+Bad Kohlgrub
+Bad König
+Bad Königshofen i. Grabf.
+Bad Köstritz
+Bad Kötzting
+Bad Kreuznach
+Bad Krozingen
+Bad Laasphe
+Bad Laer
+Bad Langensalza
+Bad Lauchstädt
+Bad Lausick
+Bad Lauterberg
+Bad Liebenstein
+Bad Liebenwerda
+Bad Liebenzell
+Bad Lippspringe
+Bad Lobenstein
+Bad Marienberg
+Bad Mergentheim
+Bad Münder am Deister
+Bad Münster am Stein
+Bad Münstereifel
+Bad Muskau
+Bad Nauheim
+Bad Nenndorf
+Bad Neuenahr-Ahrw.
+Bad Neustadt (Saale)
+Bad Oeynhausen
+Bad Oldesloe
+Bad Orb
+Bad Peterstal-Griesbach
+Bad Pyrmont
+Bad Rappenau
+Bad Reichenhall
+Bad Rippoldsau-Sch.
+Bad Rodach
+Bad Rothenfelde
+Bad Saarow
+Bad Sachsa
+Bad Säckingen
+Bad Salzdetfurth
+Bad Salzschlirf
+Bad Salzuflen
+Bad Salzungen
+Bad Sassendorf
+Bad Saulgau
+Bad Schandau
+Bad Schlema
+Bad Schmiedeberg
+Bad Schönborn
+Bad Schussenried
+Bad Schwalbach
+Bad Schwartau
+Bad Segeberg
+Bad Sobernheim
+Bad Soden am Taunus
+Bad Soden-Salmünster
+Bad Sooden-Allendorf
+Bad Staffelstein
+Bad Steben
+Bad Sulza
+Bad Sülze
+Bad Teinach-Zavelstein
+Bad Tennstedt
+Bad Tölz
+Bad Überkingen
+Bad Urach
+Bad Vilbel
+Bad Waldsee
+Bad Wiessee
+Bad Wildbad
+Bad Wildungen
+Bad Wilsnack
+Bad Wimpfen
+Bad Windsheim
+Bad Wörishofen
+Bad Wünnenberg
+Bad Wurzach
+Bad Zwesten
+Bad Zwischenahn
+Badbergen
+Baddeckenstedt
+Badem
+Baden-Baden
+Badendorf
+Badenhard
+Badenhausen
+Badenheim
+Badenweiler
+Badra
+Baesweiler
+Bahlingen
+Bahrdorf
+Bahrenborstel
+Bahrenfleth
+Bahrenhof
+Bahretal
+Baienfurt
+Baierbach
+Baierbrunn
+Baiern
+Baiersbronn
+Baiersdorf
+Baindt
+Baisweil
+Bäk
+Bakum
+Bälau
+Balderschwang
+Baldringen
+Balduinstein
+Balesfeld
+Balge
+Balgheim
+Balgstädt
+Balingen
+Balje
+Ballendorf
+Ballenstedt
+Ballhausen
+Ballrechten-Dottingen
+Ballstädt
+Ballstedt
+Balow
+Baltmannsweiler
+Baltrum
+Balve
+Balzhausen
+Balzheim
+Bamberg
+Bammental
+Bandelin
+Bandenitz
+Bann
+Bannewitz
+Banteln
+Banzkow
+Barbelroth
+Barbing
+Barby
+Barchfeld
+Bardowick
+Bärenbach (Idar-Ob.)
+Bärenbach (Simmern)
+Barenburg
+Barendorf
+Bärenstein (Ann.-B.)
+Bärenthal
+Bargenstedt
+Bargfeld-Stegen
+Bargischow
+Bargstall
+Bargstedt (Stade)
+Bargstedt (Holstein)
+Bargteheide
+Bargum
+Bark
+Barkelsby
+Barkenholm
+Barkhagen
+Barleben
+Barlt
+Barmissen
+Barmstedt
+Bärnau
+Barnekow
+Barnin
+Barnitz
+Barnstädt
+Barnstedt
+Barnstorf
+Barntrup
+Barsbek
+Barsbüttel
+Barßel
+Barsinghausen
+Bartelshagen (Barth)
+Bartenshagen-Parkentin
+Barth
+Bartholomä
+Bartow
+Barum (Bad Bevens.)
+Barum (Lüneburg)
+Baruth (Mark)
+Barver
+Barwedel
+Barweiler
+Bärweiler
+Basberg
+Basdahl
+Basedow (Teterow)
+Basedow (Lauenburg)
+Bassenheim
+Bassum
+Bastheim
+Basthorst
+Bastorf
+Battenberg (Eder)
+Battenberg (Pfalz)
+Battweiler
+Baudenbach
+Bauler (Barweiler)
+Bauler (Neuerburg)
+Baumgarten
+Baumholder
+Baunach
+Baunatal
+Bausendorf
+Baustert
+Bautzen
+Bawinkel
+Bayerbach (Ergoldsb.)
+Bayerbach (Rott)
+Bayerfeld-Steckweiler
+Bayerisch Eisenstein
+Bayerisch Gmain
+Bayersoien
+Bayreuth
+Bayrischzell
+Bebensee
+Bebra
+Becheln
+Bechenheim
+Becherbach (Kirn)
+Becherbach (Palatin.)
+Bechhofen (Franconia)
+Bechhofen (Palatinate)
+Bechstedt
+Bechstedtstraß
+Bechtheim
+Bechtolsheim
+Bechtsrieth
+Beckdorf
+Beckedorf
+Beckeln
+Beckingen
+Beckum
+Bedburg
+Bedburg-Hau
+Bedesbach
+Beedenbostel
+Beelen
+Beelitz
+Beendorf
+Beerfelden
+Beeskow
+Beesten
+Beetzendorf
+Beetzsee
+Beetzseeheide
+Beggerow
+Behlendorf
+Behrendorf
+Behrenhoff
+Behren-Lübchin
+Behrensdorf (Eastsea)
+Behringen
+Beichlingen
+Beidenfleth
+Beiersdorf (Löbau)
+Beiersdorf-Freudenb.
+Beierstedt
+Beilingen
+Beilngries
+Beilrode
+Beilstein (Mosel)
+Beilstein (Württemberg)
+Beimerstetten
+Beindersheim
+Beinerstadt
+Beinhausen
+Bekdorf
+Bekmünde
+Bekond
+Belau
+Beldorf
+Belg
+Belgern-Schildau
+Belgershain
+Belgweiler
+Bell
+Bell (Hunsrück)
+Bellenberg
+Bellheim
+Bellingen
+Bellstedt
+Belm
+Belrieth
+Belsch
+Beltheim
+Belum
+Bempflingen
+Bendeleben
+Bendestorf
+Bendfeld
+Bendorf (Holstein)
+Bendorf (Rhine)
+Benediktbeuern
+Bengel
+Bengerstorf
+Benitz
+Benndorf (Sax.-Anh.)
+Bennewitz
+Bennhausen
+Benningen am Neckar
+Benningen (Allgäu)
+Bensdorf
+Benshausen
+Bensheim
+Bentwisch
+Bentzin
+Benz (Wismar)
+Benz (Usedom)
+Benzweiler
+Beratzhausen
+Berching
+Berchtesgaden
+Bereborn
+Berenbach
+Berg im Gau
+Berg (Ahrweiler)
+Berg (Neumarkt)
+Berg (Ravensburg)
+Berg (Starnberg)
+Berga (Roßla)
+Berga (Elster)
+Bergatreute
+Berge (Perleberg)
+Berge (Quakenbrück)
+Bergen an der Dumme
+Bergen auf Rügen
+Bergen (Auerbach)
+Bergen (Celle)
+Bergen (Chiemgau)
+Bergen (Kirn/Nahe)
+Bergen (Mittelfr.)
+Bergenhausen
+Bergenhusen
+Bergewöhrden
+Bergfeld
+Berghaupten
+Berghausen
+Bergheim (Donau)
+Bergheim (Erft)
+Bergholz (Pasewalk)
+Berghülen
+Bergisch Gladbach
+Bergkamen
+Bergkirchen
+Berglangenbach
+Berglen
+Berglern
+Berglicht
+Bergneustadt
+Berg (Obfr.)
+Berg (Pfalz)
+Berg (Taunus)
+Bergrheinfeld
+Bergtheim
+Bergweiler
+Beringstedt
+Berka v.d. Hainich
+Berkatal
+Berka (Werra)
+Berkenbrück
+Berkenthin
+Berkheim
+Berkholz-Meyenburg
+Berkoth
+Berlin
+Berlingen
+Berlingerode
+Berlstedt
+Bermatingen
+Bermbach
+Bermel
+Bermersheim (Worms)
+Bermersheim v.d. Höhe
+Bernau am Chiemsee
+Bernau bei Berlin
+Bernau im Schwarzwald
+Bernbeuren
+Bernburg (Saale)
+Berndorf
+Berndroth
+Berne
+Berngau
+Bernhardswald
+Bernitt
+Bernkastel-Kues
+Bernried (Niederb.)
+Bernried (Starnb. S.)
+Bernsdorf (Ore Mountains)
+Bernsdorf (Upper Lusatia)
+Bernstadt a.d. Eigen
+Bernstadt (Württ.)
+Bernstorf
+Bernterode (Heilig.)
+Bernterode (Worbis)
+Berod (Hachenburg)
+Berod (Wallmerod)
+Berscheid
+Berschweiler (Baumh.)
+Berschweiler (Kirn)
+Bersenbrück
+Bersteland
+Bertsdorf-Hörnitz
+Berumbur
+Berzhahn
+Berzhausen
+Bescheid
+Beschendorf
+Besdorf
+Beselich
+Besenthal
+Beseritz
+Besigheim
+Besitz
+Bessenbach
+Bestensee
+Bestwig
+Betheln
+Bethenhausen
+Betteldorf
+Bettendorf
+Bettenfeld
+Bettingen
+Betzdorf
+Betzendorf
+Betzenstein
+Betzenweiler
+Betzigau
+Beulich
+Beuren (Nürtingen)
+Beuren (Eifel)
+Beuren (Hochwald)
+Beuron
+Beutelsbach
+Bevern (Holzminden)
+Bevern (Holstein)
+Beverstedt
+Beverungen
+Bexbach
+Biberach an der Riß
+Biberach (Baden)
+Biberbach
+Bibertal
+Biblis
+Bibow
+Bibra (Jena)
+Biburg
+Bichl
+Bickenbach (Bergstrasse)
+Bickenbach (Hunsrück)
+Bickendorf
+Bidingen
+Biebelnheim
+Biebelried
+Biebelsheim
+Bieberehren
+Biebergemünd
+Biebern
+Biebertal
+Biebesheim am Rhein
+Biebrich
+Biedenkopf
+Biederbach
+Biederitz
+Biedershausen
+Biedesheim
+Bielefeld
+Biendorf
+Bienenbüttel
+Bienstädt
+Biersdorf am See
+Biesdorf
+Biesenthal
+Biessenhofen
+Bietigheim
+Bietigheim-Bissingen
+Bilkheim
+Billerbeck
+Billigheim
+Billigheim-Ingenheim
+Bilsen
+Bilshausen
+Bilzingsleben
+Bimöhlen
+Binau
+Bindlach
+Bingen am Rhein
+Bingen (Sigmaringen)
+Binnen
+Binningen
+Binsfeld
+Binswangen
+Binz
+Binzen
+Bippen
+Birenbach
+Birgel
+Birgland
+Birkenau
+Birkenbeul
+Birkenfeld b. Marktheidenfeld
+Birkenfeld (Enzkreis)
+Birkenfeld (Nahe)
+Birkenfelde
+Birkenheide
+Birken-Honigsessen
+Birkenhördt
+Birkenhügel
+Birkenwerder
+Birkheim
+Birkweiler
+Birlenbach
+Birnbach
+Birresborn
+Birstein
+Birtlingen
+Birx
+Bischberg
+Bischbrunn
+Bischheim
+Bischoffen
+Bischofferode
+Bischofrod
+Bischofroda
+Bischofsgrün
+Bischofsheim (Rhön)
+Bischofsheim (Main)
+Bischofsmais
+Bischofswerda
+Bischofswiesen
+Bischweier
+Bisingen
+Bismark (Altmark)
+Bispingen
+Bissee
+Bissendorf
+Bissersheim
+Bissingen an der Teck
+Bissingen (Schwab)
+Bisterschied
+Bitburg
+Bitterfeld-Wolfen
+Bitz
+Bitzen
+Blaibach
+Blaichach
+Blankenbach
+Blankenberg (Meckl.)
+Blankenberg (Thur.)
+Blankenburg (Harz)
+Blankenburg (Thur.)
+Blankenfelde-Mahlow
+Blankenhagen
+Blankenhain
+Blankenheim (Ahr)
+Blankenheim (Mansfeld)
+Blankenhof
+Blankenrath
+Blankensee (Neustr.)
+Blankensee (Vorp.)
+Blankenstein
+Blaubach
+Blaubeuren
+Blaufelden
+Blaustein
+Bleckede
+Bleckhausen
+Bleialf
+Bleicherode
+Blekendorf
+Blender
+Blesewitz
+Bleyen-Genschmar
+Bliedersdorf
+Bliesdorf
+Blieskastel
+Bliestorf
+Blievenstorf
+Blindheim
+Blomberg (Lippe)
+Blomberg (East Frisia)
+Blomesche Wildnis
+Blowatz
+Blumberg
+Blumenhagen
+Blumenholz
+Blumenthal (Holstein)
+Blunk
+Bobeck
+Bobenheim am Berg
+Bobenheim-Roxheim
+Bobenthal
+Böbing
+Bobingen
+Böbingen a.d. Rems
+Böbingen (Palatinate)
+Bobitz
+Böblingen
+Böbrach
+Bobritzsch-Hilbersdorf
+Bobzin
+Böchingen
+Bocholt
+Bochum
+Bocka
+Bockau
+Bockelnhagen
+Bockelwitz
+Bockenau
+Bockenem
+Bockenheim (Weinstr.)
+Bockhorn (Frisia)
+Bockhorn (Upper Bavaria)
+Bockhorst
+Boddin
+Bodelshausen
+Bodelwitz
+Boden
+Bodenbach
+Bodenfelde
+Bodenheim
+Bodenkirchen
+Bodenmais
+Bodenrode-Westh.
+Bodensee (Municipal.)
+Bodenwerder
+Bodenwöhr
+Bodman-Ludwigshafen
+Bodnegg
+Bodolz
+Böel
+Boffzen
+Bogel
+Bogen
+Böhen
+Böhlen (Saxony)
+Böhlen (Thuringia)
+Böhl-Iggelheim
+Böhme
+Böhmenkirch
+Böhmfeld
+Bohmstedt
+Bohmte
+Böhnhusen
+Boiensdorf
+Boitze
+Boitzenburger Land
+Boizenburg (Elbe)
+Bokel (Bremerhaven)
+Bokel (Elmshorn)
+Bokel (Rendsburg)
+Bokelrehm
+Bokensdorf
+Bokholt-Hanredder
+Bokhorst
+Böklund
+Boksee
+Bolanden
+Boldekow
+Bollberg
+Böllen
+Bollenbach
+Böllenborn
+Bollendorf
+Bollewick
+Bollingstedt
+Bollschweil
+Bölsberg
+Bolsterlang
+Boltenhagen
+Bomlitz
+Boms
+Bondelum
+Bondorf
+Bönebüttel
+Bonefeld
+Bönen
+Bonerath
+Bongard
+Bonn
+Bonndorf im Schwarzwald
+Bönnigheim
+Bönningstedt
+Bonstetten
+Boock
+Boos (Memmingen)
+Boos (Eifel)
+Boos (Nahe)
+Boostedt
+Bopfingen
+Boppard
+Borchen
+Bördeaue
+Börde-Hakel
+Bördeland
+Bordelum
+Bordesholm
+Boren
+Börfink
+Borgdorf-Seedorf
+Borgentreich
+Börger
+Börgerende-Rethwisch
+Borgholzhausen
+Borgstedt
+Borgsum
+Borgwedel
+Borken (Hesse)
+Borken (Westphalia)
+Borkheide
+Borkow
+Borkum
+Borkwalde
+Borler
+Börm
+Born a. Darß
+Borna
+Borne (Staßfurt)
+Bornhagen
+Bornheim
+
+Bornheim (Palatinate)
+Bornheim (Rhenish Hesse)
+Bornholt
+Bornhöved
+Bornich
+Börnichen (Erzgebirge)
+Börnsen
+Bornstedt
+Borod
+Borrentin
+Börrstadt
+Börsborn
+Borsdorf
+Borsfleth
+Börslingen
+Borstel (Neumünster)
+Borstel (Sulingen)
+Borstel-Hohenraden
+Borstendorf
+Borstorf
+Börßum
+Börtlingen
+Borxleben
+Börzow
+Bosau
+Bosbüll
+Bösdorf (Plön)
+Bösel
+Bosenbach
+Bösenbrunn
+Bösingen
+Bösleben-Wüllersleben
+Bötersen
+Bothel
+Bothenheilingen
+Bothkamp
+Bottenbach
+Böttingen
+Bottrop
+Bötzingen
+Bous
+Bovenau
+Bovenden
+Boxberg (Baden)
+Boxberg (Eifel)
+Boxberg (Oberlausitz)
+Böxlund
+Braak
+Brachbach
+Brachtendorf
+Brachttal
+Brackel
+Brackenheim
+Braderup
+Brahlstorf
+Brahmenau
+Brake (Unterweser)
+Brakel
+Brammer
+Bramsche
+Bramstedt
+Bramstedtlund
+Brand
+Brande-Hörnerkirchen
+Brandenburg (Havel)
+Brand-Erbisdorf
+Brandis
+Brandscheid (Eifel)
+Brandscheid (West.)
+Brannenburg
+Braubach
+Brauneberg
+Braunfels
+Braunichswalde
+Braunlage
+Bräunlingen
+Braunsbach
+Braunsbedra
+Braunschweig
+Braunshorn
+Braunweiler
+Brauweiler
+Brebel
+Brechen
+Brecht
+Breckerfeld
+Breddenberg
+Breddin
+Breddorf
+Bredenbek
+Bredenfelde
+Bredstedt
+Breege
+Breese
+Breesen (Neubrand.)
+Breest
+Brehme
+Breidenbach
+Breiholz
+Breisach am Rhein
+Breit
+Breitbrunn am Chiemsee
+Breitbrunn
+Breitenau
+Breitenbach a. Herzb.
+Breitenbach (Pfalz)
+Breitenberg (Itzehoe)
+Breitenberg (Niederb.)
+Breitenbrunn (Erzgebirge)
+Breitenbrunn (Oberpfalz)
+Breitenbrunn (Schwaben)
+Breitenburg
+Breitenfelde
+Breitengüßbach
+Breitenhain
+Breitenheim
+Breitenthal (Idar-Ob.)
+Breitenthal (Krumbach)
+Breitenworbis
+Breitingen
+Breitnau
+Breitscheid (Neuwied)
+Breitscheid (Hesse)
+Breitscheid (Hunsrück)
+Breitscheidt
+Breitungen (Werra)
+Brekendorf
+Breklum
+Bremberg
+Bremen
+Bremerhaven
+Bremervörde
+Bremm
+Bremsnitz
+Brenk
+Brennberg
+Brensbach
+Brenz
+Bresegard (Eldena)
+Bresegard (Picher)
+Brest
+Bretleben
+Bretnig-Hauswalde
+Bretten
+Bretthausen
+Bretzenheim
+Bretzfeld
+Breuberg
+Breuna
+Breunigweiler
+Brevörde
+Brey
+Breydin
+Brickeln
+Briedel
+Brieden
+Briedern
+Brieselang
+Briesen (Mark)
+Briesen (Niederlausitz)
+Brieskow-Finkenheerd
+Brietlingen
+Brietzig
+Brigachtal
+Briggow
+Brilon
+Brimingen
+Brinjahe
+Brinkum
+Britz
+Bröbberow
+Brockel
+Bröckel
+Brockscheid
+Brockum
+Brodenbach
+Brodersby (Kappeln)
+Brodersby (Schleswig)
+Brodersdorf
+Broderstorf
+Brohl
+Brohl-Lützing
+Brokdorf
+Brokstedt
+Brombachtal
+Brome
+Bromskirchen
+Bronkow
+Bröthen
+Brotterode-Trusetal
+Bruch
+Bruchertseifen
+Bruchhausen
+Bruchhausen-Vilsen
+Bruchköbel
+Bruchmühlbach-Miesau
+Bruchsal
+Bruchstedt
+Bruchweiler
+Bruchweiler-Bärenbach
+Brück
+Bruck i.d. Oberpfalz
+Bruckberg (Lower Bavaria)
+Bruckberg (Middle Franconia)
+Brücken (Birkenfeld)
+Brücken (Palatinate)
+Brücken-Hackpfüffel
+Bruckmühl
+Bruck (Oberbayern)
+Brücktal
+Brüel
+Brügge
+Brüggen (Leine)
+Brüggen (Lower Rhine)
+Brüheim
+Brühl (Rhineland)
+Brühl (Baden)
+Brunn (Neubrandenb.)
+Brunn (Regensburg)
+Brunnen
+Brunnhartshausen
+Brunnthal
+Brünn (Thuringia)
+Brunow (Parchim)
+Brunsbek
+Brunsbüttel
+Brunsmark
+Brunstorf
+Brunswick
+Brünzow
+Bruschied
+Brüsewitz
+Brüssow
+Bruttig-Fankel
+Bubach
+Bubenheim (Palatinate)
+Bubenheim (Rhineh.)
+Bubenreuth
+Bubesheim
+Buborn
+Bubsheim
+Buch am Buchrain
+Buch am Erlbach
+Buch am Wald
+Buch (Illertissen)
+Bucha (Jena)
+Bucha (Pößneck)
+Buchbach
+Buchberg
+Buchbrunn
+Buchdorf
+Büchel (Cochem)
+Büchel (Sömmerda)
+Büchen
+Buchenbach
+Büchenbach
+Buchenberg
+Büchenbeuren
+Buchen (Odenwald)
+Buchet
+Buchfart
+Buchheim
+Buchhofen
+Buchholz b. Nordhausen
+Buchholz (Ratzeburg)
+Buchholz (Röbel)
+Buchholz (Stadthagen)
+Buchholz (Aller)
+Buchholz (Dithmarsch.)
+Buchholz (Forstgutsb.)
+Buchholz (Nordheide)
+Buchholz/Westerwald
+Buchhorst
+Buch (Hunsrück)
+Büchlberg
+Buchloe
+Buch (Taunus)
+Buckautal
+Bückeburg
+Bücken
+Buckenhof
+Buckow (Märk. Swiz.)
+Buddenhagen
+Büddenstedt
+Büdelsdorf
+Budenbach
+Budenheim
+Büdesheim
+Büdingen
+Büdlich
+Bufleben
+Bugewitz
+Buggenhagen
+Buggingen
+Bühl
+Buhla
+Buhlenberg
+Bühlertal
+Bühlertann
+Bühlerzell
+Bühnsdorf
+Bühren
+Bülkau
+Bullay
+Bullenkuhlen
+Bülow
+Bülstedt
+Bülstringen
+Bunde
+Bünde
+Bundenbach
+Bundenthal
+Bundorf
+Bünsdorf
+Bunsoh
+Burbach (Eifel)
+Burbach (Siegerland)
+Bürchau
+Bürdenbach
+Büren
+Burg (Dithmarschen)
+Burg (Eifel)
+Burg (Magdeburg)
+Burg (Mosel)
+Burg (Spreewald)
+Burg Stargard
+Burgau
+Burgberg (Allgäu)
+Burgbernheim
+Burgbrohl
+Burgdorf
+Burgdorf (Salzgitter)
+Burgebrach
+Bürgel
+Burgen (Bernk.-Kues)
+Burgen (Mosel)
+Burggen
+Burghaslach
+Burghaun
+Burghausen
+Burgheim
+Burgk
+Burgkirchen an der Alz
+Burgkunstadt
+Burglahr
+Burglauer
+Burglengenfeld
+Burgoberbach
+Burgpreppach
+Burgrieden
+Burgsalach
+Burgschwalbach
+Burgsinn
+Burgsponheim
+Burgstädt
+Bürgstadt
+Burgstall
+Burgstetten
+Burgthann
+Burgwald
+Burgwalde
+Burgwedel
+Burgwindheim
+
+Ebeleben
+Ebelsbach
+Ebensfeld
+Ebenshausen
+Ebenweiler
+Eberbach
+Eberdingen
+Eberfing
+Ebergötzen
+Eberhardzell
+Eberholzen
+Ebermannsdorf
+Ebermannstadt
+Ebern
+Ebernhahn
+Ebersbach an der Fils
+Ebersbach (Döbeln)
+Ebersbach (Großenh.)
+Ebersbach-Musbach
+Ebersbach-Neugersdorf
+Ebersberg
+Ebersburg
+Ebersdorf bei Coburg
+Ebersdorf (Bremervörde)
+Ebershausen
+Eberstadt
+Eberstedt
+Eberswalde
+Ebertshausen
+Ebertsheim
+Ebhausen
+Ebnath
+Ebrach
+Ebringen
+Ebsdorfergrund
+Ebstorf
+Echem
+Eching am Ammersee
+Eching (Freising)
+Eching (Niederbay.)
+Echternacherbrück
+Echtershausen
+Echzell
+Eckartsberga
+Eckelsheim
+Eckenroth
+Eckental
+Eckernförde
+Eckersdorf
+Eckersweiler
+Eckfeld
+Ecklak
+Ecklingerode
+Eckstedt
+Eddelak
+Edelsfeld
+Edemissen
+Edenkoben
+Ederheim
+Edermünde
+Edersleben
+Edertal
+Edesheim
+Edewecht
+Ediger-Eller
+Edingen-Neckarhausen
+Edling
+Effelder (Leinefelde)
+Effeltrich
+Efringen-Kirchen
+Egeln
+Egelsbach
+Egenhausen
+Egenhofen
+Egesheim
+Egestorf
+Egg a.d. Günz
+Eggebek
+Eggenfelden
+Eggenstein-Leopoldsh.
+Eggenthal
+Eggermühlen
+Eggesin
+Eggingen
+Egglham
+Egglkofen
+Eggolsheim
+Eggstätt
+Eggstedt
+Eging am See
+Eglfing
+Egling an der Paar
+Egling (Isar)
+Egloffstein
+Egmating
+Egweil
+Ehekirchen
+Ehingen (Donau)
+Ehingen (Mittelfranken)
+Ehingen (Wertingen)
+Ehingen am Ries
+Ehlenz
+Ehlscheid
+Ehndorf
+Ehningen
+Ehr
+Ehra-Lessien
+Ehrenberg (Hildburgh.)
+Ehrenberg (Rhön)
+Ehrenburg
+Ehrenfriedersdorf
+Ehrenkirchen
+Ehringshausen
+Ehweiler
+Eibelstadt
+Eibenstock
+Eichelhardt
+Eichen
+Eichenau
+Eichenbach
+Eichenberg (Jena)
+Eichenberg (Suhl)
+Eichenbühl
+Eichendorf
+Eichenzell
+Eichhorst (Neubr.)
+Eichigt
+Eich (Rheinhessen)
+Eichstätt
+Eichstedt (Altmark)
+Eichstegen
+Eichstetten a. Kaiserst.
+Eichstruth
+Eichwalde
+Eickeloh
+Eicklingen
+Eigeltingen
+Eilenburg
+Eilscheid
+Eilsleben
+Eime
+Eimeldingen
+Eimen
+Eimke
+Eimsheim
+Einbeck
+Eineborn
+Einhaus
+Einhausen (Hesse)
+Einhausen (Thuringia)
+Einig
+Einöllen
+Einselthum
+Eisdorf
+Eiselfing
+Eisenach
+Eisenach (Trier)
+
+Eisenbach
+Eisenberg (Allgäu)
+Eisenberg (Pfalz)
+Eisenberg (Thuringia)
+Eisendorf
+Eisenheim
+Eisenhüttenstadt
+Eisenschmitt
+Eisfeld
+Eisighofen
+Eisingen (Baden)
+Eisleben
+Eislingen (Fils)
+Eisingen (Würzburg)
+Eitelborn
+Eitensheim
+Eiterfeld
+Eitorf
+Eitting
+Eixen
+Ekenis
+Elbe
+Elben
+Elbenschwand
+Elbe-Parey
+Elbingen
+Elbingerode
+Elbtal
+Elchesheim-Illingen
+Elchingen
+Elchweiler
+Eldena
+Eldingen
+Elfershausen
+Elgersburg
+Elisabeth-Sophien-K.
+Elkenroth
+Elleben
+Ellefeld
+Ellenberg (Birkenfeld)
+Ellenberg (Württemb.)
+Ellenhausen
+Ellenz-Poltersdorf
+Ellerau
+Ellerbek
+Ellerdorf
+Ellerhoop
+Ellern (Hunsrück)
+Ellersleben
+Ellerstadt
+Ellgau
+Ellhofen
+Ellhöft
+Ellingen
+Ellingshausen
+Ellingstedt
+Ellrich
+Ellscheid
+Ellwangen
+Ellweiler
+Ellzee
+Elmenhorst (Lauenb.)
+Elmenhorst (Rostock)
+Elmenhorst (Stormarn)
+Elmenhorst (Vorp.)
+Elmlohe
+Elmshorn
+Elmstein
+Elpersbüttel
+Elsdorf (Lower Saxony)
+Elsdorf (Rhineland)
+Elsdorf-Westermühlen
+Elsendorf
+Elsenfeld
+Elsfleth
+Elskop
+Elsnig
+Elsoff (Westerwald)
+Elsteraue
+Elsterberg
+Elsterheide
+Elstertrebnitz
+Elsterwerda
+Elstra
+Elterlein
+Eltmann
+Eltville am Rhein
+Elxleben an der Gera
+Elxleben (Arnstadt)
+Elz
+Elzach
+Elze
+Elztal
+Elzweiler
+Embsen
+Embühren
+Emden
+Emeringen
+Emerkingen
+Emersacker
+Emkendorf
+Emleben
+Emlichheim
+Emmelbaum
+Emmelsbüll-Horsbüll
+Emmelshausen
+Emmendingen
+Emmendorf
+Emmerich am Rhein
+Emmering (Assling)
+Emmering (Fürstenf.)
+Emmerthal
+Emmerting
+Emmerzhausen
+Emmingen-Liptingen
+Empfertshausen
+Empfingen
+Emsbüren
+Emsdetten
+Emskirchen
+Emstek
+Emtinghausen
+Emtmannsberg
+Endingen am Kaiserstuhl
+Endlichhofen
+Endschütz
+Engden
+Engelbrechtsche Wildn.
+Engeln
+Engelsberg
+Engelsbrand
+Engelschoff
+Engelskirchen
+Engelstadt
+Engelthal
+Engen
+Enger
+Enge-Sande
+Engstingen
+Eningen unter Achalm
+Enkenbach-Alsenborn
+Enkirch
+Ennepetal
+Ennigerloh
+Ensch
+Ensdorf (Oberpfalz)
+Ensdorf (Saar)
+Ense
+Ensheim
+Enspel
+Enzen
+Enzklösterle
+Epenwöhrden
+Epfenbach
+Epfendorf
+Eppelborn
+Eppelheim
+Eppelsheim
+Eppenberg
+Eppenbrunn
+Eppendorf
+Eppenrod
+Eppenschlag
+Eppertshausen
+Eppingen
+Eppishausen
+Eppstein
+Erbach (Donau)
+Erbach (Hunsrück)
+Erbach (Odenwald)
+Erbendorf
+Erbenhausen
+Erbes-Büdesheim
+Erden
+Erdesbach
+Erding
+Erdmannhausen
+Erdweg
+Eresing
+Erfde
+Erftstadt
+Erfurt
+Erfweiler
+Ergersheim
+Ergeshausen
+Ergolding
+Ergoldsbach
+Erharting
+Ering
+Eriskirch
+Erkelenz
+Erkenbrechtsweiler
+Erkerode
+Erkheim
+Erkner
+Erkrath
+Erlabrunn (Unterfr.)
+Erlangen
+Erlau
+Erlbach (Altötting)
+Erlbach-Kirchberg
+Erlenbach am Main
+Erlenbach (Dahn)
+Erlenbach (Heilbronn)
+Erlenbach (Kandel)
+Erlenbach (Marktheidenf.)
+Erlenmoos
+Erlensee
+Erligheim
+Ermershausen
+Erndtebrück
+Ernsgaden
+Laaber
+Laage
+Laar
+Laasdorf
+Laatzen
+Labenz
+Laberweinting
+Laboe
+Lachen
+Lachendorf
+Ladbergen
+Ladelund
+Ladenburg
+Laer
+Lage (Dinkel)
+Lage (Lippe)
+Lägerdorf
+Lähden
+Lahn
+Lahnau
+Lahnstein
+Lahntal
+Lahr (Eifel)
+Lahr (Hunsrück)
+Lahr (Schwarzwald)
+Lahstedt
+Laichingen
+Lalendorf
+Lalling
+Lam
+Lambertsberg
+Lambrecht (Palatinate)
+Lambrechtshagen
+Lambsborn
+Lambsheim
+Lamerdingen
+Lammershagen
+Lampaden
+Lampertheim
+Lampertswalde (Sax.)
+Lamspringe
+Lamstedt
+Lancken-Granitz
+Landau an der Isar
+Landau (Palatinate)
+Landensberg
+Landesbergen
+Landkern
+Landolfshausen
+Landrecht
+Landsberg (Saale)
+Landsberg am Lech
+Landsberied
+Landscheid
+Landscheide
+Landshut
+Landstuhl
+Landwehr
+Langballig
+Langdorf
+Langeln (Pinneberg)
+Langelsheim
+Langen (Cuxhaven)
+Langen (Emsland)
+Langen (Hesse)
+Langen Brütz
+Langen Jarchow
+Langenaltheim
+Langenargen
+Langenau
+Langenbach (Freising)
+Langenbach (Kirburg)
+Langenbach (Palatinate)
+Langenberg
+Langenbernsdorf
+Langenbrettach
+Langenburg
+Langendorf (Elbe)
+Langenenslingen
+Langeneß
+Langenfeld (Eifel)
+Langenfeld (Mittelfr.)
+Langenfeld (Rhineland)
+Langenhagen
+Langenhahn
+Langenhorn
+Langenlehsten
+Langenleuba-Niederhain
+Langenlonsheim
+Langenmosen
+Langenneufnach
+Langenorla
+Langenpreising
+Langenscheid
+Langenselbold
+Langensendelbach
+Langenthal
+Langenweißbach
+Langenwetzendorf
+Langenwolschendorf
+Langenzenn
+Langeoog
+Langerringen
+Langerwehe
+Langewahl
+Langewiesen
+Langfurth
+Langgöns
+Langhagen
+Langlingen
+Langquaid
+Langscheid
+Langstedt
+Langsur
+Langwedel (Holstein)
+Langwedel (Weser)
+Langweid am Lech
+Langweiler (Idar-Ober.)
+Langweiler (Lautereck.)
+Langwieden
+Lanitz-Hassel-Tal
+Lankau
+Lansen-Schönau
+Lanz
+Lanze
+Lapitz
+Lappersdorf
+Lärz
+Lasbek
+Lascheid
+Lasel
+Lassan
+Lastrup
+Latendorf
+Lathen
+Laubach (Eifel)
+Laubach (Hesse)
+Laubach (Hunsrück)
+Lauben (Memmingen)
+Lauben (Oberallgäu)
+Laubenheim
+Laucha an der Unstrut
+Lauchhammer
+Lauchheim
+Lauchringen
+Lauda-Königshofen
+Laudenbach a.d. Bergstr.
+Laudenbach am Main
+Laudert
+Lauenau
+Lauenbrück
+Lauenburg (Elbe)
+Lauenförde
+Lauenhagen
+Lauf (Baden)
+Lauf an der Pegnitz
+Laufach
+Laufeld
+Laufen
+Laufenburg (Baden)
+Laufersweiler
+Lauffen am Neckar
+Laugna
+Lauingen (Donau)
+Laumersheim
+Lauperath
+Laupheim
+Laurenburg
+Lauscha
+Lauschied
+Laußig
+Laußnitz
+Lausnitz (Neustadt)
+Lauta
+Lautenbach
+Lauterach
+Lauterbach (Bl. Forest.)
+Lauterbach (Thuringia)
+Lauterbach (Hesse)
+Lauterecken
+Lauterhofen
+Lauter-Bernsbach
+Lauter (Oberfranken)
+Lautersheim
+Lauterstein
+Lautert
+Lautertal (Coburg)
+Lautertal (Odenwald)
+Lautertal (Vogelsberg)
+Lautrach
+Lautzenbrücken
+Lautzenhausen
+Lawalde
+Lawitz
+Lebach
+Lebrade
+Lebus
+Lebusa
+Lechbruck am See
+Leck
+Lederhose
+Leegebruch
+Leer
+Leese
+Leezdorf
+Leezen (Holstein)
+Leezen (Schwerin)
+Legau
+Legden
+Legde (Quitzöbel)
+Lehe (Dithmarschen)
+Lehe (Ems)
+Lehesten (Jena)
+Lehesten (Thüring. W.)
+Lehmen
+Lehmkuhlen
+Lehmrade
+Lehnstedt
+Lehrberg
+Lehre
+Lehrensteinsfeld
+Lehrte
+Lehsen
+Leibertingen
+Leiblfing
+Leichlingen
+Leidenborn
+Leidersbach
+Leiferde
+Leimbach (Adenau)
+Leimbach (Bad Salz.)
+Leimbach (Neuerburg)
+Leimen (Baden)
+Leimen (Pfalz)
+Leimersheim
+Leinach
+Leinatal
+Leinburg
+Leinefelde-Worbis
+Leinfelden-Echterdingen
+Leingarten
+Leiningen
+Leinsweiler
+Leinzell
+Leipheim
+Leipzig
+Leisel
+Leisnig
+Leitzweiler
+Leiwen
+Leizen
+Lelkendorf
+Lemberg
+Lembruch
+Lemförde
+Lemgo
+Lemgow
+Lemnitz
+Lemwerder
+Lengdorf
+Lengede
+Lengenbostel
+Lengenfeld (Vogtland)
+Lengenwang
+Lengerich (Emsland)
+Lengerich (Westphalia)
+Lengfeld
+Lenggries
+Lenne
+Lennestadt
+Lenningen
+Lensahn
+Lenterode
+Lentföhrden
+Lenting
+Lenzen
+Lenzerwische
+Lenzkirch
+Leonberg
+Leonberg (Oberpfalz)
+Leopoldshagen
+Leopoldshöhe
+Letschin
+Lettweiler
+Leuben-Schleinitz
+Leubsdorf (Rhein)
+Leubsdorf (Saxony)
+Leuchtenberg
+Leun
+Leuna
+Leupoldsgrün
+Leussow
+Leutenbach (Upper Fr.)
+Leutenbach (Württemb.)
+Leutenberg
+Leutenthal
+Leuterod
+Leutersdorf (Meining.)
+Leutersdorf (Oberlaus.)
+Leutershausen
+Leutesdorf
+Leutkirch im Allgäu
+Levenhagen
+Leverkusen
+Lewitzrand
+Lexgaard
+Lich
+Lichte
+Lichtenau (Baden)
+Lichtenau (Mittelfranken)
+Lichtenau (Saxony)
+Lichtenau (Westphalia)
+Lichtenberg (Bischof.)
+Lichtenberg (Erzgeb.)
+Lichtenberg (Oberfr.)
+Lichtenborn
+Lichtenfels (Bavaria)
+Lichtenfels (Hesse)
+Lichtenstein (Saxony)
+Lichtenstein (Württemb.)
+Lichtentanne
+Lichtenwald
+Lichterfeld-Schacksd.
+Liebenau (Flecken)
+Liebenau (Hesse)
+Liebenburg
+Liebenscheid
+Liebenstein
+Liebenwalde
+Lieberose
+Liebschützberg
+Liebshausen
+Liebstadt
+Liebstedt
+Liederbach am Taunus
+Lieg
+Lienen
+Liepe (Ebersw.-Finow)
+Liepen
+Liepgarten
+Lierfeld
+Lierschied
+Ließem
+Liesenich
+Lieser
+Lieth
+Lietzen
+Lietzow (Rügen)
+Lilienthal
+Limbach (Baden)
+Limbach (Kirn)
+Limbach (Reichenb.)
+Limbach (Westerw.)
+Limbach-Oberfrohna
+Limburg an der Lahn
+Limburgerhof
+Limeshain
+Linau
+Lind (Ahrweiler)
+Lind (Mayen)
+Linda (Neustadt)
+Linda (Weida)
+Lindau (Bodensee)
+Lindau (Kiel)
+Lindberg
+Linden (Hesse)
+Linden (Holstein)
+Linden (Palatinate)
+Linden (Westerwald)
+Lindenau (Oberlausitz)
+Lindenberg (Palatinate)
+Lindenberg (Vorpommern)
+Lindenberg im Allgäu
+Lindendorf
+Lindenfels
+Lindenkreuz
+Lindenschied
+Lindern (Oldenburg)
+Lindetal
+Lindewerra
+Lindewitt
+Lindholz
+Lindhorst
+Lindig
+Lindlar
+Lindow (Mark)
+Lindwedel
+Lingen (Ems)
+Lingenfeld
+Lingerhahn
+Linkenbach
+Linkenheim-Hochstetten
+Linnich
+Linsburg
+Linsengericht
+Linthe
+Lintig
+Linz am Rhein
+Lippersd.-Erdmannsd.
+Lippetal
+Lipporn
+Lipprechterode
+Lippstadt
+Lirstal
+Lisberg
+Lissendorf
+List
+Litzendorf
+Löbau
+Lobbach
+Löberschütz
+Löbichau
+Löbnitz (Delitzsch)
+Löbnitz (Ribnitz-Damg.)
+Lobstädt
+Löchgau
+Lochum
+Löcknitz
+Lockstedt
+Lockwisch
+Loddin
+Lödla
+Löf
+Loffenau
+Löffingen
+Lohbarbek
+Lohberg
+Lohe-Föhrden
+Lohe-Rickelshof
+Lohfelden
+Lohheide
+Lohkirchen
+Löhma
+Lohmar
+Lohme
+Lohmen (Güstrow)
+Lohmen (Saxony)
+Löhnberg
+Löhne
+Lohne
+Lohnsfeld
+Lohnweiler
+Lohr am Main
+Lohra
+Lohrheim
+Lohsa
+Loiching
+Loissin
+Loit
+Loitsche-Heinrichsberg
+Loitz
+Loitzendorf
+Lollar
+Löllbach
+Lollschied
+Lommatzsch
+Longen
+Longkamp
+Longuich
+Löningen
+Lonnerstadt
+Lonnig
+Lonsee
+Lonsheim
+Looft
+Loop
+Loose
+Löptin
+Lorch (Rheingau)
+Lorch (Württemberg)
+Lörrach
+Lorsch
+Lorscheid
+Lorup
+Lörzweiler
+Lossatal
+Loßburg
+Losheim am See
+Lösnich
+Lößnitz
+Lotte
+Lottorf
+Lottstetten
+Lötzbeuren
+Löwenberger Land
+Löwenstedt
+Löwenstein
+Loxstedt
+Lübbecke
+Lübben (Spreewald)
+Lübbenau (Spreewald)
+Lübberstedt
+Lübberstorf
+Lübbow
+Lübeck
+Lübesse
+Lüblow
+Lubmin
+Lübow
+Lübs (Torgelow)
+Lübstorf
+Lübtheen
+Lübz
+Lüchow (Lauenburg)
+Lüchow (Wendland)
+Lucka
+Luckaitztal
+Luckau (Lower Lusatia)
+Luckau (Wendland)
+Luckenbach
+Lückenburg
+Luckenwalde
+Luckow (Torgelow)
+Lüdenscheid
+Jabel
+Jachenau
+Jacobsdorf
+Jade
+Jagel
+Jagsthausen
+Jagstzell
+Jahnsdorf (Erzgebirge)
+Jahrsdorf
+Jakobsdorf
+Jakobsweiler
+Jameln
+Jamlitz
+Jämlitz-Klein Düben
+Jandelsbrunn
+Janneby
+Jänschwalde
+Jardelund
+Jarmen
+Jarplund-Weding
+Jatznick
+Jeckenbach
+Jelmstorf
+Jembke
+Jemgum
+Jena
+Jenalöbnitz
+Jengen
+Jerichow
+Jerrishoe
+Jersbek
+Jerxheim
+Jesberg
+Jesendorf
+Jesenwang
+Jesewitz
+Jessen (Elster)
+Jesteburg
+Jestetten
+Jettenbach (Oberbay.)
+Jettenbach (Palatinate)
+Jettingen
+Jettingen-Scheppach
+Jetzendorf
+Jevenstedt
+Jever
+Joachimsthal
+Jockgrim
+Johannesberg
+Johanngeorgenstadt
+Johanniskirchen
+Jöhstadt
+Joldelund
+Jonaswalde
+Jördenstorf
+Jork
+Jörl
+Jossgrund
+Jübar
+Jübek
+Jüchen
+Jückelberg
+Jucken
+Judenbach
+Jugenheim in Rheinh.
+Jühnde
+Juist
+Julbach
+Jülich
+Juliusburg
+Jungingen
+Jünkerath
+Jürgenshagen
+Jürgenstorf
+Jüterbog
+Ernst
+Ernstroda
+Ernzen
+Erolzheim
+Ober Kostenz
+Oberahr
+Oberalben
+Oberammergau
+Oberarnbach
+Oberasbach
+Oberau
+Oberaudorf
+Oberaula
+Oberaurach
+Oberbachheim
+Oberbarnim
+Oberbergkirchen
+Oberbettingen
+Oberbillig
+Oberbodnitz
+Oberboihingen
+Oberbösa
+Oberbrombach
+Oberdachstetten
+Oberderdingen
+Oberdiebach
+Oberding
+Oberdischingen
+Oberdolling
+Oberdreis
+Oberdürenbach
+Oberehe-Stroheich
+Oberelbert
+Oberelsbach
+Oberelz
+Obererbach (Montab.)
+Obererbach (West.)
+Oberfell
+Oberfischbach
+Ober-Flörsheim
+Obergebra
+Obergeckler
+Obergriesbach
+Obergröningen
+Obergünzburg
+Obergurig
+Oberhaching
+Oberhaid (Oberfrank.)
+Oberhaid (Westerw.)
+Oberhain
+Oberhambach
+Oberharmersbach
+Oberharz am Brocken
+Oberhausen
+Oberhausen (Bergz.)
+Oberhausen (Kirn)
+Oberhausen (Neuburg)
+Oberhausen (Oberb.)
+Oberhausen a.d. Nahe
+Oberhausen a.d. Appel
+Oberhausen-Rheinhausen
+Oberheimbach
+Oberheldrungen
+Ober-Hilbersheim
+Oberhof
+Oberhonnefeld-Gierend
+Oberhosenbach
+Oberickelsheim
+Oberirsen
+Oberkail
+Oberkatz
+Oberkirch
+Oberkirn
+Oberkochen
+Oberkotzau
+Oberkrämer
+Oberlahr
+Oberlangen
+Oberlascheid
+Oberlauch
+Oberleichtersbach
+Oberlichtenau (Lausitz)
+Oberlungwitz
+Obermaiselstein
+Obermarchtal
+Obermaßfeld-Grimm.
+Obermehler
+Obermeitingen
+Obermichelbach
+Ober-Mörlen
+Obermoschel
+Obernau
+Obernbreit
+Obernburg am Main
+Oberndorf (Oste)
+Oberndorf (Pfalz)
+Oberndorf am Lech
+Oberndorf am Neckar
+Oberneisen
+Oberneukirchen
+Obernfeld
+Obernheim-Kirchenarn.
+Obernheim (Württ.)
+Obernhof
+Obernholz
+Obernkirchen
+Obernzell
+Obernzenn
+Oberöfflingen
+Ober-Olm
+Oberoppurg
+Oberostendorf
+Oberotterbach
+Oberottmarshausen
+Oberpframmern
+Oberpierscheid
+Oberpleichfeld
+Oberpöring
+Oberraden
+Ober-Ramstadt
+Oberreichenbach (Her.)
+Oberreichenbach (Wü.)
+Oberreidenbach
+Oberreißen
+Oberreute
+Oberried
+Oberrieden
+Oberriexingen
+Oberrod
+Oberroßbach
+Oberrot
+Oberroth
+Oberscheidweiler
+Oberscheinfeld
+Oberschleißheim
+Oberschlettenbach
+Oberschneiding
+Oberschöna
+Oberschönau
+Oberschönegg
+Oberschwarzach
+Oberschweinbach
+Obersimten
+Obersinn
+Obersöchering
+Obersontheim
+Oberstadion
+Oberstadt
+Oberstadtfeld
+Oberstaufen
+Oberstaufenbach
+Oberstdorf
+Oberstedem
+Obersteinebach
+Oberstenfeld
+Oberstreit
+Oberstreu
+Obersulm
+Obersülzen
+Obersüßbach
+Obertaufkirchen
+Oberteuringen
+Oberthal
+Oberthulba
+Obertiefenbach
+Obertraubling
+Obertrebra
+Obertrubach
+Obertshausen
+Oberuckersee
+Oberursel (Taunus)
+Oberviechtach
+Oberwallmenach
+Oberwambach
+Oberweid
+Oberweiler (Eifel)
+Oberweiler im Tal
+Oberweiler-Tiefenbach
+Oberweis
+Oberweißbach
+Oberwesel
+Oberweser
+Oberwiera
+Oberwies
+Oberwiesen
+Oberwiesenthal
+Oberwolfach
+Oberwörresbach
+Oberzissen
+Obhausen
+Obing
+Obrigheim (Baden)
+Obrigheim (Pfalz)
+Ochsenfurt
+Ochsenhausen
+Ochtendung
+Ochtersum
+Ochtrup
+Ockenfels
+Ockenheim
+Ockfen
+Ockholm
+Odderade
+Odelzhausen
+Odenbach
+Odenthal
+Oderaue
+Oderberg
+Odernheim am Glan
+Oderwitz
+Odisheim
+Oebisfelde-Weferlingen
+Oechsen
+Oederan
+Oederquart
+Oedheim
+Oelde
+Oelixdorf
+Oelsberg
+Oelsnitz (Erzgebirge)
+Oelsnitz (Vogtland)
+Oepfershausen
+Oerel
+Oer-Erkenschwick
+Oering
+Oerlenbach
+Oerlinghausen
+Oersberg
+Oersdorf
+Oeschebüttel
+Oesterdeichstrich
+Oesterwurth
+Oestrich-Winkel
+Oettern
+Oettersdorf
+Oettingen
+Oetzen
+Oevenum
+Oeversee
+Offenau
+Offenbach am Main
+Offenbach an der Queich
+Offenbach-Hundheim
+Offenberg
+Offenburg
+Offenbüttel
+Offenhausen
+Offenheim
+Offingen
+Offstein
+Ofterdingen
+Ofterschwang
+Oftersheim
+Oggelshausen
+Ohlenhard
+Ohlsbach
+Ohlstadt
+Ohlweiler
+Ohmbach
+Ohmden
+Ohne
+Öhningen
+Ohorn
+Ohrdruf
+Ohrenbach
+Öhringen
+Ohrum
+Olbernhau
+Olbersdorf
+Olbersleben
+Ölbronn-Dürrn
+Olching
+Oldenborstel
+Oldenburg
+Oldenburg in Holstein
+Oldenbüttel
+Oldendorf (Holstein)
+Oldendorf (Luhe)
+Oldendorf (Stade)
+Oldenhütten
+Oldenswort
+Oldersbek
+Olderup
+Oldisleben
+Oldsum
+Olfen
+Ollendorf
+Öllingen
+Ollmuth
+Olmscheid
+Olpe
+Olsberg
+Olsbrücken
+Olsdorf
+Ölsen
+Olzheim
+Onsdorf
+Opfenbach
+Öpfingen
+Oppach
+Oppenau
+Oppenheim
+Oppenweiler
+Oppershausen
+Oppertshausen
+Oppurg
+Oranienbaum-Wörlitz
+Oranienburg
+Orbis
+Orenhofen
+Orfgen
+Orlamünde
+Orlenbach
+Ormont
+Ornbau
+Orsfeld
+Orsingen-Nenzingen
+Ortenberg (Baden)
+Ortenberg (Hesse)
+Ortenburg
+Ortrand
+Osann-Monzel
+Osburg
+Oschatz
+Oschersleben (Bode)
+Osdorf
+Oßling
+Osloß
+Oßmannstedt
+Osnabrück
+Ostbevern
+Osteel
+Ostelsheim
+Osten
+Ostenfeld (Husum)
+Ostenfeld (Rendsburg)
+Osterberg
+Osterbruch
+Osterburg (Altmark)
+Osterburken
+Osterby (Eckernförde)
+Osterby (Medelby)
+Ostercappeln
+Ostereistedt
+Osterfeld
+Osterheide
+Osterhever
+Osterhofen
+Osterholz-Scharmbeck
+Osterhorn
+Idenheim
+Idesheim
+Idstedt
+Idstein
+Iffeldorf
+Iffezheim
+Ifta
+Igel
+Igensdorf
+Igersheim
+Iggensbach
+Iggingen
+Igling
+Ihlienworth
+Ihlow (East Frisia)
+Ihlow (Jüterbog)
+Ihringen
+Ihrlerstein
+Ilberstedt
+Ilbesheim (Kirchh.)
+Ilbesheim (Landau)
+Illerich
+Illerkirchberg
+Illerrieden
+Illertissen
+Illesheim
+Illingen (Saar)
+Illingen (Württemberg)
+Illmensee
+Illschwang
+Ilmenau
+Ilmmünster
+Ilmtal
+Ilsede
+Ilsenburg (Harz)
+Ilsfeld
+Ilshofen
+Ilvesheim
+Immelborn
+Immendingen
+Immenhausen
+Immenreuth
+Immenstaad am Bodensee
+Immenstadt im Allgäu
+Immenstedt (Albers.)
+Immenstedt (Nordfr.)
+Immerath
+Immert
+Immesheim
+Impflingen
+Imsbach
+Imsweiler
+Inchenhofen
+Inden
+Ingelbach
+Ingeleben
+Ingelfingen
+Ingelheim am Rhein
+Ingendorf
+Ingenried
+Ingersheim
+Ingoldingen
+Ingolstadt
+Innernzell
+Inning am Ammersee
+Inning am Holz
+Insel Hiddensee
+Insel Poel
+Insheim
+Insingen
+Insul
+Inzell
+Inzigkofen
+Inzlingen
+Iphofen
+Ippenschied
+Ippesheim
+Ipsheim
+Irchenrieth
+Irlbach
+Irmenach
+Irmtraut
+Irndorf
+Irrel
+Irrhausen
+Irsch
+Irschenberg
+Irsee
+Isen
+Isenburg
+Isenbüttel
+Iserlohn
+Isernhagen
+Isert
+Ismaning
+Isny im Allgäu
+Ispringen
+Isselbach
+Isselburg
+Isseroda
+Issersheilingen
+Issigau
+Issum
+Isterberg
+Zabeltitz
+Zaberfeld
+Zachenberg
+Zadelsdorf
+Zahna-Elster
+Zahrensdorf
+Zaisenhausen
+Zandt
+Zangberg
+Zapel
+Zapfendorf
+Zarnewanz
+Zarpen
+Zarrendorf
+Zarrentin a. Schaalsee
+Zechin
+Zedlitz
+Zehdenick
+Zehna
+Zehnhausen (Renn.)
+Zehnhausen (Wallm.)
+Zehrental
+Zeil am Main
+Zeilarn
+Zeiskam
+Zeithain
+Zeitlarn
+Zeitlofs
+Zeitz
+Zell am Main
+Zell am Harmersbach
+Zell im Fichtelgebirge
+Zell im Wiesental
+Zell unter Aichelberg
+Zella-Mehlis
+Zella (Rhön)
+Zellertal
+Zellingen
+Zell (Mosel)
+Zell (Oberpfalz)
+Zeltingen-Rachtig
+Zemitz
+Zemmer
+Zempin
+Zendscheid
+Zenting
+Zepelin
+Zepkow
+Zerbst (Anhalt)
+Zerf
+Zernien
+Zernitz-Lohm
+Zerrenthin
+Zeschdorf
+Zetel
+Zettemin
+Zettingen
+Zettlitz
+Zeulenroda-Triebes
+Zeuthen
+Zeven
+Zichow
+Zickhusen
+Ziegelheim
+Ziegendorf
+Ziegenhain
+Ziegenrück
+Ziegra-Knobelsdorf
+Zielitz
+Ziemetshausen
+Zierenberg
+Zierow
+Ziertheim
+Zierzow
+Ziesar
+Ziesendorf
+Ziethen
+Ziethen (Anklam)
+Ziethen (Ratzeburg)
+Zilshausen
+Ziltendorf
+Zimmern ob Rottweil
+Zimmern unter der Burg
+Zimmern (Thuringia)
+Zimmernsupra
+Zimmerschied
+Zingst
+Zinna
+Zinnowitz
+Zirchow
+Zirkow
+Zirndorf
+Zirzow
+Zislow
+Zittau
+Zöblitz
+Zölkow
+Zolling
+Zöllnitz
+Zörbig
+Zorge
+Zorneding
+Zornheim
+Zöschingen
+Zossen
+Zotzenheim
+Zschaitz-Ottewig
+Zschepplin
+Zschopau
+Zschorlau
+Zülow
+Zülpich
+Zurow
+Zusamaltheim
+Züsch
+Osternienburger Land
+Osterode am Harz
+Oster-Ohrstedt
+Osterrade
+Osterrönfeld
+Osterspai
+Osterstedt
+Osterwald
+Osterwieck
+Osterzell
+Ostfildern
+Osthausen-Wülfersh.
+Ostheim v.d. Rhön
+Osthofen
+Ostrach
+Ostramondra
+Ostrau
+Ostrhauderfehn
+Östringen
+Ostritz
+Ostrohe
+Oststeinbek
+Ötigheim
+Ötisheim
+Ottenbach
+Ottenbüttel
+Ottendorf (Kiel)
+Ottendorf (Stadtroda)
+Ottendorf-Okrilla
+Ottenhofen
+Ottenhöfen im Schw.
+Ottensoos
+Ottenstein
+Otter
+Otterbach
+Otterberg
+Otterfing
+Otterndorf
+Ottersberg
+Ottersheim (Kirchheim.)
+Ottersheim (Landau)
+Otterstadt
+Ottersweier
+Otterwisch
+Erpel
+Erpolzheim
+Ersfeld
+Ertingen
+Burk
+Burkardroth
+Burkau
+Burkhardtsdorf
+Burladingen
+Burow
+Burrweiler
+Burscheid
+Bürstadt
+Burtenbach
+Burtscheid
+Burweg
+Buschvitz
+Busdorf
+Buseck
+Busenberg
+Busenhausen
+Busenwurth
+Büsingen a. Hochrhein
+Büsum
+Büsumer Deichhausen
+Butjadingen
+Bütow
+Büttel
+Büttelborn
+Buttelstedt
+Buttenheim
+Buttenwiesen
+Bütthard
+Buttlar
+Buttstädt
+Büttstedt
+Butzbach
+Bützow
+Butzow (Anklam)
+Buxheim (Memmingen)
+Buxheim (Oberbayern)
+Buxtehude
+Byhleguhre-Byhlen
+Ruhla
+Ruhland
+Ruhmannsfelden
+Rühn
+Ruhpolding
+Rühstädt
+Ruhstorf an der Rott
+Ruhwinkel
+Rukieten
+Rullstorf
+Rülzheim
+Rumbach
+Rümmelsheim
+Rümmingen
+Rumohr
+Rümpel
+Runding
+Runkel
+Ruppach-Goldhausen
+Ruppertsberg
+Ruppertsecken
+Ruppertshofen (Swabia)
+Ruppertshofen (Taunus)
+Ruppertsweiler
+Ruppichteroth
+Ruschberg
+Rüscheid
+Rüsselsheim
+Rüssingen
+Rust
+Rustenfelde
+Rutesheim
+Rüthen
+Rüthnick
+Ruthweiler
+Rüting
+Rutsweiler am Glan
+Rutsweiler an der Lauter
+Ruttersdorf-Lotschen
