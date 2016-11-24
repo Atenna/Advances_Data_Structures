@@ -9,5 +9,4 @@ C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\A
 C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.Services\bin\Debug\ADS.Services.pdb
 C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.Services\obj\Debug\ADS.Services.exe
 C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.Services\obj\Debug\ADS.Services.pdb
-C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.Services\obj\Debug\ADS.Services.DataGenerating.EditorCodes.resources
-C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.Services\obj\Debug\ADS.Services.csproj.GenerateResource.Cache
+C:\Users\LIESKY\Documents\Visual Studio 2015\Projects\Advances_Data_Structures\ADS.Services\obj\Debug\ADS.Services.csprojResolveAssemblyReference.cache

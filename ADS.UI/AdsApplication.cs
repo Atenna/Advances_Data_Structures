@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics.Eventing.Reader;
+using System.Drawing;
 using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
 using ADS.Core.Domain.Controller;
@@ -14,10 +15,16 @@ namespace Advanced_Data_Structures
         {
             InitializeComponent();
             _ctrl = new LibraryController();
+            FillComboBoxCollections();
+        }
+
+        private void FillComboBoxCollections()
+        {
             comboBoxSearchBookSelectLibrary.Items.Clear();
             comboBoxCheckoutSelectLibrary.Items.Clear();
             comboBoxShowBorrowedBooks.Items.Clear();
             comboBoxReturnBook.Items.Clear();
+            comboBoxRegisterLibrary.Items.Clear();
             string[] libs = _ctrl.ShowAllLibraries();
             for (int i = 0; i < libs.Length; i++)
             {
@@ -26,6 +33,7 @@ namespace Advanced_Data_Structures
                 comboBoxArchiveBookLibrary.Items.Add(libs[i]);
                 comboBoxShowBorrowedBooks.Items.Add(libs[i]);
                 comboBoxReturnBook.Items.Add(libs[i]);
+                comboBoxRegisterLibrary.Items.Add(libs[i]);
             }
         }
 
@@ -41,6 +49,7 @@ namespace Advanced_Data_Structures
                 if (string.IsNullOrEmpty(libraryName))
                 {
                     richTextBoxSearchedBooks.Text = _ctrl.ShowAllBooks();
+                    //ChangeTextColor(Color.Coral, richTextBoxSearchedBooks, 0);
                 }
                 else
                 {
@@ -67,7 +76,15 @@ namespace Advanced_Data_Structures
                     }
                     richTextBoxSearchedBooks.Text = _ctrl.SearchBookByIsbn(bookIsbn, libraryName);
                 }
-
+                else if (bookTitle == "" && bookIsbn != "")
+                {
+                    if (string.IsNullOrEmpty(libraryName))
+                    {
+                        MessageBox.Show("Select a library", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        return;
+                    }
+                    richTextBoxSearchedBooks.Text = _ctrl.SearchBookByIsbn(bookIsbn, libraryName);
+                }
             }
         }
 
@@ -172,16 +189,11 @@ namespace Advanced_Data_Structures
             string author = textBoxRegisterAuthors.Text;
             string genre = textBoxRegisterGenre.Text;
             string isbn = textBoxRegisterIsbn.Text;
+            string ean = textBoxRegisterBookEan.Text;
             int fee = int.Parse(textBoxRegisterFee.Text);
             int borrowLength = int.Parse(textBoxRegisterBorrowLength.Text);
             string libraryName = comboBoxRegisterLibrary.SelectedItem.ToString();
-            // v konstruktore chyba fee
-            // borrow length
-
-            // chyba dopocet eanu, to je zasa navyse vo formulari
-            // 
-
-            _ctrl.AddNewBook(title, author, genre, isbn, isbn, libraryName);
+            _ctrl.AddNewBook(title, author, genre, isbn, ean, libraryName, fee, borrowLength);
         }
 
         private void buttonSelectFromFoundReaders_Click(object sender, EventArgs e)
@@ -313,7 +325,8 @@ namespace Advanced_Data_Structures
             var book = checkedListBoxArchiveBook.SelectedItem.ToString().Split(',');
             var bookIsbn = book[1].Trim();
             var bookId = int.Parse(book[2].Trim());
-            var flag = _ctrl.ArchiveBook(bookIsbn, bookId);
+            var libName = comboBoxArchiveBookLibrary.SelectedItem.ToString();
+            var flag = _ctrl.ArchiveBook(bookIsbn, bookId, libName);
             if (flag)
             {
                 MessageBox.Show("Book successfully archived", "Information", MessageBoxButtons.OK,
@@ -339,9 +352,10 @@ namespace Advanced_Data_Structures
                 var bookToReturn = checkedListBoxCheckoutCurrent.CheckedItems[0].ToString().Split(',');
                 var isbn = bookToReturn[1].Trim();
                 var bookId = int.Parse(bookToReturn[2].Trim());
+                var bookName = bookToReturn[0].Trim().Split(':')[0].Trim();
                 var readerId = _ctrl._model.ReaderSession.Reader.UniqueId;
                 var libraryId = comboBoxReturnBook.SelectedItem.ToString();
-                var flag = _ctrl.ReturnBook(isbn, bookId, readerId, libraryId);
+                var flag = _ctrl.ReturnBook(isbn, bookId, bookName, readerId, libraryId);
                 if (flag)
                 {
                     MessageBox.Show("Book successfully returned", "Information", MessageBoxButtons.OK,
@@ -358,6 +372,9 @@ namespace Advanced_Data_Structures
                 MessageBox.Show("No book or reader was selected", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             RefreshReader();
+
+
+            // tu mozno spravit metodku na ulozenie vypozicky spolu so vsetkymi datami
         }
 
         private void RefreshReader()
@@ -457,6 +474,45 @@ namespace Advanced_Data_Structures
             catch (Exception)
             {
                 MessageBox.Show("Write a valid book id", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void buttonArchiveReaderSearch_Click(object sender, EventArgs e)
+        {
+            var readerId = textBoxArchiveReaderSearch.Text;
+            var arr = _ctrl.SearchReaderById(readerId);
+            checkedListBoxArchiveReader.Items.Clear();
+            for (int i = 0; i < arr.Length; i++)
+            {
+                checkedListBoxArchiveReader.Items.Add(arr[i]);
+            }
+        }
+
+        private void buttonArchiveReader_Click(object sender, EventArgs e)
+        {
+            var reader = checkedListBoxArchiveReader.SelectedItem.ToString();
+            var id = reader.Split(',')[1].Trim();
+            var flag = _ctrl.RemoveReader(id);
+            if (flag)
+            {
+                MessageBox.Show("Reader has been successfully marked inactive.", "Success", MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+                buttonArchiveReaderSearch_Click(null, null);
+            }
+            else
+            {
+                MessageBox.Show("Reader can not be marked inactive.", "Warning", MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+            }
+        }
+
+        private void buttonRegisterNewLibrary_Click(object sender, EventArgs e)
+        {
+            var libName = textBoxNewLibraryName.Text;
+            if (libName != "")
+            {
+                _ctrl.AddLibrary(libName);
+                FillComboBoxCollections();
             }
         }
     }

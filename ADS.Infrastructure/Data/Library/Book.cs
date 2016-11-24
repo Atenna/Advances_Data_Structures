@@ -103,8 +103,6 @@ namespace ADS.ADS.Data.Library
         public int FeePerDay { get; } // in cents
         public bool IsArchived { get; set; }
         public bool IsBorrowed { get; set; }
-
-
         public Reader CurrentReader { get; set; }
 
         public Book(string author, string title, string isbn, string ean, string genre, Library currentLibrary, int uniqueId)
@@ -211,7 +209,7 @@ namespace ADS.ADS.Data.Library
             IsBorrowed = false;
             TimeOfBorrow = null;
             TimeOfReturn = DateTime.Now;
-            CurrentReader.BooksBorrowedInPast.Add(this);
+            //CurrentReader.BooksBorrowedInPast.Add(this);
             CurrentReader.BooksCurrentlyBorrowed.RemoveNode(this);
             CurrentReader = null;
             CurrentLibrary = l;
