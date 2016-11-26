@@ -539,5 +539,10 @@ namespace ADS.Core.Domain.Controller
         {
             return _model.NextBookId();
         }
+
+        public void Save()
+        {
+            LibraryModel.Save();
+        }
     }
 }

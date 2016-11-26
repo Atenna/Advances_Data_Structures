@@ -29,22 +29,45 @@ namespace ADS.ADS.Services.DataProcessing
             ReadersById = new AvlTree<Reader>(new Reader.ReaderIdComparator());
             ReadersByName = new AvlTree<Reader>(new Reader.ReaderNameComparator());
 
-            ReadReadersFromFile("");
-            ReadLibrariesFromFile("");
-            ReadBooksFromFile("");
-            ReadBorrowingsFromFile("");
+            ReadReadersFromFile("readers.txt");
+            ReadLibrariesFromFile("libraries.txt");
+            ReadBooksFromFile("books.txt");
+            //ReadBorrowingsFromFile("");
         }
-        public static void ReadBooksFromFile(string filename)
+        public void ReadBooksFromFile(string filename)
         {
+            // title, author, uid, isbn, ean, reader name, reader surname, ruid, from, to, archived, library
             StreamReader w = new StreamReader(filename);
-            string line = "";
+            string line;
             while ((line = w.ReadLine())!=null)
             {
-                w.ReadLine();
+                var b = ParseBook(line);
+                if (b!=null)
+                {
+                    BooksByName.Add(b);
+                    BooksByIsbn.Add(b);
+                    BooksByUniqueId.Add(b);
+                    NumberOfBooks++;
+                }
             }
+            w.Close();
         }
 
-        public static void ReadReadersFromFile(string filename)
+        public void ReadReadersFromFile(string filename)
+        {
+            StreamReader w = new StreamReader(filename);
+            string line = "";
+            while ((line = w.ReadLine()) != null)
+            {
+                var r = ParseReader(line);
+                ReadersById.Add(r);
+                ReadersByName.Add(r);
+                NumberOfReaders++;
+            }
+            w.Close();
+        }
+
+        private void ReadBorrowingsFromFile(string filename)
         {
             StreamReader w = new StreamReader(filename);
             string line = "";
@@ -52,35 +75,52 @@ namespace ADS.ADS.Services.DataProcessing
             {
                 w.ReadLine();
             }
+            w.Close();
         }
 
-        private static void ReadBorrowingsFromFile(string filename)
+        public void ReadLibrariesFromFile(string filename)
         {
             StreamReader w = new StreamReader(filename);
             string line = "";
             while ((line = w.ReadLine()) != null)
             {
-                w.ReadLine();
+                Libraries.Add(new Library(line.Trim()));
             }
+            w.Close();
         }
 
-        public static void ReadLibrariesFromFile(string filename)
+        public Book ParseBook(string line)
         {
-            StreamReader w = new StreamReader(filename);
-            string line = "";
-            while ((line = w.ReadLine()) != null)
+            // title, author, uid, isbn, ean, reader name, reader surname, ruid, from, to, archived, library
+            var b = line.Split(',');
+            string title = b[0].Trim();
+            string author = b[1].Trim();
+            int uid = Convert.ToInt32(b[2].Trim());
+            string isbn = b[3].Trim();
+            string ean = b[4].Trim();
+            string name = b[5].Trim();
+            string surname = b[5].Trim();
+            string rid = b[6].Trim();
+            string from = b[7].Trim();
+            string to = b[8].Trim();
+            bool archived = b[9].Trim().Equals("true") ? true : false;
+            string library = b[12].Trim();
+            var lib = Libraries.SearchNode(new Library(library), Libraries.Root);
+            if (lib != null)
             {
-                w.ReadLine();
+                Book book = new Book(author, title, isbn, ean, "Poetry", lib.Data, uid);
+                return book;
             }
-        }
-
-        Book ParseBook(string line)
-        {
-            return new Book("", 0, "");
+            return null;
         }
         Reader ParseReader(string line)
         {
-            return new Reader(0,"", "");
+            string[] r = line.Split(',');
+            string[] n = r[0].Split(' ');
+            int id = int.Parse(r[1].Trim());
+            string name = n[0].Trim();
+            string surname = n[1].Trim();
+            return new Reader(id, name, surname);
         }
         Library ParseLibrary(string line)
         {

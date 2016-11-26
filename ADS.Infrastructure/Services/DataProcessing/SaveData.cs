@@ -20,6 +20,7 @@ namespace ADS.ADS.Services.DataProcessing
             {
                 w.WriteLine(a[i]);
             }
+            w.Close();
         }
 
         public static void WriteReaderToFile(string filename, AvlTree<Reader> tree)
@@ -52,6 +53,10 @@ namespace ADS.ADS.Services.DataProcessing
                 }
                 
             }
+            w.Close();
+            wA.Close();
+            wB.Close();
+            wC.Close();
         }
 
         private static void WriteBorrowingToFile(StreamWriter w, AvlTree<Borrowing> tree)
@@ -86,6 +91,7 @@ namespace ADS.ADS.Services.DataProcessing
             {
                 w.WriteLine(a[i]);
             }
+            w.Close();
         }
 
         public static void WriteBorrowingToFile(string filename, AvlTree<Borrowing> tree)
@@ -99,6 +105,7 @@ namespace ADS.ADS.Services.DataProcessing
                     w.WriteLine(a[i]);
                 }
             }
+            w.Close();
         }
     }
 }

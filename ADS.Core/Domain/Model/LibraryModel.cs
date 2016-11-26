@@ -14,7 +14,7 @@ namespace ADS.Core.Domain.Model
     {
         public LibraryModel()
         {
-
+            Read();
         }
 
         // nacitanie dat zo suboru do kniznice :)
@@ -169,7 +169,6 @@ namespace ADS.Core.Domain.Model
             Libraries = reader.Libraries;
             _maxReaderId = reader.NumberOfReaders;
             _maxBookId = reader.NumberOfBooks;
-
         }
     }
 }
