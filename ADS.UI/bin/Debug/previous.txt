@@ -1,0 +1,78 @@
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Blender I3,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Marolterode B4,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bernterode (Heilig.) J5,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Buggingen D3,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Egling an der Paar V3,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bargteheide P7,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Jacobsdorf Q6,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Baiern U4,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Betzenstein Y4,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Ihrlerstein Y6,100
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Altdorf (Esslingen) S1,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Ilmtal B0,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Ilmtal B0,200
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Birtlingen O0,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bermatingen E3,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Borstel-Hohenraden N1,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Braunschweig F7,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Baierbach V2,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Braunfels Y7,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bickenbach (Hunsrück) G4,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bullenkuhlen Y4,100
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Enzen Q6,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Beutelsbach L6,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Isernhagen D3,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Borgholzhausen L6,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Böblingen I7,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Buschvitz V1,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bessenbach E1,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Andisleben P5,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Chemnitz A2,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Erlbach (Altötting) F6,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bacharach T1,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Balesfeld C6,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Altshausen P2,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Brieden O3,300
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bornstedt G4,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Breese G0,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Lengerich (Emsland) D5,100
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Liebenwalde N7,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bruckberg (Middle Franconia) P0,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Berg (Ahrweiler) M0,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Linz am Rhein R0,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Leegebruch L0,400
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Braunschweig X1,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Borne (Staßfurt) J6,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Jülich L3,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bothenheilingen O6,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Badenweiler I7,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Berkheim E1,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bechstedt L4,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Enzklösterle E0,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Baesweiler V0,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Langhagen W7,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Eggermühlen M1,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bröthen X3,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Lettweiler J4,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bornhagen O5,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Marloffstein N0,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bendorf (Holstein) Q7,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bornhagen O5,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bösel X2,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Borgwedel Q1,300
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Börtlingen N4,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Brockel M7,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Emtmannsberg P0,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Beiersdorf (Löbau) I0,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bad Königshofen i. Grabf. O2,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Berg (Neumarkt) E2,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bösel B7,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bad Orb B7,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Eggolsheim R1,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bothenheilingen P0,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Born a. Darß L7,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Marth T4,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bad Liebenwerda B0,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Bad Sooden-Allendorf L6,0
+A Boy's Will,Robert Frost,1,978-87-53991-013,978-87-53991-023,,,,,,,false,Leimbach (Neuerburg) L7,0
+A Boy's Will,Robert Fros

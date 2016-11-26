@@ -127,19 +127,5 @@ namespace ADS.InfrastructureTests.DataStructures
             Assert.AreEqual(node.Left.Left.Data, 1);
             Assert.AreEqual(node.Left.Left.Right.Data, 3);
         }
-        [TestMethod()]
-        public void SearchNodeTest()
-        {
-            AvlTree<Book> books = new AvlTree<Book>(new Book.BookNameComparator());
-            books = DataParser.FillDataStructure(books);
-
-            Book b1 = new Book("", "Vision in Spring", "", "978-76-15582-1921");
-
-            AbstractNode<Book> result = books.SearchNode(b1, books.Root);
-            Console.Write("Expected: {0}, Result: {1}", b1.Title, result.Data.Title);
-
-            Assert.AreEqual(b1.Title, result.Data.Title);
-            //Assert.AreEqual(b1.CodeIsbn, result.Data.CodeIsbn);
-        }
     }
 }

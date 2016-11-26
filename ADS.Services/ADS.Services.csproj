@@ -43,12 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataGenerating\EditorCodes.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EditorCodes.resx</DependentUpon>
-    </Compile>
-    <Compile Include="DataGenerating\IDataGenerator.cs" />
     <Compile Include="DataProcessing\IDataLoader.cs" />
     <Compile Include="DataProcessing\IDataSerializer.cs" />
     <Compile Include="Program.cs" />
@@ -62,13 +56,6 @@
   <ItemGroup>
     <Folder Include="DataStructures\" />
     <Folder Include="Statistics\" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="DataGenerating\EditorCodes.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditorCodes.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

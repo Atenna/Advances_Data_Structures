@@ -117,7 +117,7 @@ namespace ADS.ADS.DataStructures
                         if (current.Ancestor == null)
                         {
                             Root = null;
-                            return null;
+                            return Root;
                         }
                         ancestor = SetPointersToNull(current, data);
                         flag = false;
@@ -168,7 +168,7 @@ namespace ADS.ADS.DataStructures
             // nema predchodcov
             else if (current.Ancestor == null)
             {
-                Root = null;
+                // Root=null;
             }
             return current.Ancestor;
         }
@@ -385,7 +385,76 @@ namespace ADS.ADS.DataStructures
             while (stack.Count > 0)
             {
                 current = stack.Pop();
-                var s = current.Data.ToString();
+
+                var s = "";
+                if (current.Data is Book)
+                {
+                    T newt = (T)(object)current.Data;
+                    Book b = (Book)(object)newt;
+                    s = b.ToStringDetailed();
+                }
+                else
+                {
+                    s = current.Data.ToString();
+                }
+
+                list.Add(s);
+
+                if (current.Right != null)
+                {
+                    current = current.Right;
+
+                    while (current != null)
+                    {
+                        stack.Push(current);
+                        current = current.Left;
+                    }
+                }
+            }
+
+            return list.ToArray();
+        }
+
+        public string[] InorderTraversalToStringArraysave(AbstractNode<T> root)
+        {
+            Stack<AbstractNode<T>> stack = new Stack<AbstractNode<T>>();
+            List<string> list = new List<string>();
+
+            if (root == null)
+            {
+                return null;
+            }
+
+            AbstractNode<T> current = root;
+
+            while (current != null)
+            {
+                stack.Push(current);
+                current = current.Left;
+            }
+
+            while (stack.Count > 0)
+            {
+                current = stack.Pop();
+
+                var s = "";
+                if (current.Data is Book)
+                {
+                    T newt = (T)(object)current.Data;
+                    Book b = (Book)(object)newt;
+                    s = b.ToStringSave();
+                }
+                else if (current.Data is Borrowing)
+                {
+                    T newt = (T)(object)current.Data;
+                    Borrowing b = (Borrowing)(object)newt;
+                    s = b.ToStringSave();
+                }
+                else
+                {
+                    s = current.Data.ToString();
+                }
+
                 list.Add(s);
 
                 if (current.Right != null)

@@ -40,7 +40,7 @@ namespace ADS.ADS.Data.Library
         public bool IsActive;
         public AvlTree<Borrowing> BooksBorrowedInPast;
         public AvlTree<Book> BooksCurrentlyBorrowed;
-        public AvlTree<Book> LateBookReturns;
+        public AvlTree<Borrowing> LateBookReturns;
         public bool HasBlockedBorrowing { get; set; }
         public Reader(int id, string name, string surname)
         {
@@ -50,7 +50,7 @@ namespace ADS.ADS.Data.Library
             HasBlockedBorrowing = false;
             BooksBorrowedInPast = new AvlTree<Borrowing>(new Borrowing.BorrowingComparator());
             BooksCurrentlyBorrowed = new AvlTree<Book>(new Book.BookNameComparator());
-            LateBookReturns = new AvlTree<Book>(new Book.BookNameComparator());
+            LateBookReturns = new AvlTree<Borrowing>(new Borrowing.BorrowingComparator());
             IsActive = true;
         }
 

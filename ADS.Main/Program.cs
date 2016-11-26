@@ -15,7 +15,7 @@ namespace ADS.Main
         {
             LibraryController ctrl = new LibraryController();
             //Console.WriteLine(ctrl.SearchBookByName("zz"));
-            Console.WriteLine(ctrl._model.BooksByName.InorderTraversal(ctrl._model.BooksByName.Root));
+            Console.WriteLine(LibraryModel.BooksByName.InorderTraversal(LibraryModel.BooksByName.Root));
         }
     }
 }

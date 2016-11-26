@@ -46,6 +46,7 @@
     <Compile Include="DataStructures\BinarySearchTree.cs" />
     <Compile Include="DataStructures\SinglyLinkedList.cs" />
     <Compile Include="Data\Library\Book.cs" />
+    <Compile Include="Data\Library\Borrowing.cs" />
     <Compile Include="Data\Library\Editor.cs" />
     <Compile Include="Data\Library\Library.cs" />
     <Compile Include="Data\Library\Reader.cs" />
@@ -60,9 +61,10 @@
     <Compile Include="Nodes\BinarySearchTreeNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\DataGenerating\LibraryDataGenerator.cs" />
     <Compile Include="Services\DataProcessing\DataGenerator.cs" />
-    <Compile Include="Services\DataProcessing\DataLoader.cs" />
-    <Compile Include="Services\DataProcessing\DataParser.cs" />
+    <Compile Include="Services\DataProcessing\ReadData.cs" />
+    <Compile Include="Services\DataProcessing\SaveData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

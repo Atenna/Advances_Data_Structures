@@ -3,6 +3,7 @@ using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
+using ADS.ADS.Data.Library;
 using ADS.Core.Domain.Controller;
 
 namespace Advanced_Data_Structures
@@ -63,6 +64,7 @@ namespace Advanced_Data_Structures
                     if (string.IsNullOrEmpty(libraryName))
                     {
                         MessageBox.Show("Select a library", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        RefreshReader();
                         return;
                     }
                     richTextBoxSearchedBooks.Text = _ctrl.SearchBookByName(bookTitle, libraryName);
@@ -72,6 +74,7 @@ namespace Advanced_Data_Structures
                     if (string.IsNullOrEmpty(libraryName))
                     {
                         MessageBox.Show("Select a library", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        RefreshReader();
                         return;
                     }
                     richTextBoxSearchedBooks.Text = _ctrl.SearchBookByIsbn(bookIsbn, libraryName);
@@ -81,11 +84,13 @@ namespace Advanced_Data_Structures
                     if (string.IsNullOrEmpty(libraryName))
                     {
                         MessageBox.Show("Select a library", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        RefreshReader();
                         return;
                     }
                     richTextBoxSearchedBooks.Text = _ctrl.SearchBookByIsbn(bookIsbn, libraryName);
                 }
             }
+            RefreshReader();
         }
 
         private void buttonSearchByLibraryCardId_Click(object sender, System.EventArgs e)
@@ -222,11 +227,22 @@ namespace Advanced_Data_Structures
                 return;
             }
             var library = comboBoxCheckoutSelectLibrary.SelectedItem?.ToString();
+
             var book = checkedListBoxCheckoutBorrowBooks.CheckedItems[0].ToString().Split(',');
-            // to do
-            int bookId = int.Parse(book[2]);
-            string isbn = book[1];
-            // od ot
+            //var isbn = bookToReturn[1].Trim();
+            //var bookId = int.Parse(bookToReturn[2].Trim());
+
+            var indexFirst = book[0].LastIndexOf(':');
+            var indexLast = book[0].IndexOf(':');
+            string bookName = book[0].Substring(0, indexLast).Trim();
+
+            var readerId = _ctrl._model.ReaderSession.Reader.UniqueId;
+            var libraryId = comboBoxCheckoutSelectLibrary.SelectedItem.ToString();
+
+            var isbn = book[2].Substring(7);
+            var bookIdS = book[1].Substring(12);
+            var bookId = int.Parse(bookIdS);
+
             bool flag = _ctrl.BorrowBook(bookId, isbn, _ctrl._model.ReaderSession.Reader.UniqueId, library);
             if (!flag)
             {
@@ -349,19 +365,36 @@ namespace Advanced_Data_Structures
         {
             try
             {
-                var bookToReturn = checkedListBoxCheckoutCurrent.CheckedItems[0].ToString().Split(',');
-                var isbn = bookToReturn[1].Trim();
-                var bookId = int.Parse(bookToReturn[2].Trim());
-                var bookName = bookToReturn[0].Trim().Split(':')[0].Trim();
+                var book = checkedListBoxCheckoutCurrent.CheckedItems[0].ToString().Split(',');
+
+                var indexFirst = book[0].LastIndexOf(':');
+                var indexLast = book[0].IndexOf(':');
+                string bookName = book[0].Substring(0, indexFirst).Trim();
+
                 var readerId = _ctrl._model.ReaderSession.Reader.UniqueId;
                 var libraryId = comboBoxReturnBook.SelectedItem.ToString();
+
+                var isbn = book[2].Substring(7);
+                var bookIdS = book[1].Substring(12);
+                var bookId = int.Parse(bookIdS);
+
                 var flag = _ctrl.ReturnBook(isbn, bookId, bookName, readerId, libraryId);
-                if (flag)
+                // kniha uspesne vratena na svoju pobocku
+                if (flag == 0)
                 {
                     MessageBox.Show("Book successfully returned", "Information", MessageBoxButtons.OK,
                         MessageBoxIcon.Information);
                 }
-                else
+                // kniha vratena ale na inu pobocku
+                else if (flag == 2)
+                {
+                    MessageBox.Show("Book successfully returned", "Information", MessageBoxButtons.OK,
+                        MessageBoxIcon.Information);
+                    // nejaky label
+                    labelFee.Text = "A Fee 15$ should be paid";
+                }
+                // nepodarilo sa vratit knihu
+                else if(flag == 1)
                 {
                     MessageBox.Show("Book was not returned", "Warning", MessageBoxButtons.OK,
                         MessageBoxIcon.Warning);
@@ -397,14 +430,14 @@ namespace Advanced_Data_Structures
             var readerId = selectedReader[1].Trim();
 
             checkedListBoxCheckoutCurrent.Items.Clear();
-            checkedListBoxCheckoutPrevious.Items.Clear();
-            checkedListBoxCheckoutLate.Items.Clear();
+            richTextBoxCheckoutPrevious.Text = "";
+            richTextBoxCheckoutLate.Text = "";
 
             if (readerId != "")
             {
                 string[] s = _ctrl.ShowBorrowedBooksCurrently(readerId);
-                string[] previous = _ctrl.ShowBorrowedBooksPast(readerId);
-                string[] late = _ctrl.ShowLateReturnedBooks(readerId, new DateTime(), new DateTime());
+                string previous = _ctrl.ShowBorrowedBooksPast(readerId);
+                string late = _ctrl.ShowLateReturnedBooks(readerId, new DateTime(), new DateTime());
 
                 if (s != null)
                 {
@@ -419,24 +452,12 @@ namespace Advanced_Data_Structures
 
                 if (previous != null)
                 {
-                    foreach (var book in previous)
-                    {
-                        if (book != null)
-                        {
-                            checkedListBoxCheckoutPrevious.Items.Add(book);
-                        }
-                    }
+                    richTextBoxCheckoutPrevious.Text = previous;
                 }
 
                 if (late != null)
                 {
-                    foreach (var book in late)
-                    {
-                        if (book != null)
-                        {
-                            checkedListBoxCheckoutLate.Items.Add(book);
-                        }
-                    }
+                    richTextBoxCheckoutLate.Text = late;
                 }
             }
         }

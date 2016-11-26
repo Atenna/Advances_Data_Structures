@@ -138,7 +138,6 @@ namespace Advanced_Data_Structures
             this.tabPageCheckoutPrevious = new System.Windows.Forms.TabPage();
             this.checkedListBoxCheckoutPrevious = new System.Windows.Forms.CheckedListBox();
             this.tabPageCheckoutLateReturns = new System.Windows.Forms.TabPage();
-            this.checkedListBoxCheckoutLate = new System.Windows.Forms.CheckedListBox();
             this.tabPageCheckoutBorrow = new System.Windows.Forms.TabPage();
             this.labelBorrowSelectLibrary = new System.Windows.Forms.Label();
             this.comboBoxCheckoutSelectLibrary = new System.Windows.Forms.ComboBox();
@@ -150,6 +149,9 @@ namespace Advanced_Data_Structures
             this.tabControlOuter = new System.Windows.Forms.TabControl();
             this.label1 = new System.Windows.Forms.Label();
             this.checkedListBoxArchiveReader = new System.Windows.Forms.CheckedListBox();
+            this.richTextBoxCheckoutLate = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxCheckoutPrevious = new System.Windows.Forms.RichTextBox();
+            this.labelFee = new System.Windows.Forms.Label();
             this.tabPage5.SuspendLayout();
             this.tabControlSearch.SuspendLayout();
             this.tabPageSearchBook.SuspendLayout();
@@ -1160,6 +1162,7 @@ namespace Advanced_Data_Structures
             // 
             // tabPageCheckoutCurrent
             // 
+            this.tabPageCheckoutCurrent.Controls.Add(this.labelFee);
             this.tabPageCheckoutCurrent.Controls.Add(this.label24);
             this.tabPageCheckoutCurrent.Controls.Add(this.comboBoxReturnBook);
             this.tabPageCheckoutCurrent.Controls.Add(this.checkedListBoxCheckoutCurrent);
@@ -1220,6 +1223,7 @@ namespace Advanced_Data_Structures
             // 
             // tabPageCheckoutPrevious
             // 
+            this.tabPageCheckoutPrevious.Controls.Add(this.richTextBoxCheckoutPrevious);
             this.tabPageCheckoutPrevious.Controls.Add(this.checkedListBoxCheckoutPrevious);
             this.tabPageCheckoutPrevious.Location = new System.Drawing.Point(4, 41);
             this.tabPageCheckoutPrevious.Name = "tabPageCheckoutPrevious";
@@ -1233,29 +1237,20 @@ namespace Advanced_Data_Structures
             // 
             this.checkedListBoxCheckoutPrevious.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.checkedListBoxCheckoutPrevious.FormattingEnabled = true;
-            this.checkedListBoxCheckoutPrevious.Location = new System.Drawing.Point(59, 42);
+            this.checkedListBoxCheckoutPrevious.Location = new System.Drawing.Point(59, 532);
             this.checkedListBoxCheckoutPrevious.Name = "checkedListBoxCheckoutPrevious";
-            this.checkedListBoxCheckoutPrevious.Size = new System.Drawing.Size(399, 554);
+            this.checkedListBoxCheckoutPrevious.Size = new System.Drawing.Size(399, 70);
             this.checkedListBoxCheckoutPrevious.TabIndex = 7;
             // 
             // tabPageCheckoutLateReturns
             // 
-            this.tabPageCheckoutLateReturns.Controls.Add(this.checkedListBoxCheckoutLate);
+            this.tabPageCheckoutLateReturns.Controls.Add(this.richTextBoxCheckoutLate);
             this.tabPageCheckoutLateReturns.Location = new System.Drawing.Point(4, 41);
             this.tabPageCheckoutLateReturns.Name = "tabPageCheckoutLateReturns";
             this.tabPageCheckoutLateReturns.Size = new System.Drawing.Size(738, 640);
             this.tabPageCheckoutLateReturns.TabIndex = 2;
             this.tabPageCheckoutLateReturns.Text = "Late returns";
             this.tabPageCheckoutLateReturns.UseVisualStyleBackColor = true;
-            // 
-            // checkedListBoxCheckoutLate
-            // 
-            this.checkedListBoxCheckoutLate.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.checkedListBoxCheckoutLate.FormattingEnabled = true;
-            this.checkedListBoxCheckoutLate.Location = new System.Drawing.Point(59, 42);
-            this.checkedListBoxCheckoutLate.Name = "checkedListBoxCheckoutLate";
-            this.checkedListBoxCheckoutLate.Size = new System.Drawing.Size(399, 554);
-            this.checkedListBoxCheckoutLate.TabIndex = 7;
             // 
             // tabPageCheckoutBorrow
             // 
@@ -1276,7 +1271,7 @@ namespace Advanced_Data_Structures
             // labelBorrowSelectLibrary
             // 
             this.labelBorrowSelectLibrary.AutoSize = true;
-            this.labelBorrowSelectLibrary.Location = new System.Drawing.Point(49, 68);
+            this.labelBorrowSelectLibrary.Location = new System.Drawing.Point(468, 63);
             this.labelBorrowSelectLibrary.Name = "labelBorrowSelectLibrary";
             this.labelBorrowSelectLibrary.Size = new System.Drawing.Size(84, 18);
             this.labelBorrowSelectLibrary.TabIndex = 15;
@@ -1285,14 +1280,14 @@ namespace Advanced_Data_Structures
             // comboBoxCheckoutSelectLibrary
             // 
             this.comboBoxCheckoutSelectLibrary.FormattingEnabled = true;
-            this.comboBoxCheckoutSelectLibrary.Location = new System.Drawing.Point(52, 100);
+            this.comboBoxCheckoutSelectLibrary.Location = new System.Drawing.Point(471, 95);
             this.comboBoxCheckoutSelectLibrary.Name = "comboBoxCheckoutSelectLibrary";
             this.comboBoxCheckoutSelectLibrary.Size = new System.Drawing.Size(217, 26);
             this.comboBoxCheckoutSelectLibrary.TabIndex = 14;
             // 
             // buttonCheckoutSelectBooksToBorrow
             // 
-            this.buttonCheckoutSelectBooksToBorrow.Location = new System.Drawing.Point(471, 385);
+            this.buttonCheckoutSelectBooksToBorrow.Location = new System.Drawing.Point(471, 291);
             this.buttonCheckoutSelectBooksToBorrow.Name = "buttonCheckoutSelectBooksToBorrow";
             this.buttonCheckoutSelectBooksToBorrow.Size = new System.Drawing.Size(217, 37);
             this.buttonCheckoutSelectBooksToBorrow.TabIndex = 13;
@@ -1302,9 +1297,9 @@ namespace Advanced_Data_Structures
             // 
             // buttonCheckoutSearchBook
             // 
-            this.buttonCheckoutSearchBook.Location = new System.Drawing.Point(271, 180);
+            this.buttonCheckoutSearchBook.Location = new System.Drawing.Point(471, 226);
             this.buttonCheckoutSearchBook.Name = "buttonCheckoutSearchBook";
-            this.buttonCheckoutSearchBook.Size = new System.Drawing.Size(134, 27);
+            this.buttonCheckoutSearchBook.Size = new System.Drawing.Size(217, 36);
             this.buttonCheckoutSearchBook.TabIndex = 12;
             this.buttonCheckoutSearchBook.Text = "Search";
             this.buttonCheckoutSearchBook.UseVisualStyleBackColor = true;
@@ -1314,16 +1309,16 @@ namespace Advanced_Data_Structures
             // 
             this.checkedListBoxCheckoutBorrowBooks.CheckOnClick = true;
             this.checkedListBoxCheckoutBorrowBooks.FormattingEnabled = true;
-            this.checkedListBoxCheckoutBorrowBooks.Location = new System.Drawing.Point(52, 258);
+            this.checkedListBoxCheckoutBorrowBooks.Location = new System.Drawing.Point(52, 58);
             this.checkedListBoxCheckoutBorrowBooks.Name = "checkedListBoxCheckoutBorrowBooks";
-            this.checkedListBoxCheckoutBorrowBooks.Size = new System.Drawing.Size(353, 164);
+            this.checkedListBoxCheckoutBorrowBooks.Size = new System.Drawing.Size(353, 544);
             this.checkedListBoxCheckoutBorrowBooks.TabIndex = 11;
             this.checkedListBoxCheckoutBorrowBooks.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.checkedListBoxCheckoutBorrowBooks_ItemCheck);
             // 
             // labelBorrowBookId
             // 
             this.labelBorrowBookId.AutoSize = true;
-            this.labelBorrowBookId.Location = new System.Drawing.Point(49, 159);
+            this.labelBorrowBookId.Location = new System.Drawing.Point(468, 154);
             this.labelBorrowBookId.Name = "labelBorrowBookId";
             this.labelBorrowBookId.Size = new System.Drawing.Size(53, 18);
             this.labelBorrowBookId.TabIndex = 10;
@@ -1333,7 +1328,7 @@ namespace Advanced_Data_Structures
             // 
             this.textBoxCheckoutSearchBook.Font = new System.Drawing.Font("Calibri Light", 12F);
             this.textBoxCheckoutSearchBook.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBoxCheckoutSearchBook.Location = new System.Drawing.Point(52, 180);
+            this.textBoxCheckoutSearchBook.Location = new System.Drawing.Point(471, 175);
             this.textBoxCheckoutSearchBook.Name = "textBoxCheckoutSearchBook";
             this.textBoxCheckoutSearchBook.Size = new System.Drawing.Size(222, 27);
             this.textBoxCheckoutSearchBook.TabIndex = 9;
@@ -1368,6 +1363,30 @@ namespace Advanced_Data_Structures
             this.checkedListBoxArchiveReader.Name = "checkedListBoxArchiveReader";
             this.checkedListBoxArchiveReader.Size = new System.Drawing.Size(353, 464);
             this.checkedListBoxArchiveReader.TabIndex = 16;
+            // 
+            // richTextBoxCheckoutLate
+            // 
+            this.richTextBoxCheckoutLate.Location = new System.Drawing.Point(59, 54);
+            this.richTextBoxCheckoutLate.Name = "richTextBoxCheckoutLate";
+            this.richTextBoxCheckoutLate.Size = new System.Drawing.Size(613, 525);
+            this.richTextBoxCheckoutLate.TabIndex = 8;
+            this.richTextBoxCheckoutLate.Text = "";
+            // 
+            // richTextBoxCheckoutPrevious
+            // 
+            this.richTextBoxCheckoutPrevious.Location = new System.Drawing.Point(60, 54);
+            this.richTextBoxCheckoutPrevious.Name = "richTextBoxCheckoutPrevious";
+            this.richTextBoxCheckoutPrevious.Size = new System.Drawing.Size(613, 525);
+            this.richTextBoxCheckoutPrevious.TabIndex = 9;
+            this.richTextBoxCheckoutPrevious.Text = "";
+            // 
+            // labelFee
+            // 
+            this.labelFee.AutoSize = true;
+            this.labelFee.Location = new System.Drawing.Point(488, 269);
+            this.labelFee.Name = "labelFee";
+            this.labelFee.Size = new System.Drawing.Size(0, 18);
+            this.labelFee.TabIndex = 18;
             // 
             // AdsApplication
             // 
@@ -1526,7 +1545,6 @@ namespace Advanced_Data_Structures
         private System.Windows.Forms.TabPage tabPageCheckoutPrevious;
         private System.Windows.Forms.CheckedListBox checkedListBoxCheckoutPrevious;
         private System.Windows.Forms.TabPage tabPageCheckoutLateReturns;
-        private System.Windows.Forms.CheckedListBox checkedListBoxCheckoutLate;
         private System.Windows.Forms.TabPage tabPageCheckoutBorrow;
         private System.Windows.Forms.Label labelBorrowSelectLibrary;
         private System.Windows.Forms.ComboBox comboBoxCheckoutSelectLibrary;
@@ -1538,6 +1556,9 @@ namespace Advanced_Data_Structures
         private System.Windows.Forms.TabControl tabControlOuter;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckedListBox checkedListBoxArchiveReader;
+        private System.Windows.Forms.RichTextBox richTextBoxCheckoutLate;
+        private System.Windows.Forms.RichTextBox richTextBoxCheckoutPrevious;
+        private System.Windows.Forms.Label labelFee;
     }
 }
 

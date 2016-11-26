@@ -28,9 +28,9 @@ namespace ADS.ADS.Data.Library
                 //return string.Compare(x.Title, y.Title);
                 if (x.Title == y.Title)
                 {
-                    if (x.CodeIsbn != null && y.CodeIsbn != null)
+                    if ( ( x.CodeIsbn != null && x.CodeIsbn != "" && y.CodeIsbn != null && y.CodeIsbn != "") )
                     {
-                        if (x.CodeIsbn == y.CodeIsbn)
+                        if (x.CodeIsbn.Equals(y.CodeIsbn))
                         {
                             if (x.UniqueId == y.UniqueId)
                             {
@@ -96,11 +96,11 @@ namespace ADS.ADS.Data.Library
         public string GenreList { get; }
         public string Genre { get; }
         public Library CurrentLibrary { get; set; }
-        public int StandardDaysForBorrow { get; }
+        public int StandardDaysForBorrow { get; set; }
         public DateTime? TimeOfBorrow { get; set; }
         public DateTime? TimeOfReturn { get; set; }
-        public int UniqueId { get; }
-        public int FeePerDay { get; } // in cents
+        public int UniqueId { get; set; }
+        public int FeePerDay { get; set; } // in cents
         public bool IsArchived { get; set; }
         public bool IsBorrowed { get; set; }
         public Reader CurrentReader { get; set; }
@@ -176,11 +176,26 @@ namespace ADS.ADS.Data.Library
 
         public string ToStringDetailed()
         {
+            string returndate = TimeOfReturn != null
+                ? TimeOfReturn.Value.Date.ToString("dd.MM.yyyy") + ","
+                : "Not returned yet,";
             string borrowed = IsBorrowed ? "Borrowed to " + CurrentReader.Name +" "+ CurrentReader.Surname
-                + ", \n\t" + TimeOfBorrow.Value.Date.ToString("dd.MM.yyyy") + " - " + TimeOfReturn.Value.Date.ToString("dd.MM.yyyy") : "Available";
+                + ", \n\t" + TimeOfBorrow.Value.Date.ToString("dd.MM.yyyy") + " - " + returndate : "Available,";
             string archived = IsArchived ? "Archived" : "Not archived";
-            return Title + " : " + Author + ", \n\t" + CodeIsbn + ", " + UniqueId + ", \n\t" 
-                + CodeEan + ", \n\t" + borrowed + ", \n\t" + archived;
+            return Title + " : " + Author + ",\n\tUnique id:" + UniqueId + ",\n\tISBN:" + CodeIsbn  + ",\n\tEAN:" 
+                + CodeEan + ",\n\t" + borrowed + "\n\t" + archived + "\n\t" + "Current library: " + CurrentLibrary?.NameOfLibrary;
+        }
+
+        public string ToStringSave()
+        {
+            string returndate = TimeOfReturn != null
+                ? TimeOfReturn.Value.Date.ToString("dd.MM.yyyy") + ","
+                : ",";
+            string borrowed = IsBorrowed ? CurrentReader.Name + "," + CurrentReader.Surname
+                + "," + CurrentReader.UniqueId + ","+ TimeOfBorrow.Value.Date.ToString("dd.MM.yyyy") + "," + returndate : ",,,,,";
+            string archived = IsArchived ? "true" : "false";
+            return Title + "," + Author + "," + UniqueId + "," + CodeIsbn + ","
+                + CodeEan + "," + borrowed + "," + archived + "," + CurrentLibrary?.NameOfLibrary;
         }
 
         public string FormatIsbn(string isbn)
@@ -198,22 +213,97 @@ namespace ADS.ADS.Data.Library
             IsBorrowed = true;
             CurrentReader = r;
             TimeOfBorrow = DateTime.Now;
-            TimeOfReturn = DateTime.Now.AddDays(30);
             r.BooksCurrentlyBorrowed.Add(this);
-
+            CurrentLibrary.BorrowedBooks.Add(this);
             return true;
         }
 
-        public void Return(Library l)
+        public bool Borrow(Reader r, DateTime timeOfBorrow)
         {
+            if (IsBorrowed || r.HasBlockedBorrowing || IsArchived)
+            {
+                return false;
+            }
+            IsBorrowed = true;
+            CurrentReader = r;
+            TimeOfBorrow = timeOfBorrow;
+            r.BooksCurrentlyBorrowed.Add(this);
+            CurrentLibrary.BorrowedBooks.Add(this);
+            return true;
+        }
+
+        public void Return(Library l, Reader r)
+        {
+            CurrentLibrary.BorrowedBooks.RemoveNode(Copy());
+
+            if (!CurrentLibrary.NameOfLibrary.Equals(l.NameOfLibrary))
+            {
+                CurrentLibrary.AllBooksByName.RemoveNode(Copy());
+                CurrentLibrary.AllBooksByIsbn.RemoveNode(Copy());
+            }
+
             IsBorrowed = false;
-            TimeOfBorrow = null;
             TimeOfReturn = DateTime.Now;
-            //CurrentReader.BooksBorrowedInPast.Add(this);
-            CurrentReader.BooksCurrentlyBorrowed.RemoveNode(this);
+            r.BooksCurrentlyBorrowed.RemoveNode(Copy());
             CurrentReader = null;
             CurrentLibrary = l;
+            l.AllBooksByIsbn.Add(this);
+            l.AllBooksByName.Add(this);
+            r.BooksBorrowedInPast.Add(new Borrowing(Copy(), r));
+            TimeOfBorrow = null;
+        }
 
+        public void Return(Library l, Reader r, DateTime timeOfReturn)
+        {
+            if (DateTime.Now >= timeOfReturn){
+                CurrentLibrary.BorrowedBooks.RemoveNode(Copy());
+
+                if (!CurrentLibrary.NameOfLibrary.Equals(l.NameOfLibrary))
+                {
+                    CurrentLibrary.AllBooksByName.RemoveNode(Copy());
+                    CurrentLibrary.AllBooksByIsbn.RemoveNode(Copy());
+                }
+
+                IsBorrowed = false;
+                TimeOfReturn = timeOfReturn;
+                CurrentReader = null;
+                CurrentLibrary = l;
+                r.BooksBorrowedInPast.Add(new Borrowing(Copy(), r));
+
+                l.AllBooksByIsbn.Add(this);
+                l.AllBooksByName.Add(this);
+                
+                r.BooksCurrentlyBorrowed.RemoveNode(Copy());
+                TimeOfBorrow = null;
+            }
+        }
+
+        public class BookUniqueIdComparer : IComparer<Book>
+        {
+            public int Compare(Book x, Book y)
+            {
+                if (x.UniqueId > y.UniqueId)
+                {
+                    return 1;
+                } else if (x.UniqueId < y.UniqueId)
+                {
+                    return -1;
+                }
+                return 0;
+            }
+        }
+
+        public Book Copy()
+        {
+            Book b = new Book(Author, Title, CodeIsbn, CodeEan, Genre, CurrentLibrary, UniqueId);
+            b.CurrentReader = CurrentReader;
+            b.FeePerDay = FeePerDay;
+            b.IsArchived = IsArchived;
+            b.IsBorrowed = IsBorrowed;
+            b.TimeOfBorrow = TimeOfBorrow;
+            b.TimeOfReturn = TimeOfReturn;
+            b.StandardDaysForBorrow = StandardDaysForBorrow;
+            return b;
         }
     }
 }

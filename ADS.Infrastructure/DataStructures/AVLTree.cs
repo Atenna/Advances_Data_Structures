@@ -261,8 +261,6 @@ namespace ADS.ADS.DataStructures
                 }
                 ancestor = (AvlTreeNode<T>) ancestor.Ancestor;
             }
-            
-
             return ancestor;
         }
 

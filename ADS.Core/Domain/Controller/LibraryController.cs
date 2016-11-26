@@ -18,12 +18,12 @@ namespace ADS.Core.Domain.Controller
         public string SearchBookByIsbn(string isbn)
         {
             Book b = new Book("", "", "", isbn);
-            AbstractNode<Book> result = _model.BooksByIsbn.SearchNode(b, _model.BooksByIsbn.Root);
+            AbstractNode<Book> result = LibraryModel.BooksByIsbn.SearchNode(b, LibraryModel.BooksByIsbn.Root);
             if (result != null)
             {
                 return result.Data.ToString();
             }
-            List<AbstractNode<Book>> found = _model.BooksByIsbn.SearchSimilar(b, _model.BooksByIsbn.Root);
+            List<AbstractNode<Book>> found = LibraryModel.BooksByIsbn.SearchSimilar(b, LibraryModel.BooksByIsbn.Root);
             string listOfSimilarBooks = "";
             foreach (var book in found)
             {
@@ -35,12 +35,12 @@ namespace ADS.Core.Domain.Controller
         public string SearchBookByName(string name)
         {
             Book b = new Book("", name, "");
-            AbstractNode<Book> result = _model.BooksByName.SearchNode(b, _model.BooksByName.Root);
+            AbstractNode<Book> result = LibraryModel.BooksByName.SearchNode(b, LibraryModel.BooksByName.Root);
             if (result != null)
             {
                 return result.Data.ToString();
             }
-            List<AbstractNode<Book>> found = _model.BooksByName.SearchSimilar(b, _model.BooksByName.Root);
+            List<AbstractNode<Book>> found = LibraryModel.BooksByName.SearchSimilar(b, LibraryModel.BooksByName.Root);
             string listOfSimilarBooks = "";
             foreach (var book in found)
             {
@@ -61,7 +61,7 @@ namespace ADS.Core.Domain.Controller
 
         public string SearchBookByIsbn(string isbn, string libraryName)
         {
-            AbstractNode<Library> l = _model.Libraries.SearchNode(new Library(libraryName), _model.Libraries.Root);
+            AbstractNode<Library> l = LibraryModel.Libraries.SearchNode(new Library(libraryName), LibraryModel.Libraries.Root);
             AbstractNode<Book> b = l.Data.AllBooksByIsbn.SearchNode(new Book("", "", "", isbn),
                 l.Data.AllBooksByIsbn.Root);
             return b?.Data.ToStringDetailed();
@@ -70,28 +70,28 @@ namespace ADS.Core.Domain.Controller
         public string[] SearchBookByIsbnArray(string isbn, string libraryName)
         {
             Book b = new Book("", "", "", isbn);
-            AbstractNode<Library> l = _model.Libraries.SearchNode(new Library(libraryName), _model.Libraries.Root);
+            AbstractNode<Library> l = LibraryModel.Libraries.SearchNode(new Library(libraryName), LibraryModel.Libraries.Root);
 
             string[] books;
             AbstractNode<Book> result = l.Data.AllBooksByIsbn.SearchNode(b, l.Data.AllBooksByIsbn.Root);
             if (result != null)
             {
                 books = new string[1];
-                books[0] = result.Data.ToString();
+                books[0] = result.Data.ToStringDetailed();
                 return books;
             }
             List<AbstractNode<Book>> found = l.Data.AllBooksByIsbn.SearchSimilar(b, l.Data.AllBooksByIsbn.Root);
             books = new string[found.Count];
             for (int i = 0; i < found.Count; i++)
             {
-                books[i] = found[i].Data.ToString();
+                books[i] = found[i].Data.ToStringDetailed();
             }
             return books;
         }
 
         public string SearchBookByName(string name, string libraryName)
         {
-            AbstractNode<Library> l = _model.Libraries.SearchNode(new Library(libraryName), _model.Libraries.Root);
+            AbstractNode<Library> l = LibraryModel.Libraries.SearchNode(new Library(libraryName), LibraryModel.Libraries.Root);
             if (libraryName == "")
             {
                 return "";
@@ -106,7 +106,7 @@ namespace ADS.Core.Domain.Controller
             string listOfSimilarBooks = "";
             foreach (var book in books)
             {
-                listOfSimilarBooks += book.Data.ToString() + "\n";
+                listOfSimilarBooks += book.Data.ToStringDetailed() + "\n";
             }
             return listOfSimilarBooks;
         }
@@ -114,7 +114,7 @@ namespace ADS.Core.Domain.Controller
         public string[] SearchBookByNameArray(string name, string libraryName)
         {
             List<AbstractNode<Book>> books = new List<AbstractNode<Book>>();
-            AbstractNode<Library> l = _model.Libraries.SearchNode(new Library(libraryName), _model.Libraries.Root);
+            AbstractNode<Library> l = LibraryModel.Libraries.SearchNode(new Library(libraryName), LibraryModel.Libraries.Root);
             if (libraryName == "")
             {
                 return new string[] {};
@@ -143,10 +143,10 @@ namespace ADS.Core.Domain.Controller
         public bool BorrowBook(int bookId, string bookIsbn, int readerId, string libraryName)
         {
             Book b = new Book(bookIsbn, bookId, "");
-            AbstractNode<Library> l = _model.Libraries.SearchNode(new Library(libraryName), _model.Libraries.Root);
+            AbstractNode<Library> l = LibraryModel.Libraries.SearchNode(new Library(libraryName), LibraryModel.Libraries.Root);
 
             Reader r = new Reader(readerId, "", "");
-            var foundR = _model.ReadersById.SearchNode(r, _model.ReadersById.Root);
+            var foundR = LibraryModel.ReadersById.SearchNode(r, LibraryModel.ReadersById.Root);
 
             AbstractNode<Book> foundB = l.Data.AllBooksByIsbn.SearchNode(b, l.Data.AllBooksByIsbn.Root);
 
@@ -155,74 +155,64 @@ namespace ADS.Core.Domain.Controller
             // then borrow
             bool flag = foundB.Data.Borrow(foundR.Data);
 
-            if (flag)
-            {
-                l.Data.BorrowedBooks.Add(foundB.Data);
-                l.Data.AllBooksByIsbn.RemoveNode(foundB.Data);
-                l.Data.AllBooksByName.RemoveNode(foundB.Data);
-            }
+            //if (flag)
+            //{
+            //    l.Data.BorrowedBooks.Add(foundB.Data);
+            //    l.Data.AllBooksByIsbn.RemoveNode(foundB.Data);
+            //    l.Data.AllBooksByName.RemoveNode(foundB.Data);
+            //}
 
             return flag;
         }
 
-        public bool ReturnBook(string isbn, int bookId, string bookName, int readerId, string libraryId)
+        public int ReturnBook(string isbn, int bookId, string bookName, int readerId, string libraryId)
         {
-            Book b = new Book(isbn, bookId, bookName);
-            AbstractNode<Library> l = _model.Libraries.SearchNode(new Library(libraryId), _model.Libraries.Root);
-
+            //Book b = new Book(isbn, bookName, null, null, "", null, bookId);
+            Book b = new Book("", bookName, isbn, "", "", null, bookId);
+            AbstractNode<Library> l = LibraryModel.Libraries.SearchNode(new Library(libraryId), LibraryModel.Libraries.Root);
             Reader r = new Reader(readerId, "", "");
-
-            var foundR = _model.ReadersById.SearchNode(r, _model.ReadersById.Root);
+            var foundR = LibraryModel.ReadersById.SearchNode(r, LibraryModel.ReadersById.Root);
 
             if (l.Data.BorrowedBooks.Root != null)
             {
                 AbstractNode<Book> foundB = l.Data.BorrowedBooks.SearchNode(b, l.Data.BorrowedBooks.Root);
 
-                // do historie readera sa zapise nova vypozicka
-                var toPastBorrowings = foundB.Data;
-                foundR.Data.BooksBorrowedInPast.Add(new Borrowing(toPastBorrowings, foundR.Data));
-
-                // ak tato kniha bola povodne na danej pobocke
                 if (foundB != null)
                 {
-                    //l.Data.AllBooksByIsbn.Add(foundB.Data);
-                    //l.Data.AllBooksByName.Add(foundB.Data);
-                    l.Data.BorrowedBooks.RemoveNode(foundB.Data);
-                    foundB.Data.Return(l.Data);
-                    return true;
+                    foundB.Data.Return(l.Data, foundR.Data);
+                    return 0;
                 }
-                // kniha je na inej pobocke
+                // kniha sa kniha v tejto pobocke nenasla
                 else
                 {
-                    foundB = _model.BooksByName.SearchNode(b, _model.BooksByName.Root);
-                    Library lib = foundB.Data.CurrentLibrary;
-                    lib.AllBooksByName.RemoveNode(foundB.Data);
-                    lib.AllBooksByIsbn.RemoveNode(foundB.Data);
-                    foundB.Data.CurrentLibrary = l.Data;
-                    l.Data.AllBooksByIsbn.Add(foundB.Data);
-                    l.Data.AllBooksByName.Add(foundB.Data);
-
+                    foundB = LibraryModel.BooksByName.SearchNode(b, LibraryModel.BooksByName.Root);
+                    if (foundB != null)
+                    {
+                        foundB.Data.Return(l.Data, foundR.Data);
+                        return 2;
+                    }
+                    return 1;
                 }
             }
-            // kniha je na inej pobocke
+            // kniha vraciam na inu pobocku, ktora ma v roote null
             else
             {
                 // najde sa v modeli so vsetkymi knihami
-                AbstractNode<Book> foundB = _model.BooksByName.SearchNode(b, _model.BooksByName.Root);
-                
-                // najde sa jej povodna kniznica, kam mala byt vratena
-                Library lib = foundB.Data.CurrentLibrary;
-                // zmaze sa z nej
-                lib.AllBooksByName.RemoveNode(foundB.Data);
-                lib.AllBooksByIsbn.RemoveNode(foundB.Data);
-                // a prida sa do novej kniznice
-                foundB.Data.Return(l.Data);
-
-                l.Data.AllBooksByIsbn.Add(foundB.Data);
-                l.Data.AllBooksByName.Add(foundB.Data);
-
+                AbstractNode<Book> foundB = LibraryModel.BooksByName.SearchNode(b, LibraryModel.BooksByName.Root);
+                if (foundB != null && foundB.Data.CodeIsbn == isbn)
+                {
+                    foundB.Data.Return(l.Data, foundR.Data);
+                    return 2;
+                }
+                // nenasiel tuk nihu s danym isbn -_-
+                else if (foundB != null)
+                {
+                    foundB.Data.CodeIsbn = isbn;
+                    foundB.Data.Return(l.Data, foundR.Data);
+                    return 2;
+                }
+                return 1;
             }
-            return false;
         }
 
         public string[] SearchReaderById(string readerId)
@@ -232,7 +222,7 @@ namespace ADS.Core.Domain.Controller
             {
                 id = Int32.Parse(readerId);
                 Reader r = new Reader(id, "", "");
-                var found = _model.ReadersById.SearchNode(r, _model.ReadersById.Root);
+                var found = LibraryModel.ReadersById.SearchNode(r, LibraryModel.ReadersById.Root);
                 if (found != null)
                 {
                     _model.ReaderSession = new ReaderSession(found.Data);
@@ -240,7 +230,7 @@ namespace ADS.Core.Domain.Controller
                     toReturn[0] = found.Data.ToString();
                     return toReturn;
                 }
-                List<AbstractNode<Reader>> similarList = _model.ReadersById.SearchSimilar(r, _model.ReadersById.Root);
+                List<AbstractNode<Reader>> similarList = LibraryModel.ReadersById.SearchSimilar(r, LibraryModel.ReadersById.Root);
                 string[] similar = new string[similarList.Count];
                 for (int reader = 0; reader < similarList.Count; reader++)
                 {
@@ -251,7 +241,7 @@ namespace ADS.Core.Domain.Controller
             catch (Exception)
             {
                 Reader r = new Reader(0, "", "");
-                List<AbstractNode<Reader>> similarList = _model.ReadersById.SearchSimilar(r, _model.ReadersById.Root);
+                List<AbstractNode<Reader>> similarList = LibraryModel.ReadersById.SearchSimilar(r, LibraryModel.ReadersById.Root);
                 string[] similar = new string[similarList.Count];
                 for (int reader = 0; reader < similarList.Count; reader++)
                 {
@@ -269,7 +259,7 @@ namespace ADS.Core.Domain.Controller
                 if (readerId != null || readerId != "")
                 {
                     Reader r = new Reader(Convert.ToInt32(readerId), "", "");
-                    AbstractNode<Reader> found = _model.ReadersById.SearchNode(r, _model.ReadersById.Root);
+                    AbstractNode<Reader> found = LibraryModel.ReadersById.SearchNode(r, LibraryModel.ReadersById.Root);
                     if (found == null)
                     {
                         return new string[] { };
@@ -297,7 +287,7 @@ namespace ADS.Core.Domain.Controller
 
         public string[] ShowAllLibraries()
         {
-            return _model.Libraries.InorderTraversalToStringArray(_model.Libraries.Root);
+            return LibraryModel.Libraries.InorderTraversalToStringArray(LibraryModel.Libraries.Root);
         }
 
         public string ShowBooksInLibrary(string libraryId)
@@ -307,7 +297,7 @@ namespace ADS.Core.Domain.Controller
 
         public string ShowBorrowedBooksInLibrary(string libraryId)
         {
-            AbstractNode<Library> lib = _model.Libraries.SearchNode(new Library(libraryId), _model.Libraries.Root);
+            AbstractNode<Library> lib = LibraryModel.Libraries.SearchNode(new Library(libraryId), LibraryModel.Libraries.Root);
             return lib.Data.BorrowedBooks?.InorderTraversal(lib.Data.BorrowedBooks.Root);
         }
 
@@ -316,8 +306,8 @@ namespace ADS.Core.Domain.Controller
             try
             {
                 Reader r = new Reader(_model.NewReaderId(), name, surname);
-                _model.ReadersById.Add(r);
-                _model.ReadersByName.Add(r);
+                LibraryModel.ReadersById.Add(r);
+                LibraryModel.ReadersByName.Add(r);
                 return true;
             }
             catch (Exception)
@@ -330,7 +320,7 @@ namespace ADS.Core.Domain.Controller
 
         public bool AddNewBook(string title, string author, string genre, string isbn, string ean, string libraryId)
         {
-            AbstractNode<Library> lib = _model.Libraries.SearchNode(new Library(libraryId), _model.Libraries.Root);
+            AbstractNode<Library> lib = LibraryModel.Libraries.SearchNode(new Library(libraryId), LibraryModel.Libraries.Root);
             Book knizka = new Book(author, title, genre, isbn);
             lib.Data.AllBooksByIsbn.Add(knizka);
             lib.Data.AllBooksByName.Add(knizka);
@@ -350,7 +340,7 @@ namespace ADS.Core.Domain.Controller
         public bool ArchiveBook(string isbn, int bookId, string libraryName)
         {
             Book b = new Book(isbn, bookId, "");
-            AvlTreeNode<Library> lib = (AvlTreeNode<Library>)_model.Libraries.SearchNode(new Library(libraryName), _model.Libraries.Root);
+            AvlTreeNode<Library> lib = (AvlTreeNode<Library>)LibraryModel.Libraries.SearchNode(new Library(libraryName), LibraryModel.Libraries.Root);
             AbstractNode<Book> foundB = lib.Data.AllBooksByIsbn.SearchNode(b, lib.Data.AllBooksByIsbn.Root);
 
             if (foundB != null)
@@ -361,39 +351,40 @@ namespace ADS.Core.Domain.Controller
             return false;
         }
 
-        public string[] ShowLateReturnedBooks(string readerId, DateTime fromTime, DateTime toTime)
+        public string ShowLateReturnedBooks(string readerId, DateTime fromTime, DateTime toTime)
         {
             Reader r = new Reader(Convert.ToInt32(readerId), "", "");
-            var found = _model.ReadersById.SearchNode(r, _model.ReadersById.Root);
-            if (found != null)
+            var found = LibraryModel.ReadersById.SearchNode(r, LibraryModel.ReadersById.Root);
+            if (found == null)
             {
-                return new string[]{};
+                return "";
             }
             else
             {
                 _model.ReaderSession = new ReaderSession(found.Data);
-                return found.Data.LateBookReturns.InorderTraversalToStringArray(found.Data.LateBookReturns.Root);
+                string ret = found.Data.LateBookReturns.InorderTraversal(found.Data.LateBookReturns.Root);
+                return ret;
             }
         }
 
-        public string[] ShowBorrowedBooksPast(string readerId)
+        public string ShowBorrowedBooksPast(string readerId)
         {
             Reader r = new Reader(Convert.ToInt32(readerId), "", "");
-            var found = _model.ReadersById.SearchNode(r, _model.ReadersById.Root);
+            var found = LibraryModel.ReadersById.SearchNode(r, LibraryModel.ReadersById.Root);
             if (found == null)
             {
-                return new string[] { };
+                return "";
             }
             else
             {
                 _model.ReaderSession = new ReaderSession(found.Data);
-                return found.Data.BooksBorrowedInPast.InorderTraversalToStringArray(found.Data.BooksBorrowedInPast.Root);
+                return found.Data.BooksBorrowedInPast.InorderTraversal(found.Data.BooksBorrowedInPast.Root);
             }
         }
 
         public bool AddLibrary(string name)
         {
-            return _model.Libraries.Add(new Library(name));
+            return LibraryModel.Libraries.Add(new Library(name));
         }
 
         public bool RemoveLibrary(string libraryId, string moveToLibraryId)
@@ -414,7 +405,7 @@ namespace ADS.Core.Domain.Controller
                 throw;
             }
 
-            var r = _model.ReadersById.SearchNode(new Reader(id, "", ""), _model.ReadersById.Root);
+            var r = LibraryModel.ReadersById.SearchNode(new Reader(id, "", ""), LibraryModel.ReadersById.Root);
             if (r != null)
             {
                 r.Data.IsActive = false;
@@ -426,23 +417,23 @@ namespace ADS.Core.Domain.Controller
 
         public string ShowAllReaders()
         {
-            return _model.ReadersByName.InorderTraversal(_model.ReadersByName.Root);
+            return LibraryModel.ReadersByName.InorderTraversal(LibraryModel.ReadersByName.Root);
         }
 
         public string ShowAllBooks()
         {
-            return _model.BooksByName.InorderTraversal(_model.BooksByName.Root);
+            return LibraryModel.BooksByName.InorderTraversal(LibraryModel.BooksByName.Root);
         }
 
         public string[] ShowAllBooksArray()
         {
-            return _model.BooksByName.InorderTraversalToStringArray(_model.BooksByName.Root);
+            return LibraryModel.BooksByName.InorderTraversalToStringArray(LibraryModel.BooksByName.Root);
         }
 
         public string ShowAllBooks(string libraryName)
         {
             Library l = new Library(libraryName);
-            AvlTreeNode<Library> lib = (AvlTreeNode<Library>) _model.Libraries.SearchNode(l, _model.Libraries.Root);
+            AvlTreeNode<Library> lib = (AvlTreeNode<Library>) LibraryModel.Libraries.SearchNode(l, LibraryModel.Libraries.Root);
             if (lib != null && lib.Data.AllBooksByName != null)
             {
                 return lib.Data.AllBooksByName.InorderTraversal(lib.Data.AllBooksByName.Root);
@@ -453,7 +444,7 @@ namespace ADS.Core.Domain.Controller
         public string[] ShowAllBooksArray(string libraryName)
         {
             Library l = new Library(libraryName);
-            AvlTreeNode<Library> lib = (AvlTreeNode<Library>)_model.Libraries.SearchNode(l, _model.Libraries.Root);
+            AvlTreeNode<Library> lib = (AvlTreeNode<Library>)LibraryModel.Libraries.SearchNode(l, LibraryModel.Libraries.Root);
             if (lib != null && lib.Data.AllBooksByName != null)
             {
                 return lib.Data.AllBooksByName.InorderTraversalToStringArray(lib.Data.AllBooksByName.Root);
@@ -471,7 +462,7 @@ namespace ADS.Core.Domain.Controller
             Book b = new Book("", bookname, "", "", "", null, uniqueid);
             Library l = new Library(libraryName);
 
-            var library = _model.Libraries.SearchNode(l, _model.Libraries.Root);
+            var library = LibraryModel.Libraries.SearchNode(l, LibraryModel.Libraries.Root);
 
             var foundA = library?.Data.AllBooksByName.SearchNode(b, library?.Data.AllBooksByName.Root);
 
@@ -479,7 +470,7 @@ namespace ADS.Core.Domain.Controller
             {
                 string isbn = foundA.Data.CodeIsbn;
                 b.CodeIsbn = isbn;
-                var foundB = _model.BooksByIsbn.SearchNode(b, _model.BooksByIsbn.Root);
+                var foundB = LibraryModel.BooksByIsbn.SearchNode(b, LibraryModel.BooksByIsbn.Root);
 
                 if (foundB != null)
                 {
@@ -497,7 +488,7 @@ namespace ADS.Core.Domain.Controller
             if (names.Length == 2)
             {
                 Reader r1 = new Reader(-1, names[0], names[1]);
-                var found = _model.ReadersByName.SearchNode(r1, _model.ReadersByName.Root);
+                var found = LibraryModel.ReadersByName.SearchNode(r1, LibraryModel.ReadersByName.Root);
                 if (found != null)
                 {
                     _model.ReaderSession = new ReaderSession(found.Data);
@@ -505,7 +496,7 @@ namespace ADS.Core.Domain.Controller
                     toreturn[0] = found.Data.ToString();
                     return toreturn;
                 }
-                List<AbstractNode<Reader>> similarList1 = _model.ReadersByName.SearchSimilar(r1, _model.ReadersByName.Root);
+                List<AbstractNode<Reader>> similarList1 = LibraryModel.ReadersByName.SearchSimilar(r1, LibraryModel.ReadersByName.Root);
                 string[] similar = new string[similarList1.Count];
                 for (int reader = 0; reader < similarList1.Count; reader++)
                 {
@@ -516,7 +507,7 @@ namespace ADS.Core.Domain.Controller
             else if (names.Length == 1)
             {
                 Reader r1 = new Reader(-1, names[0], "");
-                List<AbstractNode<Reader>> similarList1 = _model.ReadersByName.SearchSimilar(r1, _model.ReadersByName.Root);
+                List<AbstractNode<Reader>> similarList1 = LibraryModel.ReadersByName.SearchSimilar(r1, LibraryModel.ReadersByName.Root);
                 string[] similar = new string[similarList1.Count];
                 for (int reader = 0; reader < similarList1.Count; reader++)
                 {
@@ -537,7 +528,7 @@ namespace ADS.Core.Domain.Controller
 
         public void AddNewBook(string title, string author, string genre, string isbn, string ean, string libraryName, int fee, int borrowLength)
         {
-            AbstractNode<Library> lib = _model.Libraries.SearchNode(new Library(libraryName), _model.Libraries.Root);
+            AbstractNode<Library> lib = LibraryModel.Libraries.SearchNode(new Library(libraryName), LibraryModel.Libraries.Root);
             var bookId = 0; // 
             Book knizka = new Book(author, title, isbn, ean, genre, lib.Data, bookId, fee, borrowLength);
             lib.Data.AllBooksByIsbn.Add(knizka);
