@@ -7,8 +7,6 @@ Already implemented:
 * Left, Right, Double rorations
 * Changing heights
 * Changing balance factor
-
-To be implemented:
 * Deletion
 * Orders
 
@@ -16,18 +14,23 @@ Tested:
 * Right rotation
 * Left rotation
 * Insertion (10 possible cases with child nodes + 4 simple)
+* Deletions with rotations
 
 ## Binary Search Tree
 
 Already implemented:
 * Insertion
 * Deletion
-
-To be implemented:
-* Tree traversals
+* Tree traversals recursive, non-recursive
 
 Tested:
 * Deletion (3 possible cases)
+
+## Singly Linked List
+
+Already implemented:
+* Insertion
+* Deletion
 
 
 
