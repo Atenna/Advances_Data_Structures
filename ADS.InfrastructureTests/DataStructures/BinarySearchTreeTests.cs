@@ -50,6 +50,23 @@ namespace ADS.InfrastructureTests.DataStructures
             Assert.AreEqual(data, 19);
         }
         [TestMethod()]
+        public void BstRemoveWithAncestorsTest()
+        {
+            BinarySearchTree<int> bst = new BinarySearchTree<int>(null);
+
+            bst.Add(5);
+            bst.Add(6);
+            bst.Add(4);
+            bst.Add(8);
+
+            bst.BstRemove(5, bst.Root);
+
+            Assert.AreEqual(6,bst.Root.Data);
+            Assert.AreEqual(8, bst.Root.Right.Data);
+            Assert.IsNull(bst.Root.Right.Right);
+            
+        }
+        [TestMethod()]
         public void BstRemoveNoChildTest()
         {
             BinarySearchTree<int> bst = new BinarySearchTree<int>(null);
@@ -107,6 +124,21 @@ namespace ADS.InfrastructureTests.DataStructures
             var nothing = bst.BstRemove(5, bst.Root);
 
             Assert.IsNull(nothing);
+        }
+        [TestMethod()]
+        public void BstRemoveWithAncestorTest()
+        {
+            BinarySearchTree<int> bst = new BinarySearchTree<int>(null);
+
+            bst.Add(5);
+            bst.Add(6);
+            bst.Add(2);
+            bst.Add(0);
+
+            var nothing = bst.BstRemove(0, bst.Root);
+
+            Assert.AreEqual(5,bst.Root.Data);
+            Assert.AreEqual(2, bst.Root.Left.Data);
         }
         [TestMethod()]
         public void AddTest()

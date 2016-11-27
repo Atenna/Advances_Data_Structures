@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -40,16 +41,16 @@ namespace ADS.ADS.Services.DataProcessing
                     var found = tree.SearchNode(new Reader(Convert.ToInt32(reader[1]), readerName[0], readerName[1]),
                         tree.Root);
                     WriteBorrowingToFile(wA, found.Data.BooksCurrentlyBorrowed);
-                    WriteBorrowingToFile(wB, found.Data.BooksBorrowedInPast);
-                    WriteBorrowingToFile(wC, found.Data.LateBookReturns);
+                    WritePastBorrowingToFile(wB, found.Data.BooksBorrowedInPast);
+                    WriteLateBorrowingToFile(wC, found.Data.LateBookReturns);
                 }
                 else
                 {
                     var found = tree.SearchNode(new Reader(Convert.ToInt32(reader[2]), readerName[0], readerName[1]),
                     tree.Root);
                     WriteBorrowingToFile(wA, found.Data.BooksCurrentlyBorrowed);
-                    WriteBorrowingToFile(wB, found.Data.BooksBorrowedInPast);
-                    WriteBorrowingToFile(wC, found.Data.LateBookReturns);
+                    WritePastBorrowingToFile(wB, found.Data.BooksBorrowedInPast);
+                    WriteLateBorrowingToFile(wC, found.Data.LateBookReturns);
                 }
                 
             }
@@ -59,14 +60,36 @@ namespace ADS.ADS.Services.DataProcessing
             wC.Close();
         }
 
-        private static void WriteBorrowingToFile(StreamWriter w, AvlTree<Borrowing> tree)
+        private static void WriteLateBorrowingToFile(StreamWriter wC, List<Borrowing> data)
         {
-            string[] a = tree.InorderTraversalToStringArraysave(tree.Root);
-            if (a != null)
+            if (data != null || data.Count != 0)
             {
-                for (int i = 0; i < a.Length; i++)
+                for (int i = 0; i < data.Count; i++)
                 {
-                    w.WriteLine(a[i]);
+                    wC.WriteLine(data[i].ToStringSave());
+                }
+            }
+        }
+
+        private static void WritePastBorrowingToFile(StreamWriter wB, List<Borrowing> data)
+        {
+            if (data != null && data.Count != 0)
+            {
+                for (int i = 0; i < data.Count; i++)
+                {
+                    wB.WriteLine(data[i].ToStringSave());
+                }
+            }
+        }
+
+        private static void WriteBorrowingToFile(StreamWriter w, List<Book> tree)
+        {
+            
+            if (tree != null && tree.Count != 0)
+            {
+                for (int i = 0; i < tree.Count; i++)
+                {
+                    w.WriteLine(tree[i].ToStringSave());
                 }
             }
         }
@@ -78,6 +101,7 @@ namespace ADS.ADS.Services.DataProcessing
             {
                 for (int i = 0; i < a.Length; i++)
                 {
+                    // nezapisuje readera
                     w.WriteLine(a[i]);
                 }
             }

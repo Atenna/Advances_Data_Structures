@@ -25,7 +25,13 @@ namespace ADS.Core.Domain.Controller
         public void ReturnBook(string bookIsbn, int bookId, string libraryName)
         {
             // to do 
-            Reader.BooksCurrentlyBorrowed.RemoveNode(null);
+            for (int i = 0; i < Reader.BooksCurrentlyBorrowed.Count; i++)
+            {
+                if (Reader.BooksCurrentlyBorrowed[i].UniqueId == bookId)
+                {
+                    Reader.BooksCurrentlyBorrowed.RemoveAt(i);
+                }
+            }
         }
     }
 }

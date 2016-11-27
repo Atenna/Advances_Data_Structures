@@ -26,6 +26,8 @@ namespace Advanced_Data_Structures
             comboBoxShowBorrowedBooks.Items.Clear();
             comboBoxReturnBook.Items.Clear();
             comboBoxRegisterLibrary.Items.Clear();
+            LibrariesToMove.Items.Clear();
+            LibrariesToArchive.Items.Clear();
             string[] libs = _ctrl.ShowAllLibraries();
             for (int i = 0; i < libs.Length; i++)
             {
@@ -35,6 +37,8 @@ namespace Advanced_Data_Structures
                 comboBoxShowBorrowedBooks.Items.Add(libs[i]);
                 comboBoxReturnBook.Items.Add(libs[i]);
                 comboBoxRegisterLibrary.Items.Add(libs[i]);
+                LibrariesToMove.Items.Add(libs[i]);
+                LibrariesToArchive.Items.Add(libs[i]);
             }
         }
 
@@ -226,6 +230,9 @@ namespace Advanced_Data_Structures
                 MessageBox.Show("No reader is selected", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+
+            var when = dateTimePicker2.Value;
+
             var library = comboBoxCheckoutSelectLibrary.SelectedItem?.ToString();
 
             var book = checkedListBoxCheckoutBorrowBooks.CheckedItems[0].ToString().Split(',');
@@ -243,7 +250,7 @@ namespace Advanced_Data_Structures
             var bookIdS = book[1].Substring(12);
             var bookId = int.Parse(bookIdS);
 
-            bool flag = _ctrl.BorrowBook(bookId, isbn, _ctrl._model.ReaderSession.Reader.UniqueId, library);
+            bool flag = _ctrl.BorrowBook(bookId, isbn, _ctrl._model.ReaderSession.Reader.UniqueId, library, when);
             if (!flag)
             {
                 MessageBox.Show("Book can't be borrowed", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -378,7 +385,9 @@ namespace Advanced_Data_Structures
                 var bookIdS = book[1].Substring(12);
                 var bookId = int.Parse(bookIdS);
 
-                var flag = _ctrl.ReturnBook(isbn, bookId, bookName, readerId, libraryId);
+                var returnDate = dateTimePicker1.Value;
+
+                var flag = _ctrl.ReturnBook(isbn, bookId, bookName, readerId, libraryId, returnDate);
                 // kniha uspesne vratena na svoju pobocku
                 if (flag == 0)
                 {
@@ -534,6 +543,50 @@ namespace Advanced_Data_Structures
             {
                 _ctrl.AddLibrary(libName);
                 FillComboBoxCollections();
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            _ctrl.Save();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var toArchive = LibrariesToArchive.SelectedItem.ToString();
+            var toMove = LibrariesToMove.SelectedItem.ToString();
+            var flag = _ctrl.RemoveLibrary(toArchive, toMove);
+            RefreshLibraries();
+            if (flag)
+            {
+                MessageBox.Show("Library has been archived", "Success", MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Whoops, something went wrong.", "Sorry!", MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+            }
+        }
+
+        private void RefreshLibraries()
+        {
+            string[] libs = _ctrl.ShowAllLibraries();
+            comboBoxSearchBookSelectLibrary.Items.Clear();
+            comboBoxCheckoutSelectLibrary.Items.Clear();
+            comboBoxRegisterLibrary.Items.Clear();
+            LibrariesToMove.Items.Clear();
+            LibrariesToArchive.Items.Clear();
+            for (int i = 0; i < libs.Length; i++)
+            {
+                comboBoxSearchBookSelectLibrary.Items.Add(libs[i]);
+                comboBoxCheckoutSelectLibrary.Items.Add(libs[i]);
+                comboBoxArchiveBookLibrary.Items.Add(libs[i]);
+                comboBoxShowBorrowedBooks.Items.Add(libs[i]);
+                comboBoxReturnBook.Items.Add(libs[i]);
+                comboBoxRegisterLibrary.Items.Add(libs[i]);
+                LibrariesToMove.Items.Add(libs[i]);
+                LibrariesToArchive.Items.Add(libs[i]);
             }
         }
     }

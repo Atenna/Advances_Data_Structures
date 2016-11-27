@@ -21,9 +21,9 @@ namespace ADS.Core.Domain.Controller
 
         string SearchBookByName(string name, string libraryName);
 
-        bool BorrowBook(int bookId, string bookIsbn, int readerId, string libraryName);
+        bool BorrowBook(int bookId, string bookIsbn, int readerId, string libraryName, DateTime when);
 
-        int ReturnBook(string isbn, int bookId, string bookName, int readerId, string libraryId);
+        int ReturnBook(string isbn, int bookId, string bookName, int readerId, string libraryId, DateTime when);
 
         string SearchReaderById(string readerId);
 

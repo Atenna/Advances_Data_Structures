@@ -94,62 +94,96 @@ namespace ADS.ADS.DataStructures
             }
         }
 
-        public AbstractNode<T> BstRemove(T data, AbstractNode<T> root)
+        //public AbstractNode<T> BstRemove(T data, AbstractNode<T> root)
+        //{
+        //    AbstractNode<T> current = root;
+        //    AbstractNode<T> ancestor = root;
+        //    bool flag = true;
+        //    while (flag)
+        //    {
+        //        if (current == null)
+        //        {
+        //            // prvok sa nenasiel
+        //            flag = false;
+        //            return null;
+        //        }
+        //        // najdeny prvok
+        //        if(Comparer.Compare(data, current.Data) == 0)
+        //        {
+        //            // uzol nema potomkov
+        //            if (current.Left == null && current.Right == null)
+        //            {
+        //                if (current.Ancestor == null)
+        //                {
+        //                    Root = null;
+        //                    return Root;
+        //                }
+        //                ancestor = SetPointersToNull(current, data);
+        //                flag = false;
+        //                break;
+        //            }
+        //            // uzol ma dvoch potomkov
+        //            else if (current.Left != null && current.Right != null)
+        //            {
+        //                current.Data = MinValue(current.Right);
+        //                BstRemove(current.Data, current.Right);
+        //                flag = false;
+        //            }
+        //            // uzol ma jedneho potomka
+        //            else
+        //            {
+        //                var childData = current.Left != null ? current.Left.Data : current.Right.Data;
+        //                current.Data = childData;
+        //                ancestor = SetPointersToNull(current, data);
+        //                flag = false;
+        //                break;
+        //            }
+        //        }
+        //        else if (Comparer.Compare(data, current.Data) == -1)
+        //        {
+        //            current = current.Left;
+        //        }
+        //        else if (Comparer.Compare(data, current.Data) == 1)
+        //        {
+        //            current = current.Right;
+        //        }
+        //    }
+        //    return ancestor;
+        //}
+
+        public AbstractNode<T> BstRemove(T key, AbstractNode<T> root)
         {
-            AbstractNode<T> current = root;
-            AbstractNode<T> ancestor = root;
-            bool flag = true;
-            while (flag)
+            if (root == null)
             {
-                if (current == null)
-                {
-                    // prvok sa nenasiel
-                    flag = false;
-                    return null;
-                }
-                // najdeny prvok
-                //if (current.Data.CompareTo(data) == 0)
-                if(Comparer.Compare(data, current.Data) == 0)
-                {
-                    // uzol nema potomkov
-                    if (current.Left == null && current.Right == null)
-                    {
-                        if (current.Ancestor == null)
-                        {
-                            Root = null;
-                            return Root;
-                        }
-                        ancestor = SetPointersToNull(current, data);
-                        flag = false;
-                        break;
-                    }
-                    // uzol ma dvoch potomkov
-                    else if (current.Left != null && current.Right != null)
-                    {
-                        current.Data = MinValue(current.Right);
-                        BstRemove(current.Data, current.Right);
-                        flag = false;
-                    }
-                    // uzol ma jedneho potomka
-                    else
-                    {
-                        var childData = current.Left != null ? current.Left.Data : current.Right.Data;
-                        current.Data = childData;
-                        ancestor = SetPointersToNull(current, data);
-                        flag = false;
-                        break;
-                    }
-                }
-                else if (Comparer.Compare(data, current.Data) == -1)
-                {
-                    current = current.Left;
-                }
-                else if (Comparer.Compare(data, current.Data) == 1)
-                {
-                    current = current.Right;
-                }
+                return root;
             }
-            return ancestor;
+
+            if (Comparer.Compare(key, root.Data) == -1)
+            {
+                root.Left = BstRemove(key, root.Left);
+            }
+            else if (Comparer.Compare(key, root.Data) == 1)
+            {
+                root.Right = BstRemove(key, root.Right);
+            }
+            // maze sa root
+            else
+            {
+                if (root.Left == null)
+                {
+                    return root.Right;
+                }
+                else if (root.Right == null)
+                {
+                    return root.Left;
+                }
+
+                root.Data = MinValue(root.Right);
+
+                root.Right = BstRemove(root.Data, root.Right);
+            }
+
+            return root;
         }
 
         private AbstractNode<T> SetPointersToNull(AbstractNode<T> current, T data)
@@ -580,6 +614,45 @@ namespace ADS.ADS.DataStructures
             PostorderTraversalRecursive(node.Right);
 
             Console.Write("{0} ", node.Data);
+        }
+
+        public List<T> InorderTraversalToList(AbstractNode<T> root)
+        {
+            Stack<AbstractNode<T>> stack = new Stack<AbstractNode<T>>();
+            List<T> list = new List<T>();
+
+            if (root == null)
+            {
+                return null;
+            }
+
+            AbstractNode<T> current = root;
+
+            while (current != null)
+            {
+                stack.Push(current);
+                current = current.Left;
+            }
+
+            while (stack.Count > 0)
+            {
+                current = stack.Pop();
+
+                list.Add(current.Data);
+
+                if (current.Right != null)
+                {
+                    current = current.Right;
+
+                    while (current != null)
+                    {
+                        stack.Push(current);
+                        current = current.Left;
+                    }
+                }
+            }
+
+            return list;
         }
     }
 }

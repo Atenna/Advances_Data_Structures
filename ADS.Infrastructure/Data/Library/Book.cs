@@ -206,6 +206,7 @@ namespace ADS.ADS.Data.Library
 
         public bool Borrow(Reader r)
         {
+            IsBlocked(r);
             if (IsBorrowed || r.HasBlockedBorrowing || IsArchived)
             {
                 return false;
@@ -218,8 +219,21 @@ namespace ADS.ADS.Data.Library
             return true;
         }
 
+        private void IsBlocked(Reader reader)
+        {
+            for (int i = 0; i < reader.BooksCurrentlyBorrowed.Count; i++)
+            {
+                if ((DateTime.Today - reader.BooksCurrentlyBorrowed[i].TimeOfBorrow.Value).Days > 60)
+                {
+                    reader.HasBlockedBorrowing = true;
+                    return;
+                }
+            }
+        }
+
         public bool Borrow(Reader r, DateTime timeOfBorrow)
         {
+            IsBlocked(r);
             if (IsBorrowed || r.HasBlockedBorrowing || IsArchived)
             {
                 return false;
@@ -244,7 +258,15 @@ namespace ADS.ADS.Data.Library
 
             IsBorrowed = false;
             TimeOfReturn = DateTime.Now;
-            r.BooksCurrentlyBorrowed.RemoveNode(Copy());
+
+            for (var i = 0; i < r.BooksCurrentlyBorrowed.Count; i++)
+            {
+                if (r.BooksCurrentlyBorrowed[i].UniqueId == this.UniqueId)
+                {
+                    r.BooksCurrentlyBorrowed.RemoveAt(i);
+                }
+            }
+
             CurrentReader = null;
             CurrentLibrary = l;
             l.AllBooksByIsbn.Add(this);
@@ -272,8 +294,15 @@ namespace ADS.ADS.Data.Library
 
                 l.AllBooksByIsbn.Add(this);
                 l.AllBooksByName.Add(this);
-                
-                r.BooksCurrentlyBorrowed.RemoveNode(Copy());
+
+                for (var i = 0; i < r.BooksCurrentlyBorrowed.Count; i++)
+                {
+                    if (r.BooksCurrentlyBorrowed[i].UniqueId == this.UniqueId)
+                    {
+                        r.BooksCurrentlyBorrowed.RemoveAt(i);
+                    }
+                }
+
                 TimeOfBorrow = null;
             }
         }

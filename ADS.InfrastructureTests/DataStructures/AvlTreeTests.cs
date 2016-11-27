@@ -25,6 +25,19 @@ namespace ADS.InfrastructureTests.DataStructures
             Assert.IsNull(avl.Root.Right);
         }
         [TestMethod()]
+        public void RemoveWithAncestorNoRotationTest()
+        {
+            AvlTree<int> avl = new AvlTree<int>(null);
+
+            avl.Add(5);
+            avl.Add(6);
+            avl.Add(2);
+            avl.Add(1);
+
+            avl.RemoveNode(2);
+            Assert.AreEqual(2, avl.Root.Left.Data);
+        }
+        [TestMethod()]
         public void RemoveWithLeftRotationOneChildTest()
         {
             AvlTree<int> avl = new AvlTree<int>(null);

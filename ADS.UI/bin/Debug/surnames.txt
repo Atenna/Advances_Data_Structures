@@ -565,7 +565,7 @@ Lessing
 Leutheusser
 Levetzow
 Lewald
-Lei, Ley
+Lei Ley
 Lichtenberg
 Lichtenstein
 Littmann
@@ -597,7 +597,7 @@ Lücking
 Lussky
 Lüttge
 Klevenow
-Mahr, Mehr
+Mahr Mehr
 Maislinger
 Maltzahn
 Maltitz
@@ -753,7 +753,7 @@ Riehm
 Riemann
 Riemer
 Riesbeck
-Rilke, Rilko
+Rilke Rilko
 Rockmeier
 Rodenburg
 Roentgen
@@ -915,7 +915,7 @@ Sonnenthal
 Sorge
 Spaller
 Spark
-Spee, Spe
+Spee Spe
 Spengler
 Sperber
 Sperger
@@ -1026,10 +1026,10 @@ Vögelin
 Voegelin
 Vogler
 Vogt
-Voigt, Voit
+Voigt Voit
 Volkmann
 Volland
-Voss, Foss
+Voss Foss
 Wachter
 Wachtel
 Wagenseil

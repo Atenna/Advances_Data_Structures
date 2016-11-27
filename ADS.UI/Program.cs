@@ -16,11 +16,6 @@ namespace Advanced_Data_Structures
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new AdsApplication());
-            AppDomain.CurrentDomain.ProcessExit += new EventHandler(OnProcessExit);
-        }
-        static void OnProcessExit(object sender, EventArgs e)
-        {
-            LibraryModel.Save();
         }
     }
 }

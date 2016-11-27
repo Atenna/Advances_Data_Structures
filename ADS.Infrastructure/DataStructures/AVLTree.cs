@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using ADS.ADS.Data.Library;
 using ADS.ADS.Nodes;
 
 namespace ADS.ADS.DataStructures
@@ -258,6 +259,10 @@ namespace ADS.ADS.DataStructures
                 else
                 {
                     AdjustHeightToNode(ancestor);
+                }
+                if (ancestor.Ancestor == null)
+                {
+                    break;
                 }
                 ancestor = (AvlTreeNode<T>) ancestor.Ancestor;
             }

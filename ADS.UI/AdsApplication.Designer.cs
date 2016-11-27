@@ -70,14 +70,12 @@ namespace Advanced_Data_Structures
             this.textBoxArchiveBookName = new System.Windows.Forms.TextBox();
             this.buttonArchiveBookSearch = new System.Windows.Forms.Button();
             this.tabPageArchiveReader = new System.Windows.Forms.TabPage();
+            this.checkedListBoxArchiveReader = new System.Windows.Forms.CheckedListBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.buttonArchiveReader = new System.Windows.Forms.Button();
             this.textBoxArchiveReaderSearch = new System.Windows.Forms.TextBox();
             this.buttonArchiveReaderSearch = new System.Windows.Forms.Button();
             this.tabPageArchiveLibrary = new System.Windows.Forms.TabPage();
-            this.buttonArchiveSelectedLibrary = new System.Windows.Forms.Button();
-            this.textBoxArchiveLibraryName = new System.Windows.Forms.TextBox();
-            this.buttonArchiveLibrarySearch = new System.Windows.Forms.Button();
-            this.richTextBoxArchiveLibrary = new System.Windows.Forms.RichTextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabControlRegister = new System.Windows.Forms.TabControl();
             this.tabPageRegisterReader = new System.Windows.Forms.TabPage();
@@ -120,6 +118,7 @@ namespace Advanced_Data_Structures
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabControlCheckout = new System.Windows.Forms.TabControl();
             this.tabPageCheckoutReader = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
             this.buttonSelectFromFoundReaders = new System.Windows.Forms.Button();
             this.buttonSearchByReaderName = new System.Windows.Forms.Button();
             this.buttonSearchByLibraryCardId = new System.Windows.Forms.Button();
@@ -130,14 +129,17 @@ namespace Advanced_Data_Structures
             this.label10 = new System.Windows.Forms.Label();
             this.textBoxSearchByLibraryCardId = new System.Windows.Forms.TextBox();
             this.tabPageCheckoutCurrent = new System.Windows.Forms.TabPage();
+            this.labelFee = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.comboBoxReturnBook = new System.Windows.Forms.ComboBox();
             this.checkedListBoxCheckoutCurrent = new System.Windows.Forms.CheckedListBox();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.tabPageCheckoutPrevious = new System.Windows.Forms.TabPage();
+            this.richTextBoxCheckoutPrevious = new System.Windows.Forms.RichTextBox();
             this.checkedListBoxCheckoutPrevious = new System.Windows.Forms.CheckedListBox();
             this.tabPageCheckoutLateReturns = new System.Windows.Forms.TabPage();
+            this.richTextBoxCheckoutLate = new System.Windows.Forms.RichTextBox();
             this.tabPageCheckoutBorrow = new System.Windows.Forms.TabPage();
             this.labelBorrowSelectLibrary = new System.Windows.Forms.Label();
             this.comboBoxCheckoutSelectLibrary = new System.Windows.Forms.ComboBox();
@@ -147,11 +149,13 @@ namespace Advanced_Data_Structures
             this.labelBorrowBookId = new System.Windows.Forms.Label();
             this.textBoxCheckoutSearchBook = new System.Windows.Forms.TextBox();
             this.tabControlOuter = new System.Windows.Forms.TabControl();
-            this.label1 = new System.Windows.Forms.Label();
-            this.checkedListBoxArchiveReader = new System.Windows.Forms.CheckedListBox();
-            this.richTextBoxCheckoutLate = new System.Windows.Forms.RichTextBox();
-            this.richTextBoxCheckoutPrevious = new System.Windows.Forms.RichTextBox();
-            this.labelFee = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.LibrariesToArchive = new System.Windows.Forms.ComboBox();
+            this.LibrariesToMove = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.tabPage5.SuspendLayout();
             this.tabControlSearch.SuspendLayout();
             this.tabPageSearchBook.SuspendLayout();
@@ -554,6 +558,23 @@ namespace Advanced_Data_Structures
             this.tabPageArchiveReader.Text = "Reader";
             this.tabPageArchiveReader.UseVisualStyleBackColor = true;
             // 
+            // checkedListBoxArchiveReader
+            // 
+            this.checkedListBoxArchiveReader.FormattingEnabled = true;
+            this.checkedListBoxArchiveReader.Location = new System.Drawing.Point(55, 53);
+            this.checkedListBoxArchiveReader.Name = "checkedListBoxArchiveReader";
+            this.checkedListBoxArchiveReader.Size = new System.Drawing.Size(353, 464);
+            this.checkedListBoxArchiveReader.TabIndex = 16;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(476, 53);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(65, 18);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Reader Id";
+            // 
             // buttonArchiveReader
             // 
             this.buttonArchiveReader.Location = new System.Drawing.Point(479, 191);
@@ -585,51 +606,17 @@ namespace Advanced_Data_Structures
             // 
             // tabPageArchiveLibrary
             // 
-            this.tabPageArchiveLibrary.Controls.Add(this.buttonArchiveSelectedLibrary);
-            this.tabPageArchiveLibrary.Controls.Add(this.textBoxArchiveLibraryName);
-            this.tabPageArchiveLibrary.Controls.Add(this.buttonArchiveLibrarySearch);
-            this.tabPageArchiveLibrary.Controls.Add(this.richTextBoxArchiveLibrary);
+            this.tabPageArchiveLibrary.Controls.Add(this.label3);
+            this.tabPageArchiveLibrary.Controls.Add(this.label2);
+            this.tabPageArchiveLibrary.Controls.Add(this.LibrariesToMove);
+            this.tabPageArchiveLibrary.Controls.Add(this.LibrariesToArchive);
+            this.tabPageArchiveLibrary.Controls.Add(this.button2);
             this.tabPageArchiveLibrary.Location = new System.Drawing.Point(4, 41);
             this.tabPageArchiveLibrary.Name = "tabPageArchiveLibrary";
             this.tabPageArchiveLibrary.Size = new System.Drawing.Size(738, 640);
             this.tabPageArchiveLibrary.TabIndex = 3;
             this.tabPageArchiveLibrary.Text = "Library";
             this.tabPageArchiveLibrary.UseVisualStyleBackColor = true;
-            // 
-            // buttonArchiveSelectedLibrary
-            // 
-            this.buttonArchiveSelectedLibrary.Location = new System.Drawing.Point(473, 161);
-            this.buttonArchiveSelectedLibrary.Name = "buttonArchiveSelectedLibrary";
-            this.buttonArchiveSelectedLibrary.Size = new System.Drawing.Size(217, 37);
-            this.buttonArchiveSelectedLibrary.TabIndex = 17;
-            this.buttonArchiveSelectedLibrary.Text = "Search in Libraries";
-            this.buttonArchiveSelectedLibrary.UseVisualStyleBackColor = true;
-            // 
-            // textBoxArchiveLibraryName
-            // 
-            this.textBoxArchiveLibraryName.Font = new System.Drawing.Font("Calibri Light", 12F);
-            this.textBoxArchiveLibraryName.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBoxArchiveLibraryName.Location = new System.Drawing.Point(473, 53);
-            this.textBoxArchiveLibraryName.Name = "textBoxArchiveLibraryName";
-            this.textBoxArchiveLibraryName.Size = new System.Drawing.Size(217, 27);
-            this.textBoxArchiveLibraryName.TabIndex = 16;
-            // 
-            // buttonArchiveLibrarySearch
-            // 
-            this.buttonArchiveLibrarySearch.Location = new System.Drawing.Point(473, 98);
-            this.buttonArchiveLibrarySearch.Name = "buttonArchiveLibrarySearch";
-            this.buttonArchiveLibrarySearch.Size = new System.Drawing.Size(217, 37);
-            this.buttonArchiveLibrarySearch.TabIndex = 15;
-            this.buttonArchiveLibrarySearch.Text = "Search in Libraries";
-            this.buttonArchiveLibrarySearch.UseVisualStyleBackColor = true;
-            // 
-            // richTextBoxArchiveLibrary
-            // 
-            this.richTextBoxArchiveLibrary.Location = new System.Drawing.Point(35, 53);
-            this.richTextBoxArchiveLibrary.Name = "richTextBoxArchiveLibrary";
-            this.richTextBoxArchiveLibrary.Size = new System.Drawing.Size(404, 564);
-            this.richTextBoxArchiveLibrary.TabIndex = 14;
-            this.richTextBoxArchiveLibrary.Text = "";
             // 
             // tabPage3
             // 
@@ -1059,6 +1046,7 @@ namespace Advanced_Data_Structures
             // 
             // tabPageCheckoutReader
             // 
+            this.tabPageCheckoutReader.Controls.Add(this.button1);
             this.tabPageCheckoutReader.Controls.Add(this.buttonSelectFromFoundReaders);
             this.tabPageCheckoutReader.Controls.Add(this.buttonSearchByReaderName);
             this.tabPageCheckoutReader.Controls.Add(this.buttonSearchByLibraryCardId);
@@ -1074,6 +1062,16 @@ namespace Advanced_Data_Structures
             this.tabPageCheckoutReader.TabIndex = 3;
             this.tabPageCheckoutReader.Text = "Reader";
             this.tabPageCheckoutReader.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(664, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(74, 34);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Save";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // buttonSelectFromFoundReaders
             // 
@@ -1162,6 +1160,7 @@ namespace Advanced_Data_Structures
             // 
             // tabPageCheckoutCurrent
             // 
+            this.tabPageCheckoutCurrent.Controls.Add(this.dateTimePicker1);
             this.tabPageCheckoutCurrent.Controls.Add(this.labelFee);
             this.tabPageCheckoutCurrent.Controls.Add(this.label24);
             this.tabPageCheckoutCurrent.Controls.Add(this.comboBoxReturnBook);
@@ -1175,6 +1174,14 @@ namespace Advanced_Data_Structures
             this.tabPageCheckoutCurrent.TabIndex = 0;
             this.tabPageCheckoutCurrent.Text = "Current";
             this.tabPageCheckoutCurrent.UseVisualStyleBackColor = true;
+            // 
+            // labelFee
+            // 
+            this.labelFee.AutoSize = true;
+            this.labelFee.Location = new System.Drawing.Point(488, 269);
+            this.labelFee.Name = "labelFee";
+            this.labelFee.Size = new System.Drawing.Size(0, 18);
+            this.labelFee.TabIndex = 18;
             // 
             // label24
             // 
@@ -1213,7 +1220,7 @@ namespace Advanced_Data_Structures
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(491, 201);
+            this.button11.Location = new System.Drawing.Point(491, 269);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(217, 37);
             this.button11.TabIndex = 4;
@@ -1232,6 +1239,14 @@ namespace Advanced_Data_Structures
             this.tabPageCheckoutPrevious.TabIndex = 1;
             this.tabPageCheckoutPrevious.Text = "Previous";
             this.tabPageCheckoutPrevious.UseVisualStyleBackColor = true;
+            // 
+            // richTextBoxCheckoutPrevious
+            // 
+            this.richTextBoxCheckoutPrevious.Location = new System.Drawing.Point(60, 54);
+            this.richTextBoxCheckoutPrevious.Name = "richTextBoxCheckoutPrevious";
+            this.richTextBoxCheckoutPrevious.Size = new System.Drawing.Size(613, 525);
+            this.richTextBoxCheckoutPrevious.TabIndex = 9;
+            this.richTextBoxCheckoutPrevious.Text = "";
             // 
             // checkedListBoxCheckoutPrevious
             // 
@@ -1252,8 +1267,17 @@ namespace Advanced_Data_Structures
             this.tabPageCheckoutLateReturns.Text = "Late returns";
             this.tabPageCheckoutLateReturns.UseVisualStyleBackColor = true;
             // 
+            // richTextBoxCheckoutLate
+            // 
+            this.richTextBoxCheckoutLate.Location = new System.Drawing.Point(59, 54);
+            this.richTextBoxCheckoutLate.Name = "richTextBoxCheckoutLate";
+            this.richTextBoxCheckoutLate.Size = new System.Drawing.Size(613, 525);
+            this.richTextBoxCheckoutLate.TabIndex = 8;
+            this.richTextBoxCheckoutLate.Text = "";
+            // 
             // tabPageCheckoutBorrow
             // 
+            this.tabPageCheckoutBorrow.Controls.Add(this.dateTimePicker2);
             this.tabPageCheckoutBorrow.Controls.Add(this.labelBorrowSelectLibrary);
             this.tabPageCheckoutBorrow.Controls.Add(this.comboBoxCheckoutSelectLibrary);
             this.tabPageCheckoutBorrow.Controls.Add(this.buttonCheckoutSelectBooksToBorrow);
@@ -1287,7 +1311,7 @@ namespace Advanced_Data_Structures
             // 
             // buttonCheckoutSelectBooksToBorrow
             // 
-            this.buttonCheckoutSelectBooksToBorrow.Location = new System.Drawing.Point(471, 291);
+            this.buttonCheckoutSelectBooksToBorrow.Location = new System.Drawing.Point(471, 378);
             this.buttonCheckoutSelectBooksToBorrow.Name = "buttonCheckoutSelectBooksToBorrow";
             this.buttonCheckoutSelectBooksToBorrow.Size = new System.Drawing.Size(217, 37);
             this.buttonCheckoutSelectBooksToBorrow.TabIndex = 13;
@@ -1347,46 +1371,63 @@ namespace Advanced_Data_Structures
             this.tabControlOuter.Size = new System.Drawing.Size(767, 742);
             this.tabControlOuter.TabIndex = 0;
             // 
-            // label1
+            // button2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(476, 53);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 18);
-            this.label1.TabIndex = 15;
-            this.label1.Text = "Reader Id";
+            this.button2.Location = new System.Drawing.Point(345, 80);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(217, 37);
+            this.button2.TabIndex = 23;
+            this.button2.Text = "Archive Selected";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // checkedListBoxArchiveReader
+            // LibrariesToArchive
             // 
-            this.checkedListBoxArchiveReader.FormattingEnabled = true;
-            this.checkedListBoxArchiveReader.Location = new System.Drawing.Point(55, 53);
-            this.checkedListBoxArchiveReader.Name = "checkedListBoxArchiveReader";
-            this.checkedListBoxArchiveReader.Size = new System.Drawing.Size(353, 464);
-            this.checkedListBoxArchiveReader.TabIndex = 16;
+            this.LibrariesToArchive.FormattingEnabled = true;
+            this.LibrariesToArchive.Location = new System.Drawing.Point(49, 91);
+            this.LibrariesToArchive.Name = "LibrariesToArchive";
+            this.LibrariesToArchive.Size = new System.Drawing.Size(217, 26);
+            this.LibrariesToArchive.TabIndex = 24;
             // 
-            // richTextBoxCheckoutLate
+            // LibrariesToMove
             // 
-            this.richTextBoxCheckoutLate.Location = new System.Drawing.Point(59, 54);
-            this.richTextBoxCheckoutLate.Name = "richTextBoxCheckoutLate";
-            this.richTextBoxCheckoutLate.Size = new System.Drawing.Size(613, 525);
-            this.richTextBoxCheckoutLate.TabIndex = 8;
-            this.richTextBoxCheckoutLate.Text = "";
+            this.LibrariesToMove.FormattingEnabled = true;
+            this.LibrariesToMove.Location = new System.Drawing.Point(49, 176);
+            this.LibrariesToMove.Name = "LibrariesToMove";
+            this.LibrariesToMove.Size = new System.Drawing.Size(217, 26);
+            this.LibrariesToMove.TabIndex = 25;
             // 
-            // richTextBoxCheckoutPrevious
+            // label2
             // 
-            this.richTextBoxCheckoutPrevious.Location = new System.Drawing.Point(60, 54);
-            this.richTextBoxCheckoutPrevious.Name = "richTextBoxCheckoutPrevious";
-            this.richTextBoxCheckoutPrevious.Size = new System.Drawing.Size(613, 525);
-            this.richTextBoxCheckoutPrevious.TabIndex = 9;
-            this.richTextBoxCheckoutPrevious.Text = "";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(46, 59);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(111, 18);
+            this.label2.TabIndex = 26;
+            this.label2.Text = "Library to archive";
             // 
-            // labelFee
+            // label3
             // 
-            this.labelFee.AutoSize = true;
-            this.labelFee.Location = new System.Drawing.Point(488, 269);
-            this.labelFee.Name = "labelFee";
-            this.labelFee.Size = new System.Drawing.Size(0, 18);
-            this.labelFee.TabIndex = 18;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(46, 143);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(130, 18);
+            this.label3.TabIndex = 27;
+            this.label3.Text = "Move its books here";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(491, 226);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(217, 25);
+            this.dateTimePicker1.TabIndex = 19;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(471, 326);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(217, 25);
+            this.dateTimePicker2.TabIndex = 20;
             // 
             // AdsApplication
             // 
@@ -1481,10 +1522,6 @@ namespace Advanced_Data_Structures
         private System.Windows.Forms.TextBox textBoxArchiveReaderSearch;
         private System.Windows.Forms.Button buttonArchiveReaderSearch;
         private System.Windows.Forms.TabPage tabPageArchiveLibrary;
-        private System.Windows.Forms.Button buttonArchiveSelectedLibrary;
-        private System.Windows.Forms.TextBox textBoxArchiveLibraryName;
-        private System.Windows.Forms.Button buttonArchiveLibrarySearch;
-        private System.Windows.Forms.RichTextBox richTextBoxArchiveLibrary;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabControl tabControlRegister;
         private System.Windows.Forms.TabPage tabPageRegisterReader;
@@ -1559,6 +1596,14 @@ namespace Advanced_Data_Structures
         private System.Windows.Forms.RichTextBox richTextBoxCheckoutLate;
         private System.Windows.Forms.RichTextBox richTextBoxCheckoutPrevious;
         private System.Windows.Forms.Label labelFee;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox LibrariesToMove;
+        private System.Windows.Forms.ComboBox LibrariesToArchive;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
     }
 }
 

@@ -149,7 +149,7 @@ namespace ADS.ADS.Services.DataGenerating
                 try
                 {
                     Book b = ParseLine(line);
-                    var rand = _generator.Next(50,100);
+                    var rand = _generator.Next(100,1000);
                     for (int i = 0; i < rand; i++)
                     {
                         Library l = Libraries.SearchNode(

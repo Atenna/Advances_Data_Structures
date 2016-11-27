@@ -140,7 +140,7 @@ namespace ADS.Core.Domain.Controller
             return toRet2;
         }
 
-        public bool BorrowBook(int bookId, string bookIsbn, int readerId, string libraryName)
+        public bool BorrowBook(int bookId, string bookIsbn, int readerId, string libraryName, DateTime when)
         {
             Book b = new Book(bookIsbn, bookId, "");
             AbstractNode<Library> l = LibraryModel.Libraries.SearchNode(new Library(libraryName), LibraryModel.Libraries.Root);
@@ -153,7 +153,7 @@ namespace ADS.Core.Domain.Controller
             // check if can be borrowed
 
             // then borrow
-            bool flag = foundB.Data.Borrow(foundR.Data);
+            bool flag = foundB.Data.Borrow(foundR.Data, when);
 
             //if (flag)
             //{
@@ -165,7 +165,7 @@ namespace ADS.Core.Domain.Controller
             return flag;
         }
 
-        public int ReturnBook(string isbn, int bookId, string bookName, int readerId, string libraryId)
+        public int ReturnBook(string isbn, int bookId, string bookName, int readerId, string libraryId, DateTime when)
         {
             //Book b = new Book(isbn, bookName, null, null, "", null, bookId);
             Book b = new Book("", bookName, isbn, "", "", null, bookId);
@@ -179,7 +179,8 @@ namespace ADS.Core.Domain.Controller
 
                 if (foundB != null)
                 {
-                    foundB.Data.Return(l.Data, foundR.Data);
+                    foundB.Data.Return(l.Data, foundR.Data, when);
+                    //foundR.Data.BooksCurrentlyBorrowed.RemoveNode(foundB.Data.Copy());
                     return 0;
                 }
                 // kniha sa kniha v tejto pobocke nenasla
@@ -188,7 +189,8 @@ namespace ADS.Core.Domain.Controller
                     foundB = LibraryModel.BooksByName.SearchNode(b, LibraryModel.BooksByName.Root);
                     if (foundB != null)
                     {
-                        foundB.Data.Return(l.Data, foundR.Data);
+                        foundB.Data.Return(l.Data, foundR.Data, when);
+                        //foundR.Data.BooksCurrentlyBorrowed.RemoveNode(foundB.Data.Copy());
                         return 2;
                     }
                     return 1;
@@ -201,14 +203,16 @@ namespace ADS.Core.Domain.Controller
                 AbstractNode<Book> foundB = LibraryModel.BooksByName.SearchNode(b, LibraryModel.BooksByName.Root);
                 if (foundB != null && foundB.Data.CodeIsbn == isbn)
                 {
-                    foundB.Data.Return(l.Data, foundR.Data);
+                    foundB.Data.Return(l.Data, foundR.Data, when);
+                    //foundR.Data.BooksCurrentlyBorrowed.RemoveNode(foundB.Data.Copy());
                     return 2;
                 }
                 // nenasiel tuk nihu s danym isbn -_-
                 else if (foundB != null)
                 {
                     foundB.Data.CodeIsbn = isbn;
-                    foundB.Data.Return(l.Data, foundR.Data);
+                    foundB.Data.Return(l.Data, foundR.Data, when);
+                    //foundR.Data.BooksCurrentlyBorrowed.RemoveNode(foundB.Data.Copy());
                     return 2;
                 }
                 return 1;
@@ -267,7 +271,12 @@ namespace ADS.Core.Domain.Controller
                     else
                     {
                         _model.ReaderSession = new ReaderSession(found.Data);
-                        return found.Data.BooksCurrentlyBorrowed.InorderTraversalToStringArray(found.Data.BooksCurrentlyBorrowed.Root);
+                        string[] ret = new string[found.Data.BooksCurrentlyBorrowed.Count] ;
+                        for(var i=0; i < found.Data.BooksCurrentlyBorrowed.Count; i++)
+                        {
+                            ret[i] = found.Data.BooksCurrentlyBorrowed[i].ToStringDetailed();
+                        }
+                        return ret;
                     }
                 }
                 return new string[] { };
@@ -362,7 +371,11 @@ namespace ADS.Core.Domain.Controller
             else
             {
                 _model.ReaderSession = new ReaderSession(found.Data);
-                string ret = found.Data.LateBookReturns.InorderTraversal(found.Data.LateBookReturns.Root);
+                string ret = "";
+                foreach (var bor in found.Data.LateBookReturns)
+                {
+                    ret += bor.ToString() + "/n";
+                }
                 return ret;
             }
         }
@@ -378,7 +391,13 @@ namespace ADS.Core.Domain.Controller
             else
             {
                 _model.ReaderSession = new ReaderSession(found.Data);
-                return found.Data.BooksBorrowedInPast.InorderTraversal(found.Data.BooksBorrowedInPast.Root);
+                _model.ReaderSession = new ReaderSession(found.Data);
+                string ret = "";
+                foreach (var bor in found.Data.BooksBorrowedInPast)
+                {
+                    ret += bor.ToString() + "\n";
+                }
+                return ret;
             }
         }
 
@@ -389,7 +408,32 @@ namespace ADS.Core.Domain.Controller
 
         public bool RemoveLibrary(string libraryId, string moveToLibraryId)
         {
-            throw new NotImplementedException();
+            var libToArchive = LibraryModel.Libraries.SearchNode(new Library(libraryId), LibraryModel.Libraries.Root);
+            var libToMove = LibraryModel.Libraries.SearchNode(new Library(moveToLibraryId), LibraryModel.Libraries.Root);
+            if (libToMove != null && libToArchive != null)
+            {
+                List<Book> byIsbn = libToArchive.Data.AllBooksByIsbn.InorderTraversalToList(libToArchive.Data.AllBooksByIsbn.Root);
+                List<Book> borrowed = libToArchive.Data.BorrowedBooks.InorderTraversalToList(libToArchive.Data.BorrowedBooks.Root);
+                if (byIsbn != null)
+                {
+                    for (int i = 0; i < byIsbn.Count; i++)
+                    {
+                        libToMove.Data.AllBooksByIsbn.Add(byIsbn[i]);
+                        libToMove.Data.AllBooksByName.Add(byIsbn[i]);
+                    }
+                }
+                if (borrowed != null)
+                {
+                    for (int i = 0; i < borrowed.Count; i++)
+                    {
+                        libToMove.Data.BorrowedBooks.Add(borrowed[i]);
+                    }
+                }
+                
+                LibraryModel.Libraries.RemoveNode(libToArchive.Data);
+                return true;
+            }
+            return false;
         }
 
         public bool RemoveReader(string readerId)

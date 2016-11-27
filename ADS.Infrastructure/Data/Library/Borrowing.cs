@@ -60,8 +60,13 @@ namespace ADS.ADS.Data.Library
 
         public string ToStringSave()
         {
-            var fee = FeeToPay ? Fee+"" : "0";
-            return Book.ToStringSave() + "," + fee;
+            var fee = FeeToPay ? Fee+ "" : "0";
+
+            string borrowed = Reader.Name + "," + Reader.Surname
+                + "," + Reader.UniqueId + "," + DateOfBorrow.ToString("dd.MM.yyyy") + "," + DateOfReturn.ToString("dd.MM.yyyy");
+            string archived = Book.IsArchived ? "true" : "false";
+            return Book.Title + "," + Book.Author + "," + Book.UniqueId + "," + Book.CodeIsbn + ","
+                + Book.CodeEan + "," + borrowed + "," + archived + "," + Book.CurrentLibrary?.NameOfLibrary + "," + fee;
         }
     }
 }

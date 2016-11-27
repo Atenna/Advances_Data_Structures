@@ -1,4909 +1,4980 @@
-Aland D0
-Aland O0
-Aland T3
-Aland U5
-Albaching H6
-Albbruck D0
-Albbruck N7
-Albersdorf (Holstein) G0
-Albersdorf (Holstein) I4
-Albersdorf (Holstein) J4
-Albersdorf (Holstein) S4
-Albersdorf (Stadtroda) R7
-Albersdorf (Stadtroda) V7
-Albershausen F0
-Albessen D3
-Albessen K5
-Albig L1
-Albisheim (Pfrimm) D6
-Albsfelde I7
-Albsfelde S4
-Aldenhoven G5
-Alerheim J7
-Alerheim L0
-Alerheim L1
-Alerheim M6
-Aletshausen K1
-Aletshausen P3
-Aletshausen X3
-Alfeld (Leine) S1
-Alfhausen C4
+000Aloha
+Aachen C2
+Aachen U0
+Aachen V7
+Aalen H6
+Aalen N7
+Aalen X2
+Albaching F7
+Albaching Y2
+Albbruck D1
+Albbruck Q1
+Albershausen F2
+Albertshofen W3
+Albessen M2
+Albisheim (Pfrimm) M1
+Aldersbach Q7
+Aldersbach W6
+Aldingen R6
+Alerheim P1
+Alerheim X5
+Aletshausen S6
+Alf R0
+Alfdorf X7
+Alfeld (Leine) K2
 Alfhausen W4
-Algermissen U7
-Alkersleben E1
-Allendorf (Lumda) G0
-Allendorf (Rhein-Lahn) Q3
-Allenfeld O6
-Allershausen N7
-Alling R0
-Allmannsweiler I4
-Allmannsweiler O0
-Allmendingen A1
-Allmersbach im Tal X5
-Almdorf I4
-Almersbach F3
-Almersbach O6
-Alpen G3
-Alpen J4
-Alsbach-Hähnlein C3
-Alsdorf (Eifel) W1
-Alsdorf (Sieg) W2
-Alsdorf P2
-Alsfeld R2
-Alsleben (Saale) N3
-Alt Bennebek A7
-Alt Bennebek F2
-Alt Bennebek K7
-Alt Bukow J2
-Alt Meteln L6
-Alt Rehse M2
-Alt Schwerin N3
-Alt Zachun O1
-Altdorf (Esslingen) S1
-Altdorf (Lower Bavaria) A4
-Altdorf (Pfalz) W5
-Alteglofsheim X0
-Altena K6
-Altenahr K5
-Altenbamberg D6
-Altenbamberg O2
-Altenbamberg Y5
-Altenbeken T2
-Altenberga M7
-Altenberge P4
-Altenbuch Y7
-Altenburg S4
-Altendiez Y1
-Altendorf (Nabburg) K2
-Altenglan D4
-Altenglan V7
-Altenhausen H3
-Altenhof (Röbel) R6
-Altenholz B1
-Altenholz E7
-Altenholz J3
-Altenholz K1
-Altenholz Y7
-Altenkirchen (Pfalz) H7
-Altenkunstadt I4
-Altenmünster D1
-Altenstadt (Hesse) A6
-Altenstadt (Hesse) R7
-Altenstadt (Lech) I2
-Altensteig J2
-Altensteig U2
-Altenthann F0
-Altentreptow D4
-Altentreptow F4
-Altersbach K2
-Altersbach W4
-Altertheim L4
-Altertheim W2
-Altheim (Alb) G5
-Altheim (Alb) X2
-Altheim (Riedlingen) U5
-Althengstett U3
-Althornbach E2
-Althornbach V6
-Althüttendorf M5
-Altkalen P0
-Altkirchen R5
-Altlay D6
-Altlay Y5
-Altleiningen T2
-Altmannstein D3
-Altmärkische Wische C4
-Altmärkische Wische F3
-Altmärkische Wische P5
-Altötting Q3
-Altötting V7
-Altshausen P2
-Altscheid J6
-Altscheid T6
-Altstrimmig S0
-Altusried D0
-Altwarp R0
-Altwarp U3
-Altweidelbach I0
-Altwigshagen L1
-Alzenau H3
-Amberg (Buchloe) A0
-Amberg N1
-Amelinghausen G1
-Amerang C5
-Amerang S4
-Amerdingen C3
-Ammeldingen (Neuerb.) H1
-Ammeldingen (Neuerb.) M3
-Ammeldingen (Neuerb.) O7
-Ammeldingen a.d. Our U6
-Ammerthal F0
-Ammerthal G2
-Ammerthal H0
-Ammerthal V4
-Amöneburg E3
-Amorbach L4
-Ampfing U2
-Amt Wachsenburg J0
-Amtzell F5
-An der Poststraße Q4
-An der Poststraße T3
-Andervenne V2
-Andisleben B6
-Andisleben J5
-Andisleben P5
-Angelbachtal J0
-Angelbachtal K1
-Angern I1
-Ankum G4
-Annaberg-Buchholz U7
-Annaburg D1
-Annaburg E1
-Annweiler am Trifels B4
-Ansbach A1
-Ansbach N6
-Anschau L1
-Antdorf B3
-Antdorf T7
-Antrifttal R5
-Antweiler O2
-Apelern A4
-Apelern Y7
-Apfeltrach P6
-Appeln J3
-Appeln P2
-Appeln P7
-Appen S3
-Arenrath L4
-Arenrath Q4
-Arenshausen F0
-Arenshausen P0
-Aresing G5
-Aresing U5
-Aresing W3
-Argenbühl O3
-Argenschwang H1
-Argenschwang H4
-Argenschwang W6
-Argenschwang X1
-Argenthal F6
-Argenthal L2
-Argenthal V2
-Arkebek L4
-Arlewatt K1
-Arlewatt L6
-Armsheim L6
-Arnbruck L2
-Arnbruck P1
-Arnis J5
-Arnsberg M3
-Arnsberg X3
-Arnsdorf (Dresden) B3
-Arnstein (Harz) E4
-Arrach U6
-Artern (Unstrut) G0
-Artlenburg K1
-Arzberg (Bavaria) H1
-Arzfeld O1
-Asbach (Westerwald) K4
-Asbach-Bäumenheim V3
-Asendorf (Nordheide) P1
-Asendorf (Nordheide) X4
-Ascha R1
-Aschaffenburg D7
-Aschaffenburg I1
-Aschaffenburg N5
-Aschaffenburg Y7
-Aschau im Chiemgau D3
-Aschbach A7
-Aschenhausen I5
-Aschheim M6
-Aschheim T7
-Astert M4
-Attendorn H5
-Attenhausen V1
-Attenhofen J7
-Attenweiler I4
-Attenweiler N7
-Atzelgift J7
-Atzelgift P6
-Atzelgift R6
-Atzelgift V2
-Au (Breisgau) X4
-Au am Rhein N0
-Aub V3
-Aubstadt H2
-Aubstadt Y3
-Auderath R5
-Auderath V3
-Aue P6
-Auen W7
-Auerbach (Niederb.) P6
-Aufhausen C4
-Auggen S5
-Augsburg P7
-Baabe F6
-Baabe U4
-Baar (Schwaben) I6
-Babensham L6
-Backnang S4
-Bad Alexandersbad Q6
-Bad Arolsen H5
-Bad Arolsen O1
-Bad Arolsen O5
-Bad Bederkesa E1
-Bad Bellingen I7
-Bad Bellingen K4
-Bad Bentheim B6
-Bad Bentheim O5
-Bad Bentheim Q5
-Bad Berleburg L5
-Bad Berleburg U5
-Bad Bertrich K6
-Bad Bevensen O0
-Bad Bevensen Y1
-Bad Bocklet Y1
-Bad Brambach A0
-Bad Bramstedt X5
-Bad Brückenau P2
-Bad Buchau T0
-Bad Camberg I0
-Bad Camberg I3
-Bad Colberg-Heldburg I4
-Bad Ditzenbach B2
-Bad Doberan G4
-Bad Driburg S6
-Bad Düben N4
-Bad Elster W2
-Bad Emstal D3
-Bad Endbach C6
-Bad Feilnbach X2
-Bad Frankenhausen D7
-Bad Frankenhausen I6
-Bad Frankenhausen L0
-Bad Freienwalde (Oder) C7
-Bad Freienwalde (Oder) D2
-Bad Freienwalde (Oder) E5
-Bad Freienwalde (Oder) F6
-Bad Freienwalde (Oder) R4
-Bad Friedrichshall O0
-Bad Füssing J5
-Bad Füssing L5
-Bad Füssing W2
-Bad Gandersheim A6
-Bad Gandersheim E6
-Bad Gandersheim H7
-Bad Gandersheim V1
-Bad Gottleuba-Berggießh. F0
-Bad Gottleuba-Berggießh. L3
-Bad Grönenbach K4
-Bad Grönenbach P6
-Bad Grund/Harz U0
-Bad Harzburg I1
-Bad Harzburg S4
-Bad Heilbrunn S6
-Bad Herrenalb Y5
-Bad Homburg v.d.H. A1
-Bad Homburg v.d.H. L5
-Bad Homburg v.d.H. T2
-Bad Honnef H7
-Bad Honnef Q0
-Bad Hönningen D2
-Bad Iburg Q2
-Bad Kissingen E3
-Bad Kleinen S6
-Bad Kleinen T4
-Bad Klosterlausnitz B0
-Bad Klosterlausnitz G1
-Bad Kohlgrub E7
-Bad Kohlgrub G0
-Bad Kohlgrub K0
-Bad König P0
-Bad König R6
-Bad König S2
-Bad Königshofen i. Grabf. G1
-Bad Königshofen i. Grabf. O2
-Bad Königshofen i. Grabf. W1
-Bad Königshofen i. Grabf. X3
-Bad Köstritz M4
-Bad Köstritz M6
-Bad Köstritz W0
-Bad Kötzting D5
-Bad Kötzting M0
-Bad Kötzting S5
-Bad Kötzting U2
-Bad Kreuznach H3
-Bad Kreuznach L6
-Bad Kreuznach W5
-Bad Krozingen L6
-Bad Krozingen Q1
-Bad Krozingen S7
-Bad Krozingen X4
-Bad Laasphe B4
-Bad Laasphe R0
-Bad Laasphe U4
-Bad Laasphe Y6
-Bad Laer B5
-Bad Laer R4
-Bad Laer S5
-Bad Langensalza D4
-Bad Lauchstädt C1
-Bad Lauchstädt K2
-Bad Lausick K6
-Bad Lausick Q7
-Bad Liebenwerda B0
-Bad Liebenwerda F5
-Bad Liebenzell S6
-Bad Liebenzell S7
-Bad Liebenzell T4
-Bad Lippspringe K1
-Bad Lippspringe P5
-Bad Marienberg G6
-Bad Münder am Deister N5
-Bad Münster am Stein B1
-Bad Münstereifel X5
-Bad Muskau S6
-Bad Nauheim I0
-Bad Nauheim I7
-Bad Nauheim O5
-Bad Nenndorf X1
-Bad Neustadt (Saale) O0
-Bad Oeynhausen L5
-Bad Orb B7
-Bad Orb K5
-Bad Orb V0
-Bad Pyrmont E6
-Bad Pyrmont E7
-Bad Pyrmont N3
-Bad Pyrmont Q5
-Bad Rappenau G2
-Bad Rappenau M0
-Bad Reichenhall D5
-Bad Reichenhall F5
-Bad Reichenhall J7
-Bad Rippoldsau-Sch. R2
-Bad Rippoldsau-Sch. V3
-Bad Rippoldsau-Sch. V4
-Bad Saarow P3
-Bad Saarow P5
-Bad Sachsa O7
-Bad Sachsa W7
-Bad Salzdetfurth D7
-Bad Salzschlirf H5
-Bad Salzschlirf V1
-Bad Salzschlirf X3
-Bad Salzuflen A1
-Bad Salzuflen B4
-Bad Salzuflen Q6
-Bad Salzungen A7
-Bad Sassendorf W0
-Bad Säckingen G5
-Bad Segeberg B6
-Bad Schandau S7
-Bad Schlema V4
-Bad Schlema X4
-Bad Schmiedeberg F1
-Bad Schönborn W5
-Bad Schussenried K0
-Bad Schussenried T0
-Bad Schwalbach B4
-Bad Schwalbach S1
-Bad Schwartau O0
-Bad Soden am Taunus G1
-Bad Sooden-Allendorf A4
-Bad Sooden-Allendorf C7
-Bad Sooden-Allendorf F2
-Bad Sooden-Allendorf L6
-Bad Sooden-Allendorf P3
-Bad Sooden-Allendorf T1
-Bad Staffelstein I2
-Bad Staffelstein T0
-Bad Staffelstein W2
-Bad Steben L4
-Bad Sulza T1
-Bad Sülze F1
-Bad Sülze Y2
-Bad Teinach-Zavelstein Y0
-Bad Tennstedt B6
-Bad Tennstedt U7
-Bad Tölz V0
-Bad Überkingen P6
-Bad Urach Q7
-Bad Waldsee M2
-Bad Waldsee X2
-Bad Waldsee Y4
-Bad Wiessee C3
-Bad Wildbad B1
-Bad Wildbad C3
-Bad Wildbad P0
-Bad Wildbad P7
-Bad Wildbad T7
-Bad Wildbad Y3
-Bad Wildungen U7
-Bad Wilsnack J6
-Bad Wilsnack W6
-Bad Wimpfen A4
-Bad Wimpfen U7
-Bad Windsheim C6
-Bad Wörishofen J4
-Bad Wörishofen T7
-Bad Wünnenberg C1
-Bad Wünnenberg K6
-Bad Wünnenberg N0
-Bad Wünnenberg R6
-Bad Wurzach B3
-Bad Zwesten T0
-Bad Zwischenahn T4
-Badbergen T2
-Baddeckenstedt B0
-Baddeckenstedt D2
-Baddeckenstedt R3
-Badem O4
-Baden-Baden L7
-Badenhard C3
-Badenhausen B2
-Badenhausen B3
-Badenhausen I7
-Badenheim B1
-Badenheim F7
-Badenheim R3
-Badenweiler I7
-Badenweiler M7
-Badenweiler N2
-Badenweiler Q4
-Badra O4
-Badra T6
-Baesweiler J5
-Baesweiler U0
-Baesweiler V0
-Bahlingen E0
-Bahrdorf A6
-Bahrdorf S4
-Bahrdorf V3
-Bahrenborstel I5
-Bahrenborstel J3
-Bahrenhof D2
-Bahrenhof O3
-Bahretal O1
-Bach a.d. Donau C3
-Bach a.d. Donau T2
-Bach a.d. Donau W5
-Bacharach T1
-Bacharach T7
-Bacharach W6
-Bachenberg C2
-Bachfeld V6
-Bachfeld W3
-Baierbach R7
-Baierbach V2
-Baierbrunn U5
-Baiern U4
-Baiern V7
-Baiersdorf F5
-Baindt C3
-Baisweil C3
-Baisweil W4
-Baldringen A6
-Balduinstein M4
-Balduinstein M5
-Balduinstein R6
-Balesfeld C6
-Balesfeld D6
-Balesfeld G0
-Balesfeld Q7
-Balge W1
-Balgheim B7
-Balgheim O5
-Balgstädt A2
-Balgstädt C2
-Balgstädt G3
-Balingen A5
-Balingen F3
-Balingen X6
-Balje H4
-Balje Q1
+Alfstedt W4
+Alfstedt Y3
+Algermissen R2
+Alheim N0
+Alkersum F6
+Allendorf (Lumda) F3
+Allendorf (Rhein-Lahn) R0
+Allensbach E1
+Allensbach H2
+Allensbach Y0
+Allersberg F2
+Alleshausen C1
+Alling T0
+Allmannsweiler E2
+Allmannsweiler S2
+Allmendingen C5
+Allmersbach im Tal K7
+Allmersbach im Tal O0
+Allstedt O5
+Allstedt V5
+Almdorf B4
+Almdorf F5
+Almersbach J0
+Alpen X5
+Alpenrod R1
+Alpenrod X1
+Alsbach K6
+Alsdorf (Eifel) W6
+Alsdorf U2
+Alsheim O4
+Alsheim T2
+Alt Duvenstedt F0
+Alt Krenzlin T2
+Alt Mölln V2
+Alt Tucheband U4
+Alt Zauche-Wußwerk F0
+Alt Zauche-Wußwerk Q5
+Altbach G2
+Altdorf (Esslingen) J3
+Altdorf (Esslingen) X3
+Altdorf bei Nürnberg X5
+Altefähr B7
+Altefähr H7
+Altena I2
+Altena R1
+Altenbamberg I4
+Altenberge O4
+Altenbeuthen I6
+Altenbeuthen L3
+Altenbeuthen U6
+Altenburg D7
+Altenburg S3
+Altenburg S6
+Altendiez R4
+Altendorf (Bamberg) E2
+Altendorf (Bamberg) I0
+Altendorf (Nabburg) I4
+Altenfeld E0
+Altenglan F6
+Altengottern J2
+Altengottern J5
+Altenhagen (Altentr.) G0
+Altenhof (Eckernf.) D1
+Altenhof (Eckernf.) F0
+Altenhof (Röbel) U5
+Altenhof (Röbel) Y2
+Altenkirchen (Rügen) V5
+Altenkirchen (Rügen) Y3
+Altenkirchen (Westerwald) B3
+Altenkirchen (Westerwald) J1
+Altenkrempe B7
+Altenkrempe K3
+Altenkunstadt B6
+Altenkunstadt C7
+Altenmarkt a.d. Alz C4
+Altenmünster M2
+Altenmünster O2
+Altenpleen S5
+Altenstadt (Hesse) K3
+Altenstadt (Iller) G0
+Altenstadt (Lech) N5
+Altenstadt (Lech) W0
+Altenthann P3
+Altentreptow T7
+Alterkülz P2
+Altfraunhofen F7
+Altfraunhofen N5
+Altheim (Alb) I0
+Altheim (Ehingen) T3
+Altheim (Ehingen) V3
+Althengstett V7
+Althornbach H2
+Althütte F3
+Altkalen K2
+Altlay I0
+Altlay I4
+Altlay U5
+Altleiningen V4
+Altlußheim D5
+Altlußheim D6
+Altlußheim O5
+Altomünster T6
+Altrich Q6
+Altrip L7
+Altscheid B6
+Altscheid S4
+Altstrimmig H4
+Altstrimmig M2
+Altstrimmig T6
+Altwarp Q3
+Alzenau J0
+Alzenau J3
+Alzey H5
+Amberg (Buchloe) B4
+Amberg (Buchloe) I2
+Amerdingen B1
+Amerdingen T6
+Ammerndorf J5
+Ammersbek Q6
+Ammerthal R6
+Ampfing B0
+Amstetten N4
+Amt Wachsenburg B2
+Amt Wachsenburg X7
+Amtsberg G2
+Amtsberg S7
+An der Poststraße J5
+Andechs E7
+Andechs W0
+Anderlingen P0
+Angelbachtal L7
+Angelburg B7
+Angelroda V1
+Angermünde H5
+Angermünde O1
+Angermünde X2
+Anhalt Süd K3
+Anhausen Q1
+Ankershagen H2
+Annaberg-Buchholz D1
+Annaberg-Buchholz R3
+Annweiler am Trifels G7
+Annweiler am Trifels L2
+Annweiler am Trifels L4
+Annweiler am Trifels S7
+Antdorf A7
+Antweiler B4
+Antweiler Y5
+Anzing W0
+Apelern O2
+Apen M7
+Apfeltrach E3
+Appel E1
+Appeln Y3
+Appenheim F0
+Appenheim G4
+Appenheim L6
+Aremberg C7
+Aremberg V5
+Arenrath K2
+Arenrath K3
+Arenrath V5
+Aresing E1
+Aresing M3
+Argenbühl Q1
+Argenbühl V7
+Argenbühl Y3
+Arholzen L6
+Arkebek M1
+Armstedt D4
+Armstedt E5
+Armstedt U2
+Arneburg H4
+Arneburg J3
+Arnsberg H6
+Arnsberg H7
+Arnsberg U4
+Arnschwang D1
+Arnschwang E0
+Arnschwang O6
+Arnstadt K7
+Arnstadt R6
+Arnstorf U0
+Arpsdorf A7
+Arrach J1
+Artern (Unstrut) A4
+Artlenburg K6
+Arzbach F6
+Arzberg (Saxony) M0
+Asbach (Hunsrück) L7
+Asbach (Hunsrück) S3
+Asbach-Bäumenheim Y7
+Asbach-Sickenberg F6
+Ascha C6
+Aschaffenburg J7
+Aschau am Inn C6
+Aschau am Inn N3
+Aschau am Inn Y2
+Aschbach R4
+Aschbach T6
+Ascheffel R5
+Aschenhausen R4
+Aschersleben M6
+Aschheim B5
+Aspach (Backnang) C0
+Aspach (Backnang) Y1
+Asperg X6
+Aspisheim C6
+Aßling M3
+Aßling W6
+Attendorn A3
+Attenhausen F7
+Attenhofen C2
+Attenhofen S2
+Attenweiler J6
+Atting E1
+Atting I1
+Au (Breisgau) P2
+Au (Breisgau) Q7
+Au am Rhein J5
+Aubstadt B3
+Auderath Q2
+Aue Y0
+Auel P5
+Auel R5
+Auel S3
+Auel W0
+Auengrund K6
+Auenwald G3
+Auenwald W7
+Auerbach (Niederb.) F0
+Auerbach (Oberpfalz) N5
+Auerbach (Vogtland) G2
+Aufhausen U4
+Augsburg H3
+Baabe D7
+Baabe F1
+Baabe R2
+Baar (Schwaben) D2
+Baar O4
+Babenhausen (Hesse) A5
+Bad Abbach F0
+Bad Abbach L6
+Bad Abbach L7
+Bad Aibling S6
+Bad Aibling T3
+Bad Aibling X3
+Bad Alexandersbad E3
+Bad Alexandersbad G0
+Bad Bellingen L4
+Bad Bellingen Q0
+Bad Bellingen X5
+Bad Belzig A5
+Bad Belzig D1
+Bad Belzig M6
+Bad Bergzabern Q7
+Bad Bergzabern S5
+Bad Bergzabern T0
+Bad Berka M5
+Bad Berleburg J5
+Bad Berleburg U4
+Bad Berneck M1
+Bad Bertrich P7
+Bad Bibra P6
+Bad Birnbach E3
+Bad Blankenburg B5
+Bad Bramstedt O2
+Bad Bramstedt V1
+Bad Brückenau Y4
+Bad Buchau M2
+Bad Camberg M1
+Bad Camberg Q4
+Bad Camberg V5
+Bad Ditzenbach O0
+Bad Doberan O1
+Bad Driburg O4
+Bad Düben D2
+Bad Düben O3
+Bad Düben P1
+Bad Dürrenberg B1
+Bad Dürrenberg J7
+Bad Dürrheim W1
+Bad Elster G4
+Bad Elster H5
+Bad Ems N4
+Bad Ems T0
+Bad Emstal O5
+Bad Emstal S2
+Bad Feilnbach M4
+Bad Frankenhausen L4
+Bad Freienwalde (Oder) I7
+Bad Freienwalde (Oder) O6
+Bad Friedrichshall M0
+Bad Gandersheim X7
+Bad Gottleuba-Berggießh. X0
+Bad Griesbach im Rottal B4
+Bad Griesbach im Rottal E6
+Bad Grund/Harz O3
+Bad Grund/Harz R5
+Bad Grund/Harz S1
+Bad Harzburg A1
+Bad Harzburg Q1
+Bad Harzburg V2
+Bad Heilbrunn S5
+Bad Hersfeld S4
+Bad Hindelang Markt X0
+Bad Hindelang Markt Y7
+Bad Homburg v.d.H. L3
+Bad Honnef F6
+Bad Honnef O5
+Bad Hönningen N1
+Bad Iburg J6
+Bad Iburg L5
+Bad Karlshafen A2
+Bad Karlshafen I7
+Bad Karlshafen O1
+Bad Karlshafen U2
+Bad Kleinen H0
+Bad Kleinen Y5
+Bad Klosterlausnitz V6
+Bad Klosterlausnitz W6
+Bad Kohlgrub M6
+Bad König G0
+Bad König G6
+Bad König Q0
+Bad König U5
+Bad Königshofen i. Grabf. F4
+Bad Königshofen i. Grabf. I7
+Bad Königshofen i. Grabf. Q3
+Bad Krozingen C7
+Bad Krozingen E6
+Bad Krozingen O2
+Bad Laasphe L7
+Bad Laasphe W3
+Bad Laer X7
+Bad Langensalza O4
+Bad Langensalza V5
+Bad Langensalza Y2
+Bad Lauchstädt C6
+Bad Lauchstädt X6
+Bad Lausick H6
+Bad Lauterberg E6
+Bad Liebenstein H4
+Bad Liebenstein W7
+Bad Liebenwerda B5
+Bad Liebenwerda H7
+Bad Liebenzell C5
+Bad Liebenzell I5
+Bad Liebenzell P7
+Bad Lippspringe A4
+Bad Lippspringe D5
+Bad Lippspringe P3
+Bad Lobenstein S7
+Bad Marienberg F4
+Bad Mergentheim F2
+Bad Mergentheim M0
+Bad Münder am Deister A2
+Bad Münder am Deister J2
+Bad Münder am Deister L2
+Bad Münster am Stein B2
+Bad Münster am Stein T6
+Bad Nauheim I1
+Bad Nauheim M0
+Bad Nauheim W3
+Bad Nenndorf P2
+Bad Nenndorf V1
+Bad Neuenahr-Ahrw. K0
+Bad Neustadt (Saale) J0
+Bad Neustadt (Saale) Y7
+Bad Oeynhausen Q4
+Bad Oeynhausen V2
+Bad Oldesloe C3
+Bad Oldesloe K5
+Bad Oldesloe O7
+Bad Orb D4
+Bad Peterstal-Griesbach E0
+Bad Peterstal-Griesbach J4
+Bad Pyrmont B5
+Bad Pyrmont R0
+Bad Pyrmont T5
+Bad Reichenhall C7
+Bad Reichenhall M6
+Bad Reichenhall W4
+Bad Rippoldsau-Sch. H0
+Bad Rodach H5
+Bad Rodach Q7
+Bad Rothenfelde T5
+Bad Rothenfelde W3
+Bad Sachsa Y4
+Bad Salzdetfurth T6
+Bad Salzungen G7
+Bad Salzungen L0
+Bad Sassendorf F5
+Bad Sassendorf X1
+Bad Saulgau J7
+Bad Saulgau N6
+Bad Segeberg K3
+Bad Schandau V4
+Bad Schandau Y7
+Bad Schlema T5
+Bad Schmiedeberg A4
+Bad Schmiedeberg C0
+Bad Schmiedeberg H7
+Bad Schmiedeberg P2
+Bad Schmiedeberg P5
+Bad Schussenried Q2
+Bad Schussenried Y4
+Bad Schwalbach A4
+Bad Schwalbach I7
+Bad Sobernheim A6
+Bad Sobernheim I4
+Bad Soden am Taunus F0
+Bad Soden am Taunus V3
+Bad Soden-Salmünster D4
+Bad Sülze V3
+Bad Sülze X1
+Bad Tennstedt N3
+Bad Tennstedt Y3
+Bad Tölz E4
+Bad Tölz W5
+Bad Überkingen A0
+Bad Überkingen C5
+Bad Überkingen G0
+Bad Überkingen V0
+Bad Urach B7
+Bad Urach D0
+Bad Vilbel O1
+Bad Vilbel O6
+Bad Waldsee G0
+Bad Wiessee F6
+Bad Wiessee G3
+Bad Wiessee I5
+Bad Wiessee N7
+Bad Wiessee O6
+Bad Wiessee S0
+Bad Wiessee W3
+Bad Wildbad G1
+Bad Wildungen U2
+Bad Wildungen X6
+Bad Wilsnack C1
+Bad Wilsnack L3
+Bad Wimpfen N1
+Bad Wörishofen B3
+Bad Wörishofen C5
+Bad Wörishofen H4
+Bad Wörishofen Q1
+Bad Wünnenberg S4
+Bad Wurzach P0
+Bad Zwesten A7
+Bad Zwischenahn H1
+Bad Zwischenahn J2
+Bad Zwischenahn J6
+Badbergen C1
+Badbergen P0
+Baddeckenstedt G1
+Badem P6
+Badendorf A3
+Badendorf Q0
+Badendorf U5
+Badendorf Y2
+Badenhard D0
+Badenhard R1
+Badenhard R5
+Badenhard U0
+Badenhausen A3
+Badenheim A7
+Badenheim V3
+Badenweiler F3
+Badra F0
+Badra N5
+Badra Q4
+Baesweiler I5
+Bahlingen H4
+Bahrenborstel D5
+Bahrenborstel K2
+Bahrenborstel U0
+Bahrenfleth C4
+Bahrenfleth J1
+Bahrenfleth N1
+Bahrenhof I4
+Bahrenhof X0
+Bach a.d. Donau Y5
+Bachfeld D7
+Baienfurt N5
+Baienfurt S3
+Baierbach V6
+Baierbrunn P2
+Baierbrunn Y4
+Baiern O4
+Baiern Q6
+Baiersbronn I5
+Baiersbronn L4
+Baiersdorf J2
+Baindt F3
+Baisweil W7
+Baisweil X2
+Bakum I2
+Bakum L5
+Balderschwang A3
+Baldringen K3
+Baldringen L0
+Balduinstein C2
+Balduinstein I2
+Balduinstein V2
+Balesfeld P5
+Balge Y2
+Balgheim S5
+Balgheim Y1
+Balgstädt D1
+Balgstädt D3
+Balingen B7
 Balje V3
-Ballendorf F3
-Ballendorf H1
-Ballenstedt P7
-Ballhausen H3
-Ballhausen X1
-Ballrechten-Dottingen F2
-Ballrechten-Dottingen V5
-Ballstädt I2
-Ballstädt L0
-Ballstädt W0
-Balow B5
-Balow L6
-Balow Q4
-Baltrum J5
-Baltrum X5
-Balve K7
-Balve S2
-Balzhausen J2
-Balzheim E5
-Balzheim J5
-Balzheim P6
-Bamberg L1
-Bamberg V0
-Bamberg X6
-Bammental T3
-Bammental Y7
-Bandelin G5
-Bandelin P0
-Bandelin P7
-Bandelin V2
-Bandenitz C0
-Bandenitz Q0
-Bandenitz S6
-Bandenitz Y2
-Bann C2
-Bann O2
-Bannewitz N5
-Banteln C3
-Banteln Q6
-Banzkow P7
-Barbelroth C2
-Barbelroth P0
-Barbing D2
-Barby I5
-Barby M0
-Barby W5
-Bardowick I4
-Barenburg F6
-Barenburg O7
-Barenburg P5
-Barendorf B6
-Barendorf C1
-Barendorf I5
-Barendorf S6
-Bargfeld-Stegen P4
-Bargischow H5
-Bargischow I1
-Bargischow S2
-Bargstall C7
-Bargstall E2
-Bargstall R7
-Bargstedt (Holstein) S3
-Bargteheide L0
-Bargteheide P7
-Bargum F2
-Barchfeld C6
-Barchfeld P7
-Barchfeld Y6
-Bark Y6
-Barkelsby A1
-Barkelsby Q4
-Barkenholm H5
-Barkenholm T5
-Barkhagen V4
-Barlt G1
-Barmissen D2
-Barmissen I4
-Barnekow A1
-Barnekow H6
-Barnekow Q2
-Barnitz A2
-Barnitz E7
-Barnstedt N1
-Barnstedt P5
-Barnstedt P7
-Barnstedt S3
-Barntrup E0
-Barntrup I5
-Barntrup J6
-Barsbek B1
-Barsbek I0
-Barsinghausen A3
-Barsinghausen F2
-Barsinghausen F7
-Barßel X1
-Bartenshagen-Parkentin A2
-Barth D6
-Barth O2
-Barth Y0
-Bartholomä B2
-Bartholomä U2
-Bartholomä X0
-Bartow N7
-Bartow O1
-Baruth (Mark) R7
-Baruth (Mark) X0
-Barver J2
-Barwedel W1
-Basberg G0
-Basberg R2
-Basdahl I3
-Basdahl I7
-Basdahl O1
-Bassenheim B4
-Bassenheim O1
-Bassenheim T4
-Bassenheim V2
-Bassum D5
-Basthorst G1
-Basthorst K0
-Basthorst K4
-Basthorst V0
-Bastorf G6
-Battenberg (Eder) D5
-Battenberg (Eder) D7
-Battenberg (Eder) G6
-Battenberg (Eder) M0
-Battenberg (Pfalz) E4
-Battweiler L6
-Bauler (Barweiler) P2
-Bauler (Barweiler) Q3
-Bauler (Barweiler) W7
+Balje W0
+Ballenstedt U3
+Ballstädt A3
+Ballstädt G0
+Ballstedt F1
+Ballstedt W0
+Ballstedt X4
+Balow B1
+Balow B4
+Baltrum E6
+Balve O4
+Balve P0
+Balve U1
+Balzhausen Q6
+Balzheim G7
+Balzheim R5
+Bamberg C1
+Bamberg G2
+Bamberg I4
+Bamberg U5
+Bammental P3
+Bammental T2
+Bandelin G3
+Bandenitz A2
+Bandenitz A5
+Bandenitz F0
+Bandenitz J5
+Bann C4
+Bann M3
+Bann P1
+Bann Y4
+Bannewitz M5
+Bannewitz O5
+Bannewitz V3
+Bannewitz W1
+Bannewitz W7
+Banteln A5
+Banteln B3
+Banteln D4
+Banteln V6
+Banzkow U6
+Barbing V6
+Barby X1
+Bargfeld-Stegen K3
+Bargfeld-Stegen T1
+Bargstall X2
+Bargstedt (Stade) H7
+Bargstedt (Stade) K7
+Bargstedt (Stade) V6
+Bargteheide F3
+Bargteheide O4
+Bargteheide X3
+Bargum A5
+Bargum M6
+Barchfeld A6
+Bark C1
+Barkelsby B5
+Barkelsby F4
+Barkelsby O6
+Barkelsby X5
+Barkhagen D3
+Barleben Q1
+Barleben R1
+Barlt E2
+Barlt M1
+Barlt X0
+Barmissen F2
+Barnekow A6
+Barnin I4
+Barnin J2
+Barnin P0
+Barnin R4
+Barnstädt C2
+Barnstedt H7
+Barnstedt J6
+Barntrup R3
+Barntrup V5
+Barsbek R5
+Barsbüttel G7
+Barsbüttel L2
+Barßel V7
+Barßel W0
+Bartelshagen (Barth) K1
+Bartenshagen-Parkentin F6
+Barum (Bad Bevens.) C5
+Barum (Bad Bevens.) H1
+Baruth (Mark) C6
+Baruth (Mark) I0
+Baruth (Mark) J5
+Baruth (Mark) M6
+Barver N7
+Barwedel L6
+Barweiler A4
+Basberg E6
+Basberg K1
+Basedow (Lauenburg) B1
+Basedow (Lauenburg) W0
+Basedow (Teterow) E0
+Basedow (Teterow) I7
+Bassenheim F5
+Bassenheim J4
+Bassenheim W4
+Bassum F1
+Bassum U7
+Bastheim M0
+Basthorst C5
+Basthorst O7
+Battenberg (Eder) H0
+Battenberg (Pfalz) R6
+Battenberg (Pfalz) T3
+Baudenbach Q2
+Bauler (Barweiler) O6
+Bauler (Barweiler) T2
+Bauler (Barweiler) X1
 Bauler (Neuerburg) H2
-Bauler (Neuerburg) Y7
-Baumgarten G1
-Baumgarten L4
-Baumholder J2
-Baumholder N0
-Baunach D5
-Baunatal H6
-Bausendorf S6
-Baustert B4
-Bautzen F5
-Bautzen N7
-Bawinkel Q5
-Bayerbach (Rott) E3
-Bayerbach (Rott) I0
-Bayerbach (Rott) N2
-Bayerfeld-Steckweiler D3
-Bayerisch Eisenstein R2
-Bayerisch Gmain E3
-Bayersoien A4
-Bayersoien A5
-Bayersoien E6
-Bayreuth A3
-Bayreuth R1
-Bäk D4
-Bäk V5
-Bärenbach (Simmern) I4
-Bärenthal B7
-Bärenthal H1
-Bärnau M3
-Bärnau X5
-Bärweiler B4
-Bärweiler L3
-Bärweiler R6
-Bebensee N7
-Bebensee O6
-Bebensee R6
-Bebra O6
-Beckeln N4
-Beckeln S5
-Beckum D1
-Bedburg B7
-Bedburg M7
-Bedburg Y4
-Bedburg-Hau J2
-Bedesbach S4
-Beedenbostel S2
-Beedenbostel W6
-Beelen P5
-Beelitz G7
-Beelitz H0
-Beelitz I5
-Beelitz O4
-Beendorf B5
-Beendorf K3
-Beendorf K5
-Beendorf M6
-Beendorf R7
-Beendorf X1
-Beerfelden A1
-Beerfelden J4
-Beeskow N5
-Beetzsee A4
-Beetzsee L3
-Beetzseeheide A5
-Beetzseeheide W4
-Beggerow H0
-Beggerow I1
-Beggerow T0
-Beggerow U6
-Behlendorf I7
-Behlendorf J3
-Behrendorf I2
-Behrendorf W1
-Behrenhoff T7
-Behren-Lübchin E3
-Behren-Lübchin S5
-Becherbach (Kirn) R6
-Becherbach (Kirn) T7
-Bechhofen (Palatinate) B3
-Bechhofen (Palatinate) T6
-Bechstedt F7
-Bechstedt I2
-Bechstedt L4
-Bechtolsheim U2
-Bechtsrieth V4
-Beidenfleth O5
-Beiersdorf (Löbau) I0
-Beiersdorf (Löbau) J4
-Beiersdorf-Freudenb. L1
-Beiersdorf-Freudenb. P5
-Beiersdorf-Freudenb. V3
-Beiersdorf-Freudenb. X2
-Beierstedt E2
-Beichlingen U0
-Beilingen B5
-Beilingen C4
-Beilingen F2
-Beilingen P1
-Beilrode Q6
-Beilrode S2
-Beilrode X2
-Beilrode Y4
-Beilstein (Mosel) H1
-Beilstein (Württemberg) E3
-Beimerstetten A3
-Beindersheim Q0
-Beinerstadt F2
-Beinhausen A2
-Bekdorf I6
-Bekmünde F1
-Bekmünde R0
-Bekond S7
-Bekond U7
-Belau F7
-Belau J1
-Belau J2
-Belau J3
-Belau L1
-Belau R2
-Belau V6
-Beldorf R3
-Belg K1
-Belgern-Schildau G6
-Belgern-Schildau V3
-Belgershain K4
-Belgershain T5
-Belgweiler A6
-Bell (Hunsrück) A0
-Bell (Hunsrück) J1
-Bell F5
-Bell Q4
-Bell R6
-Bellenberg D7
-Bellheim R1
-Bellheim X5
-Bellingen U5
-Bellstedt M6
-Bellstedt Q3
-Bellstedt V5
-Belm I6
-Belrieth Y2
-Belsch A1
-Belsch U0
-Beltheim O2
-Beltheim X6
-Belum I2
-Belum M2
-Belum Y0
-Bempflingen A3
-Bempflingen S7
-Bendeleben J5
-Bendeleben U6
-Bendfeld I2
-Bendfeld T0
-Bendorf (Holstein) J0
-Bendorf (Holstein) Q7
-Bendorf (Rhine) Q0
-Benediktbeuern C6
+Bauler (Neuerburg) U7
+Bauler (Neuerburg) X1
+Baumholder D3
+Baumholder U1
+Baumholder W1
+Baunach P6
+Bausendorf L5
+Baustert J0
+Baustert U7
+Baustert V2
+Bautzen T3
+Bawinkel E7
+Bayerbach (Rott) D7
+Bayerbach (Rott) X4
+Bayerbach (Rott) X6
+Bayerfeld-Steckweiler H6
+Bayerfeld-Steckweiler I1
+Bayerfeld-Steckweiler W6
+Bayerisch Eisenstein B5
+Bayerisch Eisenstein H0
+Bayerisch Eisenstein X7
+Bayersoien M3
+Bayreuth C5
+Bayreuth Q6
+Bayrischzell I3
+Bayrischzell X7
+Bäk A2
+Bälau D7
+Bälau E1
+Bärenbach (Idar-Ob.) D0
+Bärenbach (Simmern) R0
+Bärenbach (Simmern) U3
+Bärenstein (Ann.-B.) C0
+Bärnau M5
+Bärweiler Y1
+Bebensee L6
+Bebensee O7
+Bebensee Q0
+Bebra U0
+Beckedorf I4
+Beckedorf N2
+Beckedorf O3
+Beckeln R4
+Beckingen F4
+Beckingen H3
+Beckingen L6
+Beckingen M7
+Beckingen O3
+Beckingen Q2
+Beckingen S5
+Beckingen V4
+Bedburg T0
+Bedburg-Hau C4
+Bedburg-Hau E3
+Bedburg-Hau U4
+Bedesbach D2
+Beedenbostel A3
+Beedenbostel N5
+Beelitz A6
+Beelitz C5
+Beelitz K0
+Beerfelden W0
+Beeskow B5
+Beeskow L3
+Beetzendorf S2
+Beetzendorf Y4
+Beetzsee D3
+Beetzseeheide E6
+Beetzseeheide R0
+Beetzseeheide X6
+Beetzseeheide Y3
+Beggerow H6
+Behlendorf I3
+Behlendorf O0
+Behrendorf B2
+Behrendorf D5
+Behrendorf I4
+Behrendorf M7
+Behrendorf N3
+Behrenhoff F6
+Behrenhoff Y2
+Behren-Lübchin G2
+Becheln E6
+Becheln O3
+Becheln V7
+Bechenheim X7
+Becherbach (Kirn) T2
+Becherbach (Palatin.) L7
+Bechhofen (Franconia) C1
+Bechhofen (Palatinate) D4
+Bechstedtstraß C7
+Bechstedtstraß P6
+Bechtheim D0
+Bechtheim X1
+Bechtolsheim S7
+Bechtolsheim T7
+Bechtsrieth O5
+Beidenfleth B3
+Beidenfleth W7
+Beiersdorf (Löbau) L2
+Beiersdorf (Löbau) P4
+Beiersdorf-Freudenb. A3
+Beiersdorf-Freudenb. E7
+Beiersdorf-Freudenb. I1
+Beichlingen G3
+Beichlingen O4
+Beilngries B2
+Beilngries F2
+Beilngries M0
+Beilngries W1
+Beilrode R3
+Beilstein (Württemberg) H6
+Beilstein (Württemberg) P0
+Beindersheim P1
+Beinerstadt D2
+Beinerstadt F1
+Beinerstadt L3
+Beinerstadt M0
+Beinhausen C0
+Beinhausen E6
+Beinhausen I1
+Beinhausen W5
+Bekdorf O7
+Bekmünde B1
+Bekond F7
+Belg I2
+Belg K4
+Belg X2
+Belgern-Schildau S0
+Belgern-Schildau Y6
+Belgershain G1
+Belgershain H0
+Belgweiler E7
+Belgweiler H4
+Bell (Hunsrück) H7
+Bell (Hunsrück) S5
+Bellenberg T2
+Belm F5
+Belm Q6
+Belm T4
+Beltheim S3
+Belum I0
+Belum V0
+Bempflingen N1
+Bempflingen O6
+Bempflingen Y6
+Bendestorf I6
+Bendestorf W2
+Bendfeld K7
+Bendfeld V4
+Bendorf (Holstein) N6
+Bendorf (Holstein) P7
+Bendorf (Rhine) B1
+Bendorf (Rhine) H5
+Bendorf (Rhine) U3
+Bendorf (Rhine) U5
+Benediktbeuern M7
+Benediktbeuern Q1
 Benediktbeuern S4
+Bengel H6
 Bengel U1
-Bengerstorf R4
-Bengerstorf X5
-Bennewitz U1
-Bennhausen G1
-Bennhausen P4
-Benningen (Allgäu) A3
-Benningen (Allgäu) I6
-Benningen am Neckar M4
-Benningen am Neckar V5
-Benningen am Neckar Y0
-Bensdorf I0
-Bensdorf W1
-Bensdorf Y6
-Bensheim V3
-Bentwisch T7
-Bentzin A2
-Bentzin G4
-Bentzin J6
-Benz (Usedom) R1
-Benzweiler H2
-Benzweiler V2
-Bereborn E7
-Berg (Ahrweiler) M0
-Berg (Neumarkt) E2
-Berg (Pfalz) E3
-Berg (Pfalz) M5
-Berg (Pfalz) N7
-Berg (Pfalz) O0
-Berg (Pfalz) O1
-Berg (Pfalz) P5
-Berg (Pfalz) S4
-Berg (Ravensburg) F3
-Berg (Ravensburg) I0
-Berg (Ravensburg) T6
-Berg (Starnberg) R5
-Berg (Starnberg) T1
-Berg im Gau T6
-Berga (Elster) L7
-Berga (Elster) Q3
-Berga (Elster) V0
-Berga (Elster) W0
-Berga (Roßla) M3
-Berge (Perleberg) J2
-Berge (Quakenbrück) G4
-Berge (Quakenbrück) S7
-Bergen (Auerbach) P6
-Bergen (Auerbach) S6
-Bergen (Celle) R3
-Bergen (Chiemgau) G2
-Bergen (Kirn/Nahe) W3
-Bergen (Kirn/Nahe) W7
-Bergen an der Dumme A2
-Bergen auf Rügen V6
-Bergenhausen H0
-Bergenhusen J4
-Bergenhusen V1
-Bergewöhrden W2
-Bergfeld J1
-Bergfeld K4
-Bergfeld T1
-Bergfeld U1
-Berghaupten X1
-Berghaupten X4
-Berghausen I4
-Berghausen R2
-Bergheim (Donau) U4
-Bergheim (Erft) R1
-Bergholz (Pasewalk) C1
-Berghülen E3
-Berghülen T2
-Bergisch Gladbach A0
-Bergisch Gladbach C6
-Bergisch Gladbach L0
-Bergisch Gladbach O4
-Bergisch Gladbach T3
-Bergisch Gladbach Y0
-Bergkirchen N5
-Berglern R2
-Berglern S4
-Berglicht S1
-Bergrheinfeld H7
-Bergrheinfeld J4
-Bergtheim L7
-Berching I7
-Berchtesgaden P2
-Berchtesgaden P4
-Berchtesgaden X0
-Beringstedt I0
-Beringstedt V1
-Berka v.d. Hainich U4
-Berka v.d. Hainich V4
-Berkatal S4
-Berkatal U2
-Berkenbrück V2
-Berkheim E1
-Berkheim V2
-Berkholz-Meyenburg X4
-Berkoth E4
-Berkoth K5
-Berkoth O3
-Berlin E4
-Berlin M6
-Berlin R4
-Berlingen H0
-Berlingen N4
-Berlingen Q0
-Berlingen T6
-Berlingerode K5
-Berlingerode M3
-Berlingerode W5
-Berlstedt F1
-Berlstedt K3
-Berlstedt M0
-Berlstedt T3
-Bermatingen E3
-Bermatingen W3
-Bermbach C2
-Bermbach M1
-Bermbach O5
-Bermel D2
-Bermel P1
-Bermersheim (Worms) A0
-Bermersheim v.d. Höhe W5
-Bernau am Chiemsee Q1
-Bernau bei Berlin U4
-Bernbeuren I1
-Bernburg (Saale) D6
-Bernburg (Saale) G0
-Bernburg (Saale) N4
-Bernburg (Saale) P3
-Bernburg (Saale) Q3
-Bernburg (Saale) S0
-Bernburg (Saale) U7
-Bernburg M6
-Berndorf A7
-Berndorf I3
-Berndroth D3
-Berne C2
-Berne T3
-Berngau A5
-Berngau H7
-Bernhardswald K0
-Bernhardswald Q0
-Bernhardswald Y3
-Bernitt C0
-Bernitt W5
-Bernkastel-Kues R2
-Bernried (Niederb.) A1
-Bernried (Niederb.) O0
-Bernried (Starnb. S.) B4
-Bernried (Starnb. S.) C7
-Bernried (Starnb. S.) J2
-Bernried (Starnb. S.) P7
-Bernried (Starnb. S.) V4
-Bernsdorf (Ore Mountains) F5
-Bernsdorf (Ore Mountains) K3
-Bernsdorf (Ore Mountains) U5
-Bernsdorf (Upper Lusatia) I4
-Bernsdorf (Upper Lusatia) P4
-Bernstadt (Württ.) U7
-Bernstorf J6
-Bernterode (Heilig.) A5
-Bernterode (Heilig.) J5
-Bernterode (Worbis) L3
-Bernterode (Worbis) P0
-Bernterode (Worbis) W2
-Berod (Hachenburg) G5
-Berod (Hachenburg) V0
-Berod (Wallmerod) Y1
-Bersenbrück J4
-Bersenbrück Q7
-Berscheid F0
-Berschweiler (Kirn) K5
-Berschweiler (Kirn) X1
-Bersteland M0
-Bersteland P6
-Bertsdorf-Hörnitz E5
-Bertsdorf-Hörnitz V0
-Berumbur P7
-Berzhahn U2
-Berzhausen K2
-Berzhausen K5
-Berzhausen L3
-Beselich A4
-Beselich K4
-Besenthal J6
-Besenthal K2
-Beseritz H5
-Besigheim K7
-Besitz H3
-Besitz I5
-Bessenbach D3
-Bessenbach E1
-Bestensee J2
-Bestensee R2
-Bestwig K1
-Betheln B2
-Betheln F5
-Betheln O5
-Betheln X3
-Bettendorf M5
-Betzdorf R7
-Betzendorf G5
-Betzendorf N3
-Betzendorf P7
-Betzendorf W4
-Betzenstein B6
-Betzenstein L6
-Betzenstein O2
-Betzenstein V3
-Betzenstein Y4
-Betzenweiler A3
-Betzenweiler G0
-Betzenweiler P2
-Beuren (Eifel) D1
-Beuren (Eifel) H2
-Beuren (Hochwald) J2
-Beuren (Hochwald) X7
-Beuren (Nürtingen) A0
-Beuren (Nürtingen) K2
-Beuren (Nürtingen) K5
-Beuron F2
-Beutelsbach L6
-Beutelsbach V1
-Bevern (Holstein) A2
-Bevern (Holzminden) C0
-Beverstedt L3
-Beverungen G2
-Bexbach R6
-Biberach (Baden) I7
-Biberach an der Riß N6
-Biberach an der Riß W3
-Biberbach C3
-Bibertal H4
-Biblis O2
-Bibow H0
-Bibow O2
-Bibra (Jena) U7
-Biburg D3
-Bickenbach (Bergstrasse) A6
-Bickenbach (Bergstrasse) G5
-Bickenbach (Bergstrasse) H4
-Bickenbach (Bergstrasse) M3
-Bickenbach (Bergstrasse) T6
-Bickenbach (Bergstrasse) T7
-Bickenbach (Hunsrück) G4
-Bickenbach (Hunsrück) K5
-Bickendorf I3
-Bickendorf P0
-Bickendorf Q5
-Bidingen T7
-Bidingen U2
-Biebelnheim D7
-Biebelnheim E2
-Biebelnheim X2
-Biebelried F5
-Biebelried U2
-Biebergemünd D5
-Biebern G6
-Biebern I0
-Biebesheim am Rhein L4
-Biebrich D3
-Biebrich P6
+Benitz E1
+Benndorf (Sax.-Anh.) I1
+Benndorf (Sax.-Anh.) J1
+Benndorf (Sax.-Anh.) W5
+Bennhausen E4
+Benningen (Allgäu) A6
+Benningen (Allgäu) H2
+Benningen (Allgäu) W0
+Benningen am Neckar A5
+Benningen am Neckar X6
+Bensdorf L1
+Bensdorf R0
+Benshausen D3
+Bensheim P3
+Bentzin H1
+Bentzin M0
+Bentzin M7
+Beratzhausen C4
+Beratzhausen Q4
+Beratzhausen R7
+Beratzhausen T2
+Beratzhausen Y7
+Bereborn M1
+Bereborn S2
+Berenbach M5
+Berenbach N1
+Berg (Neumarkt) G1
+Berg (Neumarkt) I1
+Berg (Neumarkt) M0
+Berg (Neumarkt) P4
+Berg (Obfr.) Q3
+Berg (Obfr.) W5
+Berg (Pfalz) F7
+Berg (Pfalz) G3
+Berg (Pfalz) G6
+Berg (Pfalz) V4
+Berg (Ravensburg) A2
+Berg (Ravensburg) A5
+Berg (Ravensburg) E7
+Berg (Ravensburg) P3
+Berg (Starnberg) O3
+Berg (Taunus) S3
+Berg im Gau B5
+Berg im Gau J0
+Berga (Elster) A7
+Berga (Roßla) C4
+Bergatreute C6
+Bergatreute O2
+Berge (Perleberg) R1
+Berge (Perleberg) S2
+Berge (Perleberg) T3
+Berge (Perleberg) V6
+Berge (Quakenbrück) B1
+Berge (Quakenbrück) F7
+Berge (Quakenbrück) O1
+Bergen (Auerbach) H7
+Bergen (Auerbach) M4
+Bergen (Celle) W2
+Bergen (Chiemgau) C6
+Bergen (Kirn/Nahe) G6
+Bergen (Kirn/Nahe) N4
+Bergen (Kirn/Nahe) O4
+Bergen (Kirn/Nahe) T2
+Bergen (Mittelfr.) W5
+Bergen an der Dumme S3
+Bergen auf Rügen N3
+Bergen auf Rügen Y0
+Bergenhausen L7
+Bergenhusen C2
+Bergenhusen C6
+Bergenhusen G7
+Berghaupten H3
+Berghaupten J4
+Berghausen Y5
+Bergheim (Donau) F5
+Bergheim (Donau) G1
+Bergheim (Donau) S6
+Bergheim (Erft) K6
+Bergholz (Pasewalk) E0
+Berghülen O1
+Berghülen Y6
+Bergisch Gladbach B4
+Bergisch Gladbach B6
+Bergisch Gladbach Q2
+Bergisch Gladbach T1
+Bergisch Gladbach W3
+Bergisch Gladbach X0
+Bergisch Gladbach Y5
+Bergkamen S4
+Bergkirchen K2
+Berglangenbach E3
+Berglangenbach F4
+Berglangenbach I3
+Berglangenbach Q2
+Berglen R0
+Berglen R4
+Berglicht G0
+Bergneustadt D0
+Bergrheinfeld H3
+Bergtheim D0
+Bergtheim F7
+Bergtheim T6
+Bergweiler G5
+Berching C6
+Beringstedt X4
+Berka (Werra) W1
+Berka (Werra) X7
+Berkatal A5
+Berkatal D3
+Berkatal F7
+Berkatal P1
+Berkenbrück A5
+Berkenbrück H4
+Berkenbrück P4
+Berkenthin D7
+Berkholz-Meyenburg S3
+Berkoth D4
+Berkoth V6
+Berlin G0
+Berlin K5
+Berlin W4
+Berlin Y7
+Berlingen D7
+Berlingen Y4
+Berlstedt J6
+Bermatingen C0
+Bermel G0
+Bermel W4
+Bermel Y6
+Bermersheim (Worms) B6
+Bermersheim (Worms) C3
+Bermersheim (Worms) U5
+Bermersheim v.d. Höhe B5
+Bermersheim v.d. Höhe G7
+Bermersheim v.d. Höhe Y2
+Bernau bei Berlin G6
+Bernau bei Berlin P7
+Bernau bei Berlin Y2
+Bernburg (Saale) K1
+Bernburg (Saale) K2
+Bernburg (Saale) Q1
+Berndorf G3
+Berndorf J0
+Berndroth I3
+Berndroth J5
+Berne C1
+Berne H0
+Berne R7
+Bernitt B0
+Bernitt H0
+Bernitt J1
+Bernried (Niederb.) L5
+Bernried (Niederb.) W0
+Bernried (Starnb. S.) A1
+Bernsdorf (Upper Lusatia) O7
+Bernsdorf (Upper Lusatia) Q2
+Bernstadt (Württ.) G0
+Bernstadt (Württ.) R1
+Bernstadt a.d. Eigen Q6
+Bernterode (Heilig.) N6
+Bernterode (Heilig.) P5
+Bernterode (Worbis) L1
+Berod (Hachenburg) O1
+Berod (Hachenburg) Q3
+Berod (Wallmerod) I6
+Berod (Wallmerod) X4
+Berschweiler (Kirn) K2
+Berschweiler (Kirn) Y6
+Berzhahn P7
+Berzhahn S6
+Berzhahn T7
+Berzhahn U4
+Berzhausen B7
+Berzhausen J4
+Berzhausen L5
+Besdorf A5
+Besdorf D4
+Beselich A1
+Beselich M2
+Beselich Y3
+Beselich Y7
+Besenthal E4
+Beseritz Q5
+Beseritz U6
+Bescheid M1
+Besigheim P6
+Besigheim U2
+Besitz F5
+Bessenbach O7
+Bessenbach V4
+Bettendorf T2
+Bettenfeld M6
+Bettingen F4
+Betzdorf P6
+Betzendorf F2
+Betzenstein F0
+Betzenweiler C6
+Betzenweiler X2
+Betzigau B5
+Betzigau G0
+Betzigau G7
+Betzigau T3
+Beulich B5
+Beulich Q4
+Beuren (Hochwald) U7
+Beuren (Nürtingen) G4
+Beuren (Nürtingen) P0
+Beutelsbach B1
+Beutelsbach C6
+Beutelsbach D4
+Beutelsbach X2
+Bevern (Holstein) K0
+Bevern (Holstein) N6
+Bevern (Holzminden) H2
+Bevern (Holzminden) Y5
+Beverungen D1
+Bexbach A7
+Bexbach B6
+Bexbach K2
+Bexbach M1
+Bexbach W7
+Biberach (Baden) S0
+Biberach (Baden) X5
+Biberach an der Riß I3
+Biberach an der Riß P5
+Biberach an der Riß Q6
+Biberbach V6
+Bibertal D6
+Bibertal F3
+Bibertal X1
+Biblis A3
+Biblis H6
+Bibra (Jena) M3
+Bibra (Jena) T5
+Biburg G2
+Biburg M4
+Biburg R7
+Bickenbach (Bergstrasse) G6
+Bickenbach (Bergstrasse) S3
+Bickendorf K7
+Biebelnheim C0
+Biebelnheim K3
+Biebelnheim W1
+Biebelried R1
+Biebelried U3
+Biebelsheim X4
+Biebergemünd M4
+Biebern R0
+Biebertal G4
+Biebertal H4
+Biebertal P3
+Biebesheim am Rhein G1
+Biebrich I5
+Biedenkopf A3
+Biederbach A4
+Biederbach I3
+Biederbach K4
+Biederitz C6
+Biederitz R2
+Biederitz V5
+Biederitz W4
+Biederitz Y7
+Biedershausen M6
 Biedershausen V1
-Biedershausen W1
-Biedesheim K0
-Biedesheim U0
-Bielefeld R6
-Biendorf C6
-Biendorf D6
-Bienenbüttel P6
-Bienstädt F4
-Bienstädt F5
-Bienstädt H6
-Biersdorf am See A7
-Biessenhofen C4
-Bietigheim A7
+Bielefeld Q0
+Bielefeld W4
+Biendorf J2
+Biendorf Y5
+Bienenbüttel N1
+Bienenbüttel S4
+Bienstädt D6
+Biersdorf am See E6
+Biersdorf am See I0
+Biesdorf Q7
+Biesenthal E3
+Biesenthal M6
+Biesenthal S4
+Bietigheim N2
+Bietigheim-Bissingen A3
+Bietigheim-Bissingen A5
 Bietigheim-Bissingen G7
-Bietigheim-Bissingen W4
-Bichl E7
-Bilkheim F0
-Billerbeck D2
-Billigheim B7
-Billigheim D3
-Billigheim G0
-Billigheim-Ingenheim I2
-Billigheim-Ingenheim J3
-Bilzingsleben L7
-Bimöhlen K7
-Bindlach A5
-Bingen am Rhein P7
-Binnen E2
-Binnen F0
-Binnen T0
-Binsfeld E3
-Binsfeld J1
-Binswangen E5
-Binswangen X7
-Binz B1
-Binzen U4
-Birenbach A7
-Birenbach K0
-Birenbach U6
-Birenbach Y4
-Birgel C3
-Birgel J0
-Birgel U6
-Birgel U7
-Birgland H4
-Birkenau C3
-Birkenau X5
-Birkenfeld (Nahe) B5
-Birkenfeld (Nahe) P2
-Birkenfeld b. Marktheidenfeld S0
-Birkenfelde L2
-Birkenfelde Y5
-Birkenheide I3
-Birkenheide L0
-Birkenheide N7
-Birkenheide T7
-Birken-Honigsessen L3
-Birkenhördt F1
-Birkenhügel D1
-Birkheim O6
-Birnbach H1
-Birnbach K4
-Birstein D3
-Birstein G5
-Birstein S1
-Birtlingen O0
-Birtlingen S7
-Birtlingen X4
-Birtlingen X6
-Birx M7
-Birx N6
-Bischberg M1
-Bischberg U3
-Bischberg Y6
-Bischbrunn O3
-Bischbrunn R5
-Bischbrunn Y4
-Bischheim D3
-Bischheim L3
-Bischheim U5
-Bischoffen O4
-Bischofferode H2
-Bischofrod P0
-Bischofroda Y3
-Bischofsgrün J1
-Bischofsheim (Rhön) K7
-Bischofsheim (Rhön) L2
-Bischofsheim (Rhön) Q4
-Bischofswerda S0
-Bischofswiesen H4
-Bischofswiesen V1
-Bischofswiesen X7
-Bischweier B0
-Bischweier R5
-Bismark (Altmark) P7
-Bispingen A0
-Bispingen G5
-Bispingen I0
+Bietigheim-Bissingen K3
+Bichl F2
+Bichl Q7
+Bichl V1
+Bilkheim R5
+Billerbeck P4
+Billigheim-Ingenheim F4
+Billigheim-Ingenheim O7
+Billigheim-Ingenheim Q2
+Bilsen O7
+Bilshausen U7
+Bilshausen X0
+Bimöhlen H4
+Binau J3
+Binau K2
+Bindlach U6
+Bindlach X2
+Bingen (Sigmaringen) K5
+Bingen (Sigmaringen) M1
+Bingen (Sigmaringen) Q4
+Bingen (Sigmaringen) V5
+Bingen L1
+Bingen V5
+Binnen D4
+Binsfeld M2
+Binsfeld R3
+Binz U0
+Binzen G7
+Birenbach E1
+Birenbach V7
+Birgland E2
+Birkenau Q2
+Birkenau Q4
+Birkenau V5
+Birkenau Y5
+Birkenfeld (Enzkreis) P6
+Birkenfeld (Nahe) O4
+Birkenfeld (Nahe) Q0
+Birkenfeld b. Marktheidenfeld D7
+Birkenfeld b. Marktheidenfeld Q0
+Birkenfeld b. Marktheidenfeld V6
+Birkenheide A1
+Birkenheide N0
+Birken-Honigsessen U1
+Birkenhügel F2
+Birkenhügel U7
+Birkenhügel W4
+Birkenwerder F0
+Birkheim D3
+Birkheim K4
+Birkheim K7
+Birkheim L5
+Birkweiler X3
+Birnbach K3
+Birnbach P6
+Birresborn D6
+Birresborn J5
+Birresborn T6
+Birstein H2
+Birtlingen F2
+Birtlingen O7
+Birtlingen W6
+Bischbrunn E1
+Bischbrunn E4
+Bischbrunn W0
+Bischheim L0
+Bischheim R2
+Bischoffen L7
+Bischoffen Y3
+Bischofferode B4
+Bischofferode M5
+Bischofferode X5
+Bischofrod Y6
+Bischofroda J0
+Bischofroda J2
+Bischofroda N2
+Bischofroda V0
+Bischofsgrün G6
+Bischofsgrün M3
+Bischofsgrün T4
+Bischofsheim (Main) O2
+Bischofsheim (Main) P2
+Bischofsheim (Rhön) U3
+Bischofsheim (Rhön) X2
+Bischofsmais P4
+Bischofsmais R0
+Bischweier H7
+Bischweier L2
+Bischweier M1
+Bischweier V4
+Bisingen F7
+Bisingen K5
+Bisingen M5
+Bismark (Altmark) C3
+Bismark (Altmark) I5
+Bispingen I4
+Bispingen L5
+Bissendorf C6
 Bissendorf I4
-Bissersheim V0
-Bissingen (Schwab) G6
-Bissingen an der Teck Y4
-Bisterschied H7
-Bitburg F4
-Bitburg J4
-Bitterfeld-Wolfen O6
-Bitz N6
-Bitzen M0
-Blankenberg (Meckl.) N3
-Blankenburg (Harz) K4
-Blankenburg (Harz) O0
-Blankenburg (Harz) Q3
-Blankenburg (Thur.) N3
-Blankenburg (Thur.) Q4
-Blankenburg (Thur.) U2
-Blankenfelde-Mahlow H5
-Blankenfelde-Mahlow O6
-Blankenfelde-Mahlow U1
-Blankenhagen E5
-Blankenhain J5
-Blankenheim (Ahr) I1
-Blankenheim (Ahr) J6
-Blankenheim (Ahr) W6
-Blankenheim (Mansfeld) G3
-Blankenhof E0
-Blankenhof E4
-Blankenhof H0
-Blankenhof P0
-Blankenhof R3
-Blankensee (Neustr.) J4
-Blankensee (Neustr.) P0
-Blankenstein F6
-Blankenstein P3
-Blaubach C1
-Blaubach E6
-Blaubach V1
-Blaubeuren E5
-Blaubeuren J2
-Blaustein C2
-Blaustein K0
-Blaustein N6
-Bleckede J0
-Bleckhausen J6
-Bleckhausen K6
-Bleckhausen Q6
-Bleialf H0
-Bleialf V5
-Bleialf X2
-Bleicherode W6
-Blender I3
-Blender N7
-Blesewitz L0
-Bliedersdorf S4
-Bliesdorf C0
-Bliesdorf Y3
-Blieskastel X1
-Bliestorf A6
-Bliestorf T1
-Blievenstorf F5
-Blievenstorf I1
-Blievenstorf R0
-Blomberg (East Frisia) J7
-Blomberg (East Frisia) S2
-Blomesche Wildnis P3
-Blowatz T4
-Blumberg M3
+Bissersheim C5
+Bissersheim K7
+Bissersheim P6
+Bissingen an der Teck B0
+Bisterschied E2
+Bisterschied L4
+Bitburg C1
+Bitburg G3
+Bitburg J5
+Bitburg P6
+Bitterfeld-Wolfen F5
+Bitz D5
+Bitz E1
+Bitzen I1
+Blaibach E7
+Blaichach Q0
+Blankenberg (Thur.) K1
+Blankenberg (Thur.) Y5
+Blankenburg (Harz) L0
+Blankenburg (Harz) Q1
+Blankenburg (Harz) R6
+Blankenburg (Thur.) S0
+Blankenfelde-Mahlow Y1
+Blankenhagen H7
+Blankenhagen K5
+Blankenhagen U0
+Blankenhagen W0
+Blankenhain E5
+Blankenhain P3
+Blankenheim (Ahr) B4
+Blankenheim (Ahr) Q0
+Blankenhof K7
+Blankenrath G1
+Blankenrath I6
+Blankensee (Vorp.) T6
+Blaubach E3
+Blaubach S2
+Blaubeuren R4
+Blaufelden L2
+Blaustein U3
+Blaustein W4
+Bleckede G2
+Bleckhausen R2
+Bleckhausen W1
+Bleialf D4
+Bleialf E1
+Bleialf R2
+Bleicherode H7
+Bleicherode L6
+Bleicherode T7
+Blekendorf B6
+Blekendorf R0
+Blender I6
+Blesewitz H3
+Blesewitz W1
+Bleyen-Genschmar Q2
+Bliesdorf K6
+Bliesdorf V2
+Blieskastel V6
+Bliestorf O2
+Bliestorf V1
+Blomberg (Lippe) I3
+Blowatz I5
+Blowatz U2
+Blumberg E0
+Blumberg L7
+Blumberg P1
 Blumenhagen E1
-Blumenhagen O7
-Blumenhagen X4
-Blumenholz T3
-Blumenthal (Holstein) A7
-Blumenthal (Holstein) K1
-Blumenthal (Holstein) N0
-Blunk E2
-Bobenheim am Berg L2
-Bobenthal C1
-Bobenthal F5
-Bobenthal O1
-Bobenthal R7
-Böbingen (Palatinate) I6
-Bobingen G7
-Bobingen X1
-Böblingen E6
-Böblingen I5
-Böblingen I7
-Bobritzsch-Hilbersdorf A1
-Bobzin B2
-Bobzin H7
-Bobzin I0
-Bobzin M1
-Bobzin M5
-Bocka E1
-Bocka R0
-Bockau B7
-Bockelnhagen M2
-Bockelnhagen X4
-Bockelwitz L5
-Bockelwitz O0
-Bockenau I5
-Bockenau X4
-Bockhorn (Frisia) T0
-Bockhorn (Upper Bavaria) I6
-Bockhorst H2
-Bockhorst J2
-Bockhorst T3
-Bockhorst Y7
-Bodelshausen T0
-Bodelshausen X1
-Bodelwitz S6
-Boden W7
-Bodenbach B3
-Bodenbach Y2
-Bodenfelde P7
-Bodenmais J1
-Bodenmais P4
-Bodenmais U2
-Bodenrode-Westh. A5
-Bodenrode-Westh. B3
-Bodenrode-Westh. D6
-Bodenrode-Westh. H6
-Bodenrode-Westh. K5
-Bodensee (Municipal.) U2
-Bodenwerder A5
-Bodenwerder F0
-Bodenwerder M5
-Bodenwerder O0
-Bodenwerder S2
-Bodenwöhr I3
-Bodolz P2
-Bodolz Y3
-Böel A6
-Boffzen I0
-Boffzen M7
-Boffzen W0
-Bogel B7
-Bogel L0
-Bogel S7
-Bogen L2
-Bogen Q6
-Böhen J7
-Böhlen (Thuringia) P1
-Böhme Q3
-Böhme R0
-Böhme R6
-Böhmenkirch N2
-Böhmenkirch P1
-Böhmenkirch V7
-Böhmenkirch X3
-Böhmfeld S0
-Bohmstedt I2
-Bohmstedt S3
-Bohmte P0
-Böhnhusen A4
-Böhnhusen J3
-Böhnhusen K6
-Böhnhusen T7
-Böchingen L7
-Böchingen T5
-Bocholt H4
-Bochum I1
-Bochum M0
-Boitze F7
-Boitze X1
-Boizenburg (Elbe) B7
-Bokel (Bremerhaven) J5
-Bokel (Bremerhaven) P3
-Bokel (Elmshorn) P1
-Bokelrehm V0
-Bokensdorf J5
-Bokhorst G1
-Bokhorst T3
-Böklund D7
-Böklund I1
-Bolanden G1
-Boldekow A7
-Boldekow D5
-Bollberg D5
-Bollberg H1
-Böllen I0
-Bollenbach H4
-Bollenbach K3
-Bollenbach N5
-Bollenbach V0
-Böllenborn M1
-Böllenborn O4
-Böllenborn S6
-Bollewick B7
-Bollewick G1
-Bollewick J0
-Bollewick Y6
-Bollingstedt O4
-Bolsterlang G1
-Bolsterlang Y0
-Boltenhagen Y6
-Bomlitz J7
-Bomlitz V6
-Bomlitz Y1
-Boms S6
-Bondorf I1
-Bondorf M0
-Bondorf Q7
-Bondorf X0
-Bönebüttel P5
-Bonefeld V7
-Bonefeld Y7
-Bönen B1
-Bönen H1
-Bonerath L2
-Bongard D3
-Bongard I2
-Bonn E2
-Bonn I2
-Bonn N4
-Bonn T1
-Bonn U3
-Bonndorf im Schwarzwald F5
-Bonndorf im Schwarzwald U5
-Bönnigheim K2
-Bönnigheim V1
-Bönnigheim Y5
-Bönningstedt L6
-Bönningstedt N4
-Bonstetten B5
-Bonstetten T2
-Boos (Eifel) A1
-Boos (Eifel) H1
-Boos (Nahe) M7
-Boos (Nahe) N3
-Boos (Nahe) T3
-Boostedt M6
-Bopfingen S6
-Boppard F7
-Boppard G0
-Boppard K4
-Boppard Q7
-Bördeaue E7
-Bördeland D6
-Bördeland J5
+Blumenhagen Y0
+Blumenholz E7
+Blumenholz H0
+Blumenthal (Holstein) V1
+Blumenthal (Holstein) V2
+Blumenthal (Holstein) W7
+Bobeck L1
+Bobeck V5
+Bobeck W0
+Bobenheim am Berg J3
+Bobenthal E7
+Bobenthal W0
+Böbing J7
+Böbingen (Palatinate) J7
+Böbingen a.d. Rems A4
+Böbingen a.d. Rems W5
+Böbingen a.d. Rems X4
+Bobingen C7
+Bobingen F3
+Bobitz B7
+Böblingen Q5
+Böbrach A2
+Böbrach D7
+Böbrach N7
+Böbrach R1
+Böbrach S6
+Böbrach V6
+Bobzin O7
+Bobzin Q3
+Bobzin R2
+Bocka R7
+Bockelnhagen W4
+Bockelwitz X7
+Bockenau C3
+Bockenau I3
+Bockenem E2
+Bockhorn (Frisia) Q2
+Bockhorn (Frisia) U0
+Bockhorst K1
+Boddin C3
+Boddin H3
+Bodelshausen W5
+Bodelwitz G5
+Boden B1
+Bodenbach A6
+Bodenbach Q2
+Bodenbach R5
+Bodenfelde N7
+Bodenfelde O2
+Bodenkirchen B0
+Bodenmais N6
+Bodenmais S7
+Bodenrode-Westh. E6
+Bodenrode-Westh. H4
+Bodenrode-Westh. M7
+Bodensee (Municipal.) I1
+Bodenwerder Y4
+Bodenwöhr L5
+Bodenwöhr Y3
+Boffzen D3
+Boffzen F6
+Boffzen U7
+Bogen D2
+Böhen F0
+Böhen M4
+Böhen P6
+Böhlen (Saxony) H5
+Böhlen (Saxony) L0
+Böhlen (Saxony) W6
+Böhlen (Thuringia) W4
+Böhl-Iggelheim E4
+Böhme H5
+Böhmenkirch A6
+Bohmstedt H7
+Böhnhusen I0
+Böhnhusen X5
+Böhnhusen Y5
+Böchingen A5
+Böchingen W5
+Bocholt A6
+Bocholt N7
+Bochum G3
+Bochum K1
+Bochum P4
+Bochum X7
+Boiensdorf O1
+Boitzenburger Land Q3
+Boitzenburger Land X1
+Boizenburg (Elbe) N3
+Bokel (Bremerhaven) C7
+Bokel (Elmshorn) N2
+Bokel (Rendsburg) L2
+Bokel (Rendsburg) U3
+Bokelrehm E5
+Bokensdorf P3
+Bokholt-Hanredder G1
+Bokholt-Hanredder K7
+Bokholt-Hanredder P2
+Bokholt-Hanredder S5
+Bokhorst E7
+Böklund G7
+Böklund X6
+Bolanden B2
+Boldekow I3
+Boldekow P4
+Boldekow X0
+Bollberg A5
+Bollberg B2
+Bollberg D6
+Bollberg H6
+Böllen A0
+Böllen A1
+Böllen H5
+Böllen V2
+Böllen X7
+Böllen Y6
+Bollenbach H6
+Bollenbach O0
+Bollenbach T2
+Böllenborn P3
+Böllenborn R1
+Bollendorf B6
+Bollendorf W3
+Bollewick O1
+Bollingstedt S5
+Bollschweil E0
+Bollschweil M3
+Bollschweil R4
+Bollschweil S2
+Bolsterlang L4
+Bolsterlang R2
+Bolsterlang Y2
+Boltenhagen O2
+Boltenhagen X6
+Boltenhagen X7
+Bomlitz Y3
+Boms W4
+Bondelum B0
+Bönebüttel B7
+Bönebüttel C3
+Bonefeld C4
+Bonefeld I1
+Bönen D6
+Bönen P1
+Bonerath H0
+Bonerath H7
+Bongard G1
+Bongard N0
+Bongard W7
+Bonn C0
+Bonn X7
+Bonndorf im Schwarzwald J5
+Bonndorf im Schwarzwald J6
+Bönnigheim F6
+Bönningstedt U6
+Bonstetten K1
+Bonstetten T7
+Boock Y6
+Boos (Eifel) D2
+Boos (Memmingen) N7
+Boos (Nahe) T1
+Boostedt F0
+Boostedt L1
+Boostedt N7
+Boostedt T2
+Bopfingen K0
+Bopfingen L1
+Boppard Q2
+Boppard X7
+Bördeaue H3
+Bördeaue J0
+Börde-Hakel A3
+Börde-Hakel P0
+Bördeland I7
 Bördeland M7
-Bordesholm K3
-Bordesholm O0
-Bordesholm Y7
-Boren X0
-Börfink J3
-Borgdorf-Seedorf X0
-Borgentreich U4
-Börger X1
-Börgerende-Rethwisch H5
-Börgerende-Rethwisch M3
-Börgerende-Rethwisch W0
-Borgholzhausen F4
-Borgholzhausen G2
-Borgholzhausen L6
-Borgstedt L1
-Borgsum P0
-Borgsum Q2
-Borgsum U6
-Borgwedel K0
-Borgwedel Q1
-Borgwedel R6
-Borgwedel T5
-Borgwedel X5
-Borgwedel Y0
-Borchen Q0
-Borken (Hesse) K5
-Borken (Westphalia) M3
-Borkow Y2
-Borkum Y7
-Borkwalde I6
-Borkwalde M5
-Borkwalde P5
-Borkwalde Q6
-Borkwalde R5
-Börm C6
-Born a. Darß L7
-Borna R3
-Borne (Staßfurt) J6
-Borne (Staßfurt) Q4
-Borne (Staßfurt) Y1
-Bornhagen I1
-Bornhagen O5
-Bornheim (Palatinate) J7
-Bornheim F7
-Bornheim R2
-Bornich C1
-Bornich N0
-Bornich Q4
-Börnichen (Erzgebirge) D6
-Börnichen (Erzgebirge) P3
-Börnsen G3
-Bornstedt G4
-Borod A2
-Borod I0
-Borod I2
-Borrentin A0
-Börrstadt B3
-Börrstadt G3
-Börrstadt T6
-Börsborn Q3
-Börsborn X4
-Borsdorf M5
-Borsdorf O6
-Borsdorf W1
-Borsfleth D0
-Börslingen Y7
-Börßum A1
-Borstel (Neumünster) C5
-Borstel (Neumünster) K4
-Borstel (Neumünster) P0
-Borstel (Sulingen) E7
-Borstel (Sulingen) U1
-Borstel-Hohenraden N1
-Borstendorf J7
-Borstendorf P0
-Borstendorf T1
-Borstendorf W4
-Börtlingen N4
-Börzow K7
-Börzow O1
-Bosau X4
-Bosbüll E0
-Bosbüll Q5
-Bösdorf (Plön) B2
-Bösdorf (Plön) E6
-Bösdorf (Plön) J7
-Bösdorf (Plön) V6
-Bösel B7
-Bösel P5
-Bösel X2
-Bosenbach E2
-Bosenbach N1
-Bosenbach W7
-Bosenbach X1
-Bösenbrunn P4
-Bösenbrunn R1
-Bösleben-Wüllersleben J2
-Bösleben-Wüllersleben R4
-Bösleben-Wüllersleben W0
-Bötersen D5
-Bötersen I0
-Bötersen M2
-Bothel K1
-Bothel T5
-Bothenheilingen O6
-Bothenheilingen P0
-Bothkamp T6
-Bottenbach J7
-Bottenbach U7
-Böttingen V2
-Bottrop A5
-Bottrop A7
-Bottrop E7
-Bottrop J6
-Bottrop U1
-Bottrop X1
-Bottrop X7
-Bötzingen H1
-Bous F7
-Bous H2
-Bovenau N1
-Bovenden M3
-Boxberg (Eifel) A0
-Boxberg (Eifel) B2
-Boxberg (Oberlausitz) D4
-Boxberg (Oberlausitz) H0
-Böxlund C1
-Böxlund J3
-Braak I5
-Braak L2
-Braak Q6
-Brackel C1
-Brackel D5
-Brackenheim E4
-Braderup U3
-Brahlstorf K0
-Brahlstorf S4
-Brahmenau R4
-Brachtendorf M3
-Brachtendorf O7
-Brachtendorf Q3
-Brachtendorf Y5
-Brachttal A4
-Brachttal J7
-Brake (Unterweser) A5
-Brake (Unterweser) J1
-Brake (Unterweser) M6
-Brake (Unterweser) Q0
-Brammer B4
-Brammer E4
-Brammer K5
-Bramsche B0
-Bramsche P2
-Bramsche S6
-Bramstedtlund T5
-Brand B1
-Brand K1
-Brande-Hörnerkirchen A2
-Brande-Hörnerkirchen S3
-Brandenburg (Havel) E3
-Brandenburg (Havel) J2
-Brandenburg (Havel) M1
-Brandenburg (Havel) P7
-Brandenburg N1
-Brandis F4
-Brandis O5
-Brandscheid (Eifel) H6
-Brandscheid (West.) D3
-Brandscheid (West.) R1
-Brannenburg R0
-Brauneberg B1
-Brauneberg C2
-Brauneberg C6
-Brauneberg H6
-Brauneberg W2
-Braunfels Y7
-Braunlage M6
-Braunlage O0
-Braunlage Q2
-Braunsbach F2
-Braunsbach O7
-Braunsbedra W5
-Braunshorn C7
-Braunshorn X3
-Braunschweig A7
+Bordelum O4
+Bordelum R1
+Bordelum X5
+Bordesholm E6
+Bordesholm Q1
+Bordesholm T5
+Boren O1
+Börfink H4
+Borgentreich W7
+Börger C0
+Börger Q7
+Börgerende-Rethwisch A4
+Börgerende-Rethwisch O3
+Borgholzhausen L7
+Borgstedt B3
+Borgstedt E6
+Borgstedt O1
+Borgstedt Y3
+Borgsum O1
+Borgsum Q0
+Borgwedel B7
+Borgwedel C6
+Borgwedel C7
+Borchen W6
+Borken (Westphalia) U1
+Borken (Westphalia) W0
+Borkum E5
+Borkum F7
+Borkum P7
+Borkwalde G2
+Borler F3
+Borler I4
+Borler L7
+Börm A7
+Börm M7
+Börm U3
+Born a. Darß O7
+Borna B6
+Borna D2
+Borne (Staßfurt) E4
+Bornhagen W7
+Bornheim (Palatinate) T3
+Bornheim R5
+Bornheim T2
+Bornholt X1
+Bornhöved M1
+Bornhöved N0
+Bornich C3
+Bornich K3
+Bornich V7
+Bornich Y7
+Bornstedt K0
+Bornstedt Q0
+Borod K6
+Borrentin D6
+Börsborn R5
+Börsborn Y1
+Borsdorf I4
+Borsdorf L5
+Borsfleth M7
+Börslingen E4
+Börßum W2
+Borstel (Neumünster) R3
+Borstel (Sulingen) N7
+Borstel-Hohenraden D4
+Borstel-Hohenraden M2
+Borstendorf B4
+Borstendorf V5
+Borstorf C4
+Borstorf E2
+Börtlingen B5
+Borxleben J1
+Börzow G4
+Bosau J2
+Bosbüll H1
+Bösdorf (Plön) P4
+Bösel B0
+Bösel G6
+Bösel Y6
+Bosenbach G6
+Bosenbach V2
+Bosenbach V7
+Bösingen A3
+Bösingen L5
+Bötersen E0
+Bothel H3
+Bothel M1
+Bothkamp M2
+Bottenbach X5
+Bottenbach Y3
+Bottrop X6
+Bottrop Y5
+Bötzingen J3
+Bous O2
+Bous P2
+Bous Q1
+Bous U4
+Bous X4
+Bovenau C4
+Bovenau H7
+Bovenau Y5
+Bovenden F3
+Bovenden J5
+Boxberg (Baden) C4
+Boxberg (Baden) F3
+Boxberg (Eifel) S6
+Boxberg (Eifel) V2
+Boxberg (Oberlausitz) A2
+Böxlund E0
+Böxlund O6
+Braak M3
+Braak W5
+Brackel M4
+Brackel N0
+Brackel R3
+Braderup F1
+Braderup J1
+Braderup K5
+Brahlstorf O0
+Brahmenau K7
+Brahmenau M4
+Brachtendorf A2
+Brachtendorf C5
+Brachtendorf F7
+Brachtendorf G1
+Brachttal H5
+Brachttal K2
+Brachttal U3
+Brakel F7
+Bramsche J1
+Bramstedt Y7
+Bramstedtlund G0
+Bramstedtlund J2
+Bramstedtlund S0
+Brand L1
+Brande-Hörnerkirchen N7
+Brandenburg B0
+Brandenburg H0
+Brand-Erbisdorf L7
+Brand-Erbisdorf N2
+Brand-Erbisdorf T1
+Brand-Erbisdorf T5
+Brandis A3
+Brandis C6
+Brandscheid (Eifel) S4
+Brandscheid (West.) C0
+Brandscheid (West.) P7
+Brannenburg A6
+Brannenburg U7
+Braubach G6
+Braubach I7
+Braubach M0
+Braunfels K5
+Braunlage S0
+Braunlage T7
+Braunsbedra V7
+Braunsbedra Y0
 Braunschweig B2
-Braunschweig F2
-Braunschweig F3
-Braunschweig F7
-Braunschweig W7
-Braunschweig X1
-Brauweiler A6
-Brauweiler E0
-Brauweiler O6
-Brauweiler P5
-Brauweiler X0
-Bräunlingen S3
-Bräunlingen W1
-Breckerfeld B0
-Breddin V0
-Breddorf C6
-Bredstedt H1
-Bredstedt V6
-Breese G0
-Breest Q7
-Brehme E0
-Brehme E2
-Brechen H3
-Brechen K5
-Brechen U6
-Brechen W6
-Brecht I5
-Brecht Q2
-Brecht U0
-Breitbrunn am Chiemsee Y0
-Breitbrunn V1
-Breitenbach (Pfalz) A1
-Breitenbach (Pfalz) F2
-Breitenbach a. Herzb. L1
-Breitenberg (Itzehoe) R4
-Breitenberg (Niederb.) E6
-Breitenbrunn (Erzgebirge) C1
-Breitenbrunn (Erzgebirge) T4
-Breitenbrunn (Oberpfalz) D2
-Breitenbrunn (Oberpfalz) S0
-Breitenbrunn (Oberpfalz) X7
-Breitenfelde X3
-Breitengüßbach O3
-Breitengüßbach Y4
-Breitenhain Y2
-Breitenhain Y7
-Breitenheim P4
-Breitenthal (Idar-Ob.) P7
-Breitenthal (Krumbach) N4
-Breitenthal (Krumbach) U6
-Breitenworbis W5
-Breitingen M0
-Breitingen O6
-Breitnau T3
-Breitscheidt O6
-Bremen B1
-Bremen L4
-Bremm L2
-Bremsnitz B2
-Bremsnitz O1
-Brenz A5
-Brenz O6
-Brenz W4
-Bresegard (Eldena) A4
-Bresegard (Eldena) Q2
-Bresegard (Eldena) S5
-Bretnig-Hauswalde I1
-Bretthausen I1
-Bretthausen S4
-Bretthausen U2
-Bretzfeld M1
-Breunigweiler Y0
-Brey B3
-Breydin O4
-Breydin O5
-Brickeln G6
-Brickeln X4
-Brickeln Y3
-Brieden O3
-Brieselang M3
-Brietlingen N0
-Brigachtal L6
-Briggow N3
-Brilon V4
-Brimingen O0
-Brinkum C0
-Britz D1
-Bröbberow P2
-Brockel M7
-Bröckel P6
-Brockscheid Q7
-Brodenbach C1
-Brodenbach R3
-Brodenbach U7
-Brodersby (Kappeln) O3
-Brodersby (Schleswig) D5
-Brodersby (Schleswig) J2
-Brodersdorf H5
-Brohl-Lützing S1
-Brokdorf G3
-Brokstedt C5
-Bromskirchen T3
-Bronkow A5
-Bronkow S7
-Bröthen X3
-Brotterode-Trusetal E0
-Bruck (Oberbayern) F3
-Bruck (Oberbayern) L3
-Bruck (Oberbayern) V5
-Bruck (Oberbayern) W4
-Bruck i.d. Oberpfalz G6
-Bruck i.d. Oberpfalz R6
-Bruckberg (Lower Bavaria) I7
-Bruckberg (Middle Franconia) P0
-Bruckberg (Middle Franconia) T3
-Brücken (Birkenfeld) S7
-Brüel A5
-Brüel K2
-Brüel K3
-Brüheim B0
-Brühl (Baden) G1
-Brühl (Baden) M2
-Brühl (Baden) X2
-Bruchköbel W4
-Bruchsal N5
-Bruchstedt N7
-Brunn (Neubrandenb.) B5
-Brunn (Neubrandenb.) O6
-Brunn (Neubrandenb.) O7
-Brunnen N2
-Brunnhartshausen K1
-Brunnhartshausen L0
-Brunnthal G3
-Brunow (Parchim) F3
+Braunschweig D7
+Braunschweig J4
+Braunschweig L7
+Braunweiler C3
+Braunweiler Q2
+Brauweiler K2
+Brauweiler L3
+Bräunlingen G0
+Bräunlingen K2
+Bräunlingen P0
+Brebel G7
+Brebel W3
+Breckerfeld E0
+Breckerfeld I5
+Breckerfeld M2
+Breddenberg L1
+Bredenbek M1
+Bredenfelde J0
+Bredenfelde R0
+Breege Y5
+Breese G7
+Breesen (Neubrand.) D6
+Breest Y0
+Brecht Q0
+Brecht S0
+Breiholz I2
+Breiholz Y7
+Breisach am Rhein W7
+Breitbrunn K6
+Breitenau L4
+Breitenbach (Pfalz) F1
+Breitenbach (Pfalz) P6
+Breitenbach (Pfalz) Q7
+Breitenbrunn (Erzgebirge) A6
+Breitenbrunn (Erzgebirge) C0
+Breitenbrunn (Erzgebirge) Q6
+Breitenbrunn (Oberpfalz) P4
+Breitenbrunn (Schwaben) L7
+Breitenburg U5
+Breitenfelde G4
+Breitenfelde O7
+Breitenthal (Idar-Ob.) B1
+Breitenthal (Idar-Ob.) K5
+Breitenworbis C1
+Breitnau W0
+Breitscheid (Hesse) L2
+Breitscheid (Neuwied) H7
+Brekendorf E3
+Bremberg B0
+Bremen B6
+Bremen C1
+Bremen I0
+Bremen I5
+Bremen W6
+Bremerhaven H1
+Bremerhaven M0
+Bremerhaven P6
+Bremerhaven R1
+Bremerhaven U1
+Bremervörde M3
+Bremm I6
+Bremm L7
+Brennberg U0
+Brensbach B4
+Brensbach H4
+Brensbach U5
+Bresegard (Eldena) Y5
+Bretleben C0
+Bretten E2
+Bretthausen T3
+Bretzfeld G4
+Breuberg E2
+Breuberg W0
+Brey F7
+Brey H5
+Brey Y0
+Briedel A3
+Briedel A7
+Briedel G2
+Briedern B6
+Briesen (Niederlausitz) R2
+Brieskow-Finkenheerd J0
+Brietlingen G1
+Brietlingen V3
+Brietlingen V7
+Brietzig Y1
+Brigachtal U0
+Brigachtal V0
+Brigachtal V3
+Briggow B3
+Briggow J4
+Brinjahe N6
+Brinjahe X6
+Britz B6
+Bröckel Y0
+Brockscheid M4
+Brodenbach A6
+Brodenbach H4
+Brodersby (Schleswig) W5
+Brodersdorf R0
+Brohl R3
+Brohl X4
+Brokdorf P4
+Brokstedt H0
+Brome O4
+Brome U3
+Bronkow G5
+Brotterode-Trusetal W1
+Brotterode-Trusetal W4
+Bruck (Oberbayern) B1
+Bruck (Oberbayern) L0
+Bruck (Oberbayern) S0
+Brück S3
+Bruckberg (Lower Bavaria) C4
+Bruckberg (Lower Bavaria) M4
+Bruckberg (Middle Franconia) P1
+Brücken-Hackpfüffel G1
+Brücken-Hackpfüffel J6
+Bruckmühl K3
+Brücktal V1
+Brücktal V2
+Brüel V5
+Brügge Y1
+Brüggen (Leine) P7
+Brüheim C0
+Brüheim G0
+Brüheim J3
+Brühl (Baden) R3
+Brühl (Baden) Y4
+Brühl (Baden) Y5
+Brühl (Rhineland) U7
+Bruch J5
+Bruchertseifen J4
+Bruchertseifen Q3
+Bruchhausen-Vilsen C0
+Bruchhausen-Vilsen Q4
+Bruchhausen-Vilsen R2
+Bruchmühlbach-Miesau D1
+Bruchsal G2
+Bruchsal M0
+Bruchsal M3
+Bruchsal X7
+Bruchweiler P3
+Bruchweiler-Bärenbach A0
+Bruchweiler-Bärenbach C1
+Brunn (Neubrandenb.) K6
+Brunn (Neubrandenb.) U3
+Brunn (Regensburg) K4
+Brünn (Thuringia) F3
+Brünn (Thuringia) L5
+Brunnhartshausen D1
+Brunnhartshausen W6
+Brunow (Parchim) B6
 Brunsbek Y6
-Brunsbüttel D5
-Brunsmark Q5
-Brunstorf N6
-Brunswick B1
-Brunswick I4
-Brunswick O6
-Brüsewitz F7
-Bruschied P1
-Bubach G6
-Bubach M6
-Bubenheim (Rhineh.) E2
-Bubenheim (Rhineh.) J7
-Bubenheim (Rhineh.) U1
-Bubenreuth H3
-Bückeburg I2
-Bückeburg J7
-Bücken J5
-Buckenhof C2
-Buddenhagen K6
-Buddenhagen Y2
-Büddenstedt J1
-Budenbach P6
-Budenheim F7
-Budenheim R5
-Büdingen G2
-Büdingen N5
-Bufleben W5
-Buggenhagen A2
-Buggingen D3
-Buhlenberg F6
-Bühlertal H3
-Bühlertal K5
-Bühlertal L4
-Bühlerzell L0
-Bühlerzell N5
-Buch am Erlbach H3
-Bucha (Jena) E6
-Bucha (Jena) S3
-Bucha (Jena) W4
-Bucha (Pößneck) M7
-Büchel (Cochem) B1
-Büchel (Cochem) H7
-Büchel (Cochem) Y0
-Büchel (Sömmerda) G1
-Buchen (Odenwald) J7
-Büchen M6
-Büchen V3
-Buchenbach C6
-Büchenbach F0
-Buchenbach W7
-Buchheim J1
-Buchholz (Dithmarsch.) I3
-Buchholz (Forstgutsb.) M3
-Buchholz (Forstgutsb.) N2
-Buchholz (Ratzeburg) X5
-Buchholz b. Nordhausen K7
-Buchhorst H3
-Büchlberg B7
-Bülkau C2
-Bülkau S4
-Bülkau U2
-Bullay G0
-Bullenkuhlen Y4
-Bülow P3
-Bülstedt K1
-Bülstringen W3
-Bunde V2
-Bunde W3
-Bundenbach V5
+Brunstorf O7
+Brunswick C3
+Brunswick Y3
+Brüsewitz I5
+Bruschied G3
+Bruschied G7
+Brüssow J5
+Brüssow Q7
+Bruttig-Fankel T6
+Bubenheim (Rhineh.) I1
+Bubenheim (Rhineh.) M0
+Bubenheim (Rhineh.) N2
+Bubenheim (Rhineh.) V0
+Bubenreuth A3
+Bubesheim Q4
+Bubesheim T7
+Buckautal E2
+Bücken A1
+Bücken T2
+Buddenhagen F7
+Büddenstedt E4
+Büddenstedt X3
+Budenbach S7
+Budenheim F3
+Büdesheim X1
+Büdingen I1
+Büdlich A4
+Bufleben V4
+Bugewitz H2
+Bugewitz W4
+Buggenhagen Q7
+Buggingen D0
+Bühlertal M1
+Bühlertann B7
+Bühlertann K1
+Bühlerzell B0
+Bühlerzell G5
+Bühnsdorf B1
+Bühnsdorf N0
+Bühnsdorf V3
+Buch (Illertissen) A3
+Buch (Illertissen) H7
+Buch (Taunus) W1
+Buch am Erlbach I3
+Buch am Erlbach N3
+Buch am Wald J0
+Bucha (Jena) K6
+Bucha (Jena) R5
+Buchbach F7
+Buchbrunn J5
+Buchdorf E0
+Büchel (Sömmerda) F0
+Buchenberg C4
+Buchenberg F7
+Buchfart U2
+Buchhofen T6
+Buchholz (Aller) L3
+Buchholz (Aller) P0
+Buchholz (Dithmarsch.) E7
+Buchholz (Dithmarsch.) V0
+Buchholz (Forstgutsb.) K1
+Buchholz (Ratzeburg) R4
+Buchholz (Röbel) V2
+Buchholz (Stadthagen) M5
+Buchholz (Stadthagen) P1
+Buchholz/Westerwald Q0
+Buchholz/Westerwald W3
+Büchlberg X2
+Bülkau I5
+Bülkau P3
+Bullenkuhlen R4
+Bullenkuhlen T0
+Bülow C1
+Bülow K7
+Bülow O1
+Bülstedt A4
+Bülstedt C3
+Bülstringen B3
+Bundenbach L2
+Bundenbach Y4
 Bundenthal G2
-Bundenthal X1
-Bundorf H5
-Bünsdorf N0
-Bunsoh K3
-Bürdenbach G6
-Burg (Dithmarschen) G3
-Burg (Eifel) F4
-Burg (Magdeburg) U0
-Burg (Mosel) U3
-Burgberg (Allgäu) M0
-Burgbernheim T1
-Burgbrohl H6
-Burgdorf (Salzgitter) I7
-Burgdorf A5
-Burggen O0
-Burghaslach C7
-Burghaun H7
-Burghausen Y0
-Burgk L1
-Burglengenfeld F7
-Burglengenfeld G4
-Burgpreppach S1
-Burgsinn P6
-Bürgstadt P0
-Burgstall G4
-Burgstall N0
-Burgstädt I1
-Burgthann E5
-Burgwalde F6
-Burgwedel J7
-Bürchau Y4
-Burk D3
-Burkardroth G4
-Burladingen J0
-Burrweiler S7
-Burtscheid L4
-Burtscheid S2
-Burweg J6
-Busenberg W4
-Busenhausen E7
-Busenhausen Y5
-Busenwurth L2
-Busenwurth L5
-Buschvitz V1
-Büsum C2
-Büsum H2
-Büsum U5
-Butjadingen D1
-Bütow N3
-Büttel L4
-Büttel S5
-Büttelborn U5
-Büttelborn X5
-Buttelstedt Q7
-Bütthard W0
-Buttlar V7
-Buttstädt N7
-Bützow D6
-Buxheim (Memmingen) I3
-Buxheim (Oberbayern) R3
-Buxheim (Oberbayern) U5
-Buxtehude K3
-Buxtehude S3
-Coburg V5
-Cottbus H5
-Cottbus Y1
-Cuxhaven V3
-Darmstadt F5
-Deggendorf K3
-Detmold G4
-Dinkelsbühl N5
-Dinkelsbühl W7
-Donauwörth O3
-Donauwörth W4
-Dorsten U0
-Drelsdorf J5
-Drelsdorf U0
-Drelsdorf X1
-Dröbischau E6
-Drogen M6
-Drognitz C5
-Drohndorf I7
-Drochtersen N2
-Ducherow Y6
-Duisburg G4
-Düsseldorf D1
-Düsseldorf X1
-Ebenshausen C7
-Ebenshausen D0
-Ebenshausen P1
-Ebenshausen Y3
-Eberdingen I3
-Eberdingen M3
-Ebergötzen T1
-Ebermannstadt E1
-Ebern I3
-Ebersbach (Döbeln) G2
-Ebersbach (Großenh.) O1
-Ebersbach an der Fils S4
-Ebersbach-Neugersdorf B7
-Ebersberg W5
-Ebersdorf (Bremervörde) L1
-Ebersdorf (Bremervörde) P4
-Ebershausen R0
-Eberstedt P3
-Eberswalde A2
-Eberswalde E1
-Eberswalde F2
-Eberswalde S2
-Ebertsheim G1
-Ebnath F4
-Ebnath L7
-Ebsdorfergrund N6
-Ebstorf G2
-Ebstorf I3
-Eckersweiler F5
-Eckfeld N2
-Ecklak C5
-Eckstedt A2
-Eddelak R3
-Edelsfeld I5
-Edelsfeld Y4
-Edenkoben T1
-Ederheim F5
-Edermünde L0
-Edermünde M6
-Edersleben K2
-Edertal K0
-Edesheim C4
-Edewecht M6
-Edewecht V5
-Egeln J6
-Egeln N7
-Egeln Y4
-Egenhofen V6
-Egestorf L7
-Egestorf O0
-Egg a.d. Günz B4
-Egg a.d. Günz I0
-Eggebek O6
-Eggenstein-Leopoldsh. J0
-Eggenstein-Leopoldsh. L3
-Eggenstein-Leopoldsh. R7
-Eggenthal A2
-Eggermühlen M1
-Egglkofen V3
-Eggolsheim R1
-Eggolsheim Y2
-Eglfing F2
-Eglfing N0
-Egling (Isar) I6
-Egling an der Paar V3
-Egloffstein U7
-Egmating K6
-Ehingen (Donau) P7
+Bundenthal U7
+Bünsdorf J2
+Bunsoh C3
+Burbach (Eifel) S7
+Burbach (Siegerland) H0
+Burg (Magdeburg) E7
+Burg (Magdeburg) L3
+Burg (Mosel) L6
+Burg (Spreewald) O7
+Burgau A1
+Burgau W6
+Burgberg (Allgäu) J4
+Burgbernheim O7
+Burgbrohl W4
+Burgdorf (Salzgitter) V5
+Burgdorf (Salzgitter) X1
+Bürgel P2
+Burgen (Bernk.-Kues) J2
+Burgen (Bernk.-Kues) K7
+Burghaun U5
+Burghaun W4
+Burgheim B2
+Burgheim J5
+Burgheim S1
+Burgk H4
+Burgk J5
+Burgk R3
+Burgkirchen an der Alz L5
+Burgkunstadt D6
+Burglahr B1
+Burglahr N5
+Burglahr Q5
+Burglengenfeld U7
+Burgpreppach E2
+Burgrieden K5
+Burgrieden N2
+Burgrieden W6
+Burgstädt B0
+Burgwindheim B4
+Burgwindheim F1
+Burgwindheim K3
+Burk A3
+Burkardroth C6
+Burkau Q3
+Burrweiler S2
+Burscheid I6
+Burscheid K2
+Bürstadt Y5
+Burtscheid F3
+Busdorf X1
+Buseck T0
+Buschvitz T1
+Büsum O6
+Butjadingen V2
+Bütow C7
+Bütow P0
+Bütow Q1
+Büttel E5
+Büttelborn G4
+Büttelborn K0
+Büttelborn L1
+Buttelstedt I2
+Buttelstedt O3
+Buttelstedt S3
+Büttstedt I5
+Büttstedt M7
+Butzow (Anklam) G0
+Buxheim (Memmingen) B0
+Buxtehude O6
+Celle N0
+Coburg G5
+Coburg Q0
+Dachau S6
+Dachau W0
+Darmstadt J0
+Deggendorf B5
+Delmenhorst Q2
+Dessau M5
+Dessau V1
+Detmold Y6
+Dinkelsbühl F7
+Dinkelsbühl R5
+Dorsten B6
+Dortmund M5
+Dresden I6
+Dresden K0
+Dresden P0
+Dreschvitz B2
+Dreschvitz W0
+Driedorf F1
+Driedorf O0
+Driedorf V6
+Driedorf X3
+Dröbischau H5
+Dröbischau K5
+Drognitz N1
+Drohndorf X1
+Drochtersen P7
+Drochtersen X5
+Droyßig L4
+Droyßig T2
+Düchelsdorf J5
+Düchelsdorf W6
+Duchroth H1
+Duchroth W7
+Düren B6
+Düren Y3
+Düren Y5
+Düsseldorf B7
+Düsseldorf I5
+Ebeleben I7
+Ebensfeld J6
+Eberbach Q3
+Eberdingen X0
+Eberfing Y6
+Ebergötzen X5
+Eberhardzell L5
+Ebermannstadt A2
+Ebermannstadt U6
+Ebersberg B2
+Ebersberg L0
+Ebersberg Q5
+Ebersburg E1
+Ebersburg V7
+Ebersdorf bei Coburg R3
+Ebertshausen Q1
+Ebertsheim S1
+Ebnath D1
+Ebnath S0
+Ebrach I0
+Ebrach P2
+Ebringen U2
+Eckartsberga H5
+Eckelsheim P0
+Eckenroth J2
+Eckenroth W7
+Eckental D0
+Eckersdorf E3
+Eckersdorf G5
+Eckersweiler E5
+Eckfeld Q4
+Ecklingerode V2
+Edelsfeld H6
+Edemissen X5
+Edermünde X6
+Edertal Q7
+Edewecht C4
+Ediger-Eller F0
+Edingen-Neckarhausen H7
+Edling W5
+Efringen-Kirchen N7
+Efringen-Kirchen P6
+Egenhofen Y4
+Egestorf G0
+Egestorf R0
+Eggenstein-Leopoldsh. C2
+Eggenstein-Leopoldsh. W5
+Eggenthal M2
+Eggermühlen F5
+Eggesin T0
+Egglham D3
+Egglkofen Y7
+Egling (Isar) R3
+Egloffstein S5
+Ehekirchen V5
+Ehingen (Mittelfranken) C2
 Ehingen (Mittelfranken) L1
-Ehingen (Wertingen) I3
-Ehingen (Wertingen) X2
-Ehndorf Q4
-Ehningen R4
-Ehr H3
-Ehra-Lessien G4
-Ehra-Lessien J2
-Ehra-Lessien X3
-Ehrenberg (Hildburgh.) W0
-Ehrenberg (Rhön) B2
-Ehrenberg (Rhön) L4
-Ehrenburg X7
-Ehrenfriedersdorf A7
-Ehrenkirchen J3
-Ehweiler A6
-Ehweiler D4
-Ehweiler W1
-Echem F1
-Echem J7
-Echem L1
-Eching (Freising) F7
-Eching (Freising) Y4
-Eching (Niederbay.) I2
-Eching am Ammersee A2
-Eching am Ammersee Q4
-Echternacherbrück B2
-Echternacherbrück I0
-Echtershausen O7
-Echzell M1
-Eibelstadt F4
-Eibelstadt H2
-Eibenstock C2
-Eibenstock R6
-Eich (Rheinhessen) W2
-Eichen I1
-Eichenau K4
-Eichenbühl H1
-Eichenzell E1
-Eichhorst (Neubr.) I7
-Eichhorst (Neubr.) T2
-Eichstätt M5
-Eichstätt O5
-Eichstätt X5
-Eichstätt X6
-Eichstedt (Altmark) G4
-Eichstedt (Altmark) L0
-Eichstegen V6
-Eichstetten a. Kaiserst. C1
-Eilenburg B5
-Eilsleben G7
-Eime W7
-Eimeldingen R3
-Eimen C5
-Eimen F7
-Eimen L7
-Eineborn O1
-Einhausen (Hesse) I1
-Einöllen P1
-Einselthum Y6
-Eisenach (Trier) P7
-Eisenach A7
-Eisenach W5
-Eisenbach L3
-Eisenberg (Allgäu) M1
-Eisendorf L0
-Eisenschmitt E5
-Eisenschmitt M5
-Eisfeld L5
-Eisfeld P7
-Eisfeld X6
-Eisingen (Baden) G3
-Eisingen (Würzburg) J6
-Eisingen (Würzburg) M1
-Eisingen (Würzburg) S4
-Eisingen (Würzburg) U7
-Eisleben Q6
-Eislingen (Fils) N1
-Eitensheim O6
-Eiterfeld G4
-Eitorf V1
-Eitting F4
-Eitting L0
-Eixen A6
-Elbe C1
-Elben B0
-Elben P1
-Elbenschwand Q1
-Elbenschwand S5
-Elbe-Parey U6
-Elbingen N4
-Elbingen T6
-Elbingerode D4
-Elbingerode G4
-Elbtal O0
-Eldena L2
-Eldena Q6
-Elgersburg Y0
-Elchesheim-Illingen G6
-Elchingen T5
-Elchingen W6
-Elchweiler I7
-Elchweiler O5
-Elkenroth M3
-Elkenroth W5
-Elleben W4
-Elleben X1
-Ellefeld J4
-Ellenberg (Württemb.) W2
-Ellenhausen L0
-Ellerau K0
-Ellerau P2
-Ellern (Hunsrück) Q7
-Ellgau X4
-Ellhofen P7
-Ellhöft C4
-Ellingshausen D7
-Ellingstedt G2
-Ellrich R2
-Ellwangen U7
-Ellweiler A6
-Ellzee M4
-Elmenhorst (Lauenb.) A4
-Elmenhorst (Lauenb.) E5
-Elmenhorst (Lauenb.) M4
-Elmenhorst (Stormarn) R2
-Elmenhorst (Vorp.) X7
-Elmlohe U1
-Elmstein X6
-Elpersbüttel C3
+Ehingen (Mittelfranken) V3
+Ehingen am Ries P0
+Ehlenz F6
+Ehlenz R1
+Ehlscheid C0
+Ehlscheid H0
+Ehlscheid M3
+Ehningen A2
+Ehra-Lessien E1
+Ehra-Lessien O3
+Ehrenberg (Rhön) J6
+Ehrenberg (Rhön) T4
+Ehrenburg B6
+Ehrenburg M1
+Ehrenburg O7
+Ehringshausen P2
+Ehweiler T2
+Eching (Niederbay.) D6
+Eching am Ammersee L4
+Eching am Ammersee P2
+Eching am Ammersee U2
+Echternacherbrück V4
+Echzell X4
+Eibelstadt D5
+Eickeloh E6
+Eicklingen V0
+Eigeltingen H2
+Eigeltingen I0
+Eigeltingen J4
+Eichelhardt P7
+Eichelhardt W2
+Eichen M4
+Eichen Q2
+Eichenau D7
+Eichenberg (Suhl) K1
+Eichenbühl P5
+Eichenbühl W1
+Eichendorf P4
+Eichigt Q5
+Eichstedt (Altmark) W2
+Eichstruth C5
+Eichstruth C7
+Eichstruth D5
+Eichwalde D7
+Eichwalde R3
+Eilenburg H3
+Eilenburg L6
+Eimeldingen U2
+Eimen R7
+Eimsheim K4
+Einhausen (Thuringia) E3
+Eisdorf F4
+Eisenach C1
+Eisenach L2
+Eisenbach G3
+Eisenbach Y0
+Eisenberg (Allgäu) E7
+Eisenberg (Allgäu) S3
+Eisenberg (Pfalz) V0
+Eisenberg (Thuringia) P7
+Eisighofen B6
+Eisighofen L4
+Eisighofen X2
+Eisingen (Baden) C0
+Eisingen (Baden) V0
+Eisingen (Würzburg) Y7
+Eislingen (Fils) J4
+Eislingen (Fils) L5
+Eitelborn U0
+Eitorf K3
+Eitorf R5
+Eitting D0
+Eitting H7
+Ekenis S7
+Elbe D4
+Elbe U6
+Elben O7
+Elbe-Parey K7
+Elbe-Parey O3
+Elbingen K3
+Elbingen V3
+Elbingerode G7
+Eldena O6
+Eldingen U0
+Elfershausen L0
+Elgersburg A4
+Elgersburg G3
+Elgersburg V4
+Elchingen W2
+Elchingen W4
+Ellefeld K2
+Ellefeld S6
+Ellenberg (Württemb.) U7
+Ellenberg (Württemb.) Y7
+Ellerbek B3
+Ellerbek T5
+Ellerhoop I6
+Ellern (Hunsrück) W4
+Ellhöft T5
+Ellingshausen C4
+Ellingstedt J2
+Ellrich P2
+Ellwangen P7
+Ellzee D4
+Ellzee G3
+Elmenhorst (Lauenb.) H4
+Elmenhorst (Rostock) P6
+Elmenhorst (Stormarn) B5
+Elmlohe G4
+Elmstein E2
+Elpersbüttel L2
+Elpersbüttel R5
+Elsdorf (Lower Saxony) F2
+Elsdorf (Lower Saxony) G5
 Elsendorf B1
-Elsendorf D1
-Elsendorf E2
-Elsendorf K6
-Elsendorf N0
-Elsendorf P6
-Elsenfeld D1
-Elsenfeld H0
-Elsenfeld L1
-Elsenfeld O3
-Elsenfeld T1
-Elsfleth E3
-Elsnig D7
-Elsoff (Westerwald) R0
-Elsterberg G4
-Elsterberg M4
-Elsterwerda E7
-Elsterwerda W2
-Elterlein L2
-Eltmann G5
-Elxleben (Arnstadt) C3
-Elxleben (Arnstadt) S1
-Elxleben an der Gera L0
-Elz G0
-Elzach R5
-Embühren J4
-Emden K5
-Emerkingen T6
-Emersacker K0
-Emmelsbüll-Horsbüll E2
-Emmelsbüll-Horsbüll S3
-Emmelsbüll-Horsbüll X6
-Emmelshausen T7
-Emmendingen F5
-Emmering (Assling) C7
-Emmering (Assling) K5
-Emmering (Fürstenf.) Q0
-Emmering (Fürstenf.) Y7
-Emmerthal E6
-Emmerthal L6
-Emmerting C5
-Emmingen-Liptingen L3
-Empfertshausen D4
-Empfertshausen D5
-Empfertshausen F2
-Emsbüren N7
-Emstek B3
-Emstek U2
-Emstek Y6
-Emtinghausen Q4
-Emtmannsberg P0
-Emtmannsberg P7
-Endlichhofen G0
-Endlichhofen W6
-Engden J4
-Engelsberg U1
-Engelsberg W3
-Engelskirchen H3
-Engelskirchen X7
-Engelstadt C5
-Engstingen B1
-Engstingen W3
-Eningen unter Achalm E6
-Eningen unter Achalm W5
-Ennepetal T6
-Ennigerloh C6
-Ennigerloh S7
-Ensdorf (Oberpfalz) G1
-Ensdorf (Oberpfalz) J4
-Ensdorf (Oberpfalz) V6
-Ensdorf (Oberpfalz) X6
-Ensdorf (Saar) A4
-Ensdorf (Saar) D7
-Ense B4
-Ense I1
-Ensch Y4
-Enspel B5
-Enspel T5
-Enzen L5
-Enzen Q6
-Enzklösterle E0
-Enzklösterle K3
-Epfendorf B0
-Epfendorf R2
-Eppelborn F0
-Eppelheim R1
-Eppenbrunn K7
-Eppenbrunn O7
-Eppendorf G3
-Eppenrod U4
-Eppenschlag U0
-Eppingen Q5
-Eppishausen M3
-Eppstein E4
-Erbach (Donau) M5
-Erbach (Hunsrück) X1
-Erbendorf L0
-Erbenhausen U6
-Erbes-Büdesheim K0
-Erdesbach G0
-Erding R3
-Eresing R4
-Erfde F6
-Erfde J3
-Erfde N1
-Erfde T5
-Erftstadt B2
-Ergersheim L2
-Ergolding J3
-Ergolding Y7
-Erharting O6
-Erharting W5
-Ering E6
-Ering K2
-Erkenbrechtsweiler C5
-Erkerode R1
-Erkner P3
-Erkner R0
-Erlangen G0
-Erlbach (Altötting) F6
-Erlbach-Kirchberg I1
-Erlenbach (Dahn) L2
-Erlenbach (Kandel) K5
-Erlenmoos A7
-Erlenmoos M0
-Erligheim I3
-Ermershausen D2
-Ermershausen Q1
-Erndtebrück A3
-Ernsgaden J4
-Ernstroda H1
-Ernzen H0
-Erolzheim L0
-Erolzheim S3
-Erpel B4
-Erpolzheim X0
-Ersfeld T0
-Ertingen R4
-Essen F1
-Essen J3
-Essen M7
-Eutin G1
-Eutin G6
-Eutin L3
-Flensburg D4
-Flensburg J0
+Elsendorf M7
+Elsendorf T7
+Elsoff (Westerwald) U7
+Elsterheide Q2
+Elstertrebnitz W2
+Elsterwerda K3
+Elstra A1
+Elstra A4
+Elstra P3
+Elterlein J6
+Eltville am Rhein A1
+Eltville am Rhein B5
+Elxleben an der Gera C4
+Elz E0
+Elze R5
+Embsen H0
+Emden A2
+Emden F6
+Emeringen R7
+Emeringen W2
+Emersacker U7
+Emleben L6
+Emlichheim L5
+Emlichheim O6
+Emmelshausen B5
+Emmelshausen R0
+Emmering (Fürstenf.) W0
+Empfingen B6
+Emskirchen S1
+Emstek U5
+Emstek Y0
+Emtinghausen E1
+Emtmannsberg I5
+Endingen am Kaiserstuhl I1
+Engelbrechtsche Wildn. O7
+Engeln O6
+Engelsberg I7
+Engelsbrand E5
+Engelsbrand R0
+Engelsbrand V2
+Engelthal W3
+Enge-Sande D5
+Enge-Sande K3
+Engstingen S4
+Eningen unter Achalm B7
+Eningen unter Achalm L4
+Eningen unter Achalm M5
+Enkirch J6
+Ensdorf (Saar) X1
+Ense T1
+Ensheim U1
+Ensch E2
+Enspel N5
+Enspel R2
+Enspel V4
+Enzklösterle L5
+Epfenbach O4
+Eppelborn N1
+Eppelborn Y3
+Eppelheim P2
+Eppenbrunn H7
+Eppenbrunn K4
+Eppenbrunn V7
+Eppstein X1
+Erbach (Donau) H2
+Erbenhausen S0
+Erfde O7
+Erftstadt H1
+Erfurt A1
+Erfurt C3
+Erfurt H7
+Erfweiler D4
+Ergersheim S3
+Ergersheim U6
+Erharting X0
+Eriskirch I2
+Eriskirch O7
+Erkelenz V3
+Erkenbrechtsweiler A4
+Erlangen D6
+Erlangen G6
+Erlangen O2
+Erlbach (Altötting) Y0
+Erlenbach (Dahn) D7
+Erlenbach (Heilbronn) Q6
+Erlenbach (Marktheidenf.) O4
+Erlenbach am Main D0
+Erlenmoos J7
+Erligheim I0
+Ermershausen O4
+Ernstroda G7
+Ernzen S3
+Erolzheim I0
+Erolzheim M3
+Erolzheim R5
+Erolzheim X3
+Ersfeld I3
+Ersfeld U0
+Essen I6
+Esslingen I6
+Esslingen K3
+Esslingen T3
+Flensburg I7
+Flensburg J7
 Flensburg N2
-Frankfurt an der Oder B5
-Frankfurt an der Oder U5
-Frankfurt C6
-Freiberg I0
-Freiburg im Breisgau K2
-Freiburg S3
-Fulda N3
-Fürth R2
-Füssen K4
-Garmisch-Partenkirchen R3
-Gelsenkirchen H3
-Gelsenkirchen L1
-Gelsenkirchen W6
-Gera J0
-Gera M1
-Gera O7
-Gera W7
-Giessen D5
-Göppingen W7
-Görlitz D2
-Göttingen E3
-Göttingen F5
-Hagen U5
-Halberstadt N1
-Halberstadt S6
-Hamburg A4
-Hamburg J6
-Hameln L5
-Hamm F5
-Hanau B3
-Hanau G4
-Hanau M0
-Hanau U2
-Hechingen V4
-Heidelberg A4
-Heidelberg X6
-Helmstedt K3
-Helmstedt O4
-Hürth E3
-Hürth S0
-Chemnitz A2
-Chemnitz B1
-Chemnitz K6
-Chemnitz Q2
-Idstedt W2
-Idstein H7
-Iffeldorf Q0
-Iffezheim F4
-Igensdorf N6
-Igersheim I5
-Iggensbach B5
-Iggensbach E5
-Iggingen X4
-Igling Q6
-Ihlienworth I4
-Ihlow (Jüterbog) W4
-Ihrlerstein N3
-Ihrlerstein Y6
-Ilbesheim (Kirchh.) N0
-Ilbesheim (Landau) G3
-Illerich A5
-Illerich J1
-Illerich V0
-Illerkirchberg M0
-Illerrieden H7
-Illerrieden L3
-Illertissen C1
-Illingen (Saar) B7
-Illmensee D4
-Ilmmünster W1
-Ilmtal B0
-Ilmtal O2
-Ilsede B2
-Ilsenburg (Harz) B3
-Ilsenburg (Harz) K3
-Ilsfeld U5
-Ilshofen H0
-Ilvesheim O6
-Immenhausen Y5
-Immenstaad am Bodensee R3
-Immenstedt (Nordfr.) Y7
-Immert Q7
-Impflingen D3
-Impflingen W6
-Imsweiler F3
-Imsweiler I3
-Inden F4
-Inden I0
-Inden L3
-Ingelfingen M3
-Ingelheim am Rhein T6
-Ingenried D5
-Ingersheim E5
-Ingolstadt A5
-Ingolstadt M3
-Inchenhofen D4
-Innernzell X3
-Insel Poel S7
-Insul A1
-Inzigkofen E0
-Inzlingen E5
-Iphofen D4
-Iphofen I7
-Ippenschied H7
-Ippenschied R2
-Ippenschied T2
-Irmenach Q6
-Irmtraut M7
-Irndorf I1
-Irndorf O2
-Irrel P1
-Irsch A7
-Irsch R4
-Irschenberg E7
-Irschenberg N3
-Isen Q6
-Isen Y0
-Isenburg Q7
-Isenbüttel T6
-Iserlohn E6
-Iserlohn L5
-Isernhagen D3
-Issersheilingen T2
-Issum B6
-Isterberg X0
-Jacobsdorf Q6
-Jacobsdorf V1
-Jagel N7
-Jagsthausen C1
-Jachenau P2
-Jakobsdorf U2
-Jakobsdorf U4
-Jameln K6
-Jameln V7
-Jandelsbrunn G3
-Jandelsbrunn M5
-Jandelsbrunn W3
-Janneby K0
-Jarmen W6
-Jarplund-Weding K6
-Jarplund-Weding O0
-Jarplund-Weding V3
-Jembke N4
-Jemgum I3
-Jemgum L4
-Jenalöbnitz I2
-Jengen N7
-Jengen S7
-Jerichow G6
-Jerrishoe Y5
-Jesendorf E6
-Jesenwang R1
-Jesewitz A2
-Jesewitz V5
-Jesteburg W0
-Jesteburg W3
-Jettingen V0
-Jetzendorf P6
-Jevenstedt G1
-Jevenstedt K4
-Jever K3
-Joachimsthal Q5
-Jockgrim D4
-Jockgrim P5
-Johannesberg G6
-Johannesberg Y4
-Johanngeorgenstadt J4
-Johanngeorgenstadt R5
-Johanniskirchen X4
-Jöhstadt X5
-Joldelund G0
-Joldelund T2
-Jonaswalde S3
-Jördenstorf M7
-Jörl N3
-Jörl T2
-Jucken U0
-Judenbach N6
-Jugenheim in Rheinh. I6
-Julbach V3
-Jülich L3
-Juliusburg M5
-Juliusburg N1
-Jungingen F2
-Jünkerath N7
-Jünkerath S1
-Jürgenshagen N6
-Jürgenstorf E4
-Kaiserslautern D3
-Kaiserslautern I5
-Kaiserslautern P4
-Kaiserslautern S5
-Karlsruhe S3
-Kassel C1
-Kassel U7
-Kiel L1
-Kiel S1
-Kleve C6
-Kleve J7
-Konstanz B4
-Konstanz R7
-Köthen A5
-Krefeld I7
-Krefeld J0
-Krefeld K5
-Laaber B0
-Laar Q5
-Laasdorf B2
-Laatzen S5
-Laboe B0
-Laboe L7
-Ladbergen I1
-Ladbergen J5
-Ladbergen J6
-Ladenburg E2
-Laer C7
-Lahnstein K5
-Lahnstein O4
-Lahr (Eifel) T5
-Lahr (Schwarzwald) D3
-Lahr (Schwarzwald) F6
-Lahr (Schwarzwald) R6
-Lahstedt R3
-Lachen H7
-Lachendorf V1
-Laichingen A0
-Laichingen E4
-Laichingen P0
-Lam D0
-Lambrechtshagen O2
-Lamerdingen F5
-Lamerdingen P5
-Lamerdingen Y6
-Lampaden O3
-Lampertheim P6
-Lampertswalde (Sax.) K1
-Lamspringe A6
-Lamspringe C0
-Lamstedt F4
-Lancken-Granitz X0
-Landau (Palatinate) K0
-Landau (Palatinate) S1
-Landau an der Isar I1
-Landau an der Isar Q0
-Landau D7
-Landensberg L7
-Landensberg N2
-Landrecht W7
-Landsberied T3
-Landshut A5
-Landscheid F4
-Landscheide W7
-Landstuhl U3
-Landwehr T0
-Langballig R7
-Langdorf U0
-Langeln (Pinneberg) C0
-Langeln (Pinneberg) F2
-Langeln (Pinneberg) F6
-Langeln (Pinneberg) P3
-Langen (Emsland) N4
-Langen (Hesse) Y4
-Langen Brütz J1
-Langen Jarchow H1
-Langen Jarchow I0
-Langen Jarchow U3
-Langenaltheim U2
-Langenargen I3
-Langenbach (Freising) O0
-Langenbach (Palatinate) F1
-Langenberg O5
-Langenenslingen P1
-Langeneß Q0
-Langenfeld (Mittelfr.) T7
-Langenhagen C7
-Langenhagen O2
-Langenleuba-Niederhain Y1
-Langenmosen L3
-Langenneufnach U6
-Langenorla N2
-Langenpreising B3
-Langenpreising V3
-Langenselbold C5
-Langensendelbach M6
-Langenthal Q4
-Langenweißbach D2
-Langenweißbach X2
-Langenwolschendorf G2
-Langenwolschendorf W4
-Langeoog L4
-Langeoog M6
-Langerringen B3
-Langerringen G1
-Langerringen Y2
-Langerwehe B1
-Langerwehe J5
-Langewahl N3
-Langewahl Y4
-Langfurth J4
-Langgöns T6
-Langhagen P5
-Langhagen W7
-Langquaid M6
-Langquaid T3
-Langstedt C3
-Langsur G6
-Langwedel (Holstein) V7
-Langweid am Lech F3
-Lanitz-Hassel-Tal M3
-Lanitz-Hassel-Tal O5
-Lansen-Schönau V2
-Lanze B1
-Lapitz E7
-Lasel M1
-Lascheid O2
-Lascheid O4
-Lastrup N3
-Latendorf W1
-Lathen F5
-Laubach (Hunsrück) H2
-Laubach (Hunsrück) J7
-Lauben (Oberallgäu) N3
-Lauda-Königshofen H1
-Lauda-Königshofen Y2
-Lauenau N5
-Lauenbrück B1
-Lauenbrück H4
-Lauenburg (Elbe) L2
-Lauenburg (Elbe) R5
-Lauenburg (Elbe) X2
-Lauenförde H2
-Lauenhagen U7
-Lauf (Baden) R1
-Laufach P7
-Laufach Y2
-Laufenburg (Baden) P6
-Laufenburg (Baden) V3
-Laufersweiler D2
-Laufersweiler G7
-Lauffen am Neckar B0
-Lauffen am Neckar D2
-Lauchheim I4
-Laurenburg B6
-Lauschied C1
-Laußig V3
-Lautenbach I2
-Lauterach T3
-Lauterach U6
-Lauterbach (Hesse) E2
-Lauterbach (Hesse) J0
-Lauterbach (Hesse) Q3
-Lauter-Bernsbach S4
-Lauterecken L3
-Lauterecken M2
-Lautersheim F5
-Lautert A2
-Lautertal (Coburg) B5
-Lautertal (Coburg) K1
-Lautertal (Coburg) U1
-Lautertal (Vogelsberg) D4
-Lautrach D2
-Lautzenhausen B3
-Lautzenhausen K4
-Lawalde F3
-Lawalde H3
-Lähden G3
-Lärz K0
-Lärz T7
-Lärz V1
-Lärz X0
-Lebach D4
-Lebach H6
-Lebach X2
-Lebus E2
-Leegebruch L0
-Leegebruch M3
-Leer G0
-Leezen (Holstein) B2
-Legau J4
-Legde (Quitzöbel) X7
-Lehe (Dithmarschen) T7
-Lehe (Ems) S0
-Lehesten (Jena) B0
-Lehesten (Jena) G5
-Lehesten (Jena) K3
-Lehesten (Jena) M5
-Lehmkuhlen I4
-Lehmkuhlen S6
-Lehrberg E2
-Lehre A2
-Leidenborn G0
-Leimbach (Neuerburg) L7
-Leimen (Baden) U1
-Leimen (Pfalz) J0
-Leinach O2
-Leinburg C3
-Leinburg L4
-Leinefelde-Worbis T2
-Leingarten T0
-Leinsweiler G2
-Leinsweiler H1
-Leinsweiler O7
-Leinzell U0
-Leinzell Y1
-Leipzig M2
-Leipzig O4
-Leipzig V1
-Lembruch P2
-Lemförde P5
-Lemförde R7
-Lemförde V3
-Lemnitz D1
-Lemnitz D2
-Lemwerder U7
-Lemwerder V3
-Lengdorf B3
-Lengenbostel R6
-Lengenfeld (Vogtland) D6
-Lengerich (Emsland) D5
-Lengerich (Westphalia) N3
-Lengerich (Westphalia) O0
-Lenggries H0
-Lenne Y0
-Lenningen P3
-Lensahn M4
-Lensahn R7
-Lenterode U6
-Lentföhrden Q1
-Lenzen L4
-Lenzen T0
-Lenzkirch X7
-Letschin W0
-Lettweiler J4
-Leubsdorf (Rhein) Y6
-Leubsdorf (Saxony) T7
-Leun E6
-Leun H7
-Leun W6
-Leupoldsgrün K2
-Leuterod J0
-Leutersdorf (Oberlaus.) E7
-Leutkirch im Allgäu J4
-Levenhagen H7
-Leverkusen W0
-Lewitzrand F7
-Liebenau (Flecken) X1
-Liebenau (Hesse) Q3
-Liebenwalde N7
-Lieberose S5
-Liebstadt N1
-Liebstadt P0
-Liebstadt Y4
-Liebstedt B7
-Liebstedt R3
-Lieg P2
-Lienen V5
-Liepen J0
-Liepen K2
-Liepen M4
-Liepen P7
-Liepgarten B4
-Liepgarten C4
-Lierfeld W2
-Liesenich G4
-Ließem S7
-Ließem X6
-Lietzow (Rügen) W5
-Lich N4
-Lich V4
-Lich Y7
-Lichtenau (Mittelfranken) E1
-Lichtenau (Mittelfranken) F6
-Lichtenau (Mittelfranken) T5
-Lichtenau (Westphalia) E0
-Lichtenau (Westphalia) O1
-Lichtenberg (Bischof.) D6
-Lichtenberg (Oberfr.) N0
-Lichtenfels (Hesse) A4
-Lichtenfels (Hesse) G2
-Lichtenstein (Saxony) U2
-Lichtenstein (Württemb.) L2
-Lichtenwald D3
-Limbach (Baden) C7
-Limbach (Baden) U0
-Limbach (Kirn) J3
-Limbach (Reichenb.) K0
-Limbach (Reichenb.) Q1
-Limbach (Westerw.) Y0
-Limburgerhof B6
-Limburgerhof G5
-Lind (Mayen) H2
-Linden (Holstein) F0
-Linden (Holstein) S6
-Lindenberg (Vorpommern) U4
-Lindendorf I1
-Lindendorf J5
-Lindenkreuz A3
-Lindern (Oldenburg) D7
-Lindern (Oldenburg) L1
-Lindewerra X0
-Lindewitt L0
-Lindewitt O3
-Lindholz L5
-Lindholz W2
-Lindow (Mark) M6
-Lingen (Ems) J4
-Lingenfeld B7
-Lingenfeld G5
-Lingenfeld K0
-Lingerhahn M1
-Lingerhahn M7
-Lingerhahn W4
-Linkenbach X0
-Linsburg I1
-Linsburg P1
-Linsengericht H3
-Linz am Rhein B4
-Linz am Rhein R0
-Lippetal A7
-Lippetal G1
-Lippetal H1
-Lippetal P2
-Lippstadt E3
-Lippstadt G3
-Lirstal G0
-Lisberg W3
-Löberschütz P1
-Löcknitz S5
-Löcknitz V6
-Lockstedt F0
-Loddin L5
-Löf V7
-Lohbarbek I6
-Lohbarbek Q4
-Lohberg E5
-Lohe-Föhrden F2
-Löhma S0
-Lohmen (Saxony) G0
-Löhne A6
-Lohnsfeld D6
-Lohr am Main C3
-Lohrheim Q2
-Loiching L3
-Loit V3
-Loitzendorf C5
-Loitzendorf N6
-Lollar F0
-Löllbach D1
-Löllbach E6
-Lollschied X2
-Lommatzsch C2
-Longkamp E6
-Löningen Q5
-Lonnerstadt D6
-Lonnerstadt H2
-Lonsee K6
-Loose P2
-Lorch (Rheingau) U0
-Lorch (Württemberg) U3
-Lorch (Württemberg) X2
-Lorsch T7
-Lorup B5
-Lörzweiler T3
-Losheim am See X0
-Loßburg G7
-Lottorf Q6
-Lötzbeuren V2
-Löwenstedt H4
-Löwenstein R3
-Lübbecke X3
-Lübberstorf H6
-Lübberstorf P1
-Lübbow A4
-Lübbow H3
-Lübeck A2
-Lübeck K0
-Lüblow K7
-Lüblow T3
-Lubmin V7
-Lübow U5
-Lübs (Torgelow) V1
-Lübz M0
-Luckau (Wendland) K7
-Luckau (Wendland) O5
-Luckau (Wendland) P3
-Luckenbach F0
-Luckenbach M1
-Luckenbach S4
-Luckenbach V1
-Luckenwalde E6
-Luckow (Torgelow) B5
-Luckow (Torgelow) X2
-Lüdenscheid W0
-Ludwigsburg H0
-Ludwigsburg N4
-Lüneburg R0
-Lüneburg S2
-Lünen A5
-Lünen E1
-Mahlberg J4
-Mahlstetten N3
-Mahlstetten S1
-Maikammer C1
-Maikammer J2
-Maikammer S7
-Mainbernheim P0
-Mainbernheim T5
-Mainburg U1
-Mainleus C4
-Mainleus X0
-Maintal K5
-Mainz A2
-Maisach F3
-Maisborn D2
-Maitenbeth L4
-Maitzborn B0
-Malberg (Eifel) B3
-Malberg (Eifel) M7
-Malberg (Eifel) Y2
-Malberg (Westerwald) J2
-Malborn N1
-Malente A7
-Malgersdorf S6
-Malchin N5
-Malchin S4
-Malching D0
-Malching P6
-Mallersdorf-Pfaffenberg H4
-Mallin H5
-Mallin U4
-Malliß H7
-Malsch (Karlsruhe) A3
-Malsch (Wiesloch) X5
-Malterdingen H7
-Mammelzen O2
-Mandel Y7
-Mandelshagen Y5
-Manderscheid (Eifel) W3
-Manching O4
-Mannebach (Eifel) G2
-Mannebach (Saarburg) N5
-Mannheim L1
-Mannheim S0
-Mannheim T3
-Mannheim W0
-Mannstedt F2
-Mannweiler-Cölln W2
-Manubach J7
-Marbach am Neckar A7
-Marbach am Neckar C4
-Marbach am Neckar G3
-Marbach am Neckar P3
-Marburg D2
-Marburg E6
-Margetshöchheim L6
-Mariaposching Y4
-Marienfließ F2
-Marienhafe E2
-Marienhagen L5
-Marienhagen O2
-Marienhausen K2
-Marienhausen R5
-Marienmünster C4
-Marienrachdorf P4
-Maring-Noviand B2
-Maring-Noviand F5
-Maring-Noviand G4
-Maring-Noviand S6
-Maring-Noviand V2
-Marisfeld E7
-Markdorf I3
-Markgröningen A3
-Markgröningen N7
-Markgröningen Y5
-Marklohe M7
-Markranstädt U4
-Marksuhl K4
-Markt Berolzheim C1
-Markt Bibart C1
-Markt Bibart X4
-Markt Bibart X7
-Markt Einersheim H6
-Marktbergel V7
-Marktheidenfeld W4
-Marktl W4
-Marktleugast N4
-Marktoffingen U7
-Marktschorgast J7
-Marktsteft O1
-Marktsteft X3
-Marl (Dümmer) B2
-Marl (Westphalia) M0
-Marloffstein N0
-Marlow C1
-Marlow O1
-Marne L0
-Marnheim A0
-Marnitz U2
-Marolterode B4
-Maroth H3
-Maroth K0
-Marpingen G5
-Marpingen P6
-Marsberg V2
-Marschacht C3
-Marschacht F0
-Martensrade A1
-Marth F3
-Marth S0
-Marth T4
-Martinroda (Ilmenau) G6
-Martinshöhe P7
-Martinshöhe X3
-Marzhausen G5
-Marzhausen W6
-Marzling W2
-Maselheim P7
-Massenbachhausen G6
-Massing W2
-Maßweiler Q4
-Maßweiler Y4
-Mastershausen A2
-Matzenbach Y3
-Mauel Y0
-Mauer R4
-Mauchenheim S2
-Maulbronn B0
-Maulbronn L3
-Maulburg H1
-Maulburg R6
-Mauschbach E0
-Mauschbach M1
-Mauschbach N3
-Mauschbach O3
-Maxsain Q0
-Märkisch (Buchholz) K1
-Märkisch Linden X5
-Märkisch Luch E3
-Märkisch Luch W1
-Märkische Heide J1
-Meckenbach (Kirn) I5
-Meckenbeuren W1
-Meckenheim (Palatinate) K4
-Meckenheim (Palatinate) R6
-Meckenheim (Palatinate) U2
-Medard U4
-Medard Y3
-Meddewade I5
-Meddewade P5
-Medebach W5
-Medow P1
-Meerbeck B5
-Meerbusch D4
+Frankfurt an der Oder A7
+Frankfurt an der Oder C6
+Frankfurt an der Oder K3
+Frankfurt V2
+Freising C6
+Fürth G4
+Füssen B4
+Garmisch-Partenkirchen J3
+Gelsenkirchen G0
+Gelsenkirchen J6
+Gelsenkirchen Y0
+Gera A2
+Gera D7
+Gera F6
+Gera W4
+Giessen C6
+Glückstadt F7
+Görlitz R7
+Görlitz X6
+Goslar P2
+Goslar R7
+Greifswald B2
+Greifswald N1
+Güstrow B1
+Gütersloh X2
+Hagen U6
+Hagen X4
+Halle U0
+Hamburg B1
+Hamm B2
+Hamm X3
+Hanau E0
+Hanau K1
+Hannover X5
+Heilbronn C4
+Heilbronn Q2
+Heilbronn X0
+Herne G5
+Herne N7
+Homburg R0
+Hoyerswerda C1
+Hoyerswerda K5
+Charlottenburg C1
+Charlottenburg W3
+Chemnitz K4
+Idenheim S4
+Idesheim E1
+Idesheim P7
+Idstein J3
+Idstein O3
+Iffezheim D0
+Iffezheim H7
+Iffezheim S6
+Igensdorf E3
+Igensdorf I3
+Igensdorf L7
+Ihlow (East Frisia) F6
+Ihlow (East Frisia) J5
+Ihringen N6
+Ihrlerstein T5
+Ihrlerstein U5
+Ihrlerstein X1
+Ilbesheim (Kirchh.) A5
+Ilbesheim (Kirchh.) R5
+Ilbesheim (Kirchh.) W3
+Illerich M7
+Illerkirchberg T6
+Illerkirchberg W1
+Illerrieden C0
+Illerrieden E0
+Illerrieden F5
+Illerrieden J0
+Illingen (Saar) G3
+Illmensee J6
+Ilmmünster A3
+Ilsede D0
+Ilsenburg (Harz) F2
+Ilshofen G6
+Ilvesheim M5
+Immelborn I0
+Immendingen N1
+Immenhausen P5
+Immenstaad am Bodensee Q6
+Immenstadt im Allgäu I3
+Immenstedt (Albers.) Y1
+Immert T5
+Imsbach D1
+Imsweiler R1
+Inden B4
+Ingeleben U6
+Ingelfingen G7
+Ingelfingen H2
+Ingelfingen J5
+Ingelfingen S7
+Ingelheim am Rhein T4
+Ingenried V6
+Ingersheim H1
+Ingersheim V6
+Ingolstadt M4
+Inchenhofen V5
+Innernzell G5
+Inning am Holz X3
+Insel Hiddensee W5
+Insel Poel C6
+Insel Poel L2
+Insheim K2
+Insingen K4
+Insingen U5
+Insul T3
+Inzigkofen L4
+Inzigkofen Q2
+Inzlingen Y0
+Ippenschied R3
+Ippenschied W1
+Ipsheim U3
+Irchenrieth J2
+Irlbach O0
+Irmenach H3
+Irmenach J1
+Irndorf J0
+Irrel C7
+Irsee M4
+Irsch W1
+Isenburg B1
+Iserlohn F0
+Iserlohn R6
+Ismaning N5
+Isny im Allgäu K2
+Isny im Allgäu N3
+Isny im Allgäu X7
+Isselbach P2
+Isselburg F3
+Isseroda B6
+Issersheilingen E4
+Issersheilingen W5
+Issigau S6
+Isterberg J5
+Isterberg S2
+Jacobsdorf C4
+Jacobsdorf D7
+Jacobsdorf I0
+Jacobsdorf L6
+Jagel Q2
+Jagsthausen C0
+Jagstzell D1
+Jahrsdorf D3
+Jakobsweiler P3
+Jameln M7
+Jameln S3
+Jandelsbrunn E3
+Janneby P6
+Janneby R0
+Janneby U1
+Jeckenbach I5
+Jembke A0
+Jena O3
+Jengen S4
+Jersbek E7
+Jerxheim M6
+Jerxheim Q3
+Jesberg R6
+Jesendorf S1
+Jessen (Elster) K7
+Jettenbach (Oberbay.) Q5
+Jettingen P1
+Jetzendorf D5
+Jever P2
+Jever Q3
+Joachimsthal D0
+Jockgrim X6
+Johannesberg Y6
+Jöhstadt J0
+Jöhstadt V5
+Jonaswalde M1
+Jonaswalde T3
+Jork L4
+Jübar G1
+Jübek J1
+Jückelberg G3
+Jucken W3
+Judenbach P4
+Jühnde D3
+Jüchen C3
+Jüchen D2
+Jüchen E2
+Jüchen J4
+Julbach H6
+Jülich C3
+Jülich G6
+Jülich J1
+Jünkerath L6
+Jürgenshagen V3
+Jürgenstorf D3
+Jüterbog B0
+Kassel U3
+Kempten U1
+Kiel G4
+Kleve F4
+Kleve L3
+Koblenz A0
+Koblenz J5
+Koblenz W5
+Königswinter N6
+Krefeld R3
+Laasdorf R5
+Laatzen B6
+Labenz D0
+Laer I4
+Laer V1
+Lage (Dinkel) C2
+Lage (Lippe) G1
+Lahnstein N2
+Lahnstein P1
+Lahnstein U0
+Lahr (Eifel) H1
+Lachen O2
+Lachendorf S1
+Lachendorf X4
+Laichingen W7
+Lalling T1
+Lalling Y2
+Lam R0
+Lam W6
+Lambrecht (Palatinate) H4
+Lambrecht (Palatinate) U2
+Lambrechtshagen W1
+Lambsborn H6
+Lambsborn O1
+Lambsheim W4
+Lampertswalde (Sax.) V6
+Lamspringe Y0
+Lamstedt D5
+Landau P3
+Landau W3
+Landau Y4
+Landkern R1
+Landrecht U6
+Landrecht V4
+Landsberg am Lech E3
+Landsberg am Lech V7
+Landsberied I6
+Landshut L7
+Landshut S0
+Landscheide R4
+Landwehr D3
+Landwehr T5
+Landwehr T6
+Langballig K7
+Langballig M2
+Langen (Cuxhaven) F1
+Langen (Cuxhaven) U4
+Langen (Emsland) W6
+Langenau U5
+Langenbach (Kirburg) A1
+Langenbach (Palatinate) S1
+Langenenslingen P2
+Langenfeld (Mittelfr.) B5
+Langenhagen H2
+Langenhahn A5
+Langenlehsten H2
+Langenmosen E4
+Langenpreising F3
+Langenselbold J1
+Langenthal F3
+Langenthal I7
+Langenthal J2
+Langenthal N5
+Langenthal R2
+Langenzenn E2
+Langenzenn E4
+Langenzenn S0
+Langeoog I5
+Langeoog O1
+Langerwehe S5
+Langewiesen G2
+Langfurth W5
+Langfurth W7
+Langlingen B0
+Langsur S2
+Langwedel (Weser) R0
+Langweiler (Idar-Ober.) B4
+Langwieden A6
+Langwieden F4
+Langwieden S1
+Lanitz-Hassel-Tal J5
+Lanz L2
+Lapitz J4
+Lapitz X1
+Lappersdorf N7
+Lappersdorf X3
+Lappersdorf X7
+Lasbek B4
+Lasel D7
+Lasel J2
+Lascheid P7
+Lassan S0
+Laubach (Eifel) S7
+Laubach (Hunsrück) B3
+Laubach (Hunsrück) G5
+Laubach (Hunsrück) X1
+Lauben (Memmingen) N4
+Lauben (Oberallgäu) O4
+Lauben (Oberallgäu) S7
+Laubenheim M0
+Lauda-Königshofen E2
+Lauda-Königshofen H3
+Laudenbach a.d. Bergstr. E0
+Laudenbach a.d. Bergstr. F7
+Laudenbach a.d. Bergstr. U3
+Laudenbach a.d. Bergstr. X0
+Laudert E5
+Lauenhagen K6
+Lauf (Baden) L2
+Lauf an der Pegnitz X6
+Laufersweiler P1
+Lauffen am Neckar B3
+Lauffen am Neckar P3
+Lauchheim D0
+Lauchheim M1
+Lauchringen A1
+Lauchringen A2
+Lauchringen E6
+Lauchringen N7
+Lauingen (Donau) F6
+Lauscha W6
+Lauschied D2
+Lausnitz (Neustadt) P5
+Laußig N6
+Laußnitz H1
+Laußnitz Y3
+Lauta T7
+Lautenbach C4
+Lautenbach F1
+Lautenbach G6
+Lautenbach L5
+Lauter-Bernsbach R3
+Lauterecken R0
+Lauterecken U4
+Lauterecken U7
+Lauterhofen H2
+Lautert S0
+Lautertal (Coburg) A1
+Lautertal (Coburg) W3
+Lautertal (Odenwald) B6
+Lautertal (Vogelsberg) J2
+Lautrach S2
+Lawalde Q6
+Lawitz C4
+Lägerdorf C2
+Lebach D7
+Lebrade U1
+Lebrade Y2
+Leck N0
+Leer B4
+Leese N0
+Leezdorf K7
+Leezen (Holstein) O3
+Leezen (Holstein) S2
+Legau A2
+Lehe (Dithmarschen) B3
+Lehe (Dithmarschen) F0
+Lehmen A3
+Lehmkuhlen M1
+Lehrberg C0
+Lehrberg V5
+Lehrensteinsfeld V0
+Lehrte U3
+Lehsen T0
+Lechbruck am See K6
+Leidenborn R5
+Leiferde R7
+Leimbach (Neuerburg) B1
+Leimen (Baden) U4
+Leimen (Pfalz) L1
+Leimersheim K2
+Leimersheim T2
+Leinach I6
+Leinburg D7
+Leinburg F5
+Leinefelde-Worbis H7
+Leinfelden-Echterdingen H3
+Leinfelden-Echterdingen K4
+Leinfelden-Echterdingen O2
+Leinsweiler N0
+Leipheim Y6
+Leipzig J0
+Leipzig T4
+Leisel M2
+Leisnig P6
+Leitzweiler P4
+Leiwen E5
+Leiwen U7
+Leizen O2
+Leizen R7
+Lemberg K0
+Lemberg T2
+Lemberg W2
+Lemförde T2
+Lemnitz K1
+Lemwerder H2
+Lemwerder R6
+Lengede C1
+Lengenbostel W4
+Lengenfeld (Vogtland) S5
+Lengenwang C1
+Lengenwang F3
+Lengerich (Emsland) M5
+Lengfeld A1
+Lenggries L3
+Lenggries W1
+Lenne O1
+Lennestadt Y4
+Lensahn A0
+Lensahn O5
+Lenterode F6
+Lenterode N1
+Lentföhrden N2
+Lenzen Q6
+Leopoldshagen X3
+Letschin E5
+Letschin I1
+Lettweiler Q0
+Leuchtenberg I1
+Leuna B2
+Leupoldsgrün F5
+Leupoldsgrün M6
+Leutenbach (Upper Fr.) J5
+Leutenbach (Württemb.) G3
+Leutenberg X5
+Leutenthal H1
+Leutenthal W0
+Leuterod H1
+Leuterod W5
+Leutersdorf (Meining.) H5
+Leutersdorf (Oberlaus.) F2
+Leutershausen T7
+Leutesdorf G4
+Leverkusen G3
+Leverkusen H5
+Leverkusen M4
+Leverkusen N6
+Liebenau (Flecken) D5
+Liebenau (Flecken) H6
+Liebenburg C4
+Liebenscheid A6
+Liebenscheid K4
+Liebenstein X0
+Liebshausen H6
+Liebschützberg U6
+Liebstadt M5
+Lieg F3
+Lienen P2
+Liepe (Ebersw.-Finow) Q2
+Liepen G0
+Liepen T3
+Liepgarten D7
+Liepgarten E0
+Liepgarten K7
+Liesenich S6
+Lieth L7
+Lietzen O0
+Lietzow (Rügen) F4
+Lichtenau (Baden) N3
+Lichtenau (Mittelfranken) D2
+Lichtenau (Westphalia) X5
+Lichtenfels (Bavaria) E3
+Lichtenfels (Bavaria) F7
+Lichtenfels (Hesse) X7
+Lichtenstein (Saxony) K3
+Lichtenstein (Saxony) L6
+Lichtentanne D5
+Lichtentanne P6
+Lichtenwald U4
+Lichterfeld-Schacksd. U5
+Lilienthal C3
+Lilienthal K6
+Limbach (Baden) D7
+Limbach (Kirn) J2
+Limbach-Oberfrohna D5
+Limburgerhof N1
+Limburgerhof S5
+Lind (Ahrweiler) Q3
+Lind (Mayen) L7
+Lindau D4
+Lindberg S7
+Linden (Holstein) Q4
+Lindenau (Oberlausitz) L1
+Lindenberg (Palatinate) M6
+Lindenberg (Palatinate) U5
+Lindenberg (Vorpommern) J4
+Lindenfels J6
+Lindenfels P1
+Lindern (Oldenburg) F5
+Lindewerra B1
+Lindewerra Q3
+Lindewitt W2
+Lindig K2
+Lindow (Mark) E5
+Lindow (Mark) T2
+Lindwedel K4
+Lindwedel Y1
+Linnich F3
+Linsburg F3
+Linsengericht A0
+Linsengericht U0
+Linsengericht V3
+Linsengericht X5
+Linthe H5
+Linthe V7
+Lintig Q1
+Lintig Y3
+Linz am Rhein N4
+Lippetal E6
+Lipporn O1
+Lirstal C7
+Lirstal D2
+Lisberg L3
+Lissendorf F3
+Lissendorf J2
+List X7
+Löbau A3
+Löbau Q6
+Lobbach F1
+Löberschütz B4
+Löbichau N6
+Löbnitz (Delitzsch) K2
+Löbnitz (Ribnitz-Damg.) E6
+Löbnitz (Ribnitz-Damg.) L1
+Löbnitz (Ribnitz-Damg.) M3
+Lobstädt C3
+Lobstädt G5
+Lockwisch P4
+Loddin M6
+Löf D5
+Loffenau F5
+Lohbarbek P1
+Lohbarbek T1
+Lohe-Föhrden H4
+Lohe-Föhrden V0
+Lohheide H4
+Lohkirchen Q5
+Lohkirchen V5
+Lohme B6
+Lohme X1
+Lohmen (Güstrow) T1
+Lohmen (Saxony) F1
+Lohmen (Saxony) Q4
+Löhne Q4
+Lohne R1
+Lohnsfeld C6
+Lohnweiler X1
+Lohr am Main H2
+Lohr am Main K3
+Lohr am Main K4
+Lohsa K4
+Lochum U4
+Loitsche-Heinrichsberg J3
+Loitz Q0
+Loitzendorf R6
+Lollar V5
+Lollar X6
+Löllbach B3
+Löllbach L1
+Lommatzsch S5
+Lommatzsch V4
+Longuich X7
+Löningen A2
+Lonnig H3
+Lonnig X0
+Lonsee B5
+Lonsheim J2
+Lonsheim V4
+Löptin B2
+Löptin F2
+Löptin U2
+Lorch (Württemberg) R5
+Lörrach M7
+Lorsch I1
+Lorsch O2
+Lorscheid F0
+Lorup S4
+Losheim am See H3
+Losheim am See U4
+Lossatal C5
+Lossatal N1
+Loßburg G2
+Loßburg Q1
+Loßburg T4
+Lößnitz G4
+Lößnitz Q3
+Lottstetten N7
+Lötzbeuren K3
+Löwenberger Land B6
+Löwenstedt B3
+Löwenstein W0
+Loxstedt T0
+Loxstedt W1
+Lübberstorf S3
+Lübeck D5
+Lübeck M0
+Lübeck R7
+Lübesse F0
+Lübesse T2
+Lüblow F0
+Lüblow N2
+Lübstorf W7
+Luckaitztal M5
+Luckau (Lower Lusatia) B1
+Luckau (Lower Lusatia) V3
+Luckau (Wendland) H6
+Luckenbach L5
+Lückenburg R0
+Lüdenscheid B1
+Lüdenscheid B6
+Ludwigshafen F7
+Lüchow (Lauenburg) R7
+Lüneburg S3
+Lünen J7
+Lünen V4
+Magdeburg A4
+Mahlberg T4
+Mahlstetten B3
+Maierhöfen N2
+Maierhöfen Q6
+Maihingen P3
+Maikammer V0
+Mainaschaff Y7
+Mainburg Y6
+Mainhausen E6
+Mainstockheim E6
+Mainz H6
+Mainz J0
+Mainz L3
+Mainz L6
+Mainz Y4
+Maisborn N7
+Malberg (Eifel) J5
+Malbergweich N3
+Malente I3
+Malente M2
+Malgersdorf E1
+Malchin V7
+Malchow H4
+Mallersdorf-Pfaffenberg I4
+Malsch (Karlsruhe) M4
+Malsch (Wiesloch) B0
+Malsch (Wiesloch) U2
+Mammelzen U6
+Mamming G7
+Mandelbachtal B7
+Mandelshagen O7
+Manching H7
+Mannebach (Eifel) W2
+Mannebach (Saarburg) R1
+Mannstedt U3
+Mannweiler-Cölln O4
+Mansfeld G6
+Mantel A2
+Manubach W6
+Marbach am Neckar F3
+Marburg G4
+Marburg W6
+Mariaposching E5
+Marienberg K0
+Marienfels H0
+Marienhafe W3
+Marienhagen A5
+Marienhagen S1
+Marienhausen S4
+Marienmünster H5
+Maring-Noviand D6
+Maring-Noviand R6
+Maring-Noviand X5
+Marisfeld W3
+Mark Landin B7
+Mark Landin W4
+Markersdorf O3
+Markgröningen J5
+Marklkofen X0
+Markranstädt K6
+Markt Berolzheim B4
+Markt Bibart U3
+Markt Einersheim I3
+Markt Erlbach B3
+Markt Erlbach Q7
+Markt Nordheim U2
+Markt Schwaben H7
+Markt Schwaben P5
+Markt Taschendorf R5
+Marktbreit R7
+Marktbreit U2
+Marktgraitz C1
+Marktgraitz W5
+Marktheidenfeld H6
+Marktl H6
+Marktl Y7
+Marktleugast J4
+Marktleugast K2
+Marktleuthen V0
+Marktleuthen W7
+Marktoberdorf W3
+Marktoffingen O0
+Marktredwitz S5
+Marktsteft N0
+Marktzeuln H1
+Marl (Westphalia) K5
+Marl M5
+Marloffstein J7
+Marnitz U5
+Marnitz W5
+Maroldsweisach R4
+Maroldsweisach W3
+Marpingen Q3
+Marquartstein T4
+Marsberg M4
+Marschacht G1
+Martensrade C7
+Martensrade G3
+Martensrade T4
+Martinsheim O5
+Martinsheim Y1
+Martinshöhe D0
+Martinshöhe F6
+Marxzell F4
+Marzhausen S5
+Maselheim N6
+Massenbachhausen T4
+Masserberg V2
+Massow B1
+Massow J6
+Maßweiler A7
+Mastershausen P4
+Masthorn O5
+Mattstedt H4
+Matzenbach X3
+Mauden G5
+Mauer Y4
+Mauern C1
+Mauerstetten C4
+Mauerstetten K4
+Mauchenheim F4
+Maulbronn H7
+Mauschbach M6
+Mauschbach S5
+Mauth C0
+Mauth R3
+Maxhütte-Haidhof Y0
+Maxsain S4
+Mayen G1
+Märkisch (Buchholz) A5
+Märkisch (Buchholz) H2
+Märkisch Linden A1
+Märkisch Linden L7
+Märkisch Linden Q2
+Märkische Heide Y0
+Meckel H5
+Meckenbach (Kirn) R3
+Meckenheim (Rhineland) T2
+Meckesheim L6
+Meckesheim N3
+Meckesheim X2
+Medard G3
+Meddewade D2
+Meddewade D5
+Medebach T2
+Medow T0
+Meeder N0
+Meeder S2
+Meerane P0
+Meerane P6
+Meerbeck N2
 Meerfeld A1
-Meezen A4
-Meezen R3
-Meezen R7
-Mehlbek O3
+Meesiger H4
+Meezen W6
+Megesheim I7
+Megesheim V0
+Mehlbach I4
+Mehlingen M1
+Mehmels H0
 Mehmels K1
-Mehmels Y6
-Mehna W1
-Mehren (Daun) J5
-Mehren (Daun) P7
-Mehren (Westerwald) W3
-Mehring (Altötting) E5
-Mehring (Altötting) J4
-Mehring (Moselle) C3
-Mehring (Moselle) W5
-Mehrstetten X7
-Mechelroda P0
-Mechow D6
-Mechow K4
-Mechow M7
-Mechtersen C4
-Meinborn D1
-Meine E5
-Meine R7
-Meinersen A7
-Meinersen E6
-Meinhard T5
-Meinheim B1
-Meinheim L3
-Meiningen R1
-Meiningen V0
-Meiningen X6
-Meisenheim P5
-Melbeck I3
-Meldorf M1
-Melle A2
-Melle J1
-Melle R7
-Mellingen D3
-Mellrichstadt J1
-Mellrichstadt J3
-Melsbach C1
-Melsdorf L6
-Melsungen J7
-Melsungen P1
-Melsungen Q7
-Memmelsdorf A0
-Memmingen D3
-Memmingen H3
-Menden F0
-Menden G6
-Mendig M6
-Mengen I1
-Mengerschied O6
-Mengerskirchen Q5
-Mengkofen R5
-Mengkofen Y1
-Menningen N2
-Menslage D0
-Menteroda A7
-Menteroda J5
-Meppen X0
-Merdingen R3
-Merdingen S4
-Merching H4
-Merching M2
-Merching U5
-Merchweiler C3
-Merchweiler K4
-Merkelbach C7
-Merkelbach K0
-Merkelbach Q1
-Merkendorf (Thuringia) U7
-Merklingen T4
-Merklingen U3
-Mermuth D7
-Mermuth P2
-Merseburg F4
-Merseburg S2
-Merseburg S4
-Merschbach G0
-Merschbach O7
-Mertendorf (Eisenberg) B0
-Mertendorf (Eisenberg) W7
-Mertesdorf P7
-Mertloch J5
-Mertloch Q6
-Merxheim E3
-Merxheim N6
-Merzalben J2
-Merzdorf (Elsterwerda) G1
-Merzdorf (Elsterwerda) U3
-Merzdorf (Elsterwerda) V1
-Merzen P5
-Merzenich I0
-Merzhausen V3
-Merzig T0
-Merzkirchen E3
-Mesenich H5
-Mescherin A4
-Mescherin X6
-Mescherin Y2
-Messel I5
-Messenkamp W6
-Messerich H4
-Meßstetten F0
-Meßstetten Q4
-Mestlin F4
-Mestlin N0
-Metelen X2
-Mettendorf Q3
-Mettenheim (Rheinh.) B5
-Mettenheim (Rheinh.) D0
-Mettenheim (Rheinh.) R6
-Metterich F6
-Metterich Y3
-Mettingen R1
-Mettlach B6
-Mettmann M6
-Mettweiler P6
-Metzels E7
-Metzingen F0
-Metzingen F7
-Meudt V7
-Meura N5
-Meura Y2
-Meusebach F7
-Meuselwitz I3
-Meuspath G0
-Meyn B4
-Meyn F0
-Meyn F5
-Meyn I6
-Mickhausen I7
-Middelhagen L5
-Midlum (Bremerhaven) E2
-Midlum (Föhr) R2
-Miehlen B3
-Miellen Y0
-Miesitz D5
-Mietingen C0
-Mihla I5
-Mihla J7
-Mihla R5
-Michelau in Oberfranken F2
-Michelbach (Hunsrück) B2
-Michelbach (Hunsrück) J5
-Michelbach (Hunsrück) Y0
-Michelbach an der Bilz O0
-Michendorf V0
-Mildenau Q6
-Milow (Ludwigslust) R0
-Milow (Ludwigslust) U4
-Milower Land E4
-Miltach J2
-Miltach T6
-Mindelheim T5
-Mindelstetten E3
-Mindelstetten J4
-Mindelstetten K3
-Minden R4
-Minderlittgen C4
-Minderlittgen F5
-Minderlittgen R7
-Minheim G2
-Mirow D3
-Misselberg G6
-Misselwarden H3
-Missen-Wilhams N5
-Mistelbach C5
-Mistelbach U6
-Mistelgau J5
-Mistelgau K6
-Mittelangeln J3
-Mittelangeln Y1
-Mittelbiberach O5
-Mittelbiberach X3
-Mittelbrunn L2
-Mittelbrunn Y0
-Mittelfischbach S5
-Mittelneufnach D7
-Mittelnkirchen X7
-Mittelpöllnitz N7
-Mittelpöllnitz P2
-Mittelreidenbach O3
-Mittelsinn D4
-Mittelsömmern A4
-Mittelsömmern J5
-Mittelsömmern O4
-Mittelstenahe M7
-Mittelstrimmig A0
-Mittelstrimmig J1
-Mittenaar Q6
-Mittenwald K4
-Mittenwalde Y1
-Mitterfels B6
-Mitterskirchen G6
-Mitterteich A0
-Mixdorf M7
-Möckmühl B0
-Mockrehna Y1
-Mödingen X5
-Moers J3
-Moers T0
-Moers U4
-Mögglingen Q7
-Möglingen E6
-Mohlsdorf-Teichwolframsdorf A6
-Mohlsdorf-Teichwolframsdorf A7
-Möhnesee Q6
-Möhnsen N3
-Möhnsen Q4
-Moisburg W6
-Möllenbeck (Neustrel.) I6
-Möllenhagen V1
-Möllenhagen X2
-Mölsheim Q4
-Molschleben Y6
-Mölschow P6
-Molzhain E0
-Mommenheim W6
-Mönchengladbach I6
-Mönchengladbach O7
-Mühlhausen K5
-München B0
-Munich L0
-Munich Y2
-Münster R7
-Nasingen H7
-Nassau O6
-Nassau W3
-Nassau X4
-Nauen P4
-Nauheim S7
-Naumburg (Hesse) J0
-Naumburg F1
-Naundorf (Oschatz) B6
-Naundorf (Oschatz) M5
-Naunheim H0
-Naunhof L7
-Naunhof U6
-Nauort F1
-Nauort P1
-Naurath (Eifel) U4
-Nauroth H6
-Nauroth J7
-Nauroth S5
-Nauroth T7
-Nauwalde H2
-Nazza O2
-Neckargemünd Q0
-Neckargerach V3
-Neckarsteinach O4
-Neckarsulm F7
-Neckartailfingen S5
-Neckartailfingen W2
-Neckarzimmern S1
-Neef F0
-Neef Q6
-Neetze H4
-Neetzka D5
-Nehms H4
-Nehmten Y2
-Nehren (Württemb.) I7
-Neidhartshausen B3
-Neidhartshausen H6
-Neiße-Malxetal Q4
-Neiße-Malxetal U1
-Neißemünde N4
-Nellingen O3
-Nemsdorf-Göhrendorf B4
-Nenndorf T3
-Nentershausen (Hes.) R3
-Nentershausen (Hes.) X4
-Nentershausen (Wes.) B0
-Nentershausen (Wes.) C7
-Nentershausen (Wes.) V3
-Nentershausen (Wes.) W3
-Nerdlen Q3
-Nerenstetten D6
-Nerenstetten I2
-Nerenstetten S7
-Nerenstetten W6
-Neritz L6
-Neroth K7
-Neroth P3
-Nerzweiler E7
-Neschwitz I1
-Nesow J7
-Nettelsee G4
-Nettelsee K6
-Nettersheim Q2
-Nettetal F6
-Nettetal X0
-Netzbach D4
-Neu Bartelshagen O2
-Neu Bartelshagen X1
-Neu Boltenhagen J3
-Neu Boltenhagen K1
-Neu Gaarz R2
-Neu Gülze D6
-Neu Kosenow V4
-Neu-Bamberg X7
-Neuberend C7
-Neuberend Q7
-Neuberg G6
-Neubeuern F2
-Neubeuern P6
-Neubiberg A3
-Neubiberg I0
-Neubiberg W6
-Neubörger L0
-Neubörger V3
-Neubrandenburg P3
-Neubrandenburg S4
-Neubrunn (Würzburg) Q1
-Neuburg a.d. Kammel L6
-Neuburg a.d. Kammel U2
-Neuburg am Inn F3
-Neuburg-Steinhausen J3
-Neudorf-Bornstein E5
-Neu-Eichenberg B0
-Neu-Eichenberg D1
-Neu-Eichenberg T5
-Neu-Eichenberg X0
-Neuenbürg G1
-Neuenbürg K6
-Neuenbürg X6
-Neuendeich B4
-Neuendeich M1
-Neuendorf (Main) A6
-Neuendorf-Sachsenb. Q0
-Neuenhagen J0
-Neuenkirchen (Greifsw.) N1
-Neuenkirchen (Neubr.) L1
-Neuenkirchen (Osn.) H1
-Neuenkirchen (Osn.) O3
-Neuenkirchen (Ostv.) I2
-Neuenkirchen (Ostv.) K2
-Neuenkirchen (Ostv.) P4
-Neuenkirchen (Ostv.) S3
-Neuenkirchen-Vörden W4
-Neuensalz Q7
-Neuenstein (Hesse) P1
-Neuenstein (Hesse) V5
-Neuenstein (Hohenlohe) J5
-Neuenstein (Hohenlohe) R7
-Neuental F1
-Neuenweg R5
-Neuerkirch H2
-Neufraunhofen J5
-Neufraunhofen P0
-Neufraunhofen T3
-Neugernsdorf Y2
-Neuhaus (Oste) Q2
-Neuhaus am Inn E5
-Neuhaus am Rennweg Q4
-Neuhaus am Rennweg U6
-Neuhaus an der Pegnitz D3
-Neuhaus an der Pegnitz Q2
-Neuhausen (Enzkreis) K5
-Neuhausen (Enzkreis) S4
-Neuhausen (Enzkreis) S7
-Neuhausen (Erzgebirge) F7
-Neuhausen (Spree) R6
-Neuhausen (Spree) X4
-Neuhausen auf d. Fildern T2
-Neuhausen ob Eck A5
-Neuhausen ob Eck J1
-Neuhausen ob Eck Q7
-Neuhäusel D0
-Neuhäusel R6
-Neuheilenbach K2
-Neuhemsbach K5
-Neuhütten (Hunsrü.) K4
-Neuhütten (Hunsrü.) S4
-Neuching B1
-Neuching K2
-Neukalen S2
-Neukamperfehn P6
-Neukirch (Königsbrück) Y4
-Neukirch (Lausitz) S5
-Neukirchen (Bogen) P4
-Neukirchen (Heilig.) C0
-Neukirchen (Heilig.) M7
-Neukirchen (Niebüll) G4
-Neukirchen (Niebüll) M3
-Neukirchen (Niebüll) S5
-Neukirchen im Knüllgebirge J1
-Neukirchen im Knüllgebirge T4
-Neukirchen im Knüllgebirge V1
-Neukirchen-Balbini K5
-Neukirchen-Vluyn N5
-Neukirchen-Vluyn V5
-Neukloster P5
-Neukyhna O1
-Neulehe U5
-Neuleiningen P3
-Neuler B5
-Neulewin O6
-Neumagen-Dhron A0
-Neumark (Weimar) W5
-Neumarkt (Oberpfalz) N3
-Neunburg vorm Wald O3
-Neundorf (Schleiz) O0
-Neundorf (Schleiz) U2
-Neunkhausen T0
-Neunkirchen (Unter.) D2
-Neunkirchen (Unter.) G2
-Neunkirchen (West.) H5
-Neunkirchen (West.) P6
-Neunkirchen (West.) T7
-Neunkirchen am Brand W0
-Neunkirchen am Brand X5
-Neunkirchen-Seelsch. M0
-Neuötting N0
-Neupetershain L0
-Neupetershain Q1
-Neupotz F6
-Neupotz X7
-Neureichenau T5
-Neuried (Baden) B5
-Neuried (Baden) I6
-Neuried (Munich) P2
+Mehren (Daun) W4
+Mehren (Daun) X6
+Mehren (Westerwald) M7
+Mehring (Altötting) W7
+Mehringen K6
+Mehrstetten Q5
+Mechernich O7
+Mechow E6
+Mechtersen W7
+Meiersberg S7
+Meinborn S0
+Meine J5
+Meinersen P4
+Meinerzhagen J4
+Meinerzhagen M1
+Meinhard W1
+Meinheim J4
+Meiningen R7
+Meiningen S5
+Meiningen S6
+Meisburg M6
+Meisburg V5
+Meisburg X4
+Meisenheim R4
+Meisenheim X2
+Melbeck O4
+Meldorf M7
+Meldorf W0
+Melchow I4
+Melle F7
+Mellenbach-Glasbach M2
+Mellenthin J6
+Mellenthin Q5
+Mellinghausen J4
+Mellrichstadt F4
+Melpers A6
+Melpers B3
+Melsbach I7
+Melz S4
+Memmelsdorf M7
+Memmingen J1
+Memmingen L5
+Memmingen M5
+Memmingen N1
+Memmingen S3
+Memmingen W3
+Mendig D4
+Mengerschied M7
+Mengerschied Y5
+Mengkofen C1
+Menningen J6
+Meppen N5
+Meppen P6
+Merenberg O3
+Merenberg U5
+Merching F0
+Merching H1
+Merching I7
+Merching J3
+Merkelbach J6
+Merkendorf (Mittelfr.) S1
+Merklingen D7
+Merklingen M0
+Mermuth I0
+Merseburg B3
+Merschbach L6
+Mertendorf (Eisenberg) C3
+Mertendorf (Eisenberg) K3
+Mertesheim H2
+Mertesheim P1
+Mertingen A2
+Mertingen E6
+Mertingen K2
+Merxheim A0
+Merxheim U0
+Merzalben A2
+Merzalben K3
+Merzalben U2
+Merzalben U5
+Merzdorf (Elsterwerda) F4
+Merzenich K0
+Merzhausen L0
+Merzweiler F1
+Merzweiler F6
+Mesekenhagen E0
+Mesekenhagen U1
+Meschede B2
+Mescherin A0
+Messel Y6
+Messenkamp Y2
+Messingen H1
+Messingen R3
+Metelsdorf Y5
+Metten F0
+Mettendorf L4
+Mettendorf O7
+Mettenheim (Rheinh.) M0
+Mettweiler V2
+Metzels H0
+Metzingen E1
+Metzingen G1
+Meudt I2
+Meudt P0
+Meuselbach-Schwarz. H3
+Meuselbach-Schwarz. N1
+Meuselwitz F1
+Meuspath C2
+Meyenburg Q1
+Meyenburg V0
+Meyn L3
+Meyn Y0
+Mickhausen A4
+Midlum (Bremerhaven) X2
+Midlum (Bremerhaven) Y0
+Midlum (Föhr) C4
+Miehlen J0
+Mielkendorf I5
+Mielkendorf M2
+Miesbach G6
+Miesbach U2
+Miesitz A6
+Mietingen J2
+Michelau in Oberfranken H2
+Michelau in Oberfranken L1
+Michelbach (Hunsrück) N0
+Michelbach (Wester.) F4
+Michelstadt N2
+Michendorf W4
+Milda K6
+Mildenau H5
+Mildstedt L7
+Miltach O5
+Mindelheim V5
+Mindelstetten E0
+Mindelstetten N5
+Minden C1
+Minden V5
+Minfeld F6
+Mintraching H4
+Misselwarden G7
+Misselwarden Q7
+Misselwarden R7
+Mistelbach X3
+Mistelgau J2
+Mittelangeln P7
+Mittelbiberach B5
+Mittelbiberach C2
+Mittelfischbach S3
+Mittelherwigsdorf V5
+Mittelhof C1
+Mittelneufnach A3
+Mittelneufnach R3
+Mittelnkirchen J0
+Mittelnkirchen U6
+Mittelreidenbach P2
+Mittelreidenbach R4
+Mittelsinn O7
+Mittelsömmern C6
+Mittelsömmern Q0
+Mittelsömmern V1
+Mittelstenahe H5
+Mittelstrimmig O7
+Mittenaar Q4
+Mittenwald J2
+Mittenwald J6
+Mittenwald T2
+Mittenwalde (Templin) D1
+Mitterskirchen N7
+Mitterteich X1
+Mitwitz N6
+Möckern (Sax.-Anh.) E3
+Möckern (Thuringia) I4
+Möckern (Thuringia) K1
+Möckmühl M0
+Modautal M7
+Mödingen D1
+Mödingen W6
+Moers A6
+Moers E5
+Moers I3
+Mögglingen J0
+Mohlsdorf-Teichwolframsdorf H7
+Möhnesee Y3
+Mochau I6
+Mochau J4
+Mochau Y7
+Molauer Land X7
+Molbergen R5
+Möllenbeck (Ludwigsl.) I2
+Möllenbeck (Ludwigsl.) P2
+Möllenhagen Y5
+Mölln (Altentreptow) H5
+Molschleben X5
+Mölschow S4
+Moltzow D5
+Moltzow M6
+Mömbris H0
+Mömbris M4
+Mömlingen E4
+Mühlhausen B2
+Mülheim an der Ruhr V2
+Mülheim an der Ruhr X5
+Mülheim F6
+Munich A5
+Munich L3
+Münster A4
+Münster N4
+Münster X6
+Nanzdietschweiler F1
+Nanzdietschweiler Q1
+Narsdorf C4
+Nassau V7
+Natendorf M2
+Natendorf W1
+Nattenheim L7
+Nattenheim M4
+Nattheim U7
+Nauen O3
+Naundorf (Oschatz) H6
+Naundorf (Oschatz) W4
+Naunheim Q7
+Nauort D6
+Naurath (Eifel) H3
+Nausitz A6
+Nausnitz R4
+Nazza T7
+Nazza Y5
+Nebel D2
+Nebel E0
+Nebelschütz A1
+Nebelschütz T6
+Neckarbischofsheim O6
+Neckarsteinach V4
+Neckarsulm T7
+Neckartailfingen L3
+Neckartailfingen N0
+Neckartenzlingen I0
+Neckartenzlingen N5
+Neef T6
+Neenstetten K4
+Neenstetten K7
+Neenstetten M4
+Neetze D1
+Neetze X6
+Negenborn K4
+Negenborn N4
+Negernbötel G3
+Nehms A7
+Nehms M7
+Nehmten T0
+Nehren (Mosel) H7
+Nehren (Mosel) T7
+Nehren (Württemb.) U1
+Neidenbach F7
+Neidenbach X0
+Neidhartshausen F2
+Nemsdorf-Göhrendorf F2
+Nemsdorf-Göhrendorf H1
+Nentershausen (Wes.) F6
+Nerdlen B0
+Nerdlen K2
+Nerenstetten U0
+Neroth W0
+Nersingen D0
+Nesow P3
+Nesow S5
+Nesow Y2
+Nesselwang G2
+Nesselwang K2
+Nettersheim D0
+Nettersheim Y5
+Netzbach F1
+Netzbach R3
+Netzschkau C6
+Netzschkau O4
+Neu Bartelshagen Q2
+Neu Bartelshagen V7
+Neu Darchau F7
+Neu Duvenstedt J4
+Neu Duvenstedt M0
+Neu Gaarz K0
+Neu Gülze J2
+Neu Gülze J3
+Neu Kaliß P3
+Neualbenreuth A1
+Neualbenreuth S0
+Neu-Anspach M5
+Neu-Bamberg E1
+Neuberend J1
+Neuberg A4
+Neuberg Y6
+Neubeuern J6
+Neubörger M5
+Neubrandenburg N0
+Neubrandenburg N2
+Neubrandenburg O6
+Neubrandenburg Q5
+Neubrunn (Meiningen) R4
+Neubrunn (Meiningen) T2
+Neubrunn (Würzburg) N1
+Neubrunn (Würzburg) Y5
+Neuburg am Inn P3
+Neuenbrook E2
+Neuendettelsau A5
+Neuendettelsau I3
+Neuendorf (Eifel) L6
+Neuendorf (Main) M3
+Neuendorf (Main) W3
+Neuendorf A F6
+Neuendorf-Sachsenb. A6
+Neuengönna I6
+Neuengönna Q1
+Neuengörs Y2
+Neuenhagen B1
+Neuenkirchen (Cuxh.) E4
+Neuenkirchen (Dieph.) F4
+Neuenkirchen (Dithm.) J4
+Neuenkirchen (Dithm.) K3
+Neuenkirchen (Dithm.) P5
+Neuenkirchen (Dithm.) Q1
+Neuenkirchen (Greifsw.) P1
+Neuenkirchen (Lüneb. H.) C1
+Neuenkirchen (Lüneb. H.) D4
+Neuenkirchen (Lüneb. H.) I5
+Neuenkirchen (Neubr.) E0
+Neuenkirchen (Osn.) S1
+Neuenkirchen (Ostv.) D4
+Neuenkirchen (Stade) A0
+Neuenkirchen (Stade) E5
+Neuenkirchen (Stade) V0
+Neuenkirchen-Vörden D7
+Neuenkirchen-Vörden F7
+Neuenkirchen-Vörden K4
+Neuenrade X5
+Neuensalz H3
+Neuensalz X0
+Neuenstadt am Kocher D5
+Neuerburg L2
+Neufahrn (Low. Bavar.) H6
+Neufahrn bei Freising R3
+Neufeld W4
+Neufeld Y5
+Neufelderkoog A2
+Neufra F7
+Neufraunhofen F5
+Neugernsdorf L1
+Neuhardenberg J2
+Neuharlingersiel L1
+Neuhaus (Oste) H3
+Neuhaus am Rennweg K6
+Neuhaus am Rennweg M4
+Neuhaus am Rennweg W4
+Neuhaus am Rennweg X3
+Neuhausen (Enzkreis) A4
+Neuhausen (Enzkreis) V7
+Neuhausen (Spree) G3
+Neuhäusel K0
+Neuheilenbach S2
+Neuhemsbach B4
+Neuhof (Fulda) D6
+Neuhof (Fulda) Q2
+Neuhof an der Zenn X4
+Neuhütten (Hunsrü.) P4
+Neu-Isenburg V7
+Neukirch (Königsbrück) W4
+Neukirch (Lausitz) H6
+Neukirch (Lausitz) O5
+Neukirchen (Erzgebirge) E4
+Neukirchen (Erzgebirge) U1
+Neukirchen (Oldenburg) N3
+Neukirchen (Pleiße) I7
+Neukirchen (Sulzbach) R5
+Neukirchen (Sulzbach) S2
+Neukirchen im Knüllgebirge J7
+Neukirchen-Balbini M3
+Neukirchen-Vluyn E7
+Neukloster X1
+Neukyhna Y1
+Neulewin S6
+Neulingen C4
+Neulußheim W4
+Neumagen-Dhron T3
+Neumark (Saxony) S4
+Neumarkt (Oberpfalz) S2
+Neumarkt-Sankt Veit S0
+Neundorf (Lobenst.) V6
+Neundorf (Schleiz) U7
+Neundorf (Schleiz) Y7
+Neunheilingen C1
+Neunkirchen (Hunsr.) G2
+Neunkirchen (Mosb.) R2
+Neunkirchen (Saar) N0
+Neunkirchen (Saar) O2
+Neunkirchen (Unter.) I2
+Neunkirchen (West.) I3
+Neunkirchen (West.) K4
+Neunkirchen a. Sand B5
+Neuötting W7
+Neureichenau D1
+Neuried (Munich) A0
 Neuruppin A5
-Neusalza-Spremberg V3
-Neusalza-Spremberg X4
-Neu-Seeland C0
-Neu-Seeland F0
-Neu-Seeland U4
-Neuschoo D5
-Neuschoo J1
-Neuschoo U4
-Neusitz B1
-Neusorg B4
-Neuss H4
-Neuss W5
-Neustadt (Dosse) T7
-Neustadt (Harz) D4
-Neustadt (Holstein) B1
-Neustadt (Holstein) T1
-Neustadt (Leinefelde) J3
-Neustadt (Vogtland) N2
-Neustadt (Weinstraße) K3
-Neustadt (Westerw.) D0
-Neustadt (Westerw.) I5
-Neustadt (Westerw.) L5
-Neustadt (Wied) M2
-Neustadt a. Rübenb. U1
-Neustadt am Main W2
-Neustadt am Rennsteig V7
-Neustadt an der Aisch U5
-Neustadt an der Orla J0
-Neustadt an der Waldnaab N7
-Neustadt an der Weinstrasse L7
-Neustadt in Sachsen U6
-Neustrelitz D5
-Neustrelitz G7
-Neustrelitz J3
-Neutraubling H3
-Neuwied K5
-Neuwied R1
-Neuzelle A5
-Neuzelle E7
-Neuzelle J2
-Neverin F6
-Neverin V2
-Ney A7
-Ney C0
-Ney M5
-Nickenich E6
-Nidda F2
-Nidderau M0
-Nieblum J5
-Nieby X0
-Niederaichbach H3
-Niederau A2
-Niederbösa J3
-Niederbösa Q4
-Niederbösa T1
-Niederbrombach C4
-Niederburg C2
-Niederdorf B0
-Niederdorfelden U2
-Niederdreisbach T4
-Niederelbert G3
-Niedereschach D2
-Niederfell A5
-Niederfell S6
-Niederfell W1
-Niederfinow D6
-Niederfinow E6
-Niederfinow O2
-Niederhambach F0
-Niederhambach V0
-Niederheimbach D0
-Niederirsen G4
-Niederkumbd H3
-Niederlauer O5
-Niedermohr I5
-Niedernberg X7
-Niederneisen V4
-Niedernhall B7
-Niedernhall I1
-Niedernwöhren H5
-Nieder-Olm M2
-Nieder-Olm O7
-Nieder-Olm U1
-Nieder-Olm V5
-Niederorschel G4
-Niederorschel V0
-Niederorschel V1
-Niederotterbach D2
-Niederotterbach L4
-Niederotterbach W7
-Niederpierscheid Q4
-Niederraden D0
-Niederreißen L2
-Niederrieden G6
-Niederroßbach A5
-Niederroßbach S4
-Niederroßla X3
-Niederscheidweiler C1
-Niederscheidweiler G2
-Niederschlettenbach K7
-Niederschönenfeld O0
-Niedersohren Q6
-Niederstadtfeld B4
-Niederstadtfeld I6
-Niederstadtfeld S2
-Niederstaufenbach I6
-Niederstedem Y6
-Niedersteinebach Q6
-Niederstetten R6
-Niederstotzingen B0
-Niederstotzingen K5
-Niederstotzingen R4
-Niederstriegis R4
-Niedert A4
-Niedert J3
-Niedert R6
-Niedertiefenbach X3
-Niederviehbach O4
-Niederwallmenach J5
-Nordhausen C2
-Nördlingen R6
-Oberahr W1
-Oberahr X7
-Oberalben E5
-Oberarnbach D7
-Oberarnbach E0
-Oberarnbach V5
-Oberasbach B1
-Oberasbach P6
-Oberau B6
-Oberau H3
-Oberau V1
-Oberaudorf G7
-Oberaurach A7
-Oberbachheim Q0
-Oberbachheim U2
-Oberbettingen J3
-Oberbettingen T5
-Oberbodnitz H6
-Oberdiebach R1
-Oberdiebach V0
-Oberdreis M3
-Oberdürenbach M5
-Oberehe-Stroheich S6
-Oberelbert J2
-Oberelbert P4
-Oberelsbach V1
-Oberelz H1
-Oberelz N7
-Obererbach (Montab.) G4
-Oberfell R3
-Oberfell T1
-Ober-Flörsheim R5
-Obergeckler G3
-Obergriesbach B3
-Obergriesbach O2
-Obergriesbach O6
-Obergröningen I0
-Obergünzburg D7
-Obergurig C1
-Obergurig E2
-Obergurig J6
-Oberhaid (Westerw.) E0
-Oberhausen (Bergz.) U7
-Oberhausen (Neuburg) B6
-Oberhausen (Oberb.) X3
-Oberhausen S2
-Oberhausen-Rheinhausen L6
-Oberheldrungen H2
-Oberheldrungen L4
-Ober-Hilbersheim J1
-Ober-Hilbersheim S5
-Oberhof F7
-Oberhonnefeld-Gierend P2
-Oberhonnefeld-Gierend S0
-Oberickelsheim D7
-Oberickelsheim P2
-Oberirsen N3
-Oberkail H3
-Oberkail Q6
-Oberkatz M6
-Oberkatz R2
-Oberkatz T1
-Oberkatz X5
-Oberkirch F3
-Oberkotzau T2
-Oberlangen E2
-Oberlascheid I3
-Oberleichtersbach H3
-Oberlungwitz F2
-Obermehler P4
-Obermichelbach I3
-Ober-Mörlen G6
-Ober-Mörlen K1
-Ober-Mörlen S2
-Ober-Mörlen W7
-Obernbreit I3
-Oberndorf (Oste) T0
-Oberndorf (Oste) Y6
-Oberndorf am Lech V4
-Oberneisen P0
-Oberneisen U0
-Oberneukirchen G0
-Obernheim (Württ.) S7
-Obernkirchen K7
-Obernkirchen N6
-Obernkirchen S0
-Obernzenn C6
-Obernzenn T3
-Oberpframmern V0
-Oberpierscheid C2
-Oberpierscheid L1
-Oberpöring D2
-Oberpöring E7
-Oberraden L1
-Oberraden V2
-Oberreidenbach S1
-Oberreidenbach T5
-Oberreichenbach (Wü.) P2
-Oberreißen M3
-Oberreute T7
-Oberried N4
-Oberrieden B4
-Oberrieden F3
-Oberrieden X4
-Oberriexingen D5
-Oberriexingen V0
-Oberroßbach I6
-Oberroth M2
-Oberschneiding D1
-Oberschneiding M4
-Oberschneiding S4
-Oberschwarzach N1
-Obersimten G0
-Obersinn Y6
-Obersöchering Y4
-Oberstdorf B0
-Oberstreit U3
-Oberstreu E7
-Oberstreu W6
-Obersulm D0
-Obersülzen N0
-Obersülzen U4
-Obersüßbach A6
-Obertaufkirchen F4
-Obertaufkirchen K5
-Oberteuringen L1
-Oberthulba L1
-Obertrebra G5
-Oberuckersee A7
-Oberwambach R2
-Oberweiler (Eifel) S7
-Oberweiler im Tal E1
-Oberweiler-Tiefenbach C2
-Oberweiler-Tiefenbach C7
-Oberweiler-Tiefenbach L1
-Oberweis V7
-Oberweißbach G0
-Oberwesel V0
-Oberweser A0
-Oberwiera B7
-Oberwies H4
-Oberwörresbach G4
-Oberwörresbach Y7
-Obhausen M5
-Obing D6
-Obrigheim (Baden) D3
-Obrigheim (Baden) T4
-Ockfen E6
-Ockholm H3
-Odderade A1
-Odderade W5
-Odelzhausen K1
-Odenbach F2
-Odenbach I1
-Odenbach Q0
-Odenbach Q4
-Odenbach T1
-Oderaue U0
-Oderberg Y1
-Odernheim am Glan X5
-Oderwitz J1
-Odisheim H5
-Oebisfelde-Weferlingen I5
-Oederan W3
-Oederquart K0
-Oedheim W3
-Oechsen E1
-Oechsen J4
-Oechsen L7
-Oelixdorf Q4
-Oelixdorf W4
-Oelsberg C3
-Oelsnitz (Vogtland) H4
-Oepfershausen F7
-Oerel Q7
-Oer-Erkenschwick B7
-Oerlenbach T1
-Oersberg O3
-Oersberg T1
-Oersdorf J3
-Oeschebüttel O6
-Oeschebüttel R1
-Oesterwurth M6
-Oestrich-Winkel N5
-Oettern K3
-Oettern O6
-Oettern R5
-Oevenum C6
-Oeversee E3
-Oeversee X0
-Offenau N0
-Offenbach an der Queich I0
-Offenbach an der Queich T3
-Offenbach D6
-Offenbach N3
-Offenbach S1
-Offenbach-Hundheim N3
-Offenberg W2
-Offenburg P1
-Ofterdingen F1
-Ofterdingen S2
-Oftersheim D3
-Ohlenhard C5
-Ohlstadt I4
-Ohlstadt L2
-Ohmden L7
-Ohne A6
-Ohne T1
-Öhningen C4
-Öhningen N7
-Öhningen S0
-Ohorn X4
-Ohrdruf U4
-Ohrenbach P2
-Ohrum B2
-Ohrum O3
-Ochsenhausen M7
-Ochtersum N2
-Ochtrup K5
-Olbernhau M4
-Olbernhau P5
-Olbersdorf M0
-Olbersleben E1
-Oldenburg M7
-Oldenburg V5
-Oldendorf (Holstein) E6
-Oldendorf (Stade) L1
-Oldendorf (Stade) N3
-Olderup T0
-Olfen P7
-Olching A7
-Öllingen C2
-Ollmuth B0
-Olmscheid F1
-Olsberg E0
-Olsberg E6
-Olsberg L0
-Olsbrücken J4
-Olsdorf Q6
-Ölsen J7
-Ölsen V4
-Olzheim V4
-Olzheim X7
-Onsdorf B2
-Onsdorf P6
-Öpfingen G1
-Oppach I5
-Oppenau C5
-Oppershausen C5
-Oppurg F6
-Oranienbaum-Wörlitz H3
-Oranienburg G0
-Oranienburg Y7
-Orenhofen M5
-Orfgen J4
-Orfgen Q3
-Ormont L1
-Orsfeld T6
-Orsingen-Nenzingen O5
-Ortenberg (Baden) F2
-Ortenberg (Baden) K4
-Ortenberg (Hesse) D4
-Ortrand R6
-Osburg H5
-Osburg N0
-Osburg S0
-Osnabrück C4
-Osnabrück D4
-Osnabrück L3
-Osnabrück N6
-Oßmannstedt J5
-Osteel L2
-Ostelsheim X0
-Osten X5
-Osterberg A1
-Osterbruch H7
-Osterburg (Altmark) A3
-Osterburken W1
-Osterby (Eckernförde) N4
-Osterby (Eckernförde) Q3
-Ostereistedt D0
-Ostereistedt T7
-Osterhever A4
-Osterhever O0
-Osterhofen V4
-Osterhorn P6
-Osterhorn Y4
-Osternienburger Land H0
-Osternienburger Land J7
-Osternienburger Land Y2
-Osterrade V7
-Osterrönfeld J0
-Ostfildern A5
-Osthausen-Wülfersh. O1
-Ostheim v.d. Rhön I0
-Ostrach Q7
-Ostrau Q6
-Ostrhauderfehn N3
-Östringen I7
-Östringen V0
-Ostritz S0
-Ostrohe B1
-Ostrohe B5
-Ostrohe J0
-Oststeinbek S2
-Ötigheim N6
-Ötisheim P7
-Ötisheim U7
-Ottenbach I5
-Ottenhofen S2
-Ottensoos P2
-Ottenstein V4
-Otter G0
-Otter K2
-Otterberg P4
-Ottersberg Y1
-Ottersheim (Kirchheim.) L3
-Ottersheim (Landau) F1
-Otterstadt K0
-Otterwisch S4
-Paderborn C3
-Paderborn M2
-Paderborn S0
-Peenemünde A1
-Peenemünde B6
-Potsdam J3
-Rabel D5
-Rabel O1
-Raben Steinfeld C7
-Raben Steinfeld P1
-Rabenau (Hesse) V7
-Rabenau (Saxony) F5
-Rabenau (Saxony) T2
-Rabenstein (Fläming) U2
-Racksen E5
-Radbruch H6
-Radbruch X1
-Raddestorf Q3
-Rade (Fitzbek) G2
-Rade (Fitzbek) W5
-Rade (Hohenwestedt) G2
-Rade (Rendsburg) H1
-Rade (Rendsburg) S0
-Radeburg B7
-Radibor T4
-Radolfzell am Bodensee S1
-Raesfeld E2
-Raesfeld U2
-Raguhn-Jeßnitz I5
-Rain (Lech) T1
-Rainau Q3
-Raisdorf O7
-Raisdorf Q6
-Raisting V3
-Ralingen Y6
-Ralswiek B1
-Ralswiek R1
-Ramberg V6
-Rambin J2
-Ramerberg U6
-Ramhusen X7
-Ramin H2
-Ramin T5
-Rammelsbach E7
-Ramsau (Berchtesgaden) H6
-Ramsen W5
-Ramsla V6
-Ramstedt M2
-Randersacker F5
-Rangendingen G1
-Rannstedt A5
-Rannungen D1
-Ranschbach G0
-Rantzau P3
-Rasdorf E1
-Raschau-Markersbach R4
-Raschau-Markersbach U4
-Rastede D2
-Rastenberg S4
-Rastorf T1
-Ratekau C6
-Ratekau I3
-Rathen Kurort B0
-Rathmannsdorf (Pirna) R1
-Rathskirchen Q7
-Rathsweiler E4
-Rathsweiler R1
-Ratingen O6
-Ratingen P5
-Ratingen Y6
-Rattelsdorf (Oberfrank.) D0
-Rattenberg P5
-Rattiszell N7
-Rattiszell P5
-Ratzert I5
-Ratzert J1
-Raubling O7
-Rauda X4
-Rauenberg M4
-Rauenberg P2
-Rauenberg P7
-Rauenberg R3
-Rauenberg Y5
-Raumbach U2
-Rausdorf (Stadtroda) C0
-Rausdorf (Stadtroda) V5
-Rausdorf (Stormarn) I0
-Ravengiersburg E7
-Ravengiersburg S3
-Ravensburg A7
-Ravensburg H1
-Ravensburg Y6
-Ravenstein L4
-Ravenstein S2
-Rayerschied V4
-Räbke C2
-Räbke Q6
-Räckelwitz B2
-Räckelwitz L0
-Räckelwitz M6
-Räckelwitz Y6
-Rätzlingen (Uelzen) E4
-Reckendorf C1
-Reckenroth B5
-Reckenroth E4
-Reckenroth F6
-Reckershausen P3
-Reckershausen W6
-Recklinghausen S7
-Reddelich A2
-Rednitzhembach F6
-Redwitz an der Rodach A4
-Redwitz an der Rodach G1
-Regensburg F5
-Regensburg H0
-Regensburg O4
-Regensburg R7
-Regnitzlosau J7
-Regnitzlosau S0
-Regnitzlosau U7
-Rehau K4
-Rehbach T6
-Rehburg-Loccum Y5
-Rehe X3
-Reher I1
-Rehling C6
-Rehlingen-Siersburg P2
-Rehm-Flehde-Bargen A3
-Rehm-Flehde-Bargen D2
-Rehna V0
-Rehweiler T2
-Rech E0
-Rech U6
-Rech W4
-Rechberghausen G1
-Rechberghausen U7
-Rechtenbach A6
-Rechtsupweg B0
-Reidenhausen N2
-Reifenberg B6
-Reiferscheid T5
-Reifferscheid V2
-Reich E5
-Reich M4
-Reich N5
-Reichelsheim (Odenwald) K4
-Reichenau H7
-Reichenau V3
-Reichenbach (Birkenf.) Y3
-Reichenbach (Hermsd.) O5
-Reichenbach (Hermsd.) T7
-Reichenbach (Hermsd.) W3
-Reichenbach (Kronach) L5
-Reichenbach (Oberlausitz) R0
-Reichenbach (Oberpfalz) V2
-Reichenbach (Oberpfalz) Y3
-Reichenbach a. Heuberg T3
-Reichenbach an der Fils K5
-Reichenbach-Steegen N6
-Reichenberg (Unterfr.) Q5
-Reichersbeuern C7
-Reichling F3
-Reichling S5
-Reichmannsdorf E5
-Reichmannsdorf J2
-Reichmannsdorf Y0
-Reichsthal E6
-Reichsthal F2
-Reichsthal P7
-Reichweiler F5
-Reichweiler K4
-Reil A2
-Reil R5
-Reil S1
-Reilingen J7
-Reinbek B0
-Reinfeld (Holstein) K0
-Reinhardshagen C7
-Reinheim M5
-Reinsdorf E6
-Reinsdorf O6
-Reinstädt V2
-Reipeldingen C2
-Reisdorf N3
-Reischach A6
-Reischach N6
-Reiskirchen N5
-Reit im Winkl Q1
-Reitwein E7
-Reitzenhain U5
-Reitzenhain X3
-Reken J6
-Reken R7
-Rellingen D7
+Neuruppin E5
+Neuruppin U2
+Neusäß E1
+Neusäß X1
+Neu-Seeland A0
+Neusitz K7
+Neusorg R0
+Neuss D5
+Neuss M7
+Neuss N0
+Neuss V2
+Neuss W6
+Neustadt (Dosse) A3
+Neustadt (Dosse) N7
+Neustadt (Harz) T2
+Neustadt (Hesse) E4
+Neustadt (Hesse) M6
+Neustadt (Holstein) F3
+Neustadt (Holstein) K0
+Neustadt (Holstein) K2
+Neustadt (Westerw.) F2
+Neustadt (Westerw.) J7
+Neustadt (Wied) I4
+Neustadt (Wied) P4
+Neustadt (Wied) Q6
+Neustadt a. Rübenb. Q0
+Neustadt am Kulm S0
+Neustadt an der Aisch U3
+Neustadt an der Orla O7
+Neustadt an der Orla T6
+Neustadt an der Waldnaab K1
+Neustadt an der Waldnaab M2
+Neustadt an der Waldnaab R0
+Neustadt an der Weinstrasse D1
+Neustadt an der Weinstrasse W4
+Neustadt bei Coburg Q7
+Neustadt in Sachsen I1
+Neustetten S4
+Neustetten W0
+Neutrebbin L0
+Neu-Ulm X1
+Neuwied K6
+Neuwittenbek Y5
+Neuzelle F7
+Neverin S6
+Neverin V5
+Neversdorf F6
+Newel K6
+Newel S0
+Newel U1
+Nickenich A7
+Niddatal C0
+Nieblum I2
+Niebüll P1
+Nieden I3
+Nieden J1
+Niederahr B0
+Niederaichbach R1
+Niederalteich J1
+Niederau N1
+Niederau U6
+Niederbreitbach P6
+Niederbrombach N7
+Niederbrombach U4
+Niederburg B7
+Niederburg L2
+Niederdorf C0
+Niederdreisbach I4
+Niederer Fläming F5
+Niedererbach Q3
+Niedereschach E0
+Niedereschach W7
+Niederfell G1
+Niederfinow P7
+Niederfinow U6
+Niederfischbach J5
+Niederfischbach R5
+Niederfrohna F1
+Niedergörsdorf J6
+Niedergörsdorf O6
+Niedergörsdorf S5
+Niederhausen (Nahe) P2
+Niederheimbach J5
+Niederheimbach M4
+Nieder-Hilbersheim J3
+Niederhofen F0
+Niederhosenbach O0
+Niederirsen B4
+Niederkirchen (Deid.) R1
+Niederkrüchten R2
+Niederkumbd U7
+Niederkumbd X4
+Niederlauer L0
+Niederlauer R0
+Niederlauch K7
+Niederlauch T6
+Niedermohr Y3
+Niedermoschel O5
+Niedermoschel Y1
+Niederneisen W3
+Niederöfflingen A4
+Niederorschel G6
+Niederotterbach F1
+Niederreißen C2
+Niederreißen W1
+Niederrieden Q6
+Niederroßbach K4
+Niederroßbach N1
+Niederroßla P1
+Niederscheidweiler F3
+Niedersohren X7
+Niederstedem D6
+Niederstetten W4
+Niederstriegis A6
+Niedert Q1
+Niedertiefenbach A6
+Niedertiefenbach K0
+Niedertiefenbach L1
+Niedertrebra Q7
+Niederwallmenach K6
+Niederwallmenach P2
+Niederwambach T1
+Nordhausen U0
+Nördlingen B1
+Nürnberg I3
+Ober Kostenz L6
+Oberalben U6
+Oberammergau I2
+Oberarnbach G4
+Oberarnbach L0
+Oberarnbach W4
+Oberau R2
+Oberaudorf S1
+Oberaula W5
+Oberbettingen E1
+Oberbettingen I1
+Oberbettingen L4
+Oberbodnitz G5
+Oberbodnitz I7
+Oberboihingen E0
+Oberboihingen P0
+Oberboihingen V6
+Oberboihingen Y7
+Oberbrombach R6
+Oberderdingen R1
+Oberding C5
+Oberdischingen K1
+Oberdolling F5
+Oberdolling Q4
+Oberdreis N6
+Oberdürenbach H5
+Oberelsbach E5
+Oberelsbach U0
+Oberelz T7
+Obererbach (West.) A0
+Oberfell W4
+Ober-Flörsheim B6
+Ober-Flörsheim Y1
+Obergeckler C1
+Obergeckler L5
+Obergriesbach I5
+Obergröningen B0
+Obergröningen H2
+Oberhaching P5
+Oberhaching T2
+Oberhaid (Westerw.) O4
+Oberhambach Q5
+Oberharz am Brocken M0
+Oberhausen (Bergz.) D5
+Oberhausen (Bergz.) F0
+Oberhausen (Bergz.) P1
+Oberhausen (Kirn) D5
+Oberhausen (Oberb.) P2
+Oberhausen C6
+Oberhausen N2
+Oberhausen N3
+Oberhausen P1
+Oberhausen T6
+Oberhausen-Rheinhausen U3
+Oberheimbach N7
+Oberheldrungen O0
+Oberheldrungen R4
+Oberhosenbach S0
+Oberhosenbach W0
+Oberickelsheim E0
+Oberickelsheim E3
+Oberickelsheim S2
+Oberkatz A0
+Oberkatz L4
+Oberkatz U7
+Oberkirch W5
+Oberkochen B0
+Oberkochen J0
+Oberkochen V5
+Oberkrämer U6
+Oberlascheid E2
+Oberlascheid Y7
+Oberlauch P3
+Obermaiselstein E4
+Obermaiselstein O3
+Obernburg am Main I3
+Obernburg am Main L2
+Oberndorf (Pfalz) E4
+Oberndorf (Pfalz) I5
+Oberndorf (Pfalz) P3
+Oberndorf am Lech J5
+Oberneukirchen H6
+Obernfeld M3
+Obernheim (Württ.) E7
+Obernheim (Württ.) Q4
+Obernheim (Württ.) X4
+Obernhof J7
+Obernholz F3
+Obernkirchen D5
+Obernzell G6
+Ober-Olm A2
+Oberoppurg A4
+Oberoppurg X6
+Oberostendorf I0
+Oberpframmern M2
+Oberraden O6
+Oberraden X5
+Ober-Ramstadt G2
+Ober-Ramstadt G6
+Ober-Ramstadt Y1
+Oberreichenbach (Her.) V3
+Oberreichenbach (Wü.) J0
+Oberreute H1
+Oberreute O2
+Oberried A6
+Oberried H1
+Oberried X2
+Oberrieden L2
+Oberrod E5
+Oberrod X3
+Oberschlettenbach A5
+Oberschneiding B2
+Obersimten E1
+Oberstadt F0
+Oberstadtfeld J3
+Oberstaufenbach L6
+Oberstedem F1
+Oberstedem P0
+Obersteinebach B5
+Oberstenfeld V1
+Oberstreit O1
+Oberstreit Y5
+Obersülzen I1
+Obersülzen U7
+Oberteuringen H4
+Oberteuringen I4
+Oberthal S7
+Obertiefenbach K5
+Obertiefenbach L6
+Obertiefenbach S5
+Obertraubling N4
+Obertrebra E3
+Oberwambach H5
+Oberweid I4
+Oberweid R1
+Oberweiler (Eifel) V6
+Oberweiler im Tal F3
+Oberweiler im Tal G4
+Oberweiler im Tal K5
+Oberweiler-Tiefenbach N4
+Oberweiler-Tiefenbach N5
+Oberweißbach G6
+Oberwesel I1
+Oberweser F3
+Oberwies B7
+Oberwies C3
+Oberwies W7
+Oberwiesen W1
+Oberwolfach N5
+Oberwörresbach C1
+Oberwörresbach E0
+Oberzissen Y6
+Obing E6
+Obing M4
+Obing X2
+Obrigheim (Baden) I0
+Ockenfels W3
+Ockenheim I3
+Odderade N3
+Odderade T5
+Odelzhausen H6
+Odelzhausen K5
+Odenthal D7
+Odenthal N0
+Oderaue P3
+Oderberg J6
+Oderberg R2
+Oderberg V3
+Oderwitz D4
+Oderwitz T3
+Odisheim K3
+Oederan D6
+Oederan L4
+Oederan X5
+Oederquart A3
+Oechsen S1
+Oelixdorf J2
+Oelsberg R1
+Oelsberg T5
+Oelsnitz (Vogtland) B5
+Oer-Erkenschwick G7
+Oer-Erkenschwick O1
+Oerlenbach P7
+Oeschebüttel Y3
+Oesterdeichstrich T2
+Oestrich-Winkel M0
+Oestrich-Winkel Y7
+Oettern M0
+Oetzen A4
+Oevenum P1
+Offenbach am Main R1
+Offenbach am Main S1
+Offenbach an der Queich M4
+Offenbach an der Queich N6
+Offenbach P3
+Offenbach S5
+Offenbach V0
+Offenbach-Hundheim X1
+Offenberg G4
+Offenberg Y0
+Offenburg X3
+Offenburg Y7
+Offenbüttel V1
+Offingen Y7
+Offstein U0
+Oftersheim C4
+Ofterschwang A1
+Ohlsbach E1
+Ohlweiler Y0
+Ohne F0
+Ohne S5
+Öhningen T2
+Ohorn E3
+Ohrdruf Q5
+Ohrenbach H1
+Öhringen D4
+Ochsenfurt X3
+Ochsenhausen Y1
+Ochtendung T5
+Ochtendung V2
+Ochtersum L7
+Olbernhau C5
+Olbernhau X4
+Olbersdorf G5
+Ölbronn-Dürrn N2
+Oldenburg I7
+Oldenburg L5
+Oldenbüttel G6
+Oldenbüttel Y3
+Oldendorf (Luhe) A3
+Oldendorf (Stade) K2
+Oldersbek L2
+Olching D2
+Ollendorf V3
+Öllingen V4
+Ollmuth C6
+Olmscheid U1
+Olsberg G1
+Olsbrücken L2
+Olsbrücken P7
+Olzheim J7
+Onsdorf M0
+Öpfingen D2
+Öpfingen W2
+Oppenau W0
+Oppershausen Y3
+Oppurg A2
+Oppurg I5
+Oranienbaum-Wörlitz B2
+Orfgen Y5
+Orlamünde G5
+Orlamünde U1
+Ormont F6
+Orsfeld N3
+Orsingen-Nenzingen H7
+Orsingen-Nenzingen K3
+Orsingen-Nenzingen Q0
+Orsingen-Nenzingen Y6
+Ortenberg (Hesse) R1
+Ortenburg N3
+Osann-Monzel B0
+Osann-Monzel K3
+Osdorf V3
+Osnabrück F7
+Oßling C4
+Oßmannstedt T4
+Osteel M1
+Ostelsheim D1
+Ostelsheim I0
+Osten D4
+Osten E5
+Ostenfeld (Husum) N3
+Ostenfeld (Husum) P2
+Osterberg J3
+Osterberg K2
+Osterbruch R3
+Osterburg (Altmark) U3
+Osterby (Eckernförde) C4
+Osterby (Medelby) G0
+Ostereistedt G5
+Osterfeld C5
+Osterfeld J5
+Osterhever D3
+Osterhever U4
+Osterhofen R7
+Osterholz-Scharmbeck J1
+Osterhorn R4
+Osternienburger Land I5
+Osternienburger Land P0
+Osterode am Harz P7
+Osterrade D5
+Osterstedt F4
+Osterstedt S4
+Osterstedt V0
+Osterwieck L1
+Osterwieck T0
+Osterzell Q3
+Ostfildern U7
+Osthausen-Wülfersh. X2
+Osthofen T2
+Ostrach C7
+Ostrach W1
+Ostritz Y7
+Ostrohe H4
+Ostrohe K6
+Oststeinbek I4
+Oststeinbek I5
+Ötigheim L5
+Ottenbüttel R0
+Ottenbüttel W3
+Ottenbüttel Y5
+Ottendorf (Kiel) K6
+Ottendorf (Kiel) U3
+Ottendorf (Kiel) X2
+Ottendorf-Okrilla E4
+Ottenhofen F3
+Ottenhofen Y6
+Ottensoos Y6
+Ottenstein W2
+Otter E1
+Otterbach C0
+Otterbach P2
+Otterfing N3
+Otterndorf N0
+Otterndorf O2
+Ottersheim (Kirchheim.) R5
+Otterwisch I4
+Otterwisch L4
+Peenemünde M4
+Pforzheim C4
+Pforzheim H5
+Pforzheim K4
+Pforzheim K7
+Pforzheim P1
+Pforzheim X5
+Potsdam G4
+Quedlinburg V0
+Raa-Besenbek X1
+Rabenau (Saxony) G0
+Rabenholz X3
+Rabenholz Y1
+Raddestorf A2
+Raddestorf L0
+Rade (Rendsburg) M6
+Rade (Rendsburg) R1
+Rade (Rendsburg) V2
+Rade (Rendsburg) Y0
+Radeberg P1
+Radeberg V7
+Radebeul V7
+Radolfzell am Bodensee A2
+Raesfeld S0
+Raesfeld T6
+Ragow-Merz E2
+Raguhn-Jeßnitz A7
+Rahden C2
+Rahden Y0
+Raich D3
+Rain (Lech) C0
+Rain (Lech) H4
+Rain (Lech) J0
+Rainau J1
+Rainau L5
+Raisdorf D1
+Raisdorf W7
+Raisdorf Y0
+Raisting S0
+Ralingen G1
+Ralingen G7
+Ramerberg H0
+Ramerberg L5
+Ramhusen I0
+Ramhusen W2
+Ramin Q1
+Rammelsbach M4
+Rammelsbach S7
+Rammelsbach X6
+Rammenau I3
+Rammingen (Swabia) A3
+Rammingen (Württemb.) R2
+Ramsla D1
+Ramstein-Miesenbach D0
+Ramstein-Miesenbach F7
+Ramstein-Miesenbach L2
+Ramsthal N7
+Rangendingen X3
+Ransbach-Baumbach J7
+Ranschbach U6
+Rappin D6
+Raschau-Markersbach I5
+Rastatt L2
+Rastdorf Y2
+Rastenberg V7
+Rastorf R1
+Rastow D7
+Rathen Kurort I1
+Rathenow G7
+Rathenow H1
+Rathenow U0
+Rathjensdorf B3
+Rathskirchen O4
+Rathsweiler V7
+Ratingen V0
+Ratshausen X4
+Rattelsdorf (Stadtroda) Q2
+Ratzert G1
+Raubling D1
+Rauda Y6
+Rauen S7
+Rauen Y5
+Rauenberg U2
+Rauhenebrach R5
+Raumbach R0
+Raunheim I2
+Raunheim P5
+Rauschenberg L7
+Rauschwitz A7
+Rauschwitz T7
+Ravensburg C2
+Ravenstein F4
+Ravenstein K2
+Ravenstein L5
+Ravenstein O1
+Raversbeuren E2
+Raversbeuren W7
+Räbke J1
+Räbke N1
+Räbke S0
+Räbke T2
+Räckelwitz F3
+Recke B5
+Recke K1
+Reckenroth I6
+Redefin H1
+Rednitzhembach D1
+Rednitzhembach F7
+Rednitzhembach W7
+Rees S0
+Reesdorf (Kiel) L5
+Reesdorf (Kiel) T5
+Regen D6
+Regensburg G4
+Regensburg W6
+Regensburg Y3
+Regesbostel N0
+Regesbostel W6
+Rehau F2
+Rehburg-Loccum T2
+Rehden T7
+Reher H2
+Rehhorst R6
+Rehhorst Y5
+Rehling M6
+Rehlingen (Lüneburg) G1
+Rehlingen (Lüneburg) R0
+Rehm-Flehde-Bargen P3
+Rechberghausen H2
+Rechenberg-Bienenmühle U6
+Rechtenbach V6
+Rechtmehring Q7
+Reidenhausen P4
+Reifenberg E5
+Reiferscheid J4
+Reiff Q2
+Reichelsheim (Odenwald) O2
+Reichelsheim (Odenwald) W3
+Reichelsheim (Wetterau) J5
+Reichenau D1
+Reichenau V0
+Reichenau X1
+Reichenbach (Birkenf.) S1
+Reichenbach (Kronach) G4
+Reichenbach (Kronach) P3
+Reichenbach a. Heuberg N7
+Reichenbach an der Fils F0
+Reichenbach an der Fils V7
+Reichenbach im Vogtland P0
+Reichenberg (Rh.-L.-K.) D3
+Reichenberg (Rh.-L.-K.) N2
+Reichenberg (Unterfr.) Q0
+Reichenschwand G4
+Reichenwalde S6
+Reichenwalde T7
+Reichersbeuern N1
+Reichertsheim J0
+Reichertshofen O0
+Reichling I0
+Reichling X4
+Reichmannsdorf F6
+Reil X6
+Reilingen T6
+Reimershagen V2
+Reinfeld (Holstein) H3
+Reinfeld (Holstein) K2
+Reinhardshagen P1
+Reinhardtsgrimma D6
+Reinheim L1
+Reinsbüttel M5
+Reinsdorf F4
+Reipeldingen D2
+Reischach Q6
+Reitwein R2
+Reitzenhain C2
+Relsberg G0
 Relsberg R7
-Remagen W2
-Remchingen P0
-Remlingen (Wolfenb.) Q1
-Remptendorf J4
-Remptendorf U7
-Remse G0
-Remse Q4
-Remseck am Neckar H5
-Remscheid G3
-Remscheid N5
-Remscheid O4
-Remscheid T7
-Remscheid V7
-Remstädt F6
-Remstädt S5
-Rendswühren P4
-Renkenberge S6
-Rennau T1
-Rennerod A5
-Rennerod V4
-Rennertshofen I5
-Renningen P3
-Renquishausen S1
-Reppenstedt L5
-Rerik V2
-Rethem (Aller) P3
-Rethwisch (Lägerdorf) L3
-Rethwisch (Lägerdorf) U7
-Retschow P4
-Rettenbach (Oberpfalz) F2
-Rettenbach a. Auerberg M2
-Retterath J3
-Retterath U6
-Rettersen Q0
-Retzow (Nauen) K1
-Retzstadt T0
-Reudelsterz K4
-Reudelsterz W7
-Reurieth H6
-Reußenköge D3
-Reuth (Eifel) R0
-Reuth (Erbendorf) P7
-Reutlingen I0
-Reutlingen J3
-Reutlingen P2
-Reutlingen S3
-Reutlingen V0
-Rhade E6
-Rhauderfehn R3
-Rheden C6
-Rheinbach L2
-Rheinböllen D1
-Rheinbreitbach N6
-Rheinbreitbach Q0
-Rheinbrohl I7
-Rheine P4
-Rheinmünster J2
-Rheinstetten F2
-Rheinstetten P3
-Rheinstetten V4
-Rhens T3
-Rhinow H0
-Rhinow S3
-Rhumspringe A4
-Rickenbach X5
-Ried I5
-Ried L0
-Riede C4
-Riede V2
-Riedelberg H4
-Rieden (Eifel) D2
-Rieden (Eifel) H2
-Rieden (Eifel) P3
-Rieden (Eifel) X0
-Rieden (Oberpfalz) D1
-Rieden am Forggensee O0
-Riedenheim T1
-Riedenheim W1
-Riederich E3
-Riederich X3
-Riedering M2
-Riedhausen Q3
-Riedlingen N7
-Riedstadt P1
-Riegenroth D7
-Riegsee V5
-Riekofen H7
-Riekofen U5
-Rielasingen-Worblingen M0
-Rieneck O3
-Rieps I6
-Riesa U5
-Riesbürg J3
-Rieseby X6
-Riesweiler D0
-Riesweiler J5
-Rietberg P5
-Riethgen L7
-Rietschen K4
-Rietschen S2
-Rietz-Neuendorf Q4
-Richtenberg X1
-Rimbach (Oberpfalz) L2
-Rimbach (Odenwald) H3
-Rimpar F7
-Rimsting A5
-Ringgau A0
-Ringgau R7
-Ringsberg K6
-Ringsberg Y2
+Remagen T0
+Remda-Teichel B7
+Remda-Teichel J3
+Remchingen S1
+Remmels Y5
+Remptendorf A2
+Remse J3
+Remse U4
+Remseck am Neckar L5
+Remscheid B5
+Remscheid H4
+Rendsburg G4
+Rendsburg H4
+Rennau N4
+Rennerod N6
+Rennertshofen S0
+Renquishausen A1
+Renthendorf I0
+Rerik R7
+Rerik Y1
+Rethem (Aller) Q1
+Rethwisch (Lägerdorf) Q2
+Retschow B7
+Retschow P2
+Rettenbach a. Auerberg H4
+Retterath F1
+Retterath S3
+Retterath X1
+Rettersen C2
+Rettert E3
+Rettert U3
+Retzow (Nauen) Y2
+Reußenköge I0
+Reute R1
+Reuth (Eifel) T0
+Reuth (Erbendorf) C7
+Reuth (Erbendorf) I0
+Reutlingen I1
+Reutlingen N5
+Rhade J0
+Rhade U2
+Rhaunen Y1
+Rheda-Wiedenbrück R5
+Rheda-Wiedenbrück V2
+Rhede (Ems) X6
+Rhede (Westphalia) V5
+Rheden Y2
+Rheinberg P2
+Rheinbreitbach Q6
+Rheine T2
+Rheinfelden (Baden) F1
+Rheinfelden (Baden) S1
+Rheinfelden (Baden) U0
+Rheinmünster T5
+Rheinzabern W1
+Rheurdt E4
+Rheurdt V2
+Rheurdt X2
+Rhinow K2
+Rhodt unter Rietburg J0
+Ribnitz-Damgarten T6
+Ribnitz-Damgarten Y4
+Rickenbach D4
+Rickenbach I0
+Rickert D1
+Rickert P4
+Rickert R7
+Rickert T2
+Rickling Q6
+Rickling W3
+Ried Q3
+Riedbach P6
+Riede G0
+Riedelberg X6
+Rieden (Eifel) E6
+Rieden (Oberpfalz) F5
+Rieden (Oberpfalz) H0
+Riedenheim G3
+Riedenheim W5
+Riederich U0
+Riedering D6
+Riedhausen O0
+Riedlingen Q2
+Riedlingen R2
+Riegel R0
+Riegsee B4
+Riegsee C2
+Riegsee Q6
+Rielasingen-Worblingen F0
+Rieps H1
+Riepsdorf D0
+Riesa U0
+Rieseby F6
+Rieseby V1
+Rieschweiler-Mühlbach H6
+Rieschweiler-Mühlbach J6
+Rieste J1
+Riethnordhausen X0
+Riethnordhausen Y0
+Rietzneuendorf-Staak. J5
+Richtenberg O6
+Rimbach (Eggenfelden) K2
+Rimbach (Oberpfalz) A5
+Rimbach (Oberpfalz) Y3
+Rimpar C7
+Rimpar M4
+Ringelai B7
+Ringelai K6
+Ringgau P3
+Ringleben (Artern) L4
+Ringleben (Gebesee) A6
+Ringsberg S6
 Ringsheim N2
-Ringsheim O1
-Ringstedt E7
-Rinnthal A3
-Rinnthal N0
-Rippershausen X3
-Ritschenhausen E6
-Rittersdorf (Weimar) N7
-Rittersdorf (Weimar) Q2
-Rittersheim O6
-Rittersheim X6
-Rittersheim Y7
-Ritzerau E4
-Riveris G2
-Rockenberg C5
-Rockenstuhl X0
-Rockeskyll N1
-Rockhausen U1
-Rockstedt E7
-Rodder C7
-Rödelhausen G2
-Rödelmaier J4
-Roden U2
-Rodenäs M5
-Rodenbach (Palatinate) V2
-Rodenberg I5
-Rodenberg X7
-Rödental D5
-Röderaue D6
-Rödermark U4
-Rödern V2
-Rodewisch A6
-Roduchelstorf J5
-Röfingen F4
-Rogätz X5
-Roggenburg H0
-Roggendorf K3
-Roggentin (Neustrelitz) L6
-Roggentin (Rostock) T5
-Rögnitz E6
-Röhl E5
-Rohlstorf B6
-Rohlstorf P0
-Rohr (Niederbayern) K2
-Rohr (Thuringia) E6
-Rohrbach (Hunsrück) O1
-Rohrbach (Ilm) D4
-Rohrbach (Palatinate) O1
-Rohrbach (Palatinate) R2
-Rohrberg (Altmark) H5
-Rohrberg (Heilberg) C7
-Rohrberg (Heilberg) I1
-Rohrdorf am Inn F4
-Rohrenfels L3
-Rohrenfels O6
-Röhrig E1
-Röhrig E3
-Rohrsen W4
-Rochlitz R1
-Roigheim T1
-Rollshausen H0
-Rollshausen M5
-Rollwitz M1
-Rom F6
-Rom M3
-Rom R7
-Römerstein S0
-Römhild V0
-Rommersheim G3
-Rommersheim P0
-Rommerskirchen F1
-Römnitz P5
-Romrod I0
-Römstedt L0
-Rondeshagen D4
-Ronneburg (Hesse) C4
-Ronneburg (Hesse) J5
-Ronnenberg E2
-Ronsberg A7
-Ronshausen E5
-Rosa B0
-Rosbach vor der Höhe G0
-Rosbach vor der Höhe Q7
-Roseburg V3
-Rosenau G7
-Rosenberg (Baden) E6
-Rosendahl M6
-Rosenfeld K0
-Rosengarten (Swabia) L6
-Rosengarten (Swabia) O7
-Rosenheim (Westerwald) R4
-Rosenthal-Bielatal Q7
-Roschbach M4
-Roschbach M5
-Rosche I5
-Roscheid V1
-Rösrath O3
-Rösrath S6
-Rossau (Mittweida) X4
-Roßbach (Niederbayern) Q0
-Roßbach (Niederbayern) T6
-Roßbach (Westerwald) D7
-Roßbach (Westerwald) R6
-Roßbach (Westerwald) W3
-Roßdorf (Rhön) Q4
-Rossin C1
-Rossow (Pasewalk) A0
-Roßtal U1
-Rostock R5
-Rot am See W4
-Rot an der Rot I5
-Rotenburg (Wümme) B0
-Rotenburg an der Fulda I4
-Rötgesbüttel A4
-Roth (Franconia) Q7
-Roth (Franconia) S4
-Roth (Hamm) N5
-Roth (Hamm) T3
-Roth (Rhein-Hunsrück) K6
-Roth (Rhein-Lahn) K2
-Roth (Stromberg) U2
-Roth an der Our S6
-Rötha D6
-Rötha S7
-Rothemühl N2
-Röthenbach (Allgäu) T7
-Rothenbach W2
-Rothenbuch H5
-Rothenburg o.d. Tauber M5
-Rothenburg ob der Tauber G5
-Rothenklempenow S3
-Röthlein N2
-Röthlein V5
-Rothselberg C6
-Rötsweiler-Nockenthal M1
-Rötsweiler-Nockenthal V3
-Rott am Inn L3
-Rott am Inn P7
-Rott am Inn V6
-Rottach-Egern D5
-Rottenacker T6
-Röttenbach (Erlangen) C3
-Röttenbach (Erlangen) F1
-Röttenbach (Erlangen) Q3
-Röttenbach (Swabia) Y0
-Röttenbach (Swabia) Y7
-Rottenbuch J2
-Rottenbuch S1
-Rottenbuch Y4
-Rottenburg am Neckar O3
-Rottenburg am Neckar V1
-Rotterode H1
-Rotterode L0
-Rotthalmünster T0
-Röttingen D6
-Röttingen J7
-Rottweil U1
-Rövershagen X3
-Roxheim E7
-Roxheim F1
-Rüber M6
-Rüber S4
-Rubkow V4
-Rückersdorf (Mittelfr.) S2
-Rückweiler E1
-Rückweiler I2
-Rüdenhausen H2
-Rüdenhausen L4
-Ruderatshofen M5
-Rüdersdorf bei Berlin A1
-Rüdershausen G3
-Rüdershausen X3
-Rüdesheim (Nahe) R4
-Rüdesheim am Rhein X7
-Rüdnitz U6
-Ruhla Q2
-Ruhland C6
-Ruhmannsfelden Q7
-Rühn E1
-Rühstädt S0
-Ruhwinkel K7
-Rukieten F2
-Rümpel F0
-Runding D1
-Runding I7
-Runkel Q1
-Ruppach-Goldhausen E4
-Ruppertsberg H0
-Ruppertsberg T2
-Ruppertsberg T5
-Ruppertsecken S1
-Ruppertshofen (Swabia) F2
-Ruppertsweiler M4
-Rüscheid P5
-Rüssingen N7
-Rust K5
-Rustenfelde D6
-Rustenfelde M4
-Rustenfelde R3
-Rüthen H6
-Rutsweiler an der Lauter Y0
-Ruttersdorf-Lotschen I1
-Saarbrücken A0
-Saarbrücken M5
-Salzgitter R0
-Seelitz K5
-Seeon-Seebruck F4
-Seeon-Seebruck I1
-Seesbach D1
-Seesen G5
-Seesen P6
-Seester A5
-Seestermühe E6
-Seevetal Q4
-Segnitz M5
-Sehestedt I2
-Sehlem (Eifel) Y6
-Sehlen G0
-Sehmatal L3
-Seifen A7
-Seifen F5
-Seiffen Q2
-Seinsheim P5
-Seisla K2
-Seitingen-Oberflacht B0
-Seitingen-Oberflacht O0
-Seitingen-Oberflacht W4
-Selb X2
-Selent D4
-Selent S7
-Selfkant D3
-Selchenbach M7
-Seligenstadt K0
-Selk H0
-Selk O6
-Selke-Aue G2
-Selke-Aue G7
-Selke-Aue Y0
-Sellin E0
-Selmsdorf N7
-Selmsdorf O7
-Selsingen A4
-Selters (Taunus) R1
-Selters (Westerwald) J0
-Selters (Westerwald) Q6
-Selters (Westerwald) U5
-Selzen R2
-Semmenstedt Q2
-Senden (Westphalia) F5
-Senftenberg N2
-Senftenberg Y5
-Sengenthal D6
-Sengerich H5
-Sengerich P6
-Sengerich S3
-Senheim D7
-Senheim K4
-Sennfeld K1
-Sennfeld S0
-Sennfeld W1
-Serba G4
-Serrig Y4
-Sessenbach T7
-Sessenbach U6
-Sessenhausen K2
-Seßlach O7
-Seßlach V4
-Seukendorf N2
-Seukendorf T7
-Severin H7
-Seybothenreuth J3
-Schwäbisch Gmünd B3
-Schwedt U3
-Schwerin K0
-Schwerin L3
-Sickte F7
-Sickte G1
-Siebeldingen D6
-Siebeldingen J7
-Siebeldingen O1
-Siebeldingen S0
-Siebenbach Q1
-Siebeneichen H2
-Siebeneichen S6
-Siedenbrünzow N4
-Siefersheim K1
-Siefersheim L7
-Siegburg P4
-Siegburg Q6
-Siegelsbach V2
-Siegelsbach W5
-Siegen P3
-Siegen R1
-Siegenburg L4
-Siegsdorf B0
-Siegsdorf J1
-Siek T1
-Sielenbach U2
-Sien K4
-Sien M6
-Sierksdorf J7
-Sierksdorf X7
-Sierksrade J0
-Siesbach F6
-Sietow F0
-Sietow I7
-Sietow J4
-Sieversdorf-Hohenofen I6
-Sieversdorf-Hohenofen N0
-Siezbüttel I1
-Siezbüttel P2
-Siezbüttel S0
-Siggelkow U7
-Sigmaringendorf V2
-Sigmarszell E0
-Sigmarszell Q2
-Sigmarszell U3
-Silberhausen G1
-Silberhausen Q5
-Silbitz B3
-Silbitz G4
-Silz (Mecklenburg) Q2
-Silz (Mecklenburg) V1
-Silz (Palatinate) I1
-Silz (Palatinate) W2
-Silzen F4
-Simbach (Landau) T3
-Simbach am Inn C4
-Simbach am Inn P1
-Simmershofen F7
-Simmershofen U2
-Simmertal O4
-Simonsberg O7
-Simonswald A7
-Simonswald T0
-Sindelsdorf J5
-Sindelsdorf X1
-Singhofen U4
-Sinn Y5
-Sinspelt W5
-Sippersfeld A1
-Sitters K2
-Sitzendorf F0
-Soderstorf B3
-Soderstorf P0
-Sögel K4
+Ringsheim V4
+Rinchnach V1
+Rinnthal R6
+Rinzenberg F3
+Rinzenberg P0
+Rippershausen B6
+Rippershausen G5
+Rippershausen M1
+Ritschenhausen D5
+Ritschenhausen K4
+Ritterhude E2
+Rittersdorf (Weimar) A4
+Rittersheim K3
+Ritzerau D6
+Ritzerow W7
+Ritzerow Y6
+Röbel (Müritz) U2
+Röckwitz C0
+Rödelhausen E3
+Rödelmaier H0
+Rodenäs E2
+Rodenbach (Hesse) C2
+Rodenbek F2
+Rödental C7
+Rödental E7
+Röderland R4
+Röderland X2
+Rödermark U1
+Rödern P3
+Rodershausen A7
+Rodershausen S2
+Rodgau I7
+Rödinghausen K1
+Rodishain H6
+Rodishain L7
+Rodishain Y7
+Roduchelstorf O4
+Roes S6
+Röfingen C4
+Röfingen C6
+Rogätz X1
+Roggentin (Rostock) M3
+Roggentin (Rostock) X0
+Rögnitz U5
+Röhl X2
+Rohlstorf Y2
+Rohr (Thuringia) A6
+Rohr (Thuringia) E3
+Rohr (Thuringia) F5
+Rohrbach (Ilm) B4
+Rohrbach (Palatinate) A4
+Rohrbach (Palatinate) M7
+Rohrbach (Schwarztal) A4
+Rohrberg (Altmark) O5
+Rohrenfels A3
+Rohrenfels M4
+Röhrig Q2
+Röhrig S2
+Röhrmoos B5
+Röhrmoos U7
+Rohrsen D4
+Rochau W7
+Roigheim W1
+Roklum M5
+Röllbach J6
+Rollshausen M6
+Rom C2
+Römerstein M1
+Römerstein U7
+Rommersheim F4
+Rommerskirchen I2
+Römnitz R3
+Romrod D3
+Romrod X1
+Rondeshagen H4
+Ronneburg (Thuringia) O6
+Ronshausen C6
+Ronshausen M6
+Ronshausen R0
+Rorodt F6
+Rosbach vor der Höhe G2
+Rosbach vor der Höhe L6
+Rosbach vor der Höhe N1
+Rosbach vor der Höhe O4
+Rosdorf (Göttingen) A0
+Rosdorf (Göttingen) B1
+Rosdorf (Holstein) K0
+Roseburg C3
+Rosenau R6
+Rosenbach (Upper Lusatia) G6
+Rosenbach (Vogtland) B1
+Rosenberg (Württemb.) Y5
+Rosendahl M0
+Rosendorf E0
+Rosendorf Q0
+Rosenheim (Westerwald) A1
+Rosenheim (Westerwald) Q1
+Rosenheim Y0
+Rosenkopf P0
+Roschbach G5
+Rosche N6
+Rositz N3
+Roskow P2
+Rossau (Mittweida) S7
+Roßdorf (Rhön) H7
+Roßhaupten F7
+Roßhaupten R4
+Roßleben B4
+Roßleben J6
+Roßleben O1
+Rossow (Pasewalk) J4
+Rossow (Pasewalk) Y2
+Roßwein G2
+Roßwein T4
+Rostock I2
+Rostock I6
+Rostock P6
+Rostock R0
+Rot an der Rot L5
+Rot an der Rot Q5
+Rot an der Rot Y6
+Rotenburg (Wümme) N3
+Rotenburg an der Fulda J7
+Roth (Franconia) I6
+Roth (Prüm) J5
+Roth (Prüm) P2
+Roth (Prüm) U0
+Roth (Rhein-Hunsrück) R1
+Roth (Rhein-Hunsrück) U0
+Roth (Rhein-Lahn) M3
+Roth (Stromberg) A3
+Rötha L2
+Rothemühl E7
+Rothemühl S6
+Rothenbuch V4
+Rothenburg (Oberlausitz) O6
+Rothenburg o.d. Tauber C0
+Rothenburg o.d. Tauber F3
+Rothenklempenow D5
+Rott (Lech) S6
+Rott (Westerwald) F4
+Rott (Westerwald) R2
+Rott am Inn B2
+Röttenbach (Swabia) H5
+Röttenbach (Swabia) L3
+Rottenburg am Neckar B0
+Rottenburg am Neckar J1
+Rottenburg an der Laaber Y6
+Rottendorf N6
+Rottleben U2
+Rötz I0
+Rötz Q5
+Rövershagen V0
+Rövershagen Y2
+Roxheim K2
+Roxheim R4
+Roxheim Y7
+Rubkow T6
+Rückersdorf (Gera) O3
+Rückersdorf (Gera) R6
+Rückersdorf (Gera) W6
+Rückersdorf (Mittelfr.) O6
+Rückersdorf (Mittelfr.) O7
+Rückholz R3
+Rückweiler N5
+Rudelzhausen N6
+Rüdenhausen M0
+Rüdenhausen U5
+Rudersdorf G4
+Rüdershausen O4
+Rüdesheim (Nahe) C7
+Rüdesheim (Nahe) N0
+Rüdesheim am Rhein Y1
+Rüdesheim T2
+Rudolstadt K6
+Rugendorf K2
+Ruhla M0
+Ruhla P3
+Ruhland E7
+Ruhland H3
+Ruhland T4
+Rühn N1
+Rühn Q4
+Ruhwinkel X6
+Rukieten A5
+Rumbach F0
+Rumbach X0
+Rümmelsheim R3
+Rümmingen A1
+Rümmingen M4
+Rümmingen O0
+Rümmingen O7
+Rumohr Q1
+Runkel W3
+Ruppach-Goldhausen Y2
+Ruppertsberg Y4
+Ruppertshofen (Swabia) B5
+Ruppertshofen (Swabia) K3
+Ruppichteroth W1
+Ruschberg P7
+Rüsselsheim F3
+Rüsselsheim H6
+Rüsselsheim S4
+Rüssingen C3
+Rüssingen H3
+Rutesheim B1
+Rutesheim M0
+Rüthen C0
+Rüthnick T4
+Rüting L3
+Rüting V1
+Rutsweiler am Glan J6
+Rutsweiler an der Lauter B7
+Rutsweiler an der Lauter C5
+Saarbrücken Y7
+Saarlouis K5
+Saarlouis L0
+Saarlouis M4
+Salzgitter T7
+Seelingstädt R5
+Seeon-Seebruck C7
+Seesbach R5
+Seeshaupt F0
+Seestermühe M6
+Seeth (Nordfriesland) E3
+Seeth-Ekholt F1
+Seeth-Ekholt P4
+Seewald D0
+Seewald K7
+Seffern J4
+Segnitz E6
+Sehlem (Eifel) S3
+Sehlen O4
+Sehnde B2
+Sehnde E1
+Seibersbach D3
+Seinsfeld U5
+Seitingen-Oberflacht E7
+Selb L6
+Selbach (Sieg) U7
+Selent X3
+Selfkant R6
+Selk D7
+Selk X3
+Sellin O1
+Selm E4
+Selmsdorf P4
+Selpin J7
+Selters (Taunus) M5
+Selzen J1
+Sembach H2
+Sembach S5
+Sembach X5
+Senden (Westphalia) Q4
+Sendenhorst K7
+Senftenberg L4
+Sengenthal I2
+Sengerich E5
+Sennfeld B7
+Senscheid E1
+Serba E3
+Serrig U2
+Seukendorf X7
+Seulingen K0
+Seulingen K4
+Seulingen T3
+Sevenig (Neuerburg) V4
+Sevenig (Our) C3
+Severin H5
+Seybothenreuth A6
+Schwäbisch Gmünd U1
+Schwäbisch Hall K6
+Schwäbisch Hall W5
+Schwedt B3
+Schwedt D1
+Schwerin C2
+Schwerin E1
+Sickerode E7
+Sickerode H7
+Sickte V1
+Siebeldingen D1
+Siebenbäumen D2
+Siedenbrünzow V6
+Siedenburg G0
+Siefersheim J5
+Siefersheim O0
+Siefersheim Y3
+Siegbach X3
+Siegen B6
+Siegen E1
+Siegen M4
+Siegen V1
+Siegenburg I3
+Siehdichum Y0
+Siek V5
+Sien H5
+Sierksdorf M5
+Sierksrade A1
+Sierscheid Q4
+Sierscheid R1
+Sierscheid R4
+Sietow F6
+Sietow V0
+Sieverstedt J3
+Sieverstedt O1
+Sigmaringen E0
+Sigmaringendorf S6
+Silberstedt E4
+Silberstedt O2
+Silbitz R7
+Silz (Mecklenburg) B0
+Silzen D4
+Simbach am Inn L4
+Simmelsdorf R2
+Simmerath B2
+Simmerath E3
+Simmern (Westerwald) Y7
+Simmersfeld W6
+Simmershofen E3
+Simmershofen F1
+Simmertal A4
+Simmozheim D2
+Simonsberg S4
+Simonswald K4
+Simonswald U1
+Sindelfingen N6
+Sindelfingen P3
+Sindelfingen S3
+Sindelfingen U7
+Sindelsdorf X6
+Singhofen C3
+Singhofen V7
+Sinn P0
+Sinntal O0
+Sinspelt I3
+Sinspelt U5
+Sinzing L7
+Sinzing U2
+Sippersfeld W1
+Sittensen X7
+Sitters I3
+Sitters J5
+Sitters X4
+Sitzendorf H3
+Sitzendorf P2
+Soest J7
+Soest M7
+Soest V7
+Sohland an der Spree Q0
 Söhlde K6
-Sohrschied M4
-Söchtenau F5
-Sölden L4
-Sölden V4
-Solingen M3
-Söllingen V0
-Sollstedt (Wipper) I2
-Solms H5
-Solnhofen I5
-Soltendieck E4
-Sommerach F4
-Sommerach I4
-Sommerau O1
-Sömmerda D4
-Sommerhausen G3
-Sommerland N3
-Sommerland V7
-Sommersdorf (Börde) G5
-Sommersdorf (Börde) U3
-Sondershausen I7
-Sondheim vor der Rhön I2
-Sondheim vor der Rhön R3
-Sonneberg T5
-Sonneborn I1
-Sönnebüll J5
-Sonnefeld E4
-Sonnen W6
-Sonnenberg-Winnenberg E7
-Sonnenberg-Winnenberg R4
-Sonnenberg-Winnenberg S5
-Sonnenbühl L3
-Sonnenbühl W2
-Sonnschied J2
-Sonnschied R6
-Sonnschied S2
-Sonnschied V4
-Sonsbeck B1
-Sontheim (Schwaben) G5
-Sören E1
-Sören J3
-Sörgenloch H1
-Sörth Y3
-Sörup B1
-Sörup F6
-Sörup J2
-Sörup Q0
-Sörup U0
-Sottrum F0
-Soyen B7
-Spabrücken A1
-Spabrücken D6
-Spabrücken V5
-Spabrücken W6
-Spahnharrenstätte B0
-Spahnharrenstätte E1
-Spaichingen H3
-Spall N2
-Spandau K4
-Spangdahlem M1
-Spangenberg J1
-Spangenberg L6
-Spantekow A4
-Spantekow N0
-Sparneck C5
-Spatzenhausen U1
-Spenge U3
-Spesenroth N2
-Spessart G6
-Spiegelberg P7
-Spiekeroog A1
-Spiekeroog W2
-Spiesen-Elversberg H2
-Spiesheim B6
-Spiesheim M6
-Splietsdorf W6
-Sponheim E5
-Sponholz F5
-Spornitz G1
-Spraitbach A1
-Sprakensehl R5
-Spremberg Q7
-Sprendlingen A7
-Sprendlingen Y5
-Springe H6
-Springe V2
-Springstille U6
-Stade L3
-Stadecken-Elsheim H0
-Stadecken-Elsheim M0
-Stadecken-Elsheim Y0
-Stadelhofen D4
-Stadelhofen G5
-Stadelhofen G7
-Stadland E2
-Stadland R5
-Stadtbergen M4
-Stadtilm C2
-Stadtilm D5
-Stadtilm J0
-Stadtkyll L2
-Stadtkyll S2
-Stadtkyll W4
-Stadtlauringen H2
-Stadtlohn H0
-Stadtprozelten Y1
-Stadtsteinach D7
-Staffhorst R7
-Stafstedt T7
-Stahlberg U2
-Stahlhofen a. Wiesensee F5
-Stahnsdorf B2
-Staig M4
-Staig R0
-Staig S2
-Stallwang F5
-Stamsried J2
-Stanau S1
-Standenbühl E2
-Stangheck V3
-Stangheck Y3
-Stapelfeld O6
-Starkenberg B6
-Starkenburg M2
-Starkenburg R6
-Starnberg O1
-Starnberg S6
-Starzach M3
-Starzach S0
-Staudt F4
-Staudt L0
-Staudt L6
-Staufenberg (Hesse) B4
-Stavern D7
-Steesow B5
-Steffeln S7
-Steffenshagen U7
-Stegaurach C6
-Steimel J0
-Stein (Laboe) A1
-Steinalben O1
-Steinau (Niederelbe) G5
-Steinau an der Straße A3
-Steinbach (Eichsfeld) Q6
-Steinbach (Hunsrück) X4
-Steinbach am Glan X4
-Steinbach-Hallenberg D7
-Steinbach-Hallenberg Q7
-Steinbach-Hallenberg V6
-Steinberg am See T2
-Steinbergkirche L6
-Steinborn A0
-Steindorf Q4
-Steinebach (Sieg) A4
-Steinebach (Sieg) K4
-Steinebach an der Wied V2
-Steinefrenz I3
-Steinefrenz T4
-Steinen (Baden) B0
-Steinen (Westerwald) Q7
-Steinenbronn G1
-Steinfeld (Palatinate) H7
-Steingaden F0
-Steingaden I7
-Steingaden N3
-Steinhagen (Bützow) B5
-Steinhagen (Bützow) V0
-Steinhagen (Bützow) Y0
-Steinhausen a.d. Rottum B2
-Steinheim (Westphalia) X0
-Steinheim am Albuch F1
-Steinheim am Albuch Q6
-Steinheuterode T1
-Steinhöfel F7
-Steinhöring U5
-Steinhorst (Low. Saxony) P0
-Steiningen B4
-Steinkirchen (Up. Bavar.) M3
-Steinmauern L4
-Steinmauern O6
-Stein-Neukirch N4
-Steinrode O7
-Steinsberg J0
-Steinsdorf (Gera) O7
-Steinsfeld G3
-Steinsfeld K5
-Steinsfeld V5
-Steinweiler I7
-Steinwenden B5
-Stein-Wingert A7
-Stein-Wingert R0
+Sohren L2
+Sohren M5
+Sohren W4
+Sohrschied M7
+Söchtenau U4
+Söchtenau X5
+Sölden F7
+Sölden R0
+Solingen G3
+Solingen I1
+Solingen J4
+Solingen N7
+Solingen P5
+Solingen Q4
+Solingen V2
+Solingen V5
+Solingen X3
+Solingen Y4
+Sollerup G1
+Söllingen J7
+Sollstedt (Wipper) J0
+Sollwitt A3
+Solms G7
+Solnhofen O3
+Soltendieck O6
+Soltendieck S4
+Sommerach F7
+Sommerau F5
+Sommerau G7
+Sommerhausen I5
+Sommerland P3
+Sommersdorf (Demmin) I7
+Sommersdorf (Demmin) Q4
+Sonderhofen S5
+Sondershausen P7
+Sonneborn C6
+Sonneborn X6
+Sönnebüll O2
+Sonnenberg (Brandenb.) E2
+Sonnenberg (Brandenb.) R7
+Sonnschied O7
+Sonsbeck C0
+Sonsbeck D7
+Sontheim (Schwaben) O6
+Sonthofen I5
+Sontra H3
+Sophienhamm H4
+Sörup M3
+Spaichingen O5
+Spaichingen V7
+Spalt H1
+Spandau J2
+Spandau L0
+Spangenberg Y4
+Spatzenhausen A6
+Spatzenhausen J7
+Spatzenhausen P0
+Spatzenhausen Q5
+Spatzenhausen S3
+Spay A0
+Spay C3
+Speichersdorf J7
+Speichersdorf U3
+Speinshart E0
+Spelle H1
+Spelle S4
+Spesenroth B6
+Speyer E5
+Speyer U3
+Spiekeroog L2
+Spiesen-Elversberg G1
+Spiesheim G4
+Splietsdorf K6
+Sponheim X0
+Sponholz D1
+Spornitz U4
+Spraitbach H2
+Spreetal P4
+Spreetal U4
+Sprendlingen F2
+Springstille X7
+Sprockhövel N0
+Sprockhövel Y0
+Sprockhövel Y6
+Sprötau B6
+Sprötau G7
+Stade J4
+Stade J5
+Stade M4
+Stadecken-Elsheim L3
+Stadland A6
+Stadtallendorf R6
+Stadtilm A0
+Stadtilm N4
+Stadtilm S6
+Stadtkyll V3
+Stadtlauringen B2
+Stadtlauringen C3
+Stadtlauringen E2
+Stadtlohn B0
+Stadtlohn P1
+Stadtoldendorf O0
+Stadtprozelten M4
+Stadtprozelten M6
+Staffhorst I4
+Stafstedt O4
+Stafstedt Y6
+Stahlberg B2
+Stahlberg H3
+Stahlhofen a. Wiesensee F2
+Stahlhofen a. Wiesensee I2
+Stahnsdorf G1
+Stahnsdorf L2
+Staig K1
+Staitz E2
+Staitz J6
+Staitz T2
+Stammbach T5
+Stammham (Ingolstadt) O5
+Stanau W3
+Starkenberg H1
+Starkenberg K6
+Starnberg J5
+Starnberg P3
+Starnberg S5
+Starnberg U2
+Staßfurt U4
+Staudach-Egerndach C3
+Staudt V4
+Stauchitz C1
+Stauchitz E1
+Stavenhagen R2
+Stäbelow C4
+Stebach B3
+Stedesdorf T6
+Steesow F0
+Steesow J6
+Steffeln X7
+Steffenberg U4
+Stegen O2
+Stechlin D5
+Steigra D7
+Steigra P2
+Stein (Laboe) W1
+Steina B5
+Steinau (Niederelbe) J6
+Steinau (Niederelbe) T3
+Steinau an der Straße P1
+Steinbach (Eichsfeld) E4
+Steinbach (Hunsrück) N4
+Steinbach (Hunsrück) R6
+Steinbach (Taunus) D3
+Steinbach (Taunus) E3
+Steinbach am Wald U3
+Steinbach-Hallenberg B6
+Steinberg am See F2
+Steinberg am See F7
+Steinberg am See H0
+Steinberg am See M0
+Stein-Bockenheim S3
+Steinborn N0
+Steinburg (Stormarn) B6
+Steindorf M6
+Steindorf Y7
+Steinebach (Sieg) J0
+Steinebach an der Wied U4
+Steineberg B2
+Steineberg C7
+Steineberg L1
+Steinefrenz R0
+Steinen (Baden) R5
+Steinen (Westerwald) M1
+Steinenbronn A5
+Steinfeld (Lohr am Main) L3
+Steinfeld (Lohr am Main) M4
+Steinfeld (Lohr am Main) W3
+Steinfeld (Oldenburg) A0
+Steinfeld (Rostock) E7
+Steinfeld (Rostock) F1
+Steinfurt K7
+Steingaden J5
+Steinhagen (Bützow) H0
+Steinhagen (Bützow) J2
+Steinhagen (Stralsund) Q5
+Steinhagen (Westphalia) N3
+Steinhagen (Westphalia) Y1
+Steinheim am Albuch H1
+Steinhöring T5
+Steinhorst (Lauenburg) L2
+Steinhorst (Low. Saxony) K3
+Steinigtwolmsdorf B5
+Steinigtwolmsdorf M5
+Steiningen P7
+Steiningen V5
+Steinkirchen (Up. Bavar.) H4
+Steinmauern X3
+Stein-Neukirch Q1
+Stein-Neukirch T7
+Steinrode N3
+Steinsdorf (Gera) W0
+Steinsfeld J0
+Steinthaleben L7
+Steinweiler H7
+Steinwenden P3
+Stein-Wingert L0
 Stein-Wingert V1
-Stendal L1
-Stuttgart A1
-Suhl E7
-Tannhausen A2
-Tappenbeck G6
-Tappendorf H2
-Tasdorf N5
-Tating O1
-Tauberbischofsheim L6
-Tauberrettersheim M3
-Taufkirchen (Vils) S4
-Taucha L5
-Tauscha (Großenhain) S1
-Tawern E3
-Tawern R0
-Tegau N5
-Tegernau O0
-Tegernheim M7
-Tegernsee A4
-Tegkwitz G2
-Techelsdorf K1
-Techelsdorf S1
-Techentin E3
-Techentin F7
-Techentin R1
-Techentin X3
-Teisendorf H2
-Teisendorf T3
-Teising B6
-Teising J0
-Teising R2
-Teising Y1
-Teldau F2
-Tellig O4
-Tellig X6
-Temnitzquell P0
-Tempelhof K2
-Tempelhof O2
-Tempelhof V4
-Tengen B1
-Tessin (Rostock) R2
-Testorf-Steinfort R7
-Testorf-Steinfort V6
-Tetenbüll O1
-Tetenhusen K4
-Tetenhusen O4
-Teterow Q7
-Tettenweis Y4
-Tettnang C3
-Teublitz D4
-Teublitz S1
-Teuchern A6
-Teuchern C6
-Teuschnitz R7
-Teutschenthal F5
-Teutschenthal P7
-Teutschenthal R7
-Thaden D7
-Thaden U0
-Thale M6
-Thaleischweiler-Fröschen O5
-Thalfang S4
-Thalhausen J3
-Thalhausen L1
-Thalhausen R4
-Thallichtenberg P5
-Thallwitz J7
-Thallwitz W2
-Thalmassing L4
-Thalmassing O2
-Thalmässing Y3
-Thalwenden L7
-Thanstein D4
-Thedinghausen I0
-Thedinghausen U3
-Theilenhofen G3
-Theilenhofen S0
-Theilheim I3
-Theisseil A2
-Theres H0
-Theuma F2
-Thiersheim G4
-Thiessow F7
-Tholey E4
-Thomasburg Y6
-Thomm F6
-Thomm K2
-Thörlingen J1
-Thörnich C3
-Thulendorf Y1
-Thum J6
-Thundorf i. Unterfranken W3
-Thundorf i. Unterfranken Y4
-Thüngersheim B0
-Thür Y0
-Thurmansbang I6
-Thyrnau N7
-Thyrnau X7
-Tiefenbach (Federsee) M6
-Tiefenbach (Hunsrück) R1
-Tiefenbach (Oberpfalz) L2
-Tiefenbach (Oberpfalz) W1
-Tiefenbach (Passau) B1
-Tiefenbach (Saxony) H4
-Tiefenbach (Saxony) P4
-Tiefenthal (Rheinh.) B6
-Tiefenthal (Rheinh.) K5
-Tiergarten B1
-Timmaspe X7
-Timmaspe Y1
-Timmendorfer Strand M3
-Tirschenreuth K0
-Tirschenreuth X5
-Tiste Q3
-Titisee-Neustadt K2
-Titting F2
-Titting T6
-Tittling L5
-Tittmoning P7
-Todenbüttel K0
-Todendorf R6
-Todenroth W3
-Todtmoos H0
-Todtmoos V1
-Todtnau B0
-Töging am Inn X6
-Tolk A2
-Tolk H2
-Tolk X2
-Tömmelsdorf L4
-Tömmelsdorf W7
-Tönisvorst O6
-Tönning B5
-Töpen X2
-Topfstedt Y6
-Torgau W0
-Torgelow (Vorpomm.) G0
-Torgelow-Holländerei Q7
-Tosterglope A6
-Tottleben W1
-Traisen I0
-Traitsching J5
-Traitsching R3
-Tramm (Lauenburg) B1
-Tramm (Schwerin) T4
-Trappenkamp E7
-Trappstadt Q3
-Trassem E4
-Trassem H0
-Trassenheide P7
-Trausnitz N0
-Trausnitz O6
-Trautskirchen H7
-Trautskirchen R5
-Travenhorst X1
-Traventhal I0
-Trebbin A2
-Trebendorf K2
-Trebra (Kyffhäuser) O6
-Trebsen (Mulde) C5
-Treffelstein S5
-Trechtingshausen M3
-Trechtingshausen Q2
-Trier D2
-Trier J7
-Trier L7
-Trier V1
-Trier W7
-Tübingen Q0
-Ulm A5
-Ulm M6
-Wernigerode B4
-Wernigerode V0
-Wiesbaden M2
-Wismar G1
-Wismar I4
-Wittenberg P4
-Wolfsburg O3
-Worms D4
-Wuppertal I6
-Zabeltitz Q5
-Zabeltitz U1
-Zaberfeld U1
-Zahna-Elster W2
-Zachenberg D2
-Zaisenhausen R4
-Zarnewanz N1
-Zarrendorf N3
-Zarrendorf W3
-Zarrentin a. Schaalsee M3
-Zarrentin a. Schaalsee U5
-Zedlitz W2
-Zedlitz W4
-Zehdenick B3
-Zehdenick E1
-Zehna J0
-Zehnhausen (Renn.) T1
-Zehrental A7
-Zeithain Q3
-Zeitlarn Q6
-Zeitz X1
-Zell (Mosel) N4
-Zell (Oberpfalz) O5
-Zell (Ober
+Stendal J4
+Stralsund U4
+Stralsund W7
+Suhl Q5
+Tann (Rhön) A7
+Tann (Rhön) T7
+Tannhausen N7
+Tappenbeck A6
+Tappenbeck E5
+Tarnow E7
+Tarp B5
+Tarp H1
+Tastungen D6
+Tastungen Y0
+Tating V4
+Tauberrettersheim B4
+Taufkirchen (Inn) U7
+Taucha S1
+Taucha V3
+Tauche J7
+Tautenburg A2
+Tautendorf A4
+Tautendorf Q1
+Tautendorf S0
+Tautenhain K3
+Tawern Y4
+Tecklenburg R6
+Tecklenburg V3
+Tegau E6
+Tegernau D5
+Tegernau F4
+Tegernau K7
+Tegernheim W5
+Techentin C5
+Techentin O2
+Techentin P7
+Teichwitz L5
+Teichwitz V1
+Teichwolframsdorf E6
+Teising I2
+Teising W5
+Teisnach W6
+Teistungen I3
+Teldau E2
+Teldau G5
+Teldau L3
+Tellig P7
+Tellingstedt P3
+Teltow G1
+Temmels M2
+Temnitzquell K0
+Temnitztal Q7
+Tempelhof V2
+Tensbüttel-Röst A2
+Tensbüttel-Röst D1
+Teschenmoschel D3
+Teschenmoschel N2
+Tespe K4
+Tessenow V7
+Tessin (Boizenburg) G7
+Tessin (Boizenburg) L3
+Testorf-Steinfort Q5
+Tettau (Oberfranken) R5
+Tettau (Ruhland) B1
+Tettau (Ruhland) Y4
+Tettenweis D2
+Tettenweis Y0
+Tettnang H3
+Tettnang W4
+Teugn F1
+Teugn H1
+Teuchern R0
+Teuchern Y4
+Teupitz B4
+Teutschenthal L7
+Teutschenthal N7
+Thaden H6
+Thale Q7
+Thaleischweiler-Fröschen W2
+Thalfang Q0
+Thalheim (Erzgebirge) J1
+Thalheim (Erzgebirge) O7
+Thalheim (Erzgebirge) T2
+Thallichtenberg F5
+Thalmassing A1
+Thalmassing K2
+Thalmässing O1
+Thalmässing U1
+Thalwenden W1
+Tharandt B4
+Theeßen A5
+Theisbergstegen B7
+Theisbergstegen D4
+Themar N1
+Theres A3
+Thermalbad Wiesenbad U2
+Theuma F1
+Theuma O6
+Thiersheim B5
+Thiersheim U7
+Thierschneck J4
+Thierschneck M5
+Thierschneck X3
+Thierschneck X4
+Thierstein B5
+Thierstein Q5
+Thiessow J0
+Tholey L1
+Thonhausen C3
+Thörnich C1
+Thüngen I3
+Thüngersheim N7
+Tiddische B1
+Tiddische X2
+Tiefenbach (Hunsrück) M2
+Tiefenbach (Passau) O0
+Tiefenbach (Saxony) K6
+Tiefenort P5
+Tielen M3
+Tielen M5
+Tielenhemme U1
+Tinningstedt G3
+Tinningstedt O1
+Tinningstedt S4
+Tirpersdorf H5
+Tirschenreuth V5
+Tissa L1
+Titisee-Neustadt V6
+Titisee-Neustadt W4
+Tittling X2
+Tittmoning P0
+Todenbüttel L3
+Todenroth M4
+Todesfelde A4
+Todesfelde Y5
+Todtenweis Y2
+Todtnau J0
+Tönisvorst R3
+Tonndorf R0
+Tönning I6
+Tönning V1
+Topfstedt C0
+Toppenstedt Q5
+Tornesch T4
+Tostedt I1
+Traben-Trarbach V2
+Tramm (Lauenburg) C1
+Tramm (Lauenburg) K7
+Tramm (Schwerin) Q4
+Trappstadt E3
+Trappstadt G4
+Trappstadt U2
+Trassem L2
+Traunstein E6
+Traunstein K1
+Trautskirchen S0
+Travenhorst O6
+Treben B4
+Trebgast D5
+Trebsen (Mulde) E4
+Trebur R0
+Treffurt C4
+Treffurt P3
+Trier V7
+Ulm U6
+Velbert H2
+Velbert M3
+Velbert S7
+Villingen-Schwenningen J3
+Weimar S0
+Wernigerode Q3
+Wismar D1
+Witten C5
+Witten D4
+Witten K5
+Wolfsburg G3
+Wolfsburg L2
+Wolfsburg P2
+Worms Q1
+Wuppertal R7
+Würzburg G5
+Würzburg P3
+Zabeltitz C6
+Zadelsdorf A4
+Zadelsdorf O0
+Zadelsdorf R1
+Zachenberg S2
+Zangberg K6
+Zangberg X1
+Zapel K4
+Zapel Q6
+Zarnewanz M3
+Zarpen Q0
+Zedlitz D0
+Zehna S0
+Zehnhausen (Wallm.) F0
+Zehrental I1
+Zeil am Main R0
+Zeithain K2
+Zeitz X3
+Zell (Mosel) O6
+Zell (Oberpfalz) X6
+Zell am Harmersbach G2
+Zell am Harmersbach M2
+Zell am Main N2
+Zella (Rhön) V0
+Zella-Mehlis W6
+Zellertal O1
+Zellertal U5
+Zellingen B0
+Zemmer F1
+Zepkow H3
+Zerbst (Anhalt) J0
+Zerf A5
+Zerf P4
+Zerf P7
+Zerf X2
+Zernien A2
+Zernitz-Lohm K4
+Zernitz-Lohm M1
+Zeschdorf Q6
+Zetel K1
+Zettingen N7
+Zettingen S6
+Zettlitz Y5
+Zeuthen L5
+Zeven G0
+Ziegendorf O5
+Ziegenhain Q7
+Ziegra-Knobelsdorf F4
+Zielitz N5
+Zierenberg L5
+Zierow I2
+Zierzow F3
+Zierzow U7
+Zierzow V4
+Zierzow W0
+Zierzow Y6
+Ziesar Q0
+Ziesar R3
+Ziesendorf G1
+Ziethen (Anklam) U0
+Ziethen (Ratzeburg) M0
+Zilshausen J5
+Ziltendorf G6
+Zimmern (Thuringia) C4
+Zimmern (Thuringia) N5
+Zimmern ob Rottweil W3
+Zimmernsupra P2
+Zingst Q4
+Zingst S6
+Zirkow G7
+Zirkow R1
+Zirkow S2
+Zirzow C1
+Zislow D7
+Zislow G2
+Zislow M7
+Zittau K5
+Zittau P4
+Zittau S6
+Zölkow C4
+Zölkow U3
+Zolling K4
+Zörbig N2
+Zorneding K3
+Zorneding U7
+Zöschingen W2
+Zotzenheim T5
+Zschepplin D5
+Zschepplin M6
+Zschepplin S7
+Zschepplin Y0
+Zschorlau E6
+Zschorlau F2
+Zülow C6
+Zülpich A4
+Zurow H3
+Zusamaltheim C5
+Zusamaltheim E4
+Zusamaltheim L6
+Zusamaltheim S1
+Züsch X1
+Zwickau P7

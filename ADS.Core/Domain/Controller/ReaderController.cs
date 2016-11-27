@@ -19,17 +19,32 @@ namespace ADS.Core.Domain.Controller
 
         public string ShowBorrowedBooksCurrently()
         {
-            return Reader.BooksCurrentlyBorrowed.InorderTraversal(Reader.BooksCurrentlyBorrowed.Root);
+            string ret = "";
+            foreach (var bor in Reader.BooksCurrentlyBorrowed)
+            {
+                ret += bor.ToString() + "\n";
+            }
+            return ret;
         }
 
         public string ShowLateReturnedBooks()
         {
-            return Reader.LateBookReturns.InorderTraversal(Reader.LateBookReturns.Root);
+            string ret = "";
+            foreach (var bor in Reader.LateBookReturns)
+            {
+                ret += bor.ToString() + "\n";
+            }
+            return ret;
         }
 
         public string ShowBorrowedBooksPast()
         {
-            return Reader.BooksBorrowedInPast.InorderTraversal(Reader.BooksBorrowedInPast.Root);
+            string ret = "";
+            foreach (var bor in Reader.BooksBorrowedInPast)
+            {
+                ret += bor.ToString() + "\n";
+            }
+            return ret;
         }
     }
 }

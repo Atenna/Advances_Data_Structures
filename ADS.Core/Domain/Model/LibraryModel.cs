@@ -15,6 +15,7 @@ namespace ADS.Core.Domain.Model
         public LibraryModel()
         {
             Read();
+            //GenerateData();
         }
 
         // nacitanie dat zo suboru do kniznice :)
@@ -138,7 +139,7 @@ namespace ADS.Core.Domain.Model
         public static void Save()
         {
             SaveData.WriteBookToFile("books.txt", BooksByName);
-            SaveData.WriteBorrowingToFile("borrowing.txt", ReadersById.SearchNode(new Reader(0, "",""), ReadersById.Root).Data.BooksBorrowedInPast);
+            //SaveData.WriteBorrowingToFile("borrowing.txt", ReadersById.SearchNode(new Reader(0, "",""), ReadersById.Root).Data.BooksBorrowedInPast);
             SaveData.WriteLibraryToFile("libraries.txt", Libraries);
             SaveData.WriteReaderToFile("readers.txt", ReadersById);
         }

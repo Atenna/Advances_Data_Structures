@@ -38,9 +38,9 @@ namespace ADS.ADS.Data.Library
         public String Surname;
         public int UniqueId;
         public bool IsActive;
-        public AvlTree<Borrowing> BooksBorrowedInPast;
-        public AvlTree<Book> BooksCurrentlyBorrowed;
-        public AvlTree<Borrowing> LateBookReturns;
+        public List<Borrowing> BooksBorrowedInPast;
+        public List<Book> BooksCurrentlyBorrowed;
+        public List<Borrowing> LateBookReturns;
         public bool HasBlockedBorrowing { get; set; }
         public Reader(int id, string name, string surname)
         {
@@ -48,9 +48,10 @@ namespace ADS.ADS.Data.Library
             Name = name;
             Surname = surname;
             HasBlockedBorrowing = false;
-            BooksBorrowedInPast = new AvlTree<Borrowing>(new Borrowing.BorrowingComparator());
-            BooksCurrentlyBorrowed = new AvlTree<Book>(new Book.BookNameComparator());
-            LateBookReturns = new AvlTree<Borrowing>(new Borrowing.BorrowingComparator());
+            BooksBorrowedInPast = new List<Borrowing>();
+            //BooksCurrentlyBorrowed = new AvlTree<Book>(new Book.BookNameComparator());
+            BooksCurrentlyBorrowed = new List<Book>();
+            LateBookReturns = new List<Borrowing>();
             IsActive = true;
         }
 
